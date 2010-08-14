@@ -1,0 +1,212 @@
+﻿# Touhou BGM Extractor Info File
+
+[game]
+name_jp = "東方緋想天　～ Scarlet Weather Rhapsody"
+name_en = "Touhou Hisouten ~ Scarlet Weather Rhapsody"
+artist = "黄昏フロンティア"
+year = 2008
+gamenum = "10.5"
+
+# BGM Packing Method
+# 3 = Brightmoon file containing encrypted Vorbis files (Tasofro games except th075)
+packmethod = 3
+bgmfile = "th105b.dat"
+tracks = 31
+
+# Filenames are specified without extension!
+
+[01]
+name_jp = "緋想天"
+name_en = "Sky of Scarlet Perception"
+artist = "あきやまうに"
+filename = "data/bgm/op"
+
+[02]
+name_jp = "日常坐臥"
+name_en = "Usual Days"
+artist = "あきやまうに"
+filename = "data/bgm/ta00"
+
+[03]
+name_jp = "地の色は黄色"
+name_en = "The Ground's Color is Yellow"
+artist = "あきやまうに"
+filename = "data/bgm/st00"
+
+[04]
+name_jp = "甲論乙駁"
+name_en = "Argue For And Against"
+artist = "あきやまうに"
+filename = "data/bgm/ta01"
+
+[05]
+name_jp = "風光明媚"
+name_en = "Beautiful Nature Sight"
+artist = "あきやまうに"
+filename = "data/bgm/ta03"
+
+[06]
+name_jp = "薫る樹葉花"
+name_en = "Fragrant Plants"
+artist = "あきやまうに"
+filename = "data/bgm/st01"
+
+[07]
+name_jp = "踊る水飛沫"
+name_en = "Dancing Water Spray"
+artist = "あきやまうに"
+filename = "data/bgm/st02"
+
+[08]
+name_jp = "以魚駆蠅"
+name_en = "Swing a Fish to Drive Away Flies"
+artist = "あきやまうに"
+filename = "data/bgm/ta05"
+
+[09]
+name_jp = "放縦不羈"
+name_en = "Free and Easy"
+artist = "あきやまうに"
+filename = "data/bgm/ta08"
+
+[10]
+name_jp = "嘲りの遊戯"
+name_en = "Ridiculous Game"
+artist = "あきやまうに"
+filename = "data/bgm/st03"
+
+[11]
+name_jp = "冷吟閑酔"
+name_en = "Drunk as I Like"
+artist = "あきやまうに"
+filename = "data/bgm/ta04"
+
+[12]
+name_jp = "雲外蒼天"
+name_en = "Skies Beyond The Clouds"
+artist = "あきやまうに"
+filename = "data/bgm/ta02"
+
+[13]
+name_jp = "黒い海に紅く　～ Legendary Fish"
+name_en = "Crimson in the Black Sea ~ Legendary Fish"
+artist = "ZUN"
+filename = "data/bgm/st04"
+comment_jp = "永江衣玖のテーマです。\n\n結構昔の話ですが、水族館でリュウグウノツカイのミイラを見ました。\n写真では見た事はあったのですが、やはり実物を見るとインパクトが違います。\n平べったくて異常に長い不思議な魚です。\nその異形な魚は、とてもこの世の物とは思えなません。\n\nそんな衣玖のテーマ曲です。"
+comment_en = "Iku Nagae's theme.\n\nThis is a pretty old story, but I saw an oarfish mummy in an aquarium once.\nI'd seen pictures before, but seeing it in person leaves a totally different impact.\nIt's a flat and unusually long fish.\nIt's hard to believe it's something from this world.\n\nThis is the theme song for that sort of Iku."
+
+[14]
+name_jp = "天衣無縫"
+name_en = "Flawless Clothing of the Celestials"
+artist = "あきやまうに"
+filename = "data/bgm/ta07"
+
+[15]
+name_jp = "有頂天変　～ Wonderful Heaven"
+name_en = "Catastrophe in Bhava-agra ~ Wonderful Heaven"
+artist = "ZUN"
+filename = "data/bgm/st05"
+comment_jp = "比那名居　天子のテーマです。\n\nもの凄く我が儘で自分勝手なキャラをイメージしてました。\nその我が儘さと言えばレミリアとタメをはれる程度。\n\n本当の天界は悟ってしまったような人格者ばかりなのですが、中にはこういう不良もいる訳です。\nでも、不良の方が人間味があります。逆に言えば、彼女は天界のオアシスかも知れませんね。\n\nまあ曲とは余り関係無いんですけどね。"
+comment_en = "Tenshi Hinanawi's theme.\n\nThe key image is of a very willful and self-centered character.\nShe's as self-centered as Remilia is.\n\nHeaven is really full of enlightened persons of character, but even among them there are inferior ones like her.\nStill, that gives her an almost human feel. Turning it around, you might say she's an oasis within Heaven.\n\nNot that this has anything to do with the song, really."
+
+[16]
+name_jp = "幼心地の有頂天"
+name_en = "Bhava-agra As Seen Through a Child's Mind"
+artist = "ZUN"
+filename = "data/bgm/st06"
+comment_jp = "ラストスペルのテーマです。\n\n有頂天変を自分なりに宇宙っぽくしました。\n宇宙といえばパイプオルガンですよね。"
+comment_en = "The Last Spell theme.\n\nI made "Catastrophe in Bhava-agra" to sound space-like in my own way.\nPipe organs are very space-like, aren't they?"
+
+[17]
+name_jp = "暮色蒼然"
+name_en = "Darkening Dusk"
+artist = "あきやまうに"
+filename = "data/bgm/ta06"
+
+[18]
+name_jp = "東方緋想天"
+name_en = "Oriental Sky of Scarlet Perception"
+artist = "あきやまうに"
+filename = "data/bgm/sr"
+
+# =============
+# Arrange songs
+# =============
+
+[19]
+name_jp = "東方妖恋談"
+name_en = "Mystic Oriental Love Consultation"
+artist = "あきやまうに"
+filename = "data/bgm/st10"
+
+[20]
+name_jp = "星の器　～ Casket of Star"
+name_en = "Vessel of Stars ~ Casket of Star"
+artist = "あきやまうに"
+filename = "data/bgm/st11"
+
+[21]
+name_jp = "フラワリングナイト"
+name_en = "Flowering Night"
+artist = "あきやまうに"
+filename = "data/bgm/st12"
+
+[22]
+name_jp = "ブクレシュティの人形師"
+name_en = "The Doll Maker of Bucuresti"
+artist = "あきやまうに"
+filename = "data/bgm/st13"
+
+[23]
+name_jp = "広有射怪鳥事　～ Till When?"
+name_en = "Hiroari Shoots a Strange Bird ~ Till When?"
+artist = "あきやまうに"
+filename = "data/bgm/st14"
+
+[24]
+name_jp = "ラクトガール　～ 少女密室"
+name_en = "Locked Girl ~ Girl's Secret Room"
+artist = "あきやまうに"
+filename = "data/bgm/st15"
+
+[25]
+name_jp = "幽雅に咲かせ、墨染の桜　～ Border of Life"
+name_en = "Bloom Nobly, Cherry Blossoms of Sumizome ~ Border of Life"
+artist = "あきやまうに"
+filename = "data/bgm/st16"
+
+[26]
+name_jp = "亡き王女の為のセプテット"
+name_en = "Septette for the Dead Princess"
+artist = "あきやまうに"
+filename = "data/bgm/st17"
+
+[27]
+name_jp = "夜が降りてくる ～ Evening Star"
+name_en = "Night Falls ~ Evening Star"
+artist = "あきやまうに"
+filename = "data/bgm/st18"
+
+[28]
+name_jp = "砕月"
+name_en = "Broken Moon"
+artist = "あきやまうに"
+filename = "data/bgm/st19"
+
+[29]
+name_jp = "狂気の瞳　～ Invisible Full Moon"
+name_en = "Lunatic Eyes ~ Invisible Full Moon"
+artist = "あきやまうに"
+filename = "data/bgm/st20"
+
+[30]
+name_jp = "風神少女"
+name_en = "Wind God Girl"
+artist = "あきやまうに"
+filename = "data/bgm/st21"
+
+[31]
+name_jp = "彼岸帰航　～ Riverside View"
+name_en = "Higan Retour ~ Riverside View"
+artist = "あきやまうに"
+filename = "data/bgm/st22"

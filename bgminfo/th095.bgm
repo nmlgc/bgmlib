@@ -1,0 +1,77 @@
+﻿# Touhou BGM Extractor Info File
+
+[game]
+name_jp = "東方文花帖　～ Shoot the Bullet"
+name_en = "Touhou Bunkachou ~ Shoot the Bullet"
+artist = "ZUN"
+year = 2005
+gamenum = "09.5"
+lossless = true
+
+# BGM Packing Method
+# 0 = BGM Directory (only th06)
+# 1 = single data file (usually thbgm.dat)
+# 2 = Brightmoon file containing wave files (only th075)
+# 3 = Brightmoon file containing encrypted Vorbis files (Tasofro games)
+packmethod = 1
+bgmfile = "thbgm.dat"
+zwavid_08 = 0x50
+zwavid_09 = 0x09
+
+tracks = 6
+
+# Position info can be specified as either:
+# -----------------------------------------
+# (To Do) position = "<start>, <rel_loop>, <rel_len>" (bgmtable array format of those thbgmXX.c files)
+# -----------------------------------------
+# or
+# start = <start>
+# -----------------------------------------
+# rel_loop = <loop point relative to track start>
+# rel_end = <end relative to track start (track length)>
+# -----------------------------------------
+# abs_loop = <direct loop point in the BGM file>
+# abs_end = <direct end point in the BGM file>
+# -----------------------------------------
+
+[01]
+name_jp = "天狗の手帖　～ Mysterious Note"
+name_en = "Tengu's Notebook ~ Mysterious Note"
+position = "0x00000010, 0x001324E0, 0x010220A8" # fixed
+comment_jp = "タイトル、メニュー画面のテーマです。\nいつもの曲です。\n今回は少し暗くレトロな感じが出るようにして、妖怪らしさが出るようにしました。\nザーというノイズは妖怪のミステリアスな部分です。決してモニタとスピーカーが逝かれたわけでは無いのでご安心を。"
+comment_en = "The title and menu theme.\n\nThe same old piece.\nHowever, this time I tried to give it a bit more of a dark and retro feel, as well as a bit of youkai.\nThat raining noise is a youkai mystery. No, there's nothing wrong with your monitor or speakers, so relax."
+
+[02]
+name_jp = "風の循環　～ Wind Tour"
+name_en = "Wind Circulation ~ Wind Tour"
+position = "0x01038010, 0x0004CAE0, 0x00D4A420"
+comment_jp = "撮影曲１です。\n今回のゲームは、通常のボス戦のような曲ではなく、もっと日常感を出したかった為、こんな感じに。\n随分と落ち着いた感じですが、実際文は余裕です。自分から被写体をおちょくりに出かけている様なもんですし。"
+comment_en = "Photo theme 1.\n\nFor this game, instead of the usual boss battle music, I wanted it to be more casual, so I wrote this.\nIt has a very relaxed feel, because Aya is enjoying herself - as if she were teasing her target."
+
+[03]
+name_jp = "天狗が見ている　～ Black Eyes"
+name_en = "Tengu is Watching ~ Black Eyes"
+position = "0x01D82430, 0x0006BA00, 0x014FE400"
+comment_jp = "撮影曲２です。\n怖いような可愛らしいような奇妙なノリを持たせました。\n人を攫ったり喰ったりが当たり前の妖怪なのに、どこか陽気で人当たりも良さそうな所が、幻想の天狗のイメージ。\nこの曲には、ぞの怖さと陽気さ、暢気さを混ぜた感じになっているかと思います。"
+comment_en = "Photo theme 2.\n\nIt's easygoing enough to seem scary and cute.\nThough kidnapping and eating people is a youkai thing to do, this cheerfulness that must have come from somewhere is also part of the fabled tengu image.\nI think this piece mixes that scariness, cuteness, cheerfulness, and carelessness together."
+
+[04]
+name_jp = "東の国の眠らない夜"
+name_en = "Sleepless Night of the Eastern Country"
+position = "0x03280830, 0x00100000, 0x01641800"
+comment_jp = "撮影曲３です。中盤以降に使う曲として用意しました。\nボスも文も楽しんでいる感じを出しつつ、ボスに威圧感を持たせるのは難しい物です。\nこの曲はそれを意識して、軽決で明るいながらもボスが強そうに見える様に格好つけ書きました。特にピアノ。"
+comment_en = "Photo theme 3. Written for the middle levels.\n\nWhile it feels like both the boss and Aya are having fun, it is hard to convey the feeling of the boss being coerced.\nThis tune is aware of that, so while being light and bright, it was written to also bring out the strength of the boss. Especially the piano."
+
+[05]
+name_jp = "レトロスペクティブ京都"
+name_en = "Retrospective Kyoto"
+position = "0x048C2030, 0x000FA800, 0x010A3900"
+comment_jp = "撮影曲４のテーマです。 後半に使う曲として用意しました。\nレトロな日本をイメージしたところ、私の中ではこんな感じに。雪の降る京の都。人気の少ない夜の道。\nでも、この曲のレトロさは私のレトロさでして……。\nこの曲を聴いていると何となく昔を思い出してしまう。"
+comment_en = "Photo theme 4. Written for the later half of the game.\n\nI feel, deep inside, that this hints at retro Japan. Snow, falling in the capital. A deserted night road.\nBut, this retro is my idea of retro...\nListening to this might make you reminisce."
+
+[06]
+name_jp = "風神少女"
+name_en = "Wind God Girl"
+position = "0x05965930, 0x002AFD00, 0x01E11A00"
+comment_jp = "撮影曲５のテーマです。\nこの曲は文化帖のテーマ曲なので入れないわけにはいかないと思い入っております。\n本編では殆ど使われておりませんが:-)"
+comment_en = "Photo theme 5.\n\nThis is Bohemian Archive in Japanese Red's main theme, so I couldn't leave it out.\nThough this edit is hardly used :-)"

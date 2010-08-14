@@ -1,0 +1,99 @@
+﻿# Touhou BGM Extractor Info File
+
+[game]
+name_jp = "黄昏酒場～Uwabami Breakers～"
+name_en = "Twilight Bar-Room ~Drunkard Breakers~"
+artist = "呑んべぇ会"
+year = 2007
+lossless = true
+
+# BGM Packing Method
+# 0 = BGM Directory (only th06)
+# 1 = single data file (usually thbgm.dat)
+# 2 = Brightmoon file containing encrypted Vorbis files (Tasofro games)
+packmethod = 1
+bgmfile = "albgm.dat"
+zwavid_08 = 0x00
+zwavid_09 = 0x10
+
+tracks = 7
+
+# Position info can be specified as either:
+# -----------------------------------------
+# (To Do) position = "<start>, <rel_loop>, <rel_len>" (bgmtable array format of those thbgmXX.c files)
+# -----------------------------------------
+# or
+# start = <start>
+# -----------------------------------------
+# rel_loop = <loop point relative to track start>
+# rel_end = <end relative to track start (track length)>
+# -----------------------------------------
+# abs_loop = <direct loop point in the BGM file>
+# abs_end = <direct end point in the BGM file>
+# -----------------------------------------
+
+# thbgm.fmt value offsets, because I always forget:
+# -----------------------
+# 0x10: <start>
+# 0x18: <rel_loop>
+# 0x1C: <rel_len>
+# -----------------------
+
+[01]
+name_jp = "step u/b (lazy style)"
+name_en = "step u/b (lazy style)"
+artist = "骨折飲料"
+position = "0x052F531C, 0x0005F200, 0x0053C000"
+comment_jp = "マスターアップ寸前、タイトル画面にＢＧＭがないのは寂しいなあ…ということで、何か短時間でデッチあげられるものは無いかと思っていろいろやってみたんですが、step u/bのベースとパーカッションだけ鳴らしてみたら割りと良い感じになったので、リズムを6/8に変更し、メロディを一部引っ張ってきて完成。\n\nちょっとダルな感じが強すぎたか…と思いつつも、これはこれで。"
+comment_en = "Just before we were ready to cut the master copy, I thought it felt kind of lonely to have a title screen with no music... so we were wondering if there was something we could throw in to finish it very quickly and I tried a few things, but I stumbled across something nice by using step u/b as a base and leaving mostly percussion in, so I changed the rhythm to 6/8, tweaked the melody a little, and it was done.\n\nMaybe it feels a little too lazy ... oh well, no matter."
+
+[02]
+name_jp = "step u/b"
+name_en = "step u/b"
+artist = "骨折飲料"
+position = "0x00000010, 0x00077860, 0x007649C8"
+comment_jp = ""
+comment_en = ""
+
+[03]
+name_jp = "Festiv-al-coholically"
+name_en = "Festiv-al-coholically"
+artist = "骨折飲料"
+position = "0x0235032C, 0x000D7BC0, 0x00865EEC"
+comment_jp = "制作も大詰めの段階で、「実は１面ボスと２面ボスの曲が無い訳さ」という素敵発言を受け、頑張ってもう１曲用意しました。\n\nボス曲だから、テンション高めの曲だよね…と思いつつ「『ざぱにーず』な感じの曲があれば」という意見もあったので、要求は「和風でテンション高め」となったわけですが、その要求を満たす曲がまるで思いつかずしばらく頭を抱えてました。\n\nその後、YouTubeで津軽三味線の動画を見まくっているうち、どうにか思いついて書き上げたのがこの曲です。後半のメロディラインに、津軽三味線動画の影響が見え隠れ…というかモロ見えしてますね！"
+comment_en = "In the final stages of production, someone uttered the beautiful line, "Actually, we don't have stage 1 or 2 boss themes", so I did my best to prepare another song.\n\nSince it's a boss theme, we thought it should be pretty tense ... And someone also thought "We should have a Zapanese-style song", so the request ended up being for "A high-tension Eastern-sounding theme", but I racked my brains trying to think up something that fit for a while with no luck.\n\nLater I was watching some videos of tsugaru shamisen players on YouTube, and I ended up finishing something like this song. The influence of that tsugaru shamisen fades in and out of the melody in the second half ... oh, man, I'm really laying it all bare, here!"
+
+[05]
+name_jp = "chase the Twilight"
+name_en = "chase the Twilight"
+artist = "骨折飲料"
+position = "0x007649D8, 0x00073BB0, 0x00845754"
+comment_jp = "今回ＢＧＭの担当に誘われて最初に出来たのがこの曲です。\n\n実は、最初はもっと80年代ゲームミュージックっぽい感じのものを途中まで作っていたんですが、天治の立ち絵を見た瞬間にティン☆と来て、メロディだけ残して他はまったく別の曲になってしまいましたとさ。\n\n最初のバージョンは、それはそれで、いずれ完成させてどこかで公開したいですね。"
+comment_en = "This is the first piece I finished after being invited to do some BGM for this project.\n\nHonestly, I originally wanted something with more of an 80's game music sound to it, but the instant I saw Tenji's cut-in everything changed, and I was left with a totally different song with only the melody remaining.\n\nI think it would be nice to finish the original version and release it sometime, though."
+
+[06]
+name_jp = "呑んべぇのレムリア"
+name_en = "A Drunkard's Lemuria"
+artist = "ZUN"
+position = "0x00FAA12C, 0x00115800, 0x013A6200"
+comment_jp = ""
+comment_en = ""
+
+[04]
+name_jp = "Valse Alcoholique"
+name_en = "Valse Alcoholique"
+artist = "羽鳥風画"
+position = "0x02BB6218, 0x001FDFF4, 0x01385F84"
+comment_jp = "当初のお誘いは「１曲書けます？」だったんですが、chase～が意外と好評だったので、調子に乗ってもう１曲…と思いつつ、ルミの立ち絵を見ながら思いつくままに打ち込んだらこんな曲に。\n\nどう見ても着物姿なのに、なぜダンスミュージックになりますか。\n自分を小一時間問い詰めたい。"
+comment_en = "The original invitation was, "Won't you do music for one stage?", but since I ended up really liking chase~, I figured I'd just do one more ... and this is what I ended up thinking of once I saw Rumi's cut-in.\n\nShe's obviously wearing a kimono, so why is this dance music?\nI'd like to cross-examine myself for an hour."
+
+[07]
+name_jp = "絶対大丈夫だよ！！いくら飲んでも朝が来るよ！！。"
+name_en = "It's definitely okay!! No matter how much you drink, tomorrow will come!!."
+artist = "Kiyoma"
+position = "0x03F3C19C, 0x0036DD00, 0x013B9180"
+comment_jp = "みなさま、こんにちはGolden City Factory Kiyomaでございますっ。\nこの度は「黄昏酒場 Uwabami breakers」にお誘い頂き、エンディングテーマを制作させて頂きました。\n久しぶりにシューティングゲームのBGMに関われて嬉しく思っております。\n熱き酔っ払いの生き様を楽しんで頂き、クリアして楽しんた後、僕のBGMをお聞きいただきながら弾幕の余韻に浸って頂ければ幸いで御座います。"
+comment_en = "Hello everyone, this is Kiyoma from Golden City Factory.
+I was invited to participate in \"Twilight Bar-Room ~Uwabami Breakers~\", and did the ending theme.
+It's nice to do music for shooting games again after so long.
+It will make me happy for you to be able to hear my music along with the lingering memories of danmaku after enjoying a hot-blooded drunkard's life and clearing the game."
