@@ -35,7 +35,7 @@ name_jp = "春の氷精"
 name_en = "An Ice Fairy in Spring"
 position = "0x00000010, 0x0020A520, 0x00EDF6A0"
 comment_jp = "タイトルの画面のテーマです。\n\n脳天気でぽわぽわした感じになりました。\n大した緊張感も無く、いつも通りのメロディに、人間とは異なる妖精分を多めって感じで。"
-comment_en = "This is the title screen theme.\n\nIt turned out feeling pretty care-free and airy.\nThere's no particular sense of tension, and it uses the same melody as always,\nmaking it with more feeling that makes fairies different from humans."
+comment_en = "This is the title screen theme.\n\nIt turned out with a pretty care-free and airy feel.\nThere's no particular sense of tension, and it uses the same melody as always,\nwith a feel that adds more fairy-ness, which differs from humans."
 
 [02]
 name_jp = "可愛い大戦争のリフレーン"
@@ -56,35 +56,35 @@ name_jp = "年中夢中の好奇心"
 name_en = "Year-Round Absorbed Curiosity"
 position = "0x02D49550, 0x00232E40, 0x00E3C6C0"
 comment_jp = "二面のテーマです。\n\n一面とは雰囲面のメロディが使われています。\nなんか妖しさと懐かしさが強くなっていると思います。\n夕方っていうと妖しくも懐かしいですからね。"
-comment_en = "This is the stage 2 theme.\n\nThe atmosphere changed from that of stage 1, into evening-like one.\nThis song has the title screen theme's melody.\nI think it has a much more mysterious and nostalgic feel.\nAfter all, evening is very mysterious and nostalgic."
+comment_en = "This is the stage 2 theme.\n\nThe atmosphere changed from that of stage 1, to that of an evening.\nThis song has the title screen theme's melody.\nI think it has a much more mysterious and nostalgic feel.\nAfter all, evening is very mysterious and nostalgic."
 
 [05]
 name_jp = "真夜中のフェアリーダンス"
 name_en = "A Midnight Fairy Dance"
 position = "0x03B85C10, 0x001D0280, 0x01482600"
 comment_jp = "三面のテーマです。\n\nちょっとだけジャズィでアダルティなメロディにしました。\n夜といえば大人の時間。もしくは妖怪の時間。\nよい子はおねむの時間、夜更かしすると妖怪が出ますよ。\nもしくは大人が出ます。そりゃもう出ます。"
-comment_en = "This is the stage 3 theme.\n\nThe melody is a little jazzy and adult-y.\nNight is the time for adults. Or the time of youkai.\nIt's the time when good children are in bed and the youkai come out to while away the night.\nOr when adults come out. Well, they come out undoubtedly."
+comment_en = "This is the stage 3 theme.\n\nThe melody is a little jazzy and adult-y.\nNight is the time for adults. Or the time of youkai.\nIt's the time when good children are in bed and the youkai come out to whittle away the night.\nOr when adults come out. Well, they come out undoubtedly."
 
 [06]
 name_jp = "妖精大戦争　～ Fairy Wars"
 name_en = "The Great Fairy Wars"
 position = "0x05008210, 0x0008A180, 0x0114CA80"
 comment_jp = "三面ボスのテーマです。\n\n一応ラスボス戦ですが、すぐに到達してしまうので曲の重さを\nどの位にするかが難しいところ。\nいきなりＭＡＸパワーでも疲れるので、序盤はゆっくり楽しげに、\n終盤はハイスピードで熱い感じにしました。\n音色は妖精風だけど結構暑い極です。"
-comment_en = "This is the third stage boss theme.\n\nIt is for the last boss battle, but players can reach it soon,\nso it was hard to decide how heavy the song would be.\nStart with max power is too wearing, so I made it have slow and happy feeling in the beginning, fast and hot feeling in the ending.\nThe tone is fairylike, but the song itself is rather hot-blooded."
+comment_en = "This is the third stage boss theme.\n\nIt is for the last boss battle, but players can reach it quickly,\nso it was hard to decide how heavy the song would be.\nStarting with max power is too wearing, so I made it have a slow and happy feeling in the beginning, and a fast and hot feeling in the ending.\nThe tone is fairy-like, but the song itself is rather hot-blooded."
 
 [07]
 name_jp = "ルーズレイン"
-name_en = "Lose Rain"
+name_en = "Ruse Rain"
 position = "0x06D1AB90, 0x00119F00, 0x01ABD700"
 comment_jp = "ＥＸＴＲＡのテーマです。\n\nイントロで無駄に急かされている感じが出てしまいましたが、\n全体的にはいたずら感が出ていてＥＸっぽいです。\n桜吹雪の中を飛ぶイメージです。\n（作曲時、スケジュール的に急かされていたのは言うまでもない）"
-comment_en = "This is the extra stage theme.\n\nIt turned out feeling like being rushed uselessly in the introduction,\nbut the whole song has a feeling of prank, fitting to the extra stage.\nI had an image of flight in the falling petals of cherry blossoms.\n(It is needless to say that I was rushed by the schedule during the composition.)"
+comment_en = "This is the extra stage theme.\n\nIt turned out feeling like being rushed uselessly in the introduction, but the whole song has a prank-like feel to it, fitting for the extra stage.\nIt gave an image of flight in the falling petals of cherry blossoms.\n(Needless to say,I was rushed by the schedule during the composition.)"
 
 [08]
 name_jp = "メイガスナイト"
 name_en = "Magus Night"
 position = "0x087D8290, 0x000C8300, 0x0160EA00"
 comment_jp = "ＥＸＴＲＡボスのテーマです。\n\n魔女達の舞踏会のアレンジのつもりで作り始めました。\n心の奥底に残るイメージだけで書いたため全く別の曲に……\n作曲者本人がアレンジするとアレンジにならないとはこの事か。\nま、格好いい曲ですよねー。曲さえ良ければ何でもいいや。"
-comment_en = "This is the extra boss theme.\n\nAt first I planned to make an arrangement of The Witches' Ball.\nSince I composed it only with the impression remaining in my mind, it became completely different song after all...\n\"Being arranged by the original composer can't be an arrangement\" may mean this.\nAnyway, isn't this a cool song? It's no problem if the song is good."
+comment_en = "This is the extra boss theme.\n\nAt first I planned to make an arrangement of The Witches' Ball.\nSince I composed it only with the impression left in my mind, it became a completely different song after all...\n\"A song arranged by the original composer can't be an arrangement\" may mean this.\nAnyway, isn't this a cool song? It's no problem if the song is good."
 
 [09]
 name_jp = "春の氷精　- 静 -"
