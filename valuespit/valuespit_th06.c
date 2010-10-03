@@ -1,4 +1,4 @@
-/* Value Spitter (TH06 version)
+/* Value Spitter (TH06/Kioh Gyoku version)
    -------------
    Spits out nicely formatted BGM position data from a bunch of th06_??.pos files.
    -------------
@@ -6,16 +6,25 @@
 
 #include <stdio.h>
 
+#ifdef KIOH_GYOKU
+#define POS_MASK "kog_%2d"
+#define START_FILE 0
+#else
+#define POS_MASK "th06_%2d.pos"
+#define START_FILE 1
+#endif
+
 void strfmt(char* str);
 
 int main(int argc, char** argv)
 {
 	FILE *In, *Out;
-	short FileID = 1;
+
+	short FileID = START_FILE;
 	char Name[16], Fmt[128];
 	unsigned long Loop, End;
 
-	sprintf(Name, "th06_%2d.pos", FileID++);
+	sprintf(Name, POS_MASK, FileID++);
 	strfmt(Name);
 	In = fopen(Name, "rb");
 	if(!In)
@@ -45,7 +54,7 @@ int main(int argc, char** argv)
 		fputs(Fmt, Out);
 
 		fclose(In);
-		sprintf(Name, "th06_%2d.pos", FileID++);
+		sprintf(Name, POS_MASK, FileID++);
 		strfmt(Name);
 		In = fopen(Name, "rb");
 	}

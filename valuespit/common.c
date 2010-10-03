@@ -28,3 +28,4 @@ void strfmt(char* str)
 		else if(Upper && str[c] != 'x')		str[c] = toupper(str[c]);
 	}
 }
+
