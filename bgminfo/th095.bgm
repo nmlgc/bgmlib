@@ -1,18 +1,15 @@
 ﻿# Touhou BGM Extractor Info File
 
 [game]
-name_jp = "東方文花帖　～ Shoot the Bullet"
+name = "東方文花帖　～ Shoot the Bullet"
 name_en = "Touhou Bunkachou ~ Shoot the Bullet"
 artist = "ZUN"
+circle = "上海アリス幻樂団"
+circle_en = "Team Shanghai Alice"
 year = 2005
 gamenum = "09.5"
 lossless = true
 
-# BGM Packing Method
-# 0 = BGM Directory (only th06)
-# 1 = single data file (usually thbgm.dat)
-# 2 = Brightmoon file containing wave files (only th075)
-# 3 = Brightmoon file containing encrypted Vorbis files (Tasofro games)
 packmethod = 1
 bgmfile = "thbgm.dat"
 zwavid_08 = 0x50
@@ -20,19 +17,9 @@ zwavid_09 = 0x09
 
 tracks = 6
 
-# Position info can be specified as either:
-# -----------------------------------------
-# (To Do) position = "<start>, <rel_loop>, <rel_len>" (bgmtable array format of those thbgmXX.c files)
-# -----------------------------------------
-# or
-# start = <start>
-# -----------------------------------------
-# rel_loop = <loop point relative to track start>
-# rel_end = <end relative to track start (track length)>
-# -----------------------------------------
-# abs_loop = <direct loop point in the BGM file>
-# abs_end = <direct end point in the BGM file>
-# -----------------------------------------
+[update]
+wikipage = "Shoot_the_Bullet:_Music"
+wikirev = 135167
 
 [01]
 name_jp = "天狗の手帖　～ Mysterious Note"

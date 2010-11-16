@@ -1,0 +1,118 @@
+﻿# Touhou BGM Extractor Info File
+
+[game]
+name = "稀翁玉"
+name_en = "Kioh Gyoku"
+artist = "ZUN"
+year = 2001
+
+packmethod = 0
+bgmdir = "WAVE"
+headersize = 0x2C
+
+tracks = 10
+
+[update]
+wikipage = "Kioh_Gyoku:_Music"
+wikirev = 120971
+
+[01]
+name_jp = "稀翁玉　～ Fairy Dance"
+name_en = "Kioh Gyoku ~ Fairy Dance"
+filename = "kog_00.wav"
+rel_loop = 0x0010F5DC
+rel_end = 0x0083A75C
+comment_jp = "タイトル曲です。今までになく凄く変な曲です。\n静止画面のタイトルって曲いらないような気もしましたが、寂しいのでいつも付けています。\nでもこの曲は、付いている方が寂しい感じがする(^^;"
+comment_en = ""
+comment2_jp = "なんのコメントも無いんですが(^^;\nこの曲、思いつきで弾いていたらいつの間にか出来ていました。\nきっと妖精さんのしわざに違いない。きっとそうだ。\n妖精が襲ってくるー。というわけで Fairy Dance"
+
+[02]
+name_jp = "天鵞絨少女戦　～ Velvet Battle"
+# stupid track name doubling is stupid
+name_en = "Velvet Maiden Battle"
+filename = "kog_01.wav"
+rel_loop = 0x00306928
+rel_end = 0x01D00DBC
+comment_jp = "VIVITのテーマです。\nメイドさんといえば、世間では日光に弱い眼鏡っ娘と相場が決まってますが、\n今回は私のメイドさんイメージで曲を創りました。というかいつも・・・\nなんて言うか、東洋風じゃないことだけは確かかと(^^;"
+comment_en = ""
+comment2_jp = "「びろおどしょうじょせん」と読みませう。ええ、そうしませう。\n曲は曲名と一切関係なく（ぉ、フュージョンをっぽいところもあります。\n完全に趣味ですね（笑）"
+
+[03]
+name_jp = "Castle Explorer -in the Sky-"
+name_en = "Castle Explorer -in the Sky-"
+filename = "kog_02.wav"
+rel_loop = 0x000861EC
+rel_end = 0x0129ED80
+comment_jp = "ゲイツのテーマです。\n恐ろしいほどに乙女チックな曲です。\n全ては私の趣味です。ちょっと大人しくしすぎたかも(^^;"
+comment_en = ""
+comment2_jp = "前作（秋霜玉）のゲイツの曲は、「天空アーミー」でしたので、今回は「天空城」です。（ですって言い切られてもなぁ）\nキャラ的に全然合っていないところがポイント。\nこの曲も、思いつくがままに、お酒に飲まれるがままに、弾いていたら出来ていた、って曲だったなぁ(^^:\nそれじゃ、キャラにあわんわな。"
+
+[04]
+name_jp = "オルフェの詩　～ Pseudoclassic"
+name_en = "Orphic Poetry ~ Pseudoclassic"
+filename = "kog_03.wav"
+rel_loop = 0x001384C0
+rel_end = 0x01138E64
+comment_jp = "めい＆まいのテーマです。\nここに来て、大人っぽいなぁ(^^;\nなんとも覚えづらいサビのメロディは、ちょっとお気に入り"
+comment_en = ""
+comment2_jp = "この曲は夏バージョンに比べて、大幅にお洒落になったと思う。\nPseudoclassicとは、擬古的なということです。チェンバロなんか使ってるけどサビなどJazzyな部分もあるのでそうしました。\n擬古的というのをギコ的と表記すると、かなり嫌(^^;。\nオルフェというのはオルフェウスの事です。曲とは関係ありません（ぉ"
+
+[05]
+name_jp = "新幻想　～ New Fantasy"
+name_en = "New Illusion ~ New Fantasy"
+filename = "kog_04.wav"
+rel_loop = 0x000878C8
+rel_end = 0x01F2B65C
+comment_jp = "ミリアのテーマです。\nこの曲が一番昔に創った曲です。ちょうど１年前位に。\nほとんどがピアノで構成されてる曲、の割には、ピアノらしからぬノリなところがポイント（じゃない）"
+comment_en = ""
+comment2_jp = "この曲が一番古い曲です。今年の１月に創りました。\nまだ、ゲームのゲの字も無かった頃ですね(^^;\nちょうど新世紀がセンセーショナルだったので、こんな曲名。\nいや、そんなに大げさな曲じゃないんだけど（笑）"
+
+[06]
+name_jp = "オルレアンの聖騎士"
+name_en = "Holy Knight of Orléans"
+filename = "kog_05.wav"
+rel_loop = 0x00082B8C
+rel_end = 0x014B3300
+comment_jp = "マリーのテーマです。\n一番ミスマッチかと思ってたけど、割とキャラにあった曲になったみたい。\n重厚そうで実はものすごく軽快なリズムの曲です。\n何とも言えない雰囲気が漂ってるなぁ(^^;"
+comment_en = ""
+comment2_jp = "この曲が結果的に一番キャラに合ったのかも知れない。\nmidi 版はともかく、wav 版はロマンティックな曲になっています。\nうそ、なっていません。\n曲名の聖騎士とは、言うまでもなくジャンヌ・ダルクのことです。\n「フラッシュソード！」とかいう、足癖の悪い女王様です。"
+
+[07]
+name_jp = "My Maid, Sweet Maid"
+name_en = "My Maid, Sweet Maid"
+filename = "kog_06.wav"
+rel_loop = 0x003C0304
+rel_end = 0x013A8388
+comment_jp = "エーリッヒのテーマです。\nあっはっは～、これは凄いね（笑）\n老人のイメージで創りたかったんだけど、老人どころか、どっちかつーと読書好きな\n大人しい少女ですね。そもそもＳＴＧの曲ではないな(^^;"
+comment_en = ""
+comment2_jp = "私の女中、甘い女中よ。\nメイドって甘いのでしょうか。炊事洗濯、水仕事ばっかであんまりおいしくないんだろうなぁ。残念。\n狂牛病も草食を無理矢理肉食に変えたせいだって言うから、私も気を付けないと。（なんの話だ？）"
+
+[08]
+name_jp = "桜花之恋塚　～ Flower of Japan"
+name_en = "Lovely Mound of Cherry Blossoms ~ Flower of Japan"
+filename = "kog_07.wav"
+rel_loop = 0x0029525C
+rel_end = 0x012D61A4
+comment_jp = "幽香のテーマです。\n和風でござる。やっぱ一作品に一曲は無いと寂しい東洋曲（笑）\n私にしてはものすごく珍しく（いやほんとに）明るくて楽しい曲です。\nなんともお洒落（か？）"
+comment_en = ""
+comment2_jp = "「おうかのこいづか」と読みます。純和風ですよ、いや、準和風かな？\nどのみち、私は東方某を謳っていたくせに、創った東方曲は実は数が少なかったりして貴重です。\nそもそも、軽快な雰囲気の曲も珍しい。New Age 寄りな一曲。"
+
+[09]
+name_jp = "乙女戦士　～ Heart of Valkyrie"
+name_en = "Warrior Maiden ~ Heart of Valkyrie"
+filename = "kog_08.wav"
+rel_loop = 0x0003A340
+rel_end = 0x01CE5718
+comment_jp = "モーガンのテーマです。\nようやくボスらしい曲に。今回の曲の中でもっとも私らしい曲かも知れませんね。\n曲名で分かるように（分かりません）、何かイメージわかないかなぁと思いつつ、\n某ヴァルキリープロファイルの攻略本見ながら弾きました(^^;"
+comment_en = ""
+comment2_jp = "乙女戦士はヴァルキリーです。お得意の一曲で、もっとも私らしい曲です。\nって、こんな曲をお得意としているのもなんだな(^^;\nこれを聴くとＦＭ時代からなんにも変わっていない自分に気づきます。\nやっぱボス戦大好き（笑）\n対戦ＳＴＧという性質上、ボス戦が少ないからなぁ。"
+
+[10]
+name_jp = "エニグマティクドール ～ God Knows"
+name_en = "Enigmatic Doll ~ God Knows"
+filename = "kog_09.wav"
+rel_loop = 0x00855BB0
+rel_end = 0x018519E4
+comment_jp = "ミューズのテーマです。\nラスボスらしい曲になった、かどうかは分からないですが、ずいぶんお洒落な雰囲気\nのラスボス曲です(^^;"
+comment_en = ""
+comment2_jp = "ラスボスっぽいっかつーと、７６％位ラスボスな感じ。\nピアノアドリブが大好き。でも、この曲のサビは今までの私の曲では珍しいメロディかも知れない。\nここで言う「エニグマティクドール」とは、直訳すると不思議の人形、まぁ、呪術人形のつもりで。"

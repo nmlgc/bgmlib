@@ -1,14 +1,14 @@
 ﻿# Touhou BGM Extractor Info File
 
 [game]
-name_jp = "妖精大戦争　～ 東方三月精"
-name_en = "Touhou Sangessei ~ Fairy Wars"
+name = "妖精大戦争　～ 東方三月精"
+name_en = "Touhou Sangetsusei ~ Fairy Wars"
 artist = "ZUN"
+circle = "上海アリス幻樂団"
+circle_en = "Team Shanghai Alice"
 year = 2010
 gamenum = "12.8"
 
-# BGM Packing Method
-# 1 = single data file (usually thbgm.dat)
 packmethod = 1
 bgmfile = "thbgm.dat"
 zwavid_08 = 0x80
@@ -16,46 +16,36 @@ zwavid_09 = 0x12
 
 tracks = 10
 
-# Position info can be specified as either:
-# -----------------------------------------
-# (To Do) position = "<start>, <rel_loop>, <rel_len>" (bgmtable array format of those thbgmXX.c files)
-# -----------------------------------------
-# or
-# start = <start>
-# -----------------------------------------
-# rel_loop = <loop point relative to track start>
-# rel_end = <end relative to track start (track length)>
-# -----------------------------------------
-# abs_loop = <direct loop point in the BGM file>
-# abs_end = <direct end point in the BGM file>
-# -----------------------------------------
+[update]
+wikipage = "Fairy_Wars:_Music"
+wikirev = 135173
 
 [01]
 name_jp = "春の氷精"
 name_en = "An Ice Fairy in Spring"
 position = "0x00000010, 0x0020A520, 0x00EDF6A0"
 comment_jp = "タイトルの画面のテーマです。\n\n脳天気でぽわぽわした感じになりました。\n大した緊張感も無く、いつも通りのメロディに、人間とは異なる妖精分を多めって感じで。"
-comment_en = "This is the title screen theme.\n\nIt turned out with a pretty care-free and airy feel.\nThere's no particular sense of tension, and it uses the same melody as always,\nwith a feel that adds more fairy-ness, which differs from humans."
+comment_en = "This is the title screen theme.\n\nIt turned out with a pretty care-free and airy feel.\nThere's no particular sense of tension, and it uses the same melody as always, with a feel that adds more fairy-ness, which differs from humans."
 
 [02]
 name_jp = "可愛い大戦争のリフレーン"
 name_en = "The Refrain of the Lovely Great War"
 position = "0x00EDF6B0, 0x0028EA80, 0x011FBC00"
-comment_jp = "一面のテーマです。\n\nこの曲は東方三月精単行本収録曲です。\n最初から一面に使う予定で作った曲でしたので、その願いが叶えられてこの曲も本望でしょう。\nゲームミュージックはゲームプレイしながら聞く事で完成です。\nＣＤで聞いたとけと違う印象を持つ人もいるでしょう。"
+comment_jp = "一面のテーマです。 \nこの曲は東方三月精単行本収録曲です。 \n最初から一面に使う予定で作った曲でしたので、その願いが \n叶えられてこの曲も本望でしょう。 \nゲームミュージックはゲームプレイしながら聞く事で完成です。 \nＣＤで聞いたときと違う印象を持つ人もいるでしょう。"
 comment_en = "This is the first stage theme.\n\nThis song was once recorded for the Three Fairies tankoubon.\nI'd originally planned to use it as a stage one theme, so this song must be satisfied to finally have that wish granted.\nGame music is perfected when listened to during game play.\nSome people probably get impressions different from those they got by listening to it on CD."
 
 [03]
 name_jp = "いたずらに命をかけて"
 name_en = "Staking Your Life on a Prank"
 position = "0x020DB2B0, 0x0002A0E0, 0x00C6E2A0"
-comment_jp = "１、２面ボスのテーマです。\n\n三月精と戦う時のテーマです。\nいかにもボスって感じですが、かるーい感じを多めにしています。\n小さな喧嘩って感じて敵の攻撃と共に、かわいらしさが出ているのかな。"
+comment_jp = "１、２面ボスのテーマです。 \n \n三月精と戦う時のテーマです。 \nいかにもボスって感じですが、かるーい感じを多めにしています。 \n小さな喧嘩って感じで敵の攻撃と共に、かわいらしさが出ているのかな。"
 comment_en = "This is the first and second stage boss theme.\n\nThis is the theme for battles with the Three Fairies.\nIt has a very boss-ish feel to it, but it's also very liiight.\nMaybe it's a cute feel that accompanies the enemy's attacks in your little argument."
 
 [04]
 name_jp = "年中夢中の好奇心"
 name_en = "Year-Round Absorbed Curiosity"
 position = "0x02D49550, 0x00232E40, 0x00E3C6C0"
-comment_jp = "二面のテーマです。\n\n一面とは雰囲面のメロディが使われています。\nなんか妖しさと懐かしさが強くなっていると思います。\n夕方っていうと妖しくも懐かしいですからね。"
+comment_jp = "二面のテーマです。\n\n一面とは雰囲気を変えて、夕方風に。\nタイトル画面のメロディが使われています。\nなんか妖しさと懐かしさが強くなっていると思います。\n夕方っていうと妖しくも懐かしいですからね。"
 comment_en = "This is the stage 2 theme.\n\nThe atmosphere changed from that of stage 1, to that of an evening.\nThis song has the title screen theme's melody.\nI think it has a much more mysterious and nostalgic feel.\nAfter all, evening is very mysterious and nostalgic."
 
 [05]
@@ -69,15 +59,15 @@ comment_en = "This is the stage 3 theme.\n\nThe melody is a little jazzy and adu
 name_jp = "妖精大戦争　～ Fairy Wars"
 name_en = "The Great Fairy Wars"
 position = "0x05008210, 0x0008A180, 0x0114CA80"
-comment_jp = "三面ボスのテーマです。\n\n一応ラスボス戦ですが、すぐに到達してしまうので曲の重さを\nどの位にするかが難しいところ。\nいきなりＭＡＸパワーでも疲れるので、序盤はゆっくり楽しげに、\n終盤はハイスピードで熱い感じにしました。\n音色は妖精風だけど結構暑い極です。"
-comment_en = "This is the third stage boss theme.\n\nIt is for the last boss battle, but players can reach it quickly,\nso it was hard to decide how heavy the song would be.\nStarting with max power is too wearing, so I made it have a slow and happy feeling in the beginning, and a fast and hot feeling in the ending.\nThe tone is fairy-like, but the song itself is rather hot-blooded."
+comment_jp = "三面ボスのテーマです。 \n一応ラスボス戦ですが、すぐに到達してしまうので曲の重さを \nどの位にするかが難しいところ。 \nいきなりＭＡＸパワーでも疲れるので、序盤はゆっくり楽しげに、 \n終盤はハイスピードで熱い感じにしました。 \n音色は妖精風だけど結構熱い曲です。"
+comment_en = "This is the third stage boss theme.\n\nIt is for the last boss battle, but players can reach it quickly, so it was hard to decide how heavy the song would be.\nStarting with max power is too wearing, so I made it have a slow and happy feeling in the beginning, and a fast and hot feeling in the ending.\nThe tone is fairy-like, but the song itself is rather hot-blooded."
 
 [07]
 name_jp = "ルーズレイン"
 name_en = "Ruse Rain"
 position = "0x06D1AB90, 0x00119F00, 0x01ABD700"
 comment_jp = "ＥＸＴＲＡのテーマです。\n\nイントロで無駄に急かされている感じが出てしまいましたが、\n全体的にはいたずら感が出ていてＥＸっぽいです。\n桜吹雪の中を飛ぶイメージです。\n（作曲時、スケジュール的に急かされていたのは言うまでもない）"
-comment_en = "This is the extra stage theme.\n\nIt turned out feeling like being rushed uselessly in the introduction, but the whole song has a prank-like feel to it, fitting for the extra stage.\nIt gave an image of flight in the falling petals of cherry blossoms.\n(Needless to say,I was rushed by the schedule during the composition.)"
+comment_en = "This is the extra stage theme.\n\nIt turned out feeling like being rushed uselessly in the introduction, but the whole song has a prank-like feel to it, fitting for the extra stage.\nIt gave an image of flight in the falling petals of cherry blossoms.\n(Needless to say, I was rushed by the schedule during the composition.)"
 
 [08]
 name_jp = "メイガスナイト"
@@ -91,7 +81,7 @@ name_jp = "春の氷精　- 静 -"
 name_en = "An Ice Fairy in Spring - still -"
 position = "0x06154C90, 0x001C1B00, 0x00BC5F00"
 comment_jp = "エンディングのテーマです。\n\nオープニングの別バージョンです。\n少し大人っぽくなりました。\n\n大人になっても妖精さん妖精さん言ってるようじゃもう駄目ね。"
-comment_en = "This is the ending theme.\n\nThis is a different version of the opening theme.\nIt's a little more adult-y.\n\nAn adult man still talking of fairies is hopeless, isn't he?"
+comment_en = "This is the ending theme.\n\nThis is a different version of the opening theme.\nIt's a little more adult-y.\n\nAn adult man still talking of fairies is hopeless, right?"
 
 [10]
 name_jp = "プレイヤーズスコア"

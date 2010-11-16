@@ -1,17 +1,16 @@
 ﻿# Touhou BGM Extractor Info File
 
 [game]
-name_jp = "東方風神録　～ Mountain of Faith"
+name = "東方風神録　～ Mountain of Faith"
 name_en = "Touhou Fuujinroku ~ Mountain of Faith"
 artist = "ZUN"
+circle = "上海アリス幻樂団"
+circle_en = "Team Shanghai Alice"
 year = 2007
 gamenum = "10"
 lossless = true
 
 # BGM Packing Method
-# 0 = BGM Directory (only th06)
-# 1 = single data file (usually thbgm.dat)
-# 2 = Brightmoon file containing encrypted Vorbis files (Tasofro games)
 packmethod = 1
 bgmfile = "thbgm.dat"
 zwavid_08 = 0x00
@@ -19,19 +18,9 @@ zwavid_09 = 0x10
 
 tracks = 18
 
-# Position info can be specified as either:
-# -----------------------------------------
-# (To Do) position = "<start>, <rel_loop>, <rel_len>" (bgmtable array format of those thbgmXX.c files)
-# -----------------------------------------
-# or
-# start = <start>
-# -----------------------------------------
-# rel_loop = <loop point relative to track start>
-# rel_end = <end relative to track start (track length)>
-# -----------------------------------------
-# abs_loop = <direct loop point in the BGM file>
-# abs_end = <direct end point in the BGM file>
-# -----------------------------------------
+[update]
+wikipage = "Mountain_of_Faith:_Music"
+wikirev = 135168
 
 [01]
 name_jp = "封印されし神々"
@@ -79,7 +68,7 @@ comment_en = "This is the third stage theme.\n\nIt's the first tune you hear aft
 name_jp = "芥川龍之介の河童　～ Candid Friend"
 name_en = "Akutagawa Ryuunosuke's \"Kappa\" ~ Candid Friend"
 position = "0x07176A10, 0x001AA5F0, 0x01898500"
-comment_jp = "河城　にとりのテーマです。\nこの曲はよく聞くことになるので、飽きさせない事に力を入れてみました。その為に、奇妙なフレーズとリズムを使ってみましたが如何でしょう\nこの曲長時間聞く事を想定しています。初めて聞いた時の印象から、聞いていくうちに徐々に変化していきます。\n最後的にはかなり切ない曲に聞こえてくる筈、かな？"
+comment_jp = "河城　にとりのテーマです。\nこの曲はよく聞くことになるので、飽きさせない事に力を入れてみ\nました。その為に、奇妙なフレーズとリズムを使ってみましたが如\n何でしょう。この曲長時間聞く事を想定しています。初めて聞い\nた時の印象から、聞いていくうちに徐々に変化していきます。\n最後的にはかなり切ない曲に聞こえてくる筈、かな？"
 comment_en = "This is Nitori Kawashiro's theme.\n\nYou will hear this song quite a bit, so I've put forth my best effort so that you won't get tired of it. For that purpose, I've used some strange phrases and rhythms, but I wonder if it was any good.\nMy hypothesis is that you'll be listening to this one a lot. Since my first impressions of the song, as I continued to listen to it, it seems to have gradually changed on me.\nAs the concluding piece, it should end up having a rather sorrowful sound to it, I guess?"
 
 [08]
@@ -94,7 +83,7 @@ name_jp = "妖怪の山　～ Mysterious Mountain"
 name_en = "The Youkai Mountain ~ Mysterious Mountain"
 position = "0x0AC61710, 0x00193800, 0x00E12E00"
 comment_jp = "射命丸　文のテーマです。\n同じく文のテーマである風神少女は、新聞記事である文のイメージで作りましたが、今回は日本古来からいる妖怪「天狗」のイメージを重視しました。\nどことなく古くさく懐かしい感じがすれば貴方も妖怪の一員です。\nああ、懐かしい感じがする。"
-comment_en = "This is Aya Shameimaru's theme.\n\nI made the same Aya's theme, Wind God Girl, with the image of Aya the newspaper reporter, but this time I emphasised the image of the youkai "Tengu" from ancient Japan.\nIf I somehow gave it an old, nostalgic feeling, you toowould become one of the youkai.\nAhh, it feels so nostalgic."
+comment_en = "This is Aya Shameimaru's theme.\n\nI made the same Aya's theme, Wind God Girl, with the image of Aya the newspaper reporter,\nbut this time I emphasised the image of the youkai \"Tengu\" from ancient Japan.\nIf I somehow gave it an old, nostalgic feeling, you too would become one of the youkai.\nAhh, it feels so nostalgic."
 
 [10]
 name_jp = "少女が見た日本の原風景"
@@ -115,7 +104,7 @@ name_jp = "御柱の墓場　～ Grave of Being"
 name_en = "Cemetery of Onbashira ~ Grave of Being"
 position = "0x0F737C10, 0x00218800, 0x00B61100"
 comment_jp = "６面のテーマです。\nステージが短いので曲も短いです。最後面はラスボス戦が長くなるから道中を短くしないとだれてしまうので短めです。手抜きじゃないよ？\n曲はこれから何かが始まるぞ、って感じを出してみました。\n何か始まるも何も、もう最終面なのにね。"
-comment_en = "This is the sixth stage theme.\n\nSince the stage is short, the tune is also short. The final stage has a drawn out Last Boss battle, so if I didn't make the path leading to it shorter, it would lose its potence, which is why it's short. I'm not omitting the vital steps.\nI tried expressing the feeling "hey, something's about to start" in this tune.\nOf course something's going to start, since it is the final stage after all."
+comment_en = "This is the sixth stage theme.\n\nSince the stage is short, the tune is also short. The final stage has a drawn out Last Boss battle,\nso if I didn't make the path leading to it shorter, it would lose its potence, which is why it's short.\nI'm not omitting the vital steps.\nI tried expressing the feeling \"hey, something's about to start\" in this tune.\nOf course something's going to start, since it is the final stage after all."
 
 [13]
 name_jp = "神さびた古戦場　～ Suwa Foughten Field"

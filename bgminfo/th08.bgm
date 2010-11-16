@@ -1,16 +1,14 @@
 ﻿# Touhou BGM Extractor Info File
 
 [game]
-name_jp = "東方永夜抄　～ Imperishable Night"
+name = "東方永夜抄　～ Imperishable Night"
 name_en = "Touhou Eiyashou ~ Imperishable Night"
 artist = "ZUN"
+circle = "上海アリス幻樂団"
+circle_en = "Team Shanghai Alice"
 year = 2004
 gamenum = "08"
 
-# BGM Packing Method
-# 0 = BGM Directory (only th06)
-# 1 = single data file (usually thbgm.dat)
-# 2 = Brightmoon file containing encrypted Vorbis files (Tasofro games)
 packmethod = 1
 bgmfile = "thbgm.dat"
 zwavid_08 = 0x00
@@ -18,33 +16,25 @@ zwavid_09 = 0x08
 
 tracks = 21
 
-# Position info can be specified as either:
-# -----------------------------------------
-# (To Do) position = "<start>, <rel_loop>, <rel_len>" (bgmtable array format of those thbgmXX.c files)
-# -----------------------------------------
-# or
-# start = <start>
-# -----------------------------------------
-# rel_loop = <loop point relative to track start>
-# rel_end = <end relative to track start (track length)>
-# -----------------------------------------
-# abs_loop = <direct loop point in the BGM file>
-# abs_end = <direct end point in the BGM file>
-# -----------------------------------------
+[update]
+wikipage = "Imperishable_Night:_Music"
+wikirev = 135165
+
+# comment2 is taken from Bohemian Archive in Japanese Red Music Columns, where available
 
 [01]
-name_jp = "永夜抄　～ Eastern Night."
+name_jp = "永夜抄　～ Eastern Night"
 name_en = "Eternal Night Vignette ~ Eastern Night"
 position = "0x00000010, 0x000F1AC0, 0x00C20500"
 comment_jp = "タイトル画面テーマです。\n\nタイトル曲のイメージは前作から継続して同じ雰囲気になる様に。\nより幻想的になってきた感じがしますが、何せ幻想郷だし。\n幻想的、って幻想郷的の略なんですか？\nまぁ、タイトルの曲にしてはお気に入りだったり。"
-comment_en = "This is the title screen theme.\n\nThis title song conjures up the same images as previous games.\nI feel it's more fantastical, but it's very Gensokyo.\nDoes "fantastical" really convey "Gensokyo-like"?\nWell, as far as title themes go, this is one of my favorites."
+comment_en = "This is the title screen theme.\n\nThis title song conjures up the same images as previous games.\nI feel it's more fantastical, but it's very Gensokyo.\nDoes \"fantastical\" really convey \"Gensokyo-like\"?\nWell, as far as title themes go, this is one of my favorites."
 
 [02]
 name_jp = "幻視の夜　～ Ghostly Eyes"
 name_en = "Illusionary Night ~ Ghostly Eyes"
 position = "0x00C20510, 0x000AAE00, 0x0160EB00"
 comment_jp = "１面テーマです。\n\n一面は軽快でノリのいい物が良いよなぁと思ってるんですが、これ、軽快かもしれないけどかなり暗いですよねぇ。\nでも永夜抄は夜と妖怪のお話なので、暗く暗く。\nこの曲は蓮台野夜行にも収録したので、知っている方も多いかも。\n１面からこの暗さじゃ先が思いやられるなぁと。"
-comment_en = "This is the Stage 1 theme.\n\nIn a way, I think it's a jazzy little number. But, while it's pretty upbeat, it is somewhat dark.\nBut Imperishable Night is about night and youkai, so it's dark, too.\nThis song is part of "Ghostly Field Club," so many of you might know it.\nThe darkness in Stage 1 doesn't bode very well."
+comment_en = "This is the Stage 1 theme.\n\nIn a way, I think it's a jazzy little number. But, while it's pretty upbeat, it is somewhat dark.\nBut Imperishable Night is about night and youkai, so it's dark, too.\nThis song is part of \"Ghostly Field Club,\" so many of you might know it.\nThe darkness in Stage 1 doesn't bode very well."
 
 [03]
 name_jp = "蠢々秋月　～ Mooned Insect"
@@ -55,7 +45,7 @@ comment_en = "This is Wriggle Nightbug's theme.\n\nIt always feels so explosivel
 
 [04]
 name_jp = "夜雀の歌声　～ Night Bird"
-name_en = "Voice of the Night Sparrow ~ Night Bird"
+name_en = "Song of the Night Sparrow ~ Night Bird"
 position = "0x02F4F010, 0x00076F00, 0x0192D000"
 comment_jp = "２面テーマです。\n\n先を急いでるんだけど、焦燥感は余り無く余裕すら漂っている感じ。\nそんな雰囲気を出そうとした曲です。\nこの曲は私なりに最大限の和洋折衷を目指した曲です。\n関係無いけど、どうも幻想郷の彼女達には危機感という物が無い。\n心底生きている事を楽しんでいる様な……。"
 comment_en = "This is the stage 2 theme.\n\nIt peaks quickly, but the franticness leaves a lingering little something.\nThat's how I wanted this song to feel.\nIt was meant to be my ultimate blend of Japanese and Western styles.\nOn an unrelated note, there's nothing wrong with the Gensokyo girls.\nThey just enjoy living dangerously..."
@@ -80,6 +70,8 @@ name_en = "Plain Asia"
 position = "0x06835110, 0x0048A600, 0x01342A00"
 comment_jp = "上白沢慧音のテーマです。\n\nミステリアスさと真剣さを強調しました。\nイントロのピアノがかなり印象的でメロディアスな感じがして、結構気に入ってます。\n私にとってイーストエイジア、神国の文化は当然進行中です。決して和製の音楽を癒しの材料なんかに貶めるものか。"
 comment_en = "This is Keine Kamishirasawa's theme.\n\nIt's both serious and mysterious.\nI really like the striking melodious feeling conveyed by the piano in the intro.\nTo me, Japanese culture is sort of a natural progression in East Asia. So Japanese-English music certainly shouldn't be reduced to fluff."
+comment2_jp = "これこそが日本人が見た日本だ、という意気込みで曲を書きました。純邦楽と言われる曲がありますが、アレは完全に作られた日本なのではないのかと思う。日本人は歴史の物の成長を再開させた様に見えて、その実は歴史と現代を分け始めた。本当は、現代風の手段をもってして、自然とどこかに日本が入ってくる事を目指すべきだと思っています。\nこの曲は今の私が考える日本の曲。別に三味線や尺八に拘るわけでもなく、日本ならではの音階を使うのでもなく、ある物で表現する。こういう曲を聴くと、日本に生まれて良かったという幻覚を見る。えっ幻覚？いやいや、幻覚は思い込みなどではないのです。"
+comment2_en = "I tried hard to write this song to express the idea of "This is certainly the Japan that Japanese people saw". For some songs that are said to be pure, traditional Japanese music, I don't really think they were completely made in a Japanese manner. The way Japanese people see history starting to rebuild itself, they see that the present and the past are beginning to seperate. Actually, I think that they should be looking more at what happens naturally wherever Japanese people are using modern methods.\nRight now, I think of this song as a Japanese song. It doesn't necessarily need to have a shamisen or a bamboo flute, and it doesn't use a Japanese musical scale, that's just what it is. Whenever I hear songs like this, I feel the illusion that I'm grateful to have been born in Japan. Uh, illusion? No, no, don't get the wrong impression now."
 
 [08]
 name_jp = "永夜の報い　～ Imperishable Night"
@@ -108,6 +100,8 @@ name_en = "Cinderella Cage ~ Kagome-Kagome"
 position = "0x0BC69B10, 0x0011FB00, 0x01D5A900"
 comment_jp = "５面のテーマです。\n\n東洋風なのか西洋風なのか、古いのか新しいのかはっきりしない曲です。\nボスもそんな感じ。でもステージ背景は和風ホラー風。\nいつも曲にはテーマがありますが、この曲のテーマはかごめかごめ、つまり曲です。アレンジではなく曲のテーマを曲にする。\n表現のテーマは檻に囚われてはいけないと思う。"
 comment_en = "This is the Stage 5 theme.\n\nAsian, Western, old, new-- This song isn't one or the other.\nThe boss seems that way, too, but the stage itself is based in Japanese horror.\nEach song has a theme, but the theme of this one is simply Kagome Kagome. This song was created with no particular arrangement of theme.\nI didn't want to get caged in on a theme for this one."
+comment2_jp = "プレインエイジアに近い考えの曲ですが、こっちの方がもっと露骨に日本のメロディや音を使っています。この曲は日本人なら誰でも知っている『カゴメカゴメ』を独自の解釈で東方風にアレンジした物です。\n既に原曲の時点で心を揺さぶる物となっていて、私の中では『とうりゃんせ』と並んでパワーのある日本の二大幻覚童謡だと思っています。ここまで別の曲に変わったところで、そのパワーは衰えを見せない。それは私程度が幾ら弄ったところで原曲のパワーを消せる筈などない。ならばそのパワーを利用した方が良いと考えました。\nちなみに、シンデレラは海外の童話です。え？　判ってるって？　ごめんなさい。"
+comment2_en = "A song with a similar mindset to Plain Asia, but this song's melody and the sounds I used are more conspicuously Japanese. This is an original, Touhou-style reinterpretation of the traditional Kagome-Kagome that every Japanese person knows.\nWhile it wasn't composed in the same time period, I think that it's just as powerful as Touryanse, making them the two major fantasy children's songs. While the similarities end there, they both seem to have unfading power. I wanted to see how much I could fool around with the song without reducing that power. I think that's a good way to demonstrate how powerful they are.\nBy the way, Cinderella is a foreign fairy tale. Huh? You knew that already? Sorry."
 
 [12]
 name_jp = "狂気の瞳　～ Invisible Full Moon"
@@ -121,14 +115,14 @@ name_jp = "ヴォヤージュ1969"
 name_en = "Voyage 1969"
 position = "0x0EDFC210, 0x00196AC0, 0x00E8B4A0"
 comment_jp = "６面のテーマです。\n\n二十世紀の旅人。\n二十世紀のノアの箱舟は、期待と不安を乗せて宙を飛んだ。\nだが、期待だけを月に置き忘れてきてしまったのだろうか。\n未来と言われていた二十一世紀には、不安とほんの少しの幻想だけしか残されていなかった。"
-comment_en = "This is the Stage 6 theme.\n\nThe 20th century voyager--\nThe Noah's Ark of the 20th century flew into space, carrying with it hopes and fears.\nAnd yet, were its hopes left behind on the moon?\nHere in the "future", in the 21st century, only fears and a handful of illusions seem to be all that were brought back."
+comment_en = "This is the Stage 6 theme.\n\nThe 20th century voyager--\nThe Noah's Ark of the 20th century flew into space, carrying with it hopes and fears.\nAnd yet, were its hopes left behind on the moon?\nHere in the \"future\", in the 21st century, only fears and a handful of illusions\nseem to be all that were brought back."
 
 [14]
 name_jp = "千年幻想郷　～ History of the Moon"
 name_en = "Gensokyo Millennium ~ History of the Moon"
 position = "0x0FC876B0, 0x0012DB00, 0x01DF8400"
 comment_jp = "八意 永琳のテーマです。\n\nありえない程勇ましかったり、激しかったり、爽やかだったり。\n一つだけ共通しているテーマは、物凄く馬鹿みたいに元気である事。\n元気と馬鹿だけがラスボスの取得なんですから（えー）というか、こんな曲でＳＴＧって言う事自体がルナティック。\n表現のテーマは檻に囚われてはいけないと思う。"
-comment_en = "This is Eirin Yagokoro's theme.\n\nImpossible courage, ferocity, and vigor--\nThis theme combines all of those, making for a ridiculously upbeat song.\nAll the upbeat goofiness culminates in the final boss (really?), so shooting to a song like this gets downright insane.\nI didn't want to get caged in on a theme for this one."
+comment_en = "This is Eirin Yagokoro's theme.\n\nImpossible courage, ferocity, and vigor--\nThis theme combines all of those, making for a ridiculously upbeat song.\nAll the upbeat goofiness culminates in the final boss, (Really?)\nso shooting to a song like this gets downright insane.\nI didn't want to get caged in on a theme for this one."
 
 [15]
 name_jp = "竹取飛翔　～ Lunatic Princess"
@@ -136,6 +130,8 @@ name_en = "Flight of the Bamboo Cutter ~ Lunatic Princess"
 position = "0x128476B0, 0x0065E700, 0x01E47000"
 comment_jp = "蓬莱山 輝夜のテーマです。\n\nキテるなぁ（笑）　冷静さを欠いた感情剥き出しの曲です。\n曲で感情を表現するのではなく、感情で曲を創る、むしろゲームが曲を創る。\nなんてクールじゃない、今風じゃない曲なんだろう（笑）\n私はプロじゃないですからねぇ。"
 comment_en = "This is Kaguya Houraisan's theme.\n\nSmooth, huh? (Haha) This song brings out a feeling of aloofness.\nI don't express emotions through songs, I make songs with emotions. And really, the game makes the songs.\nThey're not very cool and modern, are they? (Haha)\nI'll admit I'm no pro."
+comment2_jp = "未だ、実際にこの眼でかぐや姫を見たことがない私は、竹取物語を読んで想像するしかなく、私なりな解釈で竹取物語終了後を曲にしてみました。\n満月の夜に現れる月の使者、それに抵抗する地上の人間。だが月の死者の前では為す術もなくやられてしまう。もう抵抗する気も失ったその時、地上の竹が光り始めて……現われたのは月の姫、かぐや姫だった。かぐやはこれ以上人間には迷惑をかけまいと、一人戦う決心をしたのである。\nという妄想は無く、大昔の日本の空にあったと言われる月と、空を翔る姫達をイメージして作曲しました。勿論遊び心も忘れずに、判る人だけに判るレトロさを入れて、何十年後になったときに最後まで心に残る曲になるよう頑張りました。"
+comment2_en = "While I am someone who has yet to actually see Kaguya-hime, this song was not meant to represent The Tale of the Bamboo Cutter, but rather what happens after the story ends.\nThe messengers from the moon who reveal themselves only on nights of the full moon, and the ones they oppose, the humans on Earth. But those from the moon reach their wits' end and lose the will to fight. That's when the bamboo on Earth begins to glow... and the moon princess appears, that is, Kaguya-hime. Kaguya troubles the humans, and one man decides to fight her.\nMy image for this song is nothing that off-the-wall. It's more of the moon that was said to exist in Japan's sky a long time ago, and the princesses that fly through that sky. Of course, they still haven't lost their playful spirit, just like how some people still enjoy retro games. As I also want my songs to remain in people's minds decades from now, I will continue to do my best."
 
 [16]
 name_jp = "ヴォヤージュ1970"
@@ -170,7 +166,7 @@ name_jp = "Eternal Dream　～ 幽玄の槭樹"
 name_en = "Eternal Dream ~ Mystic Maple"
 position = "0x155A68B0, 0x00346980, 0x011BD500"
 comment_jp = "スタッフロールのテーマです。\n\nこれも懐かしい物を混ぜて入れておきました。\n槭樹(Maple)ですね。古い記憶です。\n今回は古い記憶が全体的なテーマにあるので。 というか、スタッフ少なすぎ。"
-comment_en = "This is the Credits theme.\n\nI added a little nostalgia to this one.\n\"Maple,\" such an old memory.\nThis theme is loaded with old memories, and there's not enough staff."
+comment_en = "This is the Credits theme.\n\nI added a little nostalgia to this one.\n\"Maple,\" such an old memory.\nThis theme is loaded with old memories,\nand there's not enough staff."
 
 [21]
 name_jp = "東方妖怪小町"

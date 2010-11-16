@@ -1,0 +1,170 @@
+﻿# Touhou BGM Extractor Info File
+
+[game]
+name = "MegaMari - 魔理沙の野望"
+name_en = "MegaMari - Marisa's Ambition"
+circle = "黄昏フロンティア"
+circle_en = "Twilight Frontier"
+artist = "あきやまうに, NKZ"
+artist_en = "U2, NKZ"
+year = 2006
+
+packmethod = 3
+encryption = 1
+entrysize = 0x10C
+bgmfile = "megamaribgm.dat"
+
+tracks = 29
+
+# (Since there are no official track names, I named those in the style of the original Mega Man soundtracks.)
+
+[01]
+name_jp = "Opening"
+name_en = "Opening"
+filename = "data/bgm/op"
+
+[02]
+name_jp = "Password"
+name_en = "Password"
+filename = "data/bgm/password"
+
+[03]
+name_jp = "Stage Select"
+name_en = "Stage Select"
+filename = "data/bgm/select"
+
+[04]
+name_jp = "Stage Start"
+name_en = "Stage Start"
+filename = "data/bgm/eye"
+
+[05]
+name_jp = "Reimu Hakurei Stage"
+name_en = "Reimu Hakurei Stage"
+filename = "data/bgm/stage00"
+
+[06]
+name_jp = "Cirno Stage"
+name_en = "Cirno Stage"
+filename = "data/bgm/stage01"
+
+[07]
+name_jp = "Sakuya Izayoi Stage"
+name_en = "Sakuya Izayoi Stage"
+filename = "data/bgm/stage02"
+
+[08]
+name_jp = "Remilia Scarlet Stage"
+name_en = "Remilia Scarlet Stage"
+filename = "data/bgm/stage03"
+
+[09]
+name_jp = "Stage Clear Marisa"
+name_en = "Stage Clear Marisa"
+filename = "data/bgm/get1"
+
+[10]
+name_jp = "Get A Weapon Marisa"
+name_en = "Get A Weapon Marisa"
+filename = "data/bgm/item1"
+
+[11]
+name_jp = "Youmu Konpaku Stage"
+name_en = "Youmu Konpaku Stage"
+filename = "data/bgm/stage04"
+
+[12]
+name_jp = "Yuyuko Saigyouji Stage"
+name_en = "Yuyuko Saigyouji Stage"
+filename = "data/bgm/stage05"
+
+[13]
+name_jp = "Reisen Udongein Inaba Stage"
+name_en = "Reisen Udongein Inaba Stage"
+filename = "data/bgm/stage06"
+
+[14]
+name_jp = "Eirin Yagokoro Stage"
+name_en = "Eirin Yagokoro Stage"
+filename = "data/bgm/stage07"
+
+[15]
+name_jp = "Boss"
+name_en = "Boss"
+filename = "data/bgm/boss01"
+
+[16]
+name_jp = "Stage Clear Alice"
+name_en = "Stage Clear Alice"
+filename = "data/bgm/get2"
+
+[17]
+name_jp = "Get A Weapon Alice"
+name_en = "Get A Weapon Alice"
+filename = "data/bgm/item2"
+
+[18]
+name_jp = "Patchouli UFO SE"
+name_en = "Patchouli UFO SE"
+filename = "data/bgm/UFO"
+
+[19]
+name_jp = "Patchouli Stage Map"
+name_en = "Patchouli Stage Map"
+filename = "data/bgm/castle"
+
+[20]
+name_jp = "Patchouli Stage 1 & 2"
+name_en = "Patchouli Stage 1 & 2"
+filename = "data/bgm/stage08"
+
+# Duplicate of data/bgm/stage08
+# -----------------------------
+#[20]
+#filename = "data/bgm/stage09"
+# -----------------------------
+
+[21]
+name_jp = "Patchouli Stage 3"
+name_en = "Patchouli Stage 3"
+filename = "data/bgm/stage12"
+
+[22]
+name_jp = "Copy Marisa Mischief"
+name_en = "Copy Marisa Mischief"
+filename = "data/bgm/boss08"
+
+[23]
+name_jp = "Patchouli Stage 4"
+name_en = "Patchouli Stage 4"
+filename = "data/bgm/stage13"
+
+[24]
+name_jp = "Patchouli Stage 5"
+name_en = "Patchouli Stage 5"
+filename = "data/bgm/stage10"
+
+[25]
+name_jp = "Patchouli Castle Boss Battle"
+name_en = "Patchouli Castle Boss Battle"
+filename = "data/bgm/boss02"
+
+[26]
+name_jp = "Patchouli Stage 6"
+name_en = "Patchouli Stage 6"
+filename = "data/bgm/stage11"
+
+[27]
+name_jp = "Title"
+name_en = "Title"
+filename = "data/bgm/title"
+
+[28]
+name_jp = "Staff Roll"
+name_en = "Staff Roll"
+filename = "data/bgm/end"
+
+[29]
+name_jp = "Game Over"
+name_en = "Game Over"
+filename = "data/bgm/gameover"

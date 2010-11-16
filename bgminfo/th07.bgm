@@ -1,16 +1,14 @@
 ﻿# Touhou BGM Extractor Info File
 
 [game]
-name_jp = "東方妖々夢　～ Perfect Cherry Blossom"
+name = "東方妖々夢　～ Perfect Cherry Blossom"
 name_en = "Touhou Youyoumu ~ Perfect Cherry Blossom"
 artist = "ZUN"
+circle = "上海アリス幻樂団"
+circle_en = "Team Shanghai Alice"
 year = 2003
 gamenum = "07"
 
-# BGM Packing Method
-# 0 = BGM Directory (only th06)
-# 1 = single data file (usually thbgm.dat)
-# 2 = Brightmoon file containing encrypted Vorbis files (Tasofro games)
 packmethod = 1
 bgmfile = "thbgm.dat"
 zwavid_08 = 0x00
@@ -18,156 +16,195 @@ zwavid_09 = 0x07
 
 tracks = 20
 
-# Position info can be specified as either:
-# -----------------------------------------
-# (To Do) position = "<start>, <rel_loop>, <rel_len>" (bgmtable array format of those thbgmXX.c files)
-# -----------------------------------------
-# or
-# start = <start>
-# -----------------------------------------
-# rel_loop = <loop point relative to track start>
-# rel_end = <end relative to track start (track length)>
-# -----------------------------------------
-# abs_loop = <direct loop point in the BGM file>
-# abs_end = <direct end point in the BGM file>
-# -----------------------------------------
+[update]
+wikipage = "Perfect_Cherry_Blossom:_Music"
+wikirev = 135163
+
+# comment2 = Bohemian Archive in Japanese Red Music Columns (if available)
+# comment3 = PCB afterword
 
 [01]
 name_jp = "妖々夢　～ Snow or Cherry Petal"
 name_en = "Mystic Dream ~ Snow or Cherry Petal"
 position = "0x00000010, 0x00129300, 0x00FC7720"
-comment_jp = "タイトル画面テーマです。\n前作のタイトル曲のイメージを引きずりつつ、和風に和風に。この曲、「これから弾幕の嵐！」って雰囲気を完全に削ぎます。正直、あっても無くても良さそうな曲だったりするんですが、高揚する弾幕魂をここでなだめる役割を果たしています（笑）\n\nタイトル曲ですから、しんみり。幻想郷に降り注ぐは、雪か桜か。そういう思いをこめた曲名です。"
-comment_en = "This is the title screen theme.\n\nThe title theme from previous games, done in a Japanese style while keeping its essence. This song is meant to belie the tense atmosphere of \"Now, let the Danmaku begin!\". Frankly, I think this song isn't necessary, but it's also meant to restrain the player's excitement while awaiting Danmaku.\n\nIt's the title screen music, so it's solemn. Is it snow or cherry blossoms that fall over Gensokyo? That's the meaning packed into this song title."
+comment_jp = "タイトル画面テーマです。\n前作のタイトル曲のイメージを引きずりつつ、和風に和風に。\nこの曲、「これから弾幕の嵐！」って雰囲気を完全に削ぎます。\n正直、あっても無くても良さそうな曲だったりするんですが、\n高揚する弾幕魂をここでなだめる役割を果たしています（笑）"
+comment2_jp = "タイトル曲ですから、しんみり。幻想郷に降り注ぐは、雪か桜か。そういう思いをこめた曲名です。"
+comment_en = "This is the title screen theme.\n\nThe title theme from previous games, done in a Japanese style while keeping its essence. \nThis song is meant to belie the tense atmosphere of \"Now, let the Danmaku begin!\". \nFrankly, I think this song isn't necessary, but it's also meant to restrain the player's excitement while awaiting Danmaku."
+comment2_en = "It's the title screen music, so it's solemn. Is it snow or cherry blossoms that fall over Gensokyo? That's the meaning packed into this song title."
 
 [02]
 name_jp = "無何有の郷　～ Deep Mountain"
 name_en = "Paradise ~ Deep Mountain"
 position = "0x00FC7730, 0x002B9F80, 0x00EC8000"
-comment_jp = "１面テーマです。\n曲名（何か有るという事が無い）通り、手付かずの自然をイメージしてあります。でもそこはそれ、個人的に異様に癒し系だったりするのも嫌ですので、小気味良い程度の軽快さに仕上げました。でも、爽やかさは皆無です(^^;\n\n無何有の郷（むかうのきょう）。一言で言えば人里はなれた山奥です（笑）"
-comment_en = "This is the Stage 1 theme.\n\nThis theme was composed with an image of a natural paradise that has yet to be discovered by humans. However, I personally didn't want it to be healing music, so I made it somewhat rhythmical.\nTherefore it doesn't have even the slightest hint of relaxed feelings (^^;\n\n"Mukau no kyou". In a word, deep in the mountains, away from the village *g*"
+comment_jp = "１面テーマです。\n曲名（何か有るという事が無い）通り、手付かずの自然をイメージ\nしてあります。でもそこはそれ、個人的に異様に癒し系だったりす\nるのも嫌ですので、小気味良い程度の軽快さに仕上げました。\nでも、爽やかさは皆無です(^^;"
+comment2_jp = "無何有の郷（むかうのきょう）。一言で言えば人里はなれた山奥です（笑）"
+comment_en = "This is the Stage 1 theme.\n\nThis theme was composed with an image of a natural paradise that has yet to be discovered by humans. However, I personally didn't want it to be healing music, so I made it somewhat rhythmical. Therefore it doesn't have even the slightest hint of relaxed feelings (^^;"
+comment2_en = ""Mukau no kyou". In a word, deep in the mountains, away from the village *g*"
 
 [03]
 name_jp = "クリスタライズシルバー"
 name_en = "Crystallized Silver"
 position = "0x01E8F730, 0x001D2EA0, 0x00BB7FFC"
-comment_jp = "レティ・ホワイトロックのテーマです。\n（この曲に限らず）私の曲は露骨でない和洋折衷を目指しています１面ボスなのですんごく短い曲ですが、この世界観の入り口として思うがままに表現してみました。\nストレートな曲なのに、どのジャンルにも当てはならない不思議な曲です\n\n白銀の雪の結晶のイメージで。決して銀の結晶ではありません。"
-comment_en = "This is Letty Whiterock's theme.\n\nA goal of my music is to blend Japanese and Western elements\nin a non-obvious manner (applies to the other songs too). This one is short because it's the theme for the stage 1 boss, but I managed to express my image of the realm in this theme.\nWhile the song is direct, it doesn't fit into any music genre.\n\nAn image of silver snow crystals. Definitely not crystals of silver."
+comment_jp = "レティ・ホワイトロックのテーマです。\n（この曲に限らず）私の曲は露骨でない和洋折衷を目指しています\n１面ボスなのですんごく短い曲ですが、この世界観の入り口として\n思うがままに表現してみました。\nストレートな曲なのに、どのジャンルにも当てはならない不思議な\n曲です"
+comment2_jp = "白銀の雪の結晶のイメージで。決して銀の結晶ではありません。"
+comment_en = "This is Letty Whiterock's theme.\n\nA goal of my music is to blend Japanese and Western elements in a non-obvious manner (applies to the other songs too).\nThis one is short because it's the theme for the stage 1 boss, but I managed to express my image of the realm in this theme.\nWhile the song is direct, it doesn't fit into any music genre."
+comment2_en = "An image of silver snow crystals. Definitely not crystals of silver."
 
 [04]
 name_jp = "遠野幻想物語"
 name_en = "The Fantastic Legend of Tohno"
 position = "0x02A4772C, 0x00406C58, 0x0177FA8C"
-comment_jp = "２面テーマです。\nこれはー、変な曲です。はい。\n民族色高い曲を創る予定だったのですが、落ち着きすぎて中途半端に民族風。曲名通り、遠野郷をイメージしています。\n昔は日本にもこんな所が存在したんだなぁ、程度にレトロなメロディにしてみたつもりです。\n\n日本の山奥というと、柳田翁を思い浮かべてしまいます。\nアカデミックなのかオカルトなのか、ってくらいが良いんでしょうね。"
-comment_en = "This is the stage 2 theme.\n\nThis song is a weird one.\nMy original intent with this was to make it highly folkish, but since it's too calm it ended up half-folkish. I composed this with the image of Tohno village in mind. It's a bit nostalgic and makes you imagine that there used to be old villages like this in Japan too.\n\nPlaces deep in the mountains of Japan make me think of old man Yanagita.\nIs it an academic thing or an occult thing? Well, does it really matter?"
+comment_jp = "２面テーマです。\nこれはー、変な曲です。はい。\n民族色高い曲を創る予定だったのですが、落ち着きすぎて中途半端に\n民族風。曲名通り、遠野郷をイメージしています。\n昔は日本にもこんな所が存在したんだなぁ、程度にレトロなメロディ\nにしてみたつもりです。"
+comment2_jp = "幻想的で東洋風でどこか懐かしさを感じさせるメロディに案外忘れがちだが、この曲は実はもの凄く可愛い曲だと思う。ピアノのメロディは儚さを表し、笛のメロディは子供達の祭りの様子を感じさせる。\n歴史を感じさせる風習というか、そういった物に子供が絡んでくるととたんに可愛く、儚くなる様な気がする。と言うか儚い物は可愛いのかも知れない（飛躍してるなぁ）。\nでも暗さと重さを感じさせないこの曲は、聞いた後に嫌な物が残らない。むしろ嫌な物を持っていってくれる。そういう曲だと思っている。"
+comment3_jp = "日本の山奥というと、柳田翁を思い浮かべてしまいます。\nアカデミックなのかオカルトなのか、ってくらいが良いんでしょうね。"
+comment_en = "This is the stage 2 theme.\n\nThis song is a weird one. My original intent with this was to make it highly folkish, but since it's too calm it ended up half-folkish. \nI composed this with the image of Tohno village in mind. It's a bit nostalgic and makes you imagine that there used to be old villages like this in Japan too."
+comment2_en = "An oriental-styled fantasy piece with a melody that sounds like you've heard it before, but somehow forgotten about. Actually, I think this piece sounds very cute. The piano's melody expresses ephemerality, and the wind instrument's melody feels like something you'd hear at a childrens' festival.\nYoung children and customs passed down through history come together in a very cute and ephemeral way. Although it's hard to say if ephemeral things are cute (maybe if they are jumping around).\nSince this song doesn't feel very dark or heavy, any unplesant feelings would be completely removed after listening to it, if you had any to begin with. I think it's that kind of song."
+comment3_en = "Places deep in the mountains of Japan make me think of old man Yanagita.\nIs it an academic thing or an occult thing? Well, does it really matter?"
 
 [05]
 name_jp = "ティアオイエツォン(withered leaf)"
 name_en = "Diao ye zong (Withered Leaf)"
 position = "0x041C71B8, 0x0009DE28, 0x009775F8"
-comment_jp = "橙（チェン）のテーマです。\n元気な妖怪少女のイメージで作曲しました。何の迷いも無くアドリブ的に作曲した曲です。あんまひねった事すると、狙いすぎておかしくなる事が良くわかったので(汗)、即興的に弾いたメロディで創ってみました。それはもうお酒を大量に嗜んで...\n　これはこれで自分に素直な曲です(^^;\n\n枯葉色です。冬というよりは秋。\n私にとって猫は秋のイメージがあります。過酷な冬も夏も越せない、春の瑞々しさも猫に合わない。そんなイメージが。"
-comment_en = "This is Chen's theme.\n\nI composed this title with the image of an energetic youkai girl in mind. This song is based purely on improvisation, because I found that if I think too much while composing the music tends to end up strange. Well, with the help of booze...\nAll in all, this is an honest song (^^;\n\nBurnt orange. More of a fall thing than winter.\nPersonally, cats bring to mind images of autumn. They don't like dealing with a harsh winter or summer, and even spring's freshness doesn't really suit them. That sort of image."
+comment_jp = "橙（チェン）のテーマです。\n元気な妖怪少女のイメージで作曲しました。何の迷いも無くアドリブ\n的に作曲した曲です。あんまひねった事すると、狙いすぎておかしく\nなる事が良くわかったので(汗)、即興的に弾いたメロディで創ってみ\nました。それはもうお酒を大量に嗜んで...\nこれはこれで自分に素直な曲です(^^;"
+comment2_jp = "枯葉色です。冬というよりは秋。\n私にとって猫は秋のイメージがあります。過酷な冬も夏も越せない、春の瑞々しさも猫に合わない。そんなイメージが。"
+comment_en = "This is Chen's theme.\n\nI composed this title with the image of an energetic youkai girl in mind. This song is based purely on improvisation, because I found that if I think too much while composing the music tends to end up strange. Well, with the help of booze...\nAll in all, this is an honest song (^^;"
+comment2_en = "Burnt orange. More of a fall thing than winter.\nPersonally, cats bring to mind images of autumn. They don't like dealing with a harsh winter or summer, and even spring's freshness doesn't really suit them. That sort of image."
 
 [06]
 name_jp = "ブクレシュティの人形師"
 name_en = "The Doll Maker of Bucuresti"
 position = "0x04B3E7B0, 0x00156E00, 0x014FFA00"
-comment_jp = "３面テーマです。いきなりもう終盤か？と感じさせる曲ですね。\n実は、今回体験版を先行発表するので、中途半端な体験版にしない為にゲームの１回目の節目を３面に持って来る事にしました。なので、若干シリアス目な曲を目指してみました。\nとはいいつつ、実は最も昔の私っぽい曲です。その為、多分そう感じるのは私だけでしょうが、懐かしさを覚えます。\n\nアリスは色んな地方の人形を所持しています。本当は土偶とか兵馬俑とか出したかったですね。"
-comment_en = "This is the Stage 3 theme.\n\nThis makes you wonder if you're near the end of the game. This is because the demo was released very early and I had to make it a complete game. Due to that, I put the first pivotal moment in stage 3. The mood is more serious than usual too.\nHowever, the song's similar to what I used to be. It might be just me, but this song gives a nostalgic feeling.\n\nAlice has dolls from many different places. I really wanted to write in some clay figures or terra cotta warriors."
+comment_jp = "３面テーマです。\nいきなりもう終盤か？と感じさせる曲ですね。\n実は、今回体験版を先行発表するので、中途半端な体験版にしない為\nにゲームの１回目の節目を３面に持って来る事にしました。\nなので、若干シリアス目な曲を目指してみました。\nとはいいつつ、実は最も昔の私っぽい曲です。その為、多分そう感じ\nるのは私だけでしょうが、懐かしさを覚えます。"
+comment2_jp = "アリスは色んな地方の人形を所持しています。本当は土偶とか兵馬俑とか出したかったですね。"
+comment_en = "This is the Stage 3 theme.\n\nThis makes you wonder if you're near the end of the game. \nThis is because the demo was released very early and I had to make it a complete game. Due to that, I put the first pivotal moment in stage 3. \nThe mood is more serious than usual too. However, the song's similar to what I used to be.\nIt might be just me, but this song gives a nostalgic feeling."
+comment2_en = "Alice has dolls from many different places. I really wanted to write in some clay figures or terra cotta warriors."
 
 [07]
 name_jp = "人形裁判　～ 人の形弄びし少女"
 name_en = "Doll Judgment ~ The Girl who Played with People's Shapes"
 position = "0x0603E1B0, 0x004C9800, 0x01E38000"
-comment_jp = "アリス・マーガトロイドのテーマです。\nアリスはシリーズ的にちょっと特別なキャラなので、気合入れて作曲しました（て言うと、他の曲は手を抜いてるみたいですが）戦闘の切羽詰まった感の中にも、お互い心に余裕が見える程度な曲を目指しています。この心の余裕こそが彼女達の美徳なのです。\n　・・・（美徳は）ゴスロリ、じゃないですよ（笑）\n\n森の中とかに壊れかけた人形が捨ててあると、ちょっとぞっとします。\nあれは、人形だからなんでしょうね。森の中に壊れかけた人間が捨ててあっても、ぞっとはしません。ただの死体遺棄だし、人形遺棄よりずっと理由も予想しやすいです。"
-comment_en = "This is Alice Margatroid's theme.\n\nAlice is a special character in this series, so I composed the theme with renewed vigor (not that I was lazy with the other songs). This theme's goal is to show that the characters are relaxed despite the intensity of the fight. This exemplifies them in my opinion...\nnot the gothic-lolita costumes, I swear.\n\nIf you throw away a broken doll, say, in the forest, it makes you shiver a little.\nThat's probably because it's a doll in the shape of a person. Even if you throw away a broken human in the forest, it doesn't make you shiver. That's just disposing of a corpse, which is a lot easier to understand than disposing of a doll."
+comment_jp = "アリス・マーガトロイドのテーマです。\nアリスはシリーズ的にちょっと特別なキャラなので、気合入れて作曲\nしました（て言うと、他の曲は手を抜いてるみたいですが）\n戦闘の切羽詰まった感の中にも、お互い心に余裕が見える程度な曲を\n目指しています。この心の余裕こそが彼女達の美徳なのです。\n・・・（美徳は）ゴスロリ、じゃないですよ（笑）"
+comment2_jp = "森の中とかに壊れかけた人形が捨ててあると、ちょっとぞっとします。\nあれは、人形だからなんでしょうね。森の中に壊れかけた人間が捨ててあっても、ぞっとはしません。ただの死体遺棄だし、人形遺棄よりずっと理由も予想しやすいです。"
+comment_en = "This is Alice Margatroid's theme.\n\nAlice is a special character in this series, so I composed the theme with renewed vigor (not that I was lazy with the other songs). \nThis theme's goal is to show that the characters are relaxed despite the intensity of the fight. \nThis exemplifies them in my opinion... not the gothic-lolita costumes, I swear."
+comment2_en = "If you throw away a broken doll, say, in the forest, it makes you shiver a little.\nThat's probably because it's a doll in the shape of a person. Even if you throw away a broken human in the forest, it doesn't make you shiver. That's just disposing of a corpse, which is a lot easier to understand than disposing of a doll."
 
 [08]
 name_jp = "天空の花の都"
 name_en = "The Capital City of Flowers in the Sky"
 position = "0x07E761B0, 0x0015E180, 0x02931400"
-comment_jp = "４面テーマです。和風より中華風。過激で素敵な雲の上です。\n４面から、ようやく本当の妖々夢の始まりとなっている為、４面だけ圧倒的に長いステージになっています。\nかつて、こんなに激しくも切ない曲で成層圏（そんなに高くありません）突入があっただろうか。\n西遊記をイメージして作曲しています。全然関係無いけど。\n\n空中には私たちが気が付かないうちに、いっぱい庭園や都市、城、島、といったものが出来ています。\n実は私たちが知らないだけで、天空は飽和状態なのかもしれません。\n安易に旅客機など飛ばすべきでは無いのです（←高所恐怖症）"
-comment_en = "This is the Stage 4 theme.\n\nThe style is more Chinese than Japanese. A wonderful place above the clouds.\nAs the true beginning of this game, stage 4 is far longer than the others. There's never been such a stratospheric (it's not that high) intrusion with violent yet sorrowful music has there?\nWhile composed with "Journey to the West" in mind, it doesn't resemble that.\n\nWe don't notice it, but the heavens are full of gardens, cities, castles, and birds.\nThe truth is, the skies may be completely saturated, and we just don't know about it.\nWe shouldn't fly passenger planes through the sky so lightly. (← afraid of heights)"
+comment_jp = "４面テーマです。\n和風より中華風。過激で素敵な雲の上です。\n４面から、ようやく本当の妖々夢の始まりとなっている為、４面だけ\n圧倒的に長いステージになっています。\nかつて、こんなに激しくも切ない曲で成層圏（そんなに高くありませ\nん）突入があっただろうか。\n西遊記をイメージして作曲しています。全然関係無いけど。"
+comment2_jp = "空中には私たちが気が付かないうちに、いっぱい庭園や都市、城、島、といったものが出来ています。\n実は私たちが知らないだけで、天空は飽和状態なのかもしれません。\n安易に旅客機など飛ばすべきでは無いのです（←高所恐怖症）"
+comment_en = "This is the Stage 4 theme.\n\nThe style is more Chinese than Japanese. A wonderful place above the clouds. As the true beginning of this game, stage 4 is far longer than the others. \nThere's never been such a stratospheric (it's not that high) intrusion with violent yet sorrowful music, has there? \nWhile composed with \"Journey to the West\" in mind, it doesn't resemble that."
+comment2_en = "We don't notice it, but the heavens are full of gardens, cities, castles, and birds.\nThe truth is, the skies may be completely saturated, and we just don't know about it.\nWe shouldn't fly passenger planes through the sky so lightly. (← afraid of heights)"
 
 [09]
 name_jp = "幽霊楽団　～ Phantom Ensemble"
 name_en = "Ghostly Band ~ Phantom Ensemble"
 position = "0x0A7A75B0, 0x000B6300, 0x017BEF00"
-comment_jp = "　プリズムリバー三姉妹のテーマです。\nとにかく、明るく楽しく演奏している様な曲を創ったつもりです。\nお祭りや騒がしい事が大好きな、能天気な三姉妹の勢いに任せた演奏のつもり。サビはヴァイオリン、トランペット、キーボードと三人が、思うが侭に演奏しています。ごった煮。\n\nちなみに、騒霊と我々日本人が考える幽霊とは割と別物だったりします。外国では、もっともつまらない霊の部類なんですよね。楽器を手も足も使わずに自由に演奏しますが、テルミンではありません。\nそれに、元々楽器無しでも音が出せそうなのに、楽器を使用します。そういう無駄が多ければ多いほど、素敵なんですよ。そもそも幽霊自体が、無駄なんですから。"
-comment_en = "This is the Prismriver Sisters' theme.\n\nI tried to make this theme sound like it was being performed happily and joyfully. A performance by happy-go-lucky sisters who love festivals and anything noisy. At the climax, each of them play their Violin, Trumpet and Keyboard as they please. What a jumble.\n\nBy the way, poltergeists and phantoms as we Japanese think of them are a little different. They're the most pedestrian of the foreign spirits. They can hold musical performances without using their hands or feet or instruments, but they're not theremins.\nAnd even though they can make sound without instruments, they use them. As pointless as that is, it's absolutely wonderful. After all, ghosts themselves are pointless in the first place."
+comment_jp = "プリズムリバー三姉妹のテーマです。\nとにかく、明るく楽しく演奏している様な曲を創ったつもりです。\nお祭りや騒がしい事が大好きな、能天気な三姉妹の勢いに任せた演奏\nのつもり。サビはヴァイオリン、トランペット、キーボードと三人が、\n思うが侭に演奏しています。ごった煮。"
+comment2_jp = "ちなみに、騒霊と我々日本人が考える幽霊とは割と別物だったりします。外国では、もっともつまらない霊の部類なんですよね。楽器を手も足も使わずに自由に演奏しますが、テルミンではありません。\nそれに、元々楽器無しでも音が出せそうなのに、楽器を使用します。そういう無駄が多ければ多いほど、素敵なんですよ。そもそも幽霊自体が、無駄なんですから。"
+comment_en = "This is the Prismriver Sisters' theme.\n\nI tried to make this theme sound like it was being performed happily and joyfully. \nA performance by happy-go-lucky sisters who love festivals and anything noisy. \nAt the climax, each of them play their Violin, Trumpet and Keyboard as they please.\nWhat a jumble."
+comment2_en = "By the way, poltergeists and phantoms as we Japanese think of them are a little different. They're the most pedestrian of the foreign spirits. They can hold musical performances without using their hands or feet or instruments, but they're not theremins.\nAnd even though they can make sound without instruments, they use them. As pointless as that is, it's absolutely wonderful. After all, ghosts themselves are pointless in the first place."
 
 [10]
 name_jp = "東方妖々夢　～ Ancient Temple"
 name_en = "Mystic Oriental Dream ~ Ancient Temple"
 position = "0x0BF664B0, 0x001A5400, 0x01909C00"
-comment_jp = "５面テーマです。\n精一杯の日本人に根付く懐かしさと、ほんの一寸の何者かが迫り来る焦燥感を出してみました。\n遠くに聞こえる笙の様な音と鐘の音が、なんとなくあの世をイメージします。私だけ？\n\n古の寺院。\n突然、空気の温度が変わる曲です。もっとも、東方妖々夢という感じの曲なので、このタイトル。"
-comment_en = "This is the Stage 5 theme.\n\nThis theme expresses the nostalgia that is deep within every Japanese and the frantic feeling that arises when someone is approaching.\nThe sounds of shinto flutes and bells coming from a distance conjure up images of the netherworld. Or maybe it's just me?\n\nAn old temple.\nAll of a sudden, the atmosphere and pace change with this song. This is the song that most directly expresses the feeling of this game, hence this title."
+comment_jp = "５面テーマです。\n精一杯の日本人に根付く懐かしさと、ほんの一寸の何者かが迫り来る\n焦燥感を出してみました。\n遠くに聞こえる笙の様な音と鐘の音が、なんとなくあの世をイメージ\nします。私だけ？"
+comment2_jp = "４面までの世界、この世と、５面以降のあの世という空気感の違いを何とかして曲で表したかった。この曲はその一つの結果ですが、結構満足しています。　この曲はストーリーと言うよりは場所をイメージした曲ですが、こういう曲を聴くと大抵はその場所に居たいと感じさせる。でも、この曲は「非常に美しい場所だが、ここには居たくない」と感じる。\nこの曲を聴くと、古い古い時代の日本を幻視する。あの世というのは既に亡くなったこの世でもあるので、この幻覚は偶然ではなく、これこそ幻覚だと考える。\n印象的な曲にはゲームタイトルを使うことが多いので、この曲もその一つ。"
+comment3_jp = "古の寺院。\n突然、空気の温度が変わる曲です。もっとも、東方妖々夢という感じの曲なので、このタイトル。"
+comment_en = "This is the Stage 5 theme.\n\nThis theme expresses the nostalgia that is deep within every Japanese and the frantic feeling that arises when someone is approaching. \nThe sounds of Shinto flutes and bells coming from a distance conjure up images of the netherworld.\nOr maybe it's just me?"
+comment2_en = "I wanted a song in PCB to show that there was a different atmosphere between the worlds up to stage 4 and from stage 5 on. This is the result of that, and I'm rather satisfied with it. Rather than tell a story, this song helps establish the setting. When you listen to a song like this, you more or less feel like you're there. Although for this song, I was trying to create the image of \"An extremely beautiful place that does not exist here\".\nWhen I listen to this song, I see visions of ancient Japan as if it never changed and still existed today. I don't think this was by chance, but it is certainly an illusion.\nThere are many impressive songs that I name after the game it appears in. This is another of those songs."
+comment3_en = "An old temple.\nAll of a sudden, the atmosphere and pace change with this song. This is the song that most directly expresses the feeling of this game, hence this title."
 
 [11]
 name_jp = "広有射怪鳥事　～ Till When?"
-name_en = "Hiroari Shoots a Strange Bird ~ Till When?"
+name_en = "Hiroari Shoots a Strange Bird ~ Till When?'"
 position = "0x0D8700B0, 0x00121C00, 0x012D7C00"
-comment_jp = "魂魄 妖夢（こんぱく ようむ）のテーマです。\n強敵＋幼さを曲で表現してみたつもりです。一番ボスっぽい曲かも。\nギターを使いつつも、はなから、ロックを諦めています（笑）\nこのサビのメロディは妖怪を彷彿させます。。\n\n広有とは言うまでも無く、怪鳥退治で有名な隠岐次郎左衛門広有の事です。イメージが謎めいた妖怪、って感じだったのでこんな感じ。\nTill When? はただのダジャレなので気にせず（汗）"
-comment_en = "This is Youmu Konpaku's Theme.\n\nI tried to give the impression of both \"A Tough Opponent\" and\n\"Childishness\" with this theme. Perhaps this is the most boss-like theme in this game.\nWhile it's using guitar, I gave up trying to make it sound like rock music almost immediately.\nThe climax of this theme is in the spirit of youkai.\n\nNeedless to say, Hiroari refers to the famous youkai bird hunter Oki no Jirouzaemon Hiroari. The image of the song was that mysterious youkai, hence the feel of the song.\n\"Till When?\" is just a pun, pay it no mind *sweatdrop*"
+comment_jp = "魂魄 妖夢（こんぱく ようむ）のテーマです。\n強敵＋幼さを曲で表現してみたつもりです。一番ボスっぽい曲かも。\nギターを使いつつも、はなから、ロックを諦めています（笑）\nこのサビのメロディは妖怪を彷彿させます。"
+comment2_jp = "広有とは言うまでも無く、怪鳥退治で有名な隠岐次郎左衛門広有の事です。イメージが謎めいた妖怪、って感じだったのでこんな感じ。\nTill When? はただのダジャレなので気にせず（汗）"
+comment_en = "This is Youmu Konpaku's Theme.\n\nI tried to give the impression of both \"A Tough Opponent\" and \"Childishness\" with this theme. Perhaps this is the most boss-like theme in this game. \nWhile it's using guitar, I gave up trying to make it sound like rock music almost immediately.\nThe climax of this theme is in the spirit of youkai."
+comment2_en = "Needless to say, Hiroari refers to the famous youkai bird hunter Oki no Jirouzaemon Hiroari. The image of the song was that mysterious youkai, hence the feel of the song.\n\"Till When?\" is just a pun, pay it no mind *sweatdrop*"
 
 [12]
 name_jp = "アルティメットトゥルース"
 name_en = "Ultimate Truth"
 position = "0x0EB47CB0, 0x00078800, 0x009AB400"
-comment_jp = "最終面のテーマです。\n最終面はボスを中心にするために、道中はただのつなぎです。\n曲もえらく短い曲ですが、割と爽やかで気持ちいい曲です（多分）\nステージは、桜の海の上を高速で駆け抜けるイメージを想定していましたが、曲の方もそんな感じになったでしょうか？\n\n究極の真実。すなわち真理。\nというほど大層な曲ではありませんが・・・"
-comment_en = "This is the Stage 6 theme.\n\nThe final stage is all about the final boss, so the mid-stage is only a token effort.\nBecause of that, this song is rather short, but it's also refreshing and pleasant (in my opinion).\nThe stage has visual imagery of flying over a sea of cherry blossoms; I hope this song will give you the same impression.\n\nUltimate reality. That is, absolute truth.\nThough, it's not that magnificent of a song..."
+comment_jp = "最終面のテーマです。\n最終面はボスを中心にするために、道中はただのつなぎです。\n曲もえらく短い曲ですが、割と爽やかで気持ちいい曲です（多分）\nステージは、桜の海の上を高速で駆け抜けるイメージを想定していま\nしたが、曲の方もそんな感じになったでしょうか？"
+comment2_jp = "究極の真実。すなわち真理。\nというほど大層な曲ではありませんが・・・"
+comment_en = "This is the Stage 6 theme.\n\nThe final stage is all about the final boss, so the mid-stage is only a token effort. \nBecause of that, this song is rather short, but it's also refreshing and pleasant (in my opinion).\nThe stage has visual imagery of flying over a sea of cherry blossoms; I hope this song will give you the same impression."
+comment2_en = "Ultimate reality. That is, absolute truth.\nThough, it's not that magnificent of a song..."
 
 [13]
 name_jp = "幽雅に咲かせ、墨染の桜　～ Border of Life"
 name_en = "Bloom Nobly, Cherry Blossoms of Sumizome ~ Border of Life"
 position = "0x0F4F30B0, 0x002E9E00, 0x0183C400"
-comment_jp = "西行寺 幽々子（さいぎょうじ ゆゆこ）のテーマです。\nとにかく、東洋風でメロディアスでラストらしい曲を目指しました。とかなんとかいっちゃって、どう聴いてもいつもの曲です（笑）激しくも優雅で、力強くも儚げに、色々感じ取れる曲になったかなと\n\n日本語の曲名はわかりやすくて良い。\nもっともストレートな曲名です。\n何も言うことはない。\nこれも、桜の魅力か・・・"
-comment_en = "This is Yuyuko Saigyouji's theme.\n\nI gave this theme an oriental and melodious feeling as well as a strong determination. Having said that, the style of music is my usual fare. Extreme and elegant, powerful but ephemeral; I thought I'd make this theme quite emotional.\n\nIt's good to have an easy to understand Japanese title.\nIt's a very straightforward name.\nThere's nothing more to say.\nIs this, too, the cherry tree's charm...?"
+comment_jp = "西行寺 幽々子（さいぎょうじ ゆゆこ）のテーマです。\nとにかく、東洋風でメロディアスでラストらしい曲を目指しました。\nとかなんとかいっちゃって、どう聴いてもいつもの曲です（笑）\n激しくも優雅で、力強くも儚げに、色々感じ取れる曲になったかなと"
+comment2_jp = "日本語の曲名はわかりやすくて良い。\nもっともストレートな曲名です。\n何も言うことはない。\nこれも、桜の魅力か・・・"
+comment_en = "This is Yuyuko Saigyouji's theme.\n\nI gave this theme an oriental and melodious feeling as well as a strong determination. Having said that, the style of music is my usual fare. \nExtreme and elegant, powerful but ephemeral; I thought I'd make this theme quite emotional."
+comment2_en = "It's good to have an easy to understand Japanese title.\nIt's a very straightforward name.\nThere's nothing more to say.\nIs this, too, the cherry tree's charm...?"
 
 [14]
 name_jp = "ボーダーオブライフ"
 name_en = "Border of Life"
 position = "0x10D2F4B0, 0x00B1C400, 0x00F5CD00"
-comment_jp = "？？？のテーマです。\n幽々子のテーマの別バージョンです。\nちょっとミステリアスな雰囲気が強調されています。\n曲自体は、疲れるほどにハードです（笑）\n\n生死の境。\n生きていることを説明するには、死んでいるものが必要である。だから、死なない生き物は存在し得ない。生きていなければ死ねないし、死なない生き物は生きてもいない。私は生命の実態を、この厚さ０の生死の境であると考える。"
-comment_en = "This is the Last Spell theme.\n\nArranged version of Yuyuko's theme.\nI put more emphasis on the mysterious atmosphere in this one.\nHowever, the melody itself is so harsh that it's almost tiresome.\n\nThe boundary between life and death.\nFor proof of life to be possible, there must be the dead. So, there is no living thing that won't die. If something isn't alive it can't die, but something that can't die isn't really alive. I believe the true state of life is this unyielding state of limbo."
+comment_jp = "？？？のテーマです。\n幽々子のテーマの別バージョンです。\nちょっとミステリアスな雰囲気が強調されています。\n曲自体は、疲れるほどにハードです（笑）"
+comment2_jp = "生死の境。\n生きていることを説明するには、死んでいるものが必要である。だから、死なない生き物は存在し得ない。生きていなければ死ねないし、死なない生き物は生きてもいない。私は生命の実態を、この厚さ０の生死の境であると考える。"
+comment_en = "This is the Last Spell theme.\n\nArranged version of Yuyuko's theme.\nI put more emphasis on the mysterious atmosphere in this one.\nHowever, the melody itself is so harsh that it's almost tiresome."
+comment2_en = "The boundary between life and death.\nFor proof of life to be possible, there must be the dead. So, there is no living thing that won't die. If something isn't alive it can't die, but something that can't die isn't really alive. I believe the true state of life is this unyielding state of limbo."
 
 [15]
 name_jp = "妖々跋扈"
 name_en = "Charming Domination"
 position = "0x137CE2B0, 0x000F8C00, 0x01801F00"
-comment_jp = "エクストラステージのテーマです。\n東方に珍しい疾走感の強い曲（か？）です。\nステージを見れば分りますが、テンポとノリが重要なイメージになっています。\n途中で曲調が１１２°程変換されますが、そこからがエクストラの始まりだと思ってください（笑）\n\nヨーヨーバッコ。\n妖怪に始まり、あらゆる妖の者が好き勝手している世界。\nここでは、万物の霊長である人間も、ただの小動物に過ぎない。"
-comment_en = "This is the extra stage theme.\n\nA high-paced theme (?) which is unusual in the Touhou series.\nIt's obvious from the stage that the tempo and enthusiasm are the keys to this song.\nThe tone turns around about 112 degrees in middle of the song which is where Extra really starts (heh).\n\nYo-yo-bakko.\nWhen they first become youkai, all creatures enter a world where they do as they please.\nIn this world, even humans, lords of creation that they are, are trifling creatures."
+comment_jp = "エクストラステージのテーマです。\n東方に珍しい疾走感の強い曲（か？）です。\nステージを見れば分りますが、テンポとノリが重要なイメージになっています。\n途中で曲調が１１２°程変換されますが、そこからがエクストラの始まりだと思ってください（笑）"
+comment2_jp = "ヨーヨーバッコ。\n妖怪に始まり、あらゆる妖の者が好き勝手している世界。\nここでは、万物の霊長である人間も、ただの小動物に過ぎない。"
+comment_en = "This is the extra stage theme.\n\nA high-paced theme (?) which is unusual in the Touhou series.\nIt's obvious from the stage that the tempo and enthusiasm are the keys to this song. \nThe tone turns around about 112 degrees in the middle of the song which is where Extra really starts (heh)."
+comment2_en = "Yo-yo-bakko.\nWhen they first become youkai, all creatures enter a world where they do as they please.\nIn this world, even humans, lords of creation that they are, are trifling creatures."
 
 [16]
 name_jp = "少女幻葬　～ Necro-Fantasy"
 name_en = "A Maiden's Illusionary Funeral ~ Necro-Fantasy"
-position = "0x11C8C1B0, 0x000CA100, 0x00AE2100"
-comment_jp = "八雲 藍（やくも らん）のテーマです。\n幻想より幻惑的なイメージで作曲しました。\n曲自体から、活きの良い妖怪を感じてもらえればいいかなと。\nシューティングで長期戦になるところは、繰り返しが多くて一定の調子の方がいい感じだと思うので、そんな感じな曲に。\n\n地域、風土、宗教によって、仏の色んな埋葬方法が編み出された。\n火葬、土葬、鳥葬、いまや、宇宙葬なんてものまである位。\n私は一生に一度の遺言に、「幻葬で行うこと」と書いて、困らせてやろうかと企んでいる（企むな）"
-comment_en = "This is Ran Yakumo's theme.\n\nI composed it to be more dazzling than fantastic.\nHopefully you'll get the sense of the energetic youkai from the melody.\nIn my opinion, when there's a long fight in a shooting game, the music should repeat and sustain its tempo. That is, it should be like this theme.\n\nMany ways to bury the dead have been devised according to different regions, climates, and religions.\nThere's cremation, interment, open burial, and now even consecration to space.\nI think it would be fun to play a trick by leaving in my last will and testament instructions to perform an \"illusionary funeral\" (please don't)"
+position = "0x14FD01B0, 0x0003EF00, 0x023F2880"
+comment_jp = "八雲 藍（やくも らん）のテーマです。\n幻想より幻惑的なイメージで作曲しました。\n曲自体から、活きの良い妖怪を感じてもらえればいいかなと。\nシューティングで長期戦になるところは、繰り返しが多くて一定の調子の方がいい感じだと思うので、そんな感じな曲に。"
+comment2_jp = "地域、風土、宗教によって、仏の色んな埋葬方法が編み出された。\n火葬、土葬、鳥葬、いまや、宇宙葬なんてものまである位。\n私は一生に一度の遺言に、「幻葬で行うこと」と書いて、困らせてやろうかと企んでいる（企むな）"
+comment_en = "This is Ran Yakumo's theme.\n\nI composed it to be more dazzling than fantastic.\nHopefully you'll get the sense of the energetic youkai from the melody. \nIn my opinion, when there's a long fight in a shooting game, the music should repeat and sustain its tempo. That is, it should be like this theme."
+comment2_en = "Many ways to bury the dead have been devised according to different regions, climates, and religions.\nThere's cremation, interment, open burial, and now even consecration to space.\nI think it would be fun to play a trick by leaving in my last will and testament instructions to perform an \"illusionary funeral\" (please don't)"
 
 [17]
 name_jp = "妖々跋扈　～ Who done it!"
 name_en = "Charming Domination ~ Who done it?"
 position = "0x173C2A30, 0x000F8C00, 0x01801F00"
-comment_jp = "？？？のテーマです。\n妖々跋扈の裏バージョンです。\n曲は殆ど変化はありませんが・・・\n\nWhodunit フーダニットです。\n異国語に詳しくないためよく分かりませんが、Who did it? が正しい使い方みたいですね。\nいきなり最後に登場して、実はこいつでした、なんてのはあり得ない気もしますが。"
-comment_en = "This is the Phantasm Stage theme.\n\nAnother version of Charming Domination.\nIt's not that different from the original though...\n\nOr, whodunit.\nI don't really know too much about foreign languages, but it seems the proper usage is \"Who did it?\"\nIt turns out to be this character who shows up suddenly at the end, which seems pretty unreasonable."
+comment_jp = "？？？のテーマです。\n妖々跋扈の裏バージョンです。\n曲は殆ど変化はありませんが・・・"
+comment2_jp = "Whodunit フーダニットです。\n異国語に詳しくないためよく分かりませんが、Who did it? が正しい使い方みたいですね。\nいきなり最後に登場して、実はこいつでした、なんてのはあり得ない気もしますが。"
+comment_en = "This is the Phantasm Stage theme.\n\nAnother version of Charming Domination.\nIt's not that different from the original though..."
+comment2_en = "Or, whodunit.\nI don't really know too much about foreign languages, but it seems the proper usage is \"Who did it?\"\nIt turns out to be this character who shows up suddenly at the end, which seems pretty unreasonable."
 
 [18]
 name_jp = "ネクロファンタジア"
 name_en = "Necrofantasia"
 position = "0x18BC4930, 0x00055500, 0x01C28000"
-comment_jp = "八雲 紫（やくも ゆかり）のテーマです。\n藍のテーマの編曲のつもりだったけど、割と別の曲に。\nこっちの方は、禍々しい感じが少し混じっています。\nというか、キャラ自体が禍々しさの塊みたいなもんです。今までのキャラの中でも、胡散臭い風貌、信用できない性格、非常識な弾幕。\nそういうキャラの曲なので、とても胡散臭い（笑）\n\nNecro-Fantasia 死の幻想曲\n素敵な響き。\n生きているうちは、死を味わうことが出来ない。\n死は常に生の幻想である。"
-comment_en = "This is Yukari Yakumo's theme.\n\nMeant to be an arranged version of Ran's theme, it ended up quite different.\nThis one has an ominous feeling. Or rather, she's the very embodiment of ominous.\nEven compared with the past characters, she has a devious appearance, a dubious character and thoughtless barrages. The theme's just like her.\n\nNecro-Fantasia, a fantasia of death.\nIt sounds pretty hardcore.\nYou can't savor death while you're still alive.\nDeath is always an illusion to the living."
+comment_jp = "八雲 紫（やくも ゆかり）のテーマです。\n藍のテーマの編曲のつもりだったけど、割と別の曲に。\nこっちの方は、禍々しい感じが少し混じっています。\nというか、キャラ自体が禍々しさの塊みたいなもんです。今までのキャラの中でも、胡散臭い風貌、信用できない性格、非常識な弾幕。\nそういうキャラの曲なので、とても胡散臭い（笑）"
+comment2_jp = "対処不能の胡散臭い曲を作ろうと意気込むも、かなり東方らしい所で落ち着いたなーって感じです。妖々夢が全体的に落ち着いた、風景を大切にする曲が多かったので、この曲ぐらいは系統を変えて「これならシューティングにも使えるぞ」ってな感じに持っていきました。\nこの曲を聴くと、もの凄い勢いで体力が消耗します。この曲だけ現代的な物を感じられるかも知れない。幻覚もどちらかというと、現代から未来を感じてしまう。\nネクロとは死の事。死の幻想世界。幻想世界が死を見せるときそこにあらわれるのは現実である。だからこそこの曲は、歴史を感じるのではなく、現代を感じる曲である必要があったのです。"
+comment3_jp = "Necro-Fantasia 死の幻想曲\n素敵な響き。\n生きているうちは、死を味わうことが出来ない。\n死は常に生の幻想である。"
+comment_en = "This is Yukari Yakumo's theme.\n\nMeant to be an arranged version of Ran's theme, it ended up quite different. \nThis one has an ominous feeling. Or rather, she's the very embodiment of ominous. \nEven compared with the past characters, she has a devious appearance, a dubious character and thoughtless barrages. \nThe theme's just like her."
+comment2_en = "I was enthusiastic to make a song so suspicious-sounding that others would be unable to cope with it, and this song also feels rather calming and Touhou-like. I found PCB to be calming overall, and it had a lot of songs that were important to the scenery, but at around this point in the game I shifted tracks to a more \"This is a shmup, so shoot things.\" feeling.\nWhen I listen to this song, I feel a strong force that exhausts my physical energy. It's just with this song that I may not see things in the present. The illusions I see are both from the present and the future.\n\"Necro-\" means \"death\". The fantastic world of the dead. The fantastic world that only reveals itself at the time of death. That is why this song has no feelings of the past. There needs to be a song like that where you can feel the present."
+comment3_en = "Necro-Fantasia, a fantasia of death.\nIt sounds pretty hardcore.\nYou can't savor death while you're still alive.\nDeath is always an illusion to the living."
 
 [19]
 name_jp = "春風の夢"
 name_en = "Dream of a Spring Breeze"
 position = "0x11C8C1B0, 0x000CA100, 0x00AE2100"
-comment_jp = "エンディングのテーマです。\n・・・だから、暗いってばさ。\n\nいたって平和な日常ですよ\n\n春風は桜を散らす風でしかない。\n寝ても覚めても、春風の事を疎ましく思うか。"
-comment_en = "This is the Ending theme.\n\n...hmm, the impression it leaves is so negative.\n\nIt's supposed to be peaceful daily-life, I swear.\n\nA spring breeze can't help but scatter the cherry blossoms.\nWhether you're asleep or awake, can you find such a breeze unpleasant?"
+comment_jp = "エンディングのテーマです。\n・・・だから、暗いってばさ。\n\nいたって平和な日常ですよ"
+comment2_jp = "春風は桜を散らす風でしかない。\n寝ても覚めても、春風の事を疎ましく思うか。"
+comment_en = "This is the Ending theme.\n...hmm, the impression it leaves is so negative.\n\nIt's supposed to be peaceful daily-life, I swear."
+comment2_en = "A spring breeze can't help but scatter the cherry blossoms.\nWhether you're asleep or awake, can you find such a breeze unpleasant?"
 
 [20]
 name_jp = "さくらさくら　～ Japanize Dream..."
 name_en = "Sakura, Sakura ~ Japanize Dream..."
 position = "0x1276E2B0, 0x00500B00, 0x01060000"
-comment_jp = "スタッフロールのテーマです。\n童謡「さくらさくら」をイメージした曲です。\n割とすっきりする曲だったりします。\n\nさくらさくらは、良く唄われる童謡の中でも、群を抜いて日本風だと私は思っている。\nただ、ひとつ気になることは、あの曲の曲名は「さくらさくら」だったのか、それとも「さくら」だったのか、はたまたもっと別名だったのか、思い出せない・・・"
-comment_en = "This is the Credits theme.\n\nThe imagery is based on the familiar old rhyme "Sakura, Sakura".\nI think this song is kinda refreshing.\n\nAmong all of our well-known songs, I think Sakura Sakura is the most Japanese-style. Something's been bothering me, though: is the song called "Sakura Sakura", or just "Sakura"? Or is it something else entirely? I just can't remember..."
+comment_jp = "スタッフロールのテーマです。\n童謡「さくらさくら」をイメージした曲です。\n割とすっきりする曲だったりします。"
+comment2_jp = "さくらさくらは、良く唄われる童謡の中でも、群を抜いて日本風だと私は思っている。\nただ、ひとつ気になることは、あの曲の曲名は「さくらさくら」だったのか、それとも「さくら」だったのか、はたまたもっと別名だったのか、思い出せない・・・"
+comment_en = "This is the Credits theme.\n\nThe imagery is based on the familiar old rhyme \"Sakura, Sakura\". \nI think this song is kinda refreshing."
+comment2_en = "Among all of our well-known songs, I think Sakura Sakura is the most Japanese-style. Something's been bothering me, though: is the song called "Sakura Sakura", or just "Sakura"? Or is it something else entirely? I just can't remember..."

@@ -1,86 +1,93 @@
 ﻿# Touhou BGM Extractor Info File
 
 [game]
-name_jp = "東方非想天則　～ 超弩級ギニョルの謎を追え"
+name = "東方非想天則　～ 超弩級ギニョルの謎を追え"
 name_en = "Touhou Hisoutensoku"
-artist = "黄昏フロンティア"
+circle = "黄昏フロンティア"
+circle_en = "Twilight Frontier"
 year = 2009
 gamenum = "12.3"
 
-# BGM Packing Method
-# 3 = Brightmoon file containing encrypted Vorbis files (Tasofro games except th075)
 packmethod = 3
+encryption = 2
 bgmfile = "th123b.dat"
 tracks = 24
+
+[update]
+wikipage = "Touhou_Hisoutensoku:_Music"
+wikirev = 135171
+
+[composer]
+cmp1 = "あきやまうに"
+cmp1_en = "U2"
+cmp2 = "ZUN"
 
 # Filenames are specified without extension!
 
 [01]
 name_jp = "君はあの影を見たか？"
 name_en = "Did You See that Shadow?"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/op2"
 
 [02]
 name_jp = "萃夢想"
 name_en = "Memory of Forgathering Dream"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/select"
 
 [03]
 name_jp = "伝説の巨神"
 name_en = "The Legendary Titan"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/ta20"
 
 [04]
 name_jp = "信仰は儚き人間の為に"
-name_en = "Faith is for the Transient People"
-artist = "あきやまうに"
+name_en = "Faith Is for the Transient People"
+composer = 1
 filename = "data/bgm/st30"
 
 [05]
-name_jp = "人形のある風景"
-name_en = "The Scenery of Living Dolls"
-artist = "あきやまうに"
-filename = "data/bgm/ta22"
-
-[06]
 name_jp = "おてんば恋娘"
 name_en = "Tomboyish Girl in Love"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/st31"
+
+[06]
+name_jp = "人形のある風景"
+name_en = "The Scenery of Living Dolls"
+composer = 1
+filename = "data/bgm/ta22"
 
 [07]
 name_jp = "上海紅茶館　～ Chinese Tea"
 name_en = "Shanghai Teahouse ~ Chinese Tea"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/st32"
 
 [08]
 name_jp = "霊知の太陽信仰　～ Nuclear Fusion"
 name_en = "Sun Worship of Gnosis ~ Nuclear Fusion"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/st33"
 
 [09]
 name_jp = "ぼくらの非想天則"
 name_en = "Our Hisou Tensoku"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/ta21"
 
 [10]
 name_jp = "アンノウンＸ　～ Unfound Adventure"
 name_en = "Unknown X ~ Unfound Adventure"
-artist = "ZUN"
+composer = 2
 filename = "data/bgm/st35"
-comment_jp = ""
-comment_en = ""
 
 [11]
 name_jp = "空に浮かぶ物体Ｘ"
 name_en = "X, the Floating Objects in the Sky"
-artist = "ZUN"
+composer = 2
 filename = "data/bgm/st36"
 
 # --------
@@ -90,37 +97,37 @@ filename = "data/bgm/st36"
 [12]
 name_jp = "二色蓮花蝶　～ Ancients"
 name_en = "Dichromatic Lotus Butterfly ~ Ancients"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/st40"
 
 [13]
 name_jp = "恋色マジック"
-name_en = "Love-coloured Magic"
-artist = "あきやまうに"
+name_en = "Love-Colored Magic"
+composer = 1
 filename = "data/bgm/st41"
 
 [14]
 name_jp = "the Grimoire of Alice"
 name_en = "The Grimoire of Alice"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/st42"
 
 [15]
 name_jp = "ヴワル魔法図書館"
 name_en = "Voile, the Magic Library"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/st43"
 
 [16]
 name_jp = "明日ハレの日、ケの昨日"
-name_en = "Tomorrow will be Special, Yesterday was Not"
-artist = "あきやまうに"
+name_en = "Tomorrow Will Be Special, Yesterday Was Not"
+composer = 1
 filename = "data/bgm/st34"
 
 [17]
 name_jp = "悠久の蒸気機関"
 name_en = "The Eternal Steam Engine"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/sr2"
 
 # ----------
@@ -130,37 +137,37 @@ filename = "data/bgm/sr2"
 [18]
 name_jp = "日常坐臥"
 name_en = "Usual Days"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/ta00"
 
 [19]
 name_jp = "甲論乙駁"
-name_en = "Argue For And Against"
-artist = "あきやまうに"
+name_en = "Argue for and Against"
+composer = 1
 filename = "data/bgm/ta01"
 
 [20]
 name_jp = "風光明媚"
 name_en = "Beautiful Nature Sight"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/ta03"
 
 [21]
 name_jp = "以魚駆蠅"
 name_en = "Swing a Fish to Drive Away Flies"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/ta05"
 
 [22]
 name_jp = "冷吟閑酔"
 name_en = "Drunk as I Like"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/ta04"
 
 [23]
 name_jp = "暮色蒼然"
 name_en = "Darkening Dusk"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/ta06"
 
 # ------------
@@ -170,7 +177,7 @@ filename = "data/bgm/ta06"
 [24]
 name_jp = "東方妖恋談 (世紀末バージョン)"
 name_en = "Mystic Oriental Love Consultation (End of Century version)"
-artist = "あきやまうに"
+composer = 1
 filename = "data/bgm/st99"
 
 # Just a bubbling sound effect. Doesn't work because it's mono.
@@ -178,5 +185,5 @@ filename = "data/bgm/st99"
 #[25]
 #name_jp = "[SFX] バブル"
 #name_en = "[SFX] Bubble"
-#artist = "あきやまうに"
+#composer = 1
 #filename = "data/bgm/room"

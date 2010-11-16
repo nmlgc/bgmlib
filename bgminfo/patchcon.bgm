@@ -1,0 +1,61 @@
+﻿# Touhou BGM Extractor Info File
+
+[game]
+name = "ぱちゅコン Defend the library!"
+name_en = "PatchCon ~ Defend The Library!"
+circle = "黄昏フロンティア"
+circle_en = "Twilight Frontier"
+year = 2007
+
+packmethod = 3
+encryption = 2
+bgmfile = "td01.dat"
+tracks = 7
+
+[composer]
+cmp1 = "あきやまうに"
+cmp1_en = "U2"
+
+# Filenames are specified without extension!
+
+[01]
+name_jp = "Ready"
+name_en = "Ready"
+composer = 1
+filename = "data/bgm/td_ready"
+
+[02]
+name_jp = "Stage 1"
+name_en = "Stage 1"
+composer = 1
+filename = "data/bgm/td_stage01"
+
+[03]
+name_jp = "Stage 2"
+name_en = "Stage 2"
+composer = 1
+filename = "data/bgm/td_stage02"
+
+[04]
+name_jp = "Stage 3"
+name_en = "Stage 3"
+composer = 1
+filename = "data/bgm/td_stage03"
+
+[05]
+name_jp = "Ending"
+name_en = "Ending"
+composer = 1
+filename = "data/bgm/td_ed"
+
+[06]
+name_jp = "[SFX] Victory"
+name_en = "[SFX] Victory"
+composer = 1
+filename = "data/bgm/td_win1"
+
+[07]
+name_jp = "[SFX] Game Over"
+name_en = "[SFX] Game Over"
+composer = 1
+filename = "data/bgm/td_gameover"

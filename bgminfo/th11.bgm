@@ -1,17 +1,15 @@
 ﻿# Touhou BGM Extractor Info File
 
 [game]
-name_jp = "東方地霊殿　～ Subterranean Animism"
+name = "東方地霊殿　～ Subterranean Animism"
 name_en = "Touhou Chireiden ~ Subterranean Animism"
 artist = "ZUN"
+circle = "上海アリス幻樂団"
+circle_en = "Team Shanghai Alice"
 year = 2008
 gamenum = "11"
 lossless = true
 
-# BGM Packing Method
-# 0 = BGM Directory (only th06)
-# 1 = single data file (usually thbgm.dat)
-# 2 = Brightmoon file containing encrypted Vorbis files (Tasofro games)
 packmethod = 1
 bgmfile = "thbgm.dat"
 zwavid_08 = 0x00
@@ -19,19 +17,9 @@ zwavid_09 = 0x11
 
 tracks = 18
 
-# Position info can be specified as either:
-# -----------------------------------------
-# (To Do) position = "<start>, <rel_loop>, <rel_len>" (bgmtable array format of those thbgmXX.c files)
-# -----------------------------------------
-# or
-# start = <start>
-# -----------------------------------------
-# rel_loop = <loop point relative to track start>
-# rel_end = <end relative to track start (track length)>
-# -----------------------------------------
-# abs_loop = <direct loop point in the BGM file>
-# abs_end = <direct end point in the BGM file>
-# -----------------------------------------
+[update]
+wikipage = "Subterranean_Animism:_Music"
+wikirev = 135169
 
 [01]
 name_jp = "地霊達の起床"
@@ -45,7 +33,7 @@ name_jp = "暗闇の風穴"
 name_en = "The Dark Blowhole"
 position = "0x00D1BD90, 0x00064D80, 0x010AB980"
 comment_jp = "１面のテーマです。\n\n折角の洞窟って事で、１面にしてはちょっとお暗い感じにしました。\n可愛い感じに少し不気味さを乗せて……ってノリがいいと不気味に聞こえない罠。\nスピード感のあるホラーゲームもしてみたい。"
-comment_en = "This is the first stage theme.\n\nSince it's in a cave, I made it darker than my usual stage 1 themes.\nIt's cute, with a little uneasiness to it... well, the good  rhythm hides the uneasiness and makes a trap out of it.\nI think I'd like to try a horror game with a sense of speed to it, too."
+comment_en = "This is the first stage theme.\n\nSince it's in a cave, I made it darker than my usual stage 1 themes.\nIt's cute, with a little uneasiness to it... well, the good rhythm hides the uneasiness and makes a trap out of it.\nI think I'd like to try a horror game with a sense of speed to it, too."
 
 [03]
 name_jp = "封じられた妖怪　～ Lost Place"
@@ -59,14 +47,14 @@ name_jp = "渡る者の途絶えた橋"
 name_en = "The Bridge People No Longer Cross"
 position = "0x0271EF90, 0x000A3A00, 0x012C4200"
 comment_jp = "２面のテーマです。\n\n深く深く降りていく。\n自己主張は少なめに雰囲気重視でと、まさに道中オブ道中曲。\n妙に和風になってしまったのは意図した訳ではなく、なっちゃっただけともいう。関係無いけど洞窟いいね。"
-comment_en = "This is the second stage theme.\n\nWe're going down deeper and deeper.\nIt's not too bold and very ambient, so it's the travelling song of travelling songs.\nSomehow it feels kind of Japanese, but that wasn't on purpose, hence the \"somehow.\" By the way, this has nothing to do with anything, but caves are great."
+comment_en = "This is the second stage theme.\n\nWe're going down deeper and deeper.\nIt's not too bold and very ambient, so it's the traveling song of traveling songs.\nSomehow it feels kind of Japanese, but that wasn't on purpose, hence the \"somehow\".\nBy the way, this has nothing to do with anything, but caves are great."
 
 [05]
 name_jp = "緑眼のジェラシー"
 name_en = "Green-Eyed Jealousy"
 position = "0x039E3190, 0x00090800, 0x0129EE00"
 comment_jp = "水橋パルスィのテーマです。\n\n心の病んだ妖怪です。\nそんな訳でメロディアスな曲にしたいと思ってこんな感じに。\nシューティングとは思えないような曲だけどシューティングに合う曲を考えていたらこんな感じに落ち着きました。"
-comment_en = "This is Parsee Mizuhashi's theme.\n\nShe's a youkai with a wounded heart.\nSo, I thought I'd like to make her a melodious song, and this is how it ended up.\nYou wouldn't think it's a song for a shooting game, but when I tried to think of something good for a shooting game, it settled down into something like this."
+comment_en = "This is Parsee Mizuhashi's theme.\n\nShe's a youkai with a wounded heart.\nSo, I thought I'd like to make her a melodious song, and this is how it ended up.\nYou wouldn't think it's a song for a shooting game, but when I tried to think of something good for a shooting game it settled down into something like this."
 
 [06]
 name_jp = "旧地獄街道を行く"
@@ -98,31 +86,31 @@ comment_en = "This is Satori Komeiji's theme.\n\nShe's the master of the Palace 
 
 [10]
 name_jp = "廃獄ララバイ"
-name_en = "Lullaby of a Deserted Hell"
+name_en = "Lullaby of Deserted Hell"
 position = "0x09EE0590, 0x000ACDA8, 0x01E63078"
 comment_jp = "５面のテーマです。\n\n灼熱地獄も罪人が落とされなくなってから、鬼が訪れる事も無く怨霊と動物達の遊び場と化している様子。\n実は人の住まなくなった建物とか見るとゾクゾクします。\n旧地獄も廃墟特有の切なさに包まれて……と想像して創った曲です。"
-comment_en = "This is the fifth stage theme.\n\nSince people stopped being condemned to the hellfires, the oni don't visit anymore either, so this place became the playground to spirits and animals.\nActually, I'm thrilled whenever I see something like a building people have abandoned.\nThe grounds of former hell must be enveloped in the sort of loneliness that surrounds ruins... is what I thought of as I made this."
+comment_en = "This is the fifth stage theme.\n\nSince people stopped being condemned to the hellfires, the oni don't visit anymore either, so this place has become the playground to spirits and animals.\nActually, I'm thrilled whenever I see something like a building people have abandoned.\nThe grounds of former hell must be enveloped in the sort of loneliness that surrounds ruins ... is what I thought of as I made this."
 
 [11]
 name_jp = "死体旅行　～ Be of good cheer!"
 name_en = "Corpse Voyage ~ Be of good cheer!"
 position = "0x0BD43608, 0x00084600, 0x01111500"
 comment_jp = "お燐のテーマです。\n\n元気さが不気味な猫のテーマです。\n４、５面と重い感じにしてきたので、一気に明るくしてみました。\nお燐が押している車は猫車です。何を運んでいるかって？\n聞かない方が良かったと思う筈ですよ。"
-comment_en = "This is Orin's theme.\n\nThis is the theme for a cheery, yet bizarre cat.\nSince stages 4 and 5 were pretty heavy, I tried to clear it up in a flash.\nThe cart Orin is pushing is a wheelbarrow [\"cat cart\" in Japanese]. What's it carrying, you say?\nBest not to ask such questions, I think."
+comment_en = "This is Orin's theme.\n\nThis is the theme for a cheery, yet bizarre cat.\nSince stages 4 and 5 were pretty heavy, I tried to clear it up in a flash.\nThe cart Orin is pushing is a wheelbarrow [TL Note: \"Cat cart\" in Japanese]. What's it carrying, you say?\nBest not to ask such questions, I think."
 
 [12]
 name_jp = "業火マントル"
 name_en = "Hellfire Mantle"
 position = "0x0CE54B08, 0x00096800, 0x013AA000"
 comment_jp = "最終面のテーマです。\n\nいかにも終盤って感じを出してみました。\n溶岩の中を進むのはシューティングゲームでは定番ですね。\n何が言いたいかというと、巫女さんが溶岩の上を飛んでも特に不思議ではない、という事です。カラスもね。"
-comment_en = "This is the last stage's theme.\n\nI tried to make it feel like an end-of-game song.\nFlying through lava is standard fare for shooting games.\nI guess if there's anything in particular I'm trying to say, it's that it's not unusual for shrine maidens to fly above lava like this. Crows too."
+comment_en = "This is the last stage's theme.\n\nI tried to make it feel like an end-of-game song.\nFlying through lava is standard fare for shooting games.\nI guess if there's anything in particular I'm trying to say, it's that it's not unusual for shrine maidens to fly above lava like this. Crows, too."
 
 [13]
 name_jp = "霊知の太陽信仰　～ Nuclear Fusion"
 name_en = "Sun Worship of Gnosis ~ Nuclear Fusion"
 position = "0x0E1FEB08, 0x0009A900, 0x01C8CE00"
 comment_jp = "霊烏路 空のテーマです。\n\n出来る限り軽く近代的で、単純にボスっぽい感じで攻めてみました。\n事実、ラスボスとしては相当軽い妖怪です。しょせん鳥だしね。\nただ力は滅茶苦茶強いのです。強い力でも馬鹿に持たせれば悪用すらできないって事がよく判ります。\nああ夢のエネルギーなのに。"
-comment_en = "This is Utsuho Reiuji's theme.\n\nI tried to make it as modern, light, and simply boss-like as I could.\nIn fact, she's not that great a youkai, for a last boss. She was originally just a bird.\nShe's just really, really powerful. I understand very well that even a fool that posesses great power can't cause too much harm.\nAh, even if it's the power of dreams."
+comment_en = "This is Utsuho Reiuji's theme.\n\nI tried to make it as modern, light, and simply boss-like as I could.\nIn fact, she's not that great a youkai, for a last boss. She was originally just a bird.\nShe's just really, really powerful. I understand very well that even a fool that possesses great power can't cause too much harm. \nAh, even if it's the power of dreams."
 
 [14]
 name_jp = "ラストリモート"
@@ -136,14 +124,14 @@ name_jp = "ハルトマンの妖怪少女"
 name_en = "Hartmann's Youkai Girl"
 position = "0x11EAC588, 0x003EBD00, 0x019F3200"
 comment_jp = "古明地こいしのテーマです。\n\n不気味で壊れた少女っぽさを出そうとしてみました。\n不気味さがおまけのボスっぽさを出しているかと思います。\n本当は薔薇を敷き詰めた庭とかで、茨が痛そうな場所で戦うのが似合う筈ですが、今回は何故か神社。"
-comment_en = "This is Koishi Komeiji's theme.\n\nI tried to make it eerie and have the aura of a broken girl.\nI think the eerieness is fitting for an extra boss.\nActually, I think a garden with roses strewn all about where thorns can prick you is really fitting for a battle, but for some reason it's the shrine this time."
+comment_en = "This is Koishi Komeiji's theme.\n\nI tried to make it eerie and have the aura of a broken girl.\nI think the eeriness is fitting for an extra boss.\nActually, I think a garden with roses strewn all about where thorns can prick you is really fitting for a battle, but for some reason it's the shrine this time."
 
 [16]
 name_jp = "地霊達の帰宅"
 name_en = "The Earth Spirits' Homecoming"
 position = "0x1389F788, 0x000BEE00, 0x00C2DC00"
 comment_jp = "エンディングのテーマです。\n\n朝まで呑んで寂しく帰る時のイメージで創りました。\n「祭りも終わりかのう」「ぼちぼち引き上げるか」と心の中で会話しながら怨霊達が土の下へ戻っていきます。\nなんというオヤジ怨霊。"
-comment_en = "This is the ending theme.\n\nThe theme here is staying up all night drinking and then making your lonely way home.\nThe vengeful spirits head back into the depths of the earth, saying to themselves, \"Aw, the festival's over,\" and \"I guess we'd better be getting back now.\"\nThose vengeful spirits are such old fogeys."
+comment_en = "This is the ending theme.\n\nThe theme here is staying up all night drinking and then making your lonely way home.\nThe vengeful spirits head back into the depths of the earth, saying to themselves, \"Aw, the festival's over\", and \"I guess we'd better be getting back now\".\nThose vengeful spirits are such old fogeys."
 
 [17]
 name_jp = "エネルギー黎明 ～ Future Dream..."

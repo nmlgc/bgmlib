@@ -1,17 +1,15 @@
 ﻿# Touhou BGM Extractor Info File
 
 [game]
-name_jp = "ダブルスポイラー　～ 東方文花帖"
+name = "ダブルスポイラー　～ 東方文花帖"
 name_en = "Touhou Bunkachou ~ Double Spoiler"
 artist = "ZUN"
+circle = "上海アリス幻樂団"
+circle_en = "Team Shanghai Alice"
 year = 2010
 gamenum = "12.5"
 lossless = true
 
-# BGM Packing Method
-# 0 = BGM Directory (only th06)
-# 1 = single data file (usually thbgm.dat)
-# 2 = Brightmoon file containing encrypted Vorbis files (Tasofro games)
 packmethod = 1
 bgmfile = "thbgm.dat"
 zwavid_08 = 0x50
@@ -19,26 +17,16 @@ zwavid_09 = 0x12
 
 tracks = 7
 
-# Position info can be specified as either:
-# -----------------------------------------
-# (To Do) position = "<start>, <rel_loop>, <rel_len>" (bgmtable array format of those thbgmXX.c files)
-# -----------------------------------------
-# or
-# start = <start>
-# -----------------------------------------
-# rel_loop = <loop point relative to track start>
-# rel_end = <end relative to track start (track length)>
-# -----------------------------------------
-# abs_loop = <direct loop point in the BGM file>
-# abs_end = <direct end point in the BGM file>
-# -----------------------------------------
+[update]
+wikipage = "Double_Spoiler:_Music"
+wikirev = 135172
 
 [01]
 name_jp = "ニュースハウンド"
 name_en = "Newshound"
 position = "0x00000010, 0x003A8400, 0x00EC0C00"
 comment_jp = "タイトル画面のテーマです。\n\nいつも通りの曲ですが、いつでも出撃可能状態といった感じを入れました。\nいつものゲームよりメニュー画面になってる率が高いしねー。"
-comment_en = "The title screen theme.\n\nIt's the usual music, but I added in a sensation that one could get attacked at any moment.\nChances are a lot better it'll be like a menu screen than in the usual games, right?"
+comment_en = "The title screen theme.\n\nIt's the usual music, but I added in a sensation that one could get started at any moment.\nChances are a lot better it'll be like a menu screen than in the usual games, right?"
 
 [02]
 name_jp = "あなたの町の怪事件"
@@ -52,7 +40,7 @@ name_jp = "妖怪モダンコロニー"
 name_en = "Youkai Modern Colony"
 position = "0x02188D10, 0x00265D00, 0x01199F00"
 comment_jp = "取材のテーマ２です。\n\nここから妖怪の質も変化し中級編に入ります。\n古典的な妖怪が多めの中級編。威厳を失った妖怪達が幻想郷の影で楽しく暮らす様は、まるで妖怪のスペースコロニーのようです。\nそんな妖怪達をガシガシ取材して、表舞台に立たせてあげましょう。\nまだまだ余裕、余裕。"
-comment_en = "The second event coverage theme.\n\nFrom here on, we enter the intermediate stage and the quality of youkai changes.\nTheir happy state of life seems just like a youkai space colony.\nLet's do the coverage on such youkai with gusto and put them up on center stage.\nPlenty of room yet, plenty of room."
+comment_en = "The second event coverage theme.\n\nFrom here on, we enter the intermediate stage and the quality of youkai changes. Their happy state of life seems just like a youkai space colony.\nLet's do the coverage on such youkai with gusto and put them up on center stage. Plenty of room yet, plenty."
 
 [04]
 name_jp = "ネメシスの要塞"
@@ -66,14 +54,14 @@ name_jp = "無間の鐘　～ Infinite Nightmare"
 name_en = "Bell of Avici ~ Infinite Nightmare"
 position = "0x042A3590, 0x00566180, 0x01DC6A80"
 comment_jp = "取材のテーマ４です。\n\nその鐘を鳴らすと現世では幸せを得られるが、来世は絶え間なく苦が続く最悪の地獄、無間（むけん）地獄におちるという無間の鐘。\n恐らく多くの人が、最も長時間聞くはめになる曲ですのでメリハリを抑えて疲れにくい感じにしました。\nまさに無間地獄。フハハハ、精々頑張るんだな！"
-comment_en = "The fourth event coverage theme.\n\nIt is said that when one rings Bell of Avici, it will bring one happiness in this life, but will drop one into the Avici (Muken Jigoku), the worst level of Hell, where suffering continues unabated, in the afterlife.\nThis was likely the song people would be stuck hearing for the longest time, so I decided to restrain the liveliness, making it harder to get tired of it.\nThis truly is an endless hell. Muhahaha, you'll endure it as best you can!"
+comment_en = "The fourth event coverage theme.\n\nIt is said that when one rings Bell of Avici, it will bring one happiness in this life, but will drop one into the Avici (''Muken Jigoku''), the worst level of Hell, where suffering continues unabated, in the afterlife. \nThis was likely the song people would be stuck hearing for the longest time, so I decided to restrain the liveliness, making it harder to get tired of it. \nThis truly is an endless hell. Muhahaha, you'll endure it as best you can!"
 
 [06]
 name_jp = "妖怪の山　～ Mysterious Mountain"
 name_en = "The Youkai Mountain ~ Mysterious Mountain"
 position = "0x0606A010, 0x00205AA0, 0x00E84E20"
 comment_jp = "取材のテーマ５です。\n\n天狗同士の醜い争いのテーマです。\nって、実は二人は仲が悪いわけではなく、ただ単に修行しあって撮影技術の向上に努めているだけなんですよね。\n一応、最終レベルですが難易度は決して高くないので、ここまで来た方には楽勝でしょう。"
-comment_en = "The fifth event coverage theme.\n\nThis is the theme of a scandalous dispute between tengu.\nWell, actually, it's not like these two don't get along. They're just training together, devoting themselves to elevating their photographic skills.\nFor now, this is the final level, but its difficulty definitely isn't that high, so this should be an easy win for anyone who's come this far."
+comment_en = "The fifth event coverage theme.\n\nThis is the theme of a scandalous dispute between tengu.\nWell, actually, it's not like these two don't get along. \nThey're just training together, devoting themselves to elevating their photographic skills. \nFor now, this is the final level, but its difficulty definitely isn't that high, so this should be an easy nwin for anyone who's come this far."
 
 [07]
 name_jp = "はたてアンロック"
