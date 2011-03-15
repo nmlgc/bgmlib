@@ -1,0 +1,16 @@
+﻿Music Room BGM Library
+----------------------
+Changelog
+----------------------
+
+
+NOTE: This file only lists changes to supported games and the back-end engine.
+      Refer to the musicroom changelog for changes to the user interface program.
+
+
+- 2011/03/08 (Version 2.0)
+* Splitted bgmlib off musicroom to make it a standalone library
+* Added support for games to be tag-only, without any extraction...
+* ... and used this to add support for the PC-98 game soundtracks from Akyu's Untouched Score and every single CD ZUN ever released
+* The BGM and configuration file parser can now add keys not present in the loaded file.
+  Also, loading and parsing was speeded up by a factor of 6 (... as if it would seriously matter).

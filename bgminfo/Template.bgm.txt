@@ -1,16 +1,14 @@
-﻿# Touhou BGM Extractor Info File Template
+﻿# Music Room Interface Info Template
 
 # Create a copy of this file to add support for a new game.
 # Make sure the extension of this file is "bgm", the extractor won't find it otherwise!
 
 # Edit rules
 # ==========
-# - All strings have to be enquoted.
+# - All strings have to be enquoted. Use \" for quotes inside the strings.
 # - Numbers can also be specified in hexadecimal format, prefixed with 0x.
 # - If a multi-language string (without "_jp") would be the same in both languages, you can only specify <keyname> without a language suffix (like "<keyname>_en").
 #   The string will then be used for both languages.
-# - You SHOULD delete any information which won't be used for the game you're editing. However, the program won't add keys itself which are missing here.
-#   I'm too lazy to implement this and none of you would care anyway.
 # ==========
 # That's all.
 
@@ -27,58 +25,45 @@ circle = ""
 circle_en = ""
 year = 0000
 
-# Contains the game's official number inside the series (e.g. Fairy Wars would be "12.8") [string]
+# Contains the game's official number inside the series (e.g. Fairy Wars would be "12.8") <string>
 gamenum = ""
 
-# If more than one person composed this soundtrack, you'll need this section. Otherwise, delete it.
-# The number of each composer is used below in the track information. Continue the numbering for all composers that worked on the game.
-[composer]
-cmp1 = ""
-cmp1_en = ""
-cmp2 = ""
-cmp2_en = ""
-
-[update]
-# Touhou Wiki music room page for this game, called on automatic updating. [string]
-wikipage = ""
-# Last wiki revision ID processed by the updater. This revision will be ignored the next time an update takes place,
-# which will keep the information in the file until the Wiki page gets changed.
-# Kepp this 0 the first time the program reads this file, which will always force an update.
-wikirev = 0
-
 # ----------
-# Use these fields only if the soundtrack was completely composed by one person.
-# Otherwise, use the [composer] section above! [string]
+# Artist tag <string>
+# Use these fields only if the soundtrack was completely composed by one person,
+# or you are not sure who composed what. Otherwise, delete it, and use the [composer] section below!
 # ----------
 
 artist = ""
 artist_en = ""
 
 # ----------
-# BGM Packing Method [number]
-# 0 = BGM Directory containing multiple wave files (th06, Kioh Gyoku)
-# 1 = raw PCM data in a single data file, usually called thbgm.dat (other Team Shanghai Alice games)
-# 2 = wave files in a data file with header (only th075)
-# 3 = Vorbis files in a data file with header (other Tasofro games)
+# BGM Packing Method <number>
+# 0 = No BGM extraction support, only for tagging.
+# 1 = BGM Directory containing multiple wave files (th06, Kioh Gyoku)
+# 2 = raw PCM data in a single file (usually thbgm.dat). Also supports Vorbis-compressed versions of this file.
+# 3 = wave files in a single archive with header (only th075)
+# 4 = Vorbis files and SFL loop info in a single archive with header (other Tasofro games)
+# 5 = Vorbis files and SLI loop info in a single PBG6 encrypted archive (Banshiryuu)
 # ----------
 packmethod = 
 
 # Required information for each packing method:
 
 # -----
-#   0
+#   1
 # -----
-# Name of the BGM directory [string]
+# Name of the BGM directory <string>
 bgmdir = ""
 
-# Size of the RIFF header. Usually 44 = 0x2C bytes. [number]
+# Size of the RIFF header. Usually 44 = 0x2C bytes. <number>
 headersize = 0x2C
 # -----
 
 # -----
-#   1
+#   2
 # -----
-# Name of the BGM data file [string]
+# Name of the BGM data file <string>
 bgmfile = ""
 
 # Values at 0x8 and 0x9 of the data file. Differentiates the various games with this packing method, which mostly share a file name. [number]
@@ -87,39 +72,69 @@ zwavid_09 =
 # -----
 
 # -----
-#  2/3
+#  3/4
 # -----
-# Encryption format used by this game [number]
+# Name of the BGM data file <string>
+bgmfile = ""
+
+# Encryption format used by this game <number>
 # 1 = Simple progressive XOR-encrypted header with lots of junk data, unencrypted WAV or static XOR-encrypted OGG files (th075, MegaMari)
 # 2 = Mersenne Twister pseudorandom encrypted header with an optional progressive XOR layer, static XOR-encrypted files (th105, th123, PatchCon)
 encryption = 
 
-# Encryption type 1 further needs the complete size of a single header entry [number]
+# Encryption type 1 further needs the complete size of a single header entry <number>
 entrysize = 
 
-# Size of the RIFF header. Usually 44 = 0x2C bytes. (Only required for WAV files.) [number]
+# Size of the RIFF header. Usually 44 = 0x2C bytes. (Only required for WAV files.) <number>
 headersize = 0x2C
 # -----------------
 
-# Position info can be specified as either:
-# -----------------------------------------
-# position = "<start>, <rel_loop>, <rel_len>" [string] (bgmtable array format of those thbgmXX.c files)
-# -----------------------------------------
-# or
-# start = <start> [number]
-# -----------------------------------------
-# rel_loop = <loop point relative to track start> [number]
-# rel_end = <end relative to track start (track length)> [number]
-# -----------------------------------------
-# abs_loop = <direct loop point in the BGM file> [number]
-# abs_end = <direct end point in the BGM file> [number]
-# -----------------------------------------
+# -----
+#  5
+# -----
+# Name of the BGM data file <string>
+bgmfile = ""
+# -----
 
-# Track count. [number]
+# Position info <number>.
+# Required for pack methods 1 and 2, the others read those values directly from the game data.
+# Can be specified as either:
+# -----------------------
+# position = "<start>, <rel_loop>, <rel_len>" [string] (bgmtable array format of those thbgmXX.c files)
+# -----------------------
+# or
+# start = <start> 
+# -----------------------
+# rel_loop = <loop point relative to track start>
+# rel_end = <end relative to track start (track length)>
+# -----------------------
+# abs_loop = <direct loop point in the BGM file>
+# abs_end = <direct end point in the BGM file>
+# -----------------------
+
+# Track count. <number>
 tracks = 
 
-# If the game has a wiki page, don't bother to fill in the comments by hand, the updater will do this automatically.
-# Just make sure the track name in at least one language is correct, because updating won't work otherwise.
+# Composer section <string>
+# If more than one person composed this soundtrack, and you know who composed what,
+# you'll need this section. Otherwise, delete it, and use the artist tag above!
+# The number of each composer is used below in the track information.
+# Continue the numbering for all composers in the game.
+[composer]
+cmp1 = ""
+cmp1_en = ""
+cmp2 = ""
+cmp2_en = ""
+
+[update]
+# Touhou Wiki music room page for this game, called on automatic updating. <string>
+wikipage = ""
+# Last wiki revision ID processed by the updater. This revision will be ignored the next time an update takes place,
+# which will keep the information in the file until the wiki page gets changed.
+# This should be 0 the first time the program reads this file, which will always force an update.
+wikirev = 0
+
+# Make sure at least one track name (preferably the Japanese one) is correct, otherwise wiki updating won't work.
 
 [01]
 name_jp = ""
@@ -128,14 +143,10 @@ name_en = ""
 # Composer ID (starting with 1). Only required if you specified a [composer] section.
 composer = 1
 
-# Required with pack methods 0 and 1. See position info above.
-# The valuespit programs in the source archive may help providing these values in an appropriate format for this file.
+# Required with pack methods 1 and 2. See position info above. The valuespit programs in the source archive may help providing this values.
 position = "" 
 
-# Required with pack methods 0 (filename in the BGM directory) and 2/3 (filename inside the Tasofro archive)
+# Required with pack methods 1 (filename in the BGM directory) and 3/4/5 (filename inside the archive)
 filename = ""
-
-comment_jp = ""
-comment_en = ""
 
 # Do this for every song in the soundtrack. That's it.

@@ -1,0 +1,194 @@
+# Music Room Interface Info
+# Tags for the Akyu's Untouched Score vol.1 release
+
+[game]
+name = "東方幻想郷　～ Lotus Land Story"
+name_en = "Touhou Gensokyo ~ Lotus Land Story"
+circle = "Amusement Makers"
+artist = "ZUN"
+year = 1998
+gamenum = "04"
+
+packmethod = 0
+
+tracks = 30
+
+[update]
+wikipage = "Lotus_Land_Story/Music"
+wikirev = 159921
+
+[01]
+name_jp = "幻想郷　～ Lotus Land Story"
+comment_en = "It's the usual. Though we've just about had enough (^^;;\nI wonder what makes this a Japanese-style song.\nHm, well, I do like the song itself quite a bit, but...\nNot much else, aside from the fact that it doesn't really match the title screen (^^;;;\nWell, I suppose even that (not matching the title picture) is a trademark of this series (^^; (Not really)"
+name_en = "Gensokyo ~ Lotus Land Story"
+comment_jp = "あいかわらずです。もういいんですけどね（^^;;\nどういった曲が和風なんでしょうね。\nう～んこの曲自体は結構好きなんですが・・・\nタイトルの絵と合わないことこの上無いですね（^^;;;\nまぁ、それ（絵と合わないこと）こそが、このシリーズの味なのかも（^^; （そんなことない）"
+
+[02]
+name_jp = "Witching Dream"
+comment_en = "Ye~s. This song turned out kind of cool. But, it might be a little too dark.\nThere's that drum pattern in the second half that's almost out of desperation. Just a little.\nYep. Ah, well."
+name_en = "Witching Dream"
+comment_jp = "う～ん。ちょっとかっこよさげな曲になりましたね。 でも、ちょっと暗すぎかな。\n後半、やけになった様なドラムパターンがあります。ちょっと、やけ。\nう～ん。まぁその。"
+
+[03]
+name_jp = "Selene's Light"
+comment_en = "This is a pretty cute song, isn't it?\nI guess the kind of cute that you'd say fits a witch girl? (No way, it's definitely not.)\nI always write my songs pretty haphazardly, so I never really have any idea how they'll turn out.\n\nI do seriously put some thought into the theme, but...\n(By the way, this is a pretty cute song (^^;)"
+name_en = "Selene's Light"
+comment_jp = "これは、かわいい曲です、よね？\n魔法使いの少女っぽい、っていうのは、こんなの？ （う～ん。ぜったいちがうと思う）\nいつも、いきあたりばったりで曲をかくもんで、どんなのが出来るのか分かりません。\n\n一応テーマは考えるんですが・・・\n（ちなみに、この曲はかわいい曲（^^;）"
+
+[04]
+name_jp = "装飾戦　～ Decoration Battle"
+comment_en = "The first boss song is pretty hard. It's popular for boss music nowadays to be dignified, but as you can see, most of the bosses in this series are cute girls, so I try to make their songs cool.\nSo, why are the first boss songs hard, well, it's actually pretty easy for me to make a cool (sounding) song most of the time (I think). But, if the first stage boss theme is really cool, I don't have anything left over for the rest of the songs, and end up making something really weird - that's my pattern.\nSo, it's a pretty serious problem. Well, what do you think of this song? (^^;;"
+name_en = "Decoration Battle"
+comment_jp = "１面のボスの曲って難しいです。普通、ボスの曲は重厚な曲が主流ですがこのゲームは、ボスは見た目可愛い少女が主なので、かっこいい曲にしています。\nで、なんで１面の曲が難しいかというと、かっこ（だけ）いい曲って、結構楽なんです（私にとって）でも、１面のボスの曲をかっこよくすると、あとが持たんので、変わった曲にするのが私のパターンなんです。\nだから、大変なんですよ。で、この曲はどうですか？（^^;;"
+
+[05]
+name_jp = "Break the Sabbath"
+comment_en = "The patterns in this song are similar to those from last time.\nIt starts bit-by-bit and goes pah-pa pah-pa (mysterious)\nIt was actually pretty easy to make, so it didn't leave a strong impression (^^;"
+name_en = "Break the Sabbath"
+comment_jp = "この曲は、前作の曲のパターンに似てますね。\nはじめちょろちょろなかぱっぱぱっぱですね（謎）\nぜんぜん、作るの苦労してないので、印象薄いです（^^;;"
+
+[06]
+name_jp = "紅響曲　～ Scarlet Phoneme"
+comment_en = "My boss songs are basically short. If they're long, you might not be able to hear the whole thing. (^^;\nI was going for a song that would evoke the image of a westernized demon, but... ?\nWell, it has a nice feel (^^"
+name_en = "Scarlet Symphony ~ Scarlet Phoneme"
+comment_jp = "ボスの曲は、基本的に短い曲です。 長くても、最後まで聞けないかもしんないからです（楽だから？（^^;\nこの曲は、出来るだけ西洋の悪魔をイメージした曲をめざしたんだけど・・？\nまぁ、良い感じやね（^^"
+
+[07]
+name_jp = "Bad Apple!!"
+comment_en = "This song feels like my older songs.\nWell, since it started turning out weird, I did try to make it at least sound like something I might have written long ago ...\nIt's nice to have something this rhythmical(?). And, it's very 3rd-stage-ish(??)..."
+name_en = "Bad Apple!!"
+comment_jp = "この曲は、昔の私の曲みたいです。\nまぁ、どんどん変な曲になってくんで、出来るだけ昔っぽい曲をめざしたんですけど・・・\nいいですよね、こんくらい軽快（？）なの。３面っぽい（？？）し・・・"
+
+[08]
+name_jp = "霊戦　～ Perdition crisis"
+comment_en = "I kind of like this song.\nThe stage 3 boss is kind of strong. The song has the same feel to it.\nShe may look strong, but the song gives you the feeling you'll definitely win(?)"
+name_en = "Spirit Battle ~ Perdition crisis"
+comment_jp = "ちょっと、おきにいりだったりする。\n３面のボス、ちょっと強い。曲もそんな感じ。\nつよそうだけど、絶対勝ちそうなボスっぽい曲だよね（？）"
+
+[09]
+name_jp = "アリスマエステラ"
+comment_en = "I imagined a cool-looking Western-style mansion while making this song, and it ended up turning into something I really don't understand (^^;\nBut, I think it has an altogether different atmosphere from the the other songs...\n(Or maybe it's the same (^^;;;)"
+name_en = "Alice Maestra"
+comment_jp = "この曲は、かっこいい洋館をイメージして、結局わけのわからん曲になった曲です（^^;\nでも、他の曲とちょっと違った雰囲気があると思うんだけど・・・\n（いっしょかも（^^;;;）"
+
+[10]
+name_jp = "少女綺想曲　～ Capriccio"
+comment_en = "Yeah. I really like this song.\nThe biggest problem, is no matter who listens, it's just not a shrine maiden song at all (^^;\nBut, I think this song best expresses the atmosphere of this game.\nIt's a little cute, too."
+name_en = "Maiden's Capriccio"
+comment_jp = "う～ん。実はお気に入りだったり。\n最大の問題は、誰がきいても巫女さんの曲じゃない、ってところですね（^^;\nでも、私の心の中ではこのゲームの雰囲気には、この位でちょうどいいかと。\n妙にかわいい曲調だったりする。"
+
+[11]
+name_jp = "星の器　～ Casket of Star"
+comment_en = "It's hard to make weirder songs than this.\nThe intro has a kind of boss-ish feel to it.\nIt has a bit of a somber feel to it.\n(Hm, I wonder, yeah)"
+name_en = "Vessel of Stars ~ Casket of Star"
+comment_jp = "これ以上に妙な曲は難しいですよ。\nイントロに、ボスっぽいものを感じます\nちょっと、重厚な感じがしますよね。\n（そうかな～、う～ん）"
+
+[12]
+name_jp = "Lotus Love"
+comment_en = "I had no idea what this was when I made it, but it's grown on me now.\nOnce you get used to it, you can see how it's quite cool, and how it has quite a nice feel. Quite.\nThe stage is short, too, so in-game the song only loops once. Poor thing."
+name_en = "Lotus Love"
+comment_jp = "最初、作ったときはなんだこりゃ、と思っていましたが、今はなれました。\nいざ、聞きなれると結構かっこいいことが分かり、結構いい感じです。結構。\n面も短いので、ゲーム中、曲は１ループしかしません。ちょっとかわいそう。"
+
+[13]
+name_jp = "眠れる恐怖　～ Sleeping Terror"
+comment_en = "I'm usually pretty haphazard in my song writing, but this time I pretty much had the thing all planned out (in my head) before I got started.\nI don't think I use this type of bass pattern very often, though.\nBut, I didn't have many voices in the 26 version, so it didn't come out all that well (;_;"
+name_en = "Sleeping Terror"
+comment_jp = "いつもは、いきあたりばったりですがこの曲はめずらしく、だいたい出来上がってから（頭のなかで）書きました。\nちょっと自分にしてはベースパターンが珍しいです。\nただ、２６ヴァージョンは、音が少なくて余りうまく出来ませんでした（;_;"
+
+[14]
+name_jp = "Dream Land"
+comment_en = "This is a very short song (^^;\nI think it came out very lonely-sounding, too (^^;;;\nWell, in any case, is it, I wonder? \nKind of. Uja~"
+name_en = "Dream Land"
+comment_jp = "これは、短い曲ですね（^^;\nちょっと、切ない雰囲気になっちゃったけど（^^;;;\nまぁ、これはこれでアリかなぁと。 \nまぁその。うじゃ"
+
+[15]
+name_jp = "幽夢　～ Inanimate Dream"
+comment_en = "The last boss theme. It has a very final feel to it. \nI think it came out pretty cool somehow~\nNobody really knows if Yuuka herself is cool.\nPersonally, I think I rather like her."
+name_en = "Faint Dream ~ Inanimate Dream"
+comment_jp = "ラスボスのテーマです。これはラストっぽいよね。\nなんか、かっこよく出来たかな～と。\n幽香自体はかっこいいかどうかは、謎。\n自分にとっておきにいりかと。"
+
+[16]
+name_jp = "禁じざるをえない遊戯"
+comment_en = "I made this one fairly rhythmical (not)\nThe main part is pretty simple, so it feels nice. I get the feeling listening to it that this is how my songs are most of the time.\nI like songs like this, but sometimes I want to write something with a different atmosphere."
+name_en = "The Inevitably Forbidden Game"
+comment_jp = "すこし軽快な曲にしました（うそ）\nサビはかなり単純だからいい感じです。やっぱり、自分の曲のパターンはこれかい、って感じですかね。\nこういう曲好きだけど、他の雰囲気の曲も作れるようになりたかったり。"
+
+[17]
+name_jp = "メイド幻想　～ Icemilk Magic"
+comment_en = "The younger sister, Mugetsu's, theme. For some reason it feels like a maid song.\nThis is a pretty cool song, isn't it? Even though it's short. (Because it's short?)\nWell, in any case, it turned out to be a maid song like this."
+name_en = "Illusion of a Maid ~ Icemilk Magic"
+comment_jp = "妹の夢月のテーマです。何故かメイドみたいなかっこです。\n曲は、なかなかかっこいいんじゃないかな？短いけど（短いから？）\nまぁ、うそっこメイドさんっぽい曲になったよね。"
+
+[18]
+name_jp = "かわいい悪魔　～ Innocence"
+comment_en = "The theme for the older sister Gengetsu, the most terrible, most fearful boss. I wanted for it to have a real Western feel to it, but ... ?\nI was aiming for a song that was pretty similar to Mugetu's theme.\nRather, I was really hoping to come up with a Mr. Dracula sort of song ... (;_;"
+name_en = "Cute Devil ~ Innocence"
+comment_jp = "最凶最悪のボス、姉の幻月のテーマ。 出来るだけ西洋風に仕上げたかったのですが・・・？\n夢月のテーマと出来るだけ同じような曲を目指しました。\nというより、某ドラキュラみたいな曲を作りたかった・・・（;_;"
+
+[19]
+name_jp = "Days"
+comment_en = "Hmm. It's a song that feels like there's no reason for hopes or dreams. \nAt least when I know I can't make bright songs, the bad end song will come out well.\nExcept the good end feels like a bad end, too."
+name_en = "Days"
+comment_jp = "う～ん。なんか、夢も希望もない曲だね。\nただでさえ、明るい曲なんて作れない私が、バッドエンドの曲なんてね～。\nハッピーエンドの曲もバッドエンドみたいだし。"
+
+[20]
+name_jp = "Peaceful"
+comment_en = "Huh, it feels kind of peaceful.\nMaybe ... a little bright?"
+name_en = "Peaceful"
+comment_jp = "まぁ、なんだ、平和そうだよね。\nすこし、明るい・・・かな？"
+
+[21]
+name_jp = "Arcadian Dream"
+comment_en = "Well, the staff roll is kind of cool, after all. (Is that all you can say? (^^;)\nIt seems like a very simple song, but it might actually be a very simple song.\nWell, there's very little staff, so I don't really need a long staff roll song (^^)\nFor some reason, it's a lot like a boss song (^^;;;"
+name_en = "Arcadian Dream"
+comment_jp = "スタッフロールは、やっぱりかっこよく（あんたはそれしかいえんのか（^^;）\nものすごく単純そうな曲ですが、実はものすごく単純かも。\nまぁ、スタッフがものすごく少ないので、曲も長いのはいらんのでねぇ（^^）\nなぜかボスの曲と大差ないし（^^;;;"
+
+[22]
+name_jp = "幻想の住人"
+comment_en = "Seems like there should be a game over song, too.\nYeah. Maybe a little too energetic."
+name_en = "Those Who Live in Illusions"
+comment_jp = "ゲームオーバーのテーマでもあるはずなんだけどね。\nう～ん。ちょっとはげしすぎかも。"
+
+[23]
+name_jp = "Lotus Road"
+comment_en = "I was going to use this as the stage 1 theme.\nBut, I thought it was a little too light, so I didn't use it..."
+name_en = "Lotus Road"
+comment_jp = "１面に使用するつもりでした。\nただ、ちょっと軽過ぎるんじゃないかと思って、使えませんでした・・・"
+
+[24]
+name_jp = "Dreamy Pilot"
+comment_en = "I was going to use this as the stage 4 theme.\nI thought it was kind of air-headed, though, so I threw it out.\nBut, maybe it's not that bad?"
+name_en = "Dreamy Pilot"
+comment_jp = "４面に使用するつもりでした。\nいまいち、ぼんやりとした曲って感じなのでボツになりました。\nでも、悪くはないんじゃないの？"
+
+[25]
+name_jp = "Incomplete Plot"
+comment_en = "I was going to use this as the stage 5 theme.\nBut for some reason I threw it out. *g*\nIt's pretty nice, too ..."
+name_en = "Incomplete Plot"
+comment_jp = "５面に使用するつもりでした。\n何と無くボツになりました（笑）\nいい感じなのにね～。"
+
+[26]
+name_jp = "Border Land"
+comment_en = "I was going to use this as the stage 6 theme.\nI thought the last stage theme should be a bit more mellow, though, so I threw it out."
+name_en = "Border Land"
+comment_jp = "６面に使用するつもりでした。\n最終面はもっとしっとりくる方がいいかと思いボツにしました。"
+
+[27]
+name_jp = "Magic Shop of Raspberry"
+comment_en = "I was going to use this as the extra stage theme.\nBut I thought the extra stage song should be a little lighter, so I cried and cried and threw it out."
+name_en = "Magic Shop of Raspberry"
+comment_jp = "エキストラステージに使用するつもりでした。\nエキストラはもっと軽快なほうがいいと思い泣く泣くボツにしました。"
+
+[28]
+name_jp = "Crescent Dream"
+comment_en = "I was going to use this for the staff roll.\nIt's not STG-esque, though, so I threw it out."
+name_en = "Crescent Dream"
+comment_jp = "スタッフロールに使用するつもりでした。\nシューティングぽくないのでボツにしました。"
+
+[29]
+name_jp = "装飾戦　～ Decoration Battle (未使用バージョン)"
+name_en = "Decoration Battle (Unused Version)"
+
+[30]
+name_jp = "幽夢　～ Inanimate Dream (未使用バージョン)"
+name_en = "Faint Dream ~ Inanimate Dream (Unused Version)"

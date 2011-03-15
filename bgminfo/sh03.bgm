@@ -1,0 +1,267 @@
+# Music Room Interface Info
+
+[game]
+name = "幡紫竜"
+name_en = "Banshiryuu"
+circle = "瞬殺サレ道? / Amusement Makers"
+circle_en = "Syunsatsu Sare Do / Amusement Makers"
+year = 2008
+
+packmethod = 5
+bgmfile = "music.ac6"
+tracks = 32
+
+artist = "halt, 毒電P"
+artist_en = "halt, Doku Den P"
+
+[update]
+wikipage = "Banshiryuu/Music"
+wikirev = 159918
+
+# Filenames are specified without extension!
+# And guess what, this OST sucks so hard that on 10 tracks, they didn't even get the loops right.
+# Thus, proper loop information, fixed by myself, is included in those cases.
+
+[01]
+name_jp = "はじまりの前に"
+name_en = "Before the Beginning"
+filename = "/bsr_16"
+comment_jp = "オープニング突如必要といわれて、夜明けごろに作った気がします。\nあんまり記憶にありません。"
+comment_en = "I suddenly felt a need for the opening to be made with the feeling of dawn. \nI don't really recall doing that, though."
+abs_loop = 1867776
+abs_end = 1867776
+
+[02]
+name_jp = "戦闘空域"
+name_en = "Battle Airspace"
+filename = "/bsr_00"
+comment_jp = "1面の最初。\nメロディ一がけ作って放置してたせいか、南下最初に作ってときとは、ちょっと違う感じかも。"
+comment_en = "The earlier stage 1 theme.\nUsually I make the melody and put it aside, but when I went south and stopped making it for a while, it gave off a different feel."
+
+[03]
+name_jp = "エーリッヒを探せ！"
+name_en = "Find Erich!"
+filename = "/bsr_00r"
+comment_jp = "一面ちょワル版です。\n伝統的にたぶん一面は主人公のテーマになってます。\nえ？巫女さん？ですか？ ...ゴメンナサイ ヒラノサン orz"
+comment_en = "The slightly worse first stage theme.\nTraditionally the first stage theme becomes the main character's theme. \nEh? Shrine Maiden? Really? ...Sorry Hirano orz"
+
+[04]
+name_jp = "Shocking Assailant"
+filename = "/bsr_01"
+comment_jp = "一面のボス。\nあんまりイメージがなかったのかも。\nもうちょっと何とかしてやりたい気もしましたが。"
+comment_en = "The first boss theme. \nIt probably doesn't give a particular image. \nI've been interested to add something to it, though."
+name_en = "Shocking Assailant"
+
+[05]
+name_jp = "Endless Night View"
+filename = "/bsr_02"
+comment_jp = "2面。\n道中用に確か数曲あったんですけどね。\nこれを使うことになりました。"
+comment_en = "The 2nd stage theme.\nOn the way, I prepared several themes for use in this.\nIn the end I ended up using this."
+name_en = "Endless Night View"
+abs_end = 3658902
+abs_loop = 307453
+
+[06]
+name_jp = "Flamethrower"
+filename = "/bsr_03"
+comment_jp = "2面ボス。\n高速道路で戦車です。\n火炎放射はあんまりしませんね。"
+comment_en = "The second boss theme.\nA tank on a highway. \nIt probably wouldn't spout flames, though."
+name_en = "Flamethrower"
+
+[07]
+name_jp = "Overtake!"
+filename = "/bsr_04"
+comment_jp = "3面。\n前に進んだと思ったら、ものすごい勢いで戻ったり。"
+comment_en = "The 3rd stage theme.\nSince it means advancing forward, I made it have an extreme force."
+name_en = "Overtake!"
+abs_end = 3170890
+abs_loop = 1363677
+
+[08]
+name_jp = "ワープゲートにたどりつけ"
+name_en = "Finally Reaching the Warp Gate"
+filename = "/bsr_04r"
+comment_jp = "三面ちょいワル版です。\nちょいワルなのは曲名もです... が、会話は極力削った\nので、曲名も説明に使えればな~と思って... orz"
+comment_en = "The slightly worse version of the 3rd stage theme. \nWhat's slightly worse is the name of the theme... but, I've cut the dialogue a lot,\nso, I wondered if I could use the name of the theme for explanation... orz"
+
+[09]
+name_jp = "Tri-Star Attack"
+filename = "/bsr_05"
+comment_jp = "3面ボス。 特になし。 ほんとに。"
+comment_en = "The 3rd stage boss. There's nothing special. Really."
+name_en = "Tri-Star Attack"
+abs_end = 4235253
+abs_loop = 1163118
+
+[10]
+name_jp = "無敵シールド！"
+name_en = "Invincible Shield!"
+filename = "/bsr_05r"
+comment_jp = "無敵ですよ！無敵！\n無敵シールド中は無敵なので素敵なのです。"
+comment_en = "It's invincible! Invincible!\nYou are invincible within the invincible shield so it's great."
+
+[11]
+name_jp = "ika-ika geso-geso"
+filename = "/bsr_05r2"
+comment_jp = "青さんはイカイカゲソゲソです。\n当初音声合成でika-ika-geso-geso-としゃべらせようかと思ったのですが挫折しました。"
+comment_en = "The blue one is strong, but she lost weight. \nWhen I first put this together, it sounded like it was saying ika-ika geso-geso, but I was frustrated."
+name_en = "ika-ika geso-geso"
+
+[12]
+name_jp = "参拝者歓迎"
+name_en = "Welcome to those who want to pray"
+filename = "/bsr_06"
+comment_jp = "4面その1。\n異空間の神社ということでちょっと？な感じにしてみました。\n実際のところ、かなり短くしか使われてませんねえ。"
+comment_en = "The stage 4A theme. \nI tried making it with a \"?\" type of feel to fit in with the shrine from another dimension.\nActually, I wouldn't use it if it weren't so short."
+
+[13]
+name_jp = "巫術乱声"
+name_en = "Exorcism Din"
+filename = "/bsr_07"
+comment_jp = "4面その1ボス。\n道中用のアレンジで、和風味などをプラス。\nですが、敵弾がキツくてそれどころではないですな。"
+comment_en = "The theme of the stage 4A boss. \nDuring the creation, I arranged this to add a Japanese feel. \nHowever, when you're barely dodging bullets, it just wasn't the place to use it."
+
+[14]
+name_jp = "お出迎えさせて項きます......"
+name_en = "Please Make Me Greet You......"
+filename = "/bsr_08"
+comment_jp = "4面その2。\n異空間の暗いお屋敷ということでちょっとミステリアスに。\n最初はエフェクトがあったりしましたが、画面に合わなかったのでなくなりました。"
+comment_en = "The stage 4B theme.\nI made it sort of mysterious, to fit in with the dark mansion another dimension. \nIt had effects at first, but they wouldn't fit in with the game so I removed them."
+abs_end = 2888482
+abs_loop = 2120693
+
+[15]
+name_jp = "THE STRENGTH"
+filename = "/bsr_09"
+comment_jp = "4面その2ボス。\nその1同様、道中アレンジですが、\nその1同様、それどころではないですな。"
+comment_en = "The theme of the stage 4B boss. \nJust like the theme for the stage 4A boss, I arranged it during creation, \njust like the theme for the stage 4A boss, it just wasn't the place to use it."
+name_en = "THE STRENGTH"
+abs_end = 3753744
+abs_loop = 297751
+
+[16]
+name_jp = "異空間の決闘"
+name_en = "Duel in Another Dimension"
+filename = "/bsr_19"
+comment_jp = "4ボス後半です。\nあの2人、どっちが強いとかはないんですが、雰囲気的に巫女のほうが強そうですね~"
+comment_en = "The theme for 2nd half of the stage 4 bosses. \nNeither of those two are strong, but atmospherically the shrine maiden is stronger~"
+
+[17]
+name_jp = "強攻"
+name_en = "Strong Attack"
+filename = "/bsr_10"
+comment_jp = "5面。\n突然宇宙に出ますが、曲ではまったく意識してません。"
+comment_en = "The 5th stage theme.\nYou suddenly go into space, but that isn't really presented in the theme."
+
+[18]
+name_jp = "中央突破！"
+name_en = "Break the Center!"
+filename = "/bsr_10r"
+comment_jp = "5面ちょいワル版です。\nこいつはいい！どこを向いても敵だらけだ！\n狙う必要はない！適当に撃てば当たるで一！"
+comment_en = "The slightly worse version of the 5th stage theme. \nThis one is great! No matter where you're facing, there are enemies everywhere!\nThere's no need to aim. Just shoot and you'll hit~!"
+
+[19]
+name_jp = "不屈の闘志"
+name_en = "Indomitable Fighting Spirit"
+filename = "/bsr_10r2"
+comment_en = "Yuuta's willpower is number one this time!\nNo matter how you defeat him, he'll revive just like weeds!\nThe main reason is his company president though (unexploded bombs etc)"
+comment_jp = "雄太君は精神力では今回のナンバーワンですね！\n何度やられても雑草のごとく復活です！\nたいてい原因は社長ですが(不発弾etc)"
+
+[20]
+name_jp = "give him a roasting"
+filename = "/bsr_11"
+comment_jp = "5面ボス。\n途中で合体するとか、激しくシェイクしてるとか指示がでてましたが。\n確かにシェイクして合体してますね。"
+comment_en = "The 5th stage bosses' theme.\nThey merge in the middle, though there's a large shake warning.\nThey really shake while merging."
+name_en = "give him a roasting"
+abs_end = 4323819
+abs_loop = 1763992
+
+[21]
+name_jp = "Don't call me."
+filename = "/bsr_12"
+comment_jp = "6面。\nかなり合体く作ったんですが、あんまり流れてないと思います。"
+comment_en = "The sixth stage theme. \nI wanted to make it with a merge in the middle, but it just didn't go with the flow."
+name_en = "Don't call me."
+
+[22]
+name_jp = "The agonies of death"
+filename = "/bsr_13"
+comment_jp = "6面中ボス結構激しいですねえ。"
+comment_en = "The stage 6 mid-boss is pretty exciting, isn't it?"
+name_en = "The agonies of death"
+
+[23]
+name_jp = "struggle for only existence"
+filename = "/bsr_18"
+comment_jp = "ラスボス曲です。"
+comment_en = "The last boss theme."
+name_en = "struggle for only existence"
+
+[24]
+name_jp = "trans--"
+filename = "/bsr_17"
+comment_jp = "ラスボス。\n導入部が長くて、プログラマには迷惑をかけたようです。"
+comment_en = "The last boss theme.\nThe intro is long, so it seemed to confuse the programmer."
+name_en = "trans--"
+abs_end = 9092357
+abs_loop = 7556650
+
+[25]
+name_jp = "Miria the Sylphid"
+filename = "/ex_ssg1"
+comment_jp = "秋霜玉、稀翁玉より疾風の乙女、ミリアさんです。\nエンディングに一人だけいない恨みが炸裂します！\n30超えてますが、超若作りですね！"
+comment_en = "The god-speed maiden from Shuusou Gyoku and Kioh Gyoku, Milia.\nShe explodes with a hatred nobody would have in the end!\nIt's over 30, but it was a really early creation!"
+name_en = "Miria the Sylphid"
+
+[26]
+name_jp = "Death Twins"
+filename = "/ex_ssg2"
+comment_jp = "秋霜玉、稀翁玉よりデスツインズ、めいまいです。\n年齢一桁の感受性による緻密な連係プレーです！\nミューズ三と直接の関係はありません。"
+comment_en = "The death twins from Shuusou Gyoku and Kioh Gyoku, Mei and Mai.\nTheir age goes together, so they have an inseparable relation when they play!\nThey don't have any direct relation to Muse."
+name_en = "Death Twins"
+
+[27]
+name_jp = "黒いゲイツ"
+name_en = "Black Gates"
+filename = "/ex_ssg3"
+comment_jp = "秋霜玉、稀翁玉より、ゲイツです。\nピング好き、犬が大嫌いという弱点が\nキモ...コワイイと評判！今回も玄人攻めです！"
+comment_en = "Gates, from Shuusou Gyoku and Kioh Gyoku.\nHis weakness is loving penguins, but hating dogs.\nHe's disgust.....I mean, scary! He still attacks like a professional this time!"
+abs_end = 5041707
+abs_loop = 714418
+
+[28]
+name_jp = "ほっとけーき実験室"
+name_en = "Hot Cake Laboratory"
+filename = "/ex_kogm"
+comment_jp = "稀翁玉より、自称天才科学者、モーガンさんです。\n今回もえげつない攻めで、イライラを誘発です！\n重要人物ですが、ストーリーがないという不遇さん"
+comment_en = "The self-proclaimed genius scientist from Kioh Gyoku, Morgan.\nShe still attacks with cheap attacks this time, stirring anger!\nShe's an important character, but a Miss Unfortunate with no background story."
+
+[29]
+name_jp = "Muse"
+filename = "/ex_kogl"
+comment_jp = "稀翁玉より、 ラスボス、ミューズさんです。\nその攻めはまさに外道！\nでも前回よりは手を抜いてくれているかも？"
+comment_en = "The last boss from Kioh Gyoku, Muse.\nThose attacks are really brutal!\nBut is might she be going easier on you, compared to last time?"
+name_en = "Muse"
+
+[30]
+name_jp = "Super I.I.G.G"
+filename = "/ex_ika"
+comment_jp = "今回のラスボスです。ラスボスなので強いです。\nそれ以外に説明がいりますか？\nいいえ、要るはずがありません！！！"
+comment_en = "The last boss this time. She's strong, since she's the last boss this time.\nDo I need to explain further?\nNo, there's no need to explain any further!"
+name_en = "Super I.I.G.G"
+
+[31]
+name_jp = "おしまい"
+name_en = "The End"
+filename = "/bsr_14"
+comment_jp = "エンディング1\n1面のアレンジです。\nもう一曲とタイトル画面用と一緒に、ものすごく急遽作った覚えが。"
+comment_en = "The Ending 1 theme. \nIt's an arrange of the first stage theme. \nI recall making this, along with the other ending theme and the title screen theme extremely hurriedly, though."
+
+[32]
+name_jp = "さようなら"
+name_en = "Farewell"
+filename = "/bsr_15"
+comment_jp = "エンディング2\nもう一曲とタイトル画面用と一緒に、ものすごく急遽作った覚えが。"
+comment_en = "The Ending 2 theme. \nI recall making this, along with the other ending theme and the title screen theme extremely hurriedly, though."
+abs_end = 1545187
+abs_loop = 777219

@@ -1,4 +1,4 @@
-﻿# Touhou BGM Extractor Info File
+# Music Room Interface Info
 
 [game]
 name = "稀翁玉"
@@ -6,7 +6,7 @@ name_en = "Kioh Gyoku"
 artist = "ZUN"
 year = 2001
 
-packmethod = 0
+packmethod = 1
 bgmdir = "WAVE"
 headersize = 0x2C
 
@@ -14,7 +14,7 @@ tracks = 10
 
 [update]
 wikipage = "Kioh_Gyoku:_Music"
-wikirev = 120971
+wikirev = 147777
 
 [01]
 name_jp = "稀翁玉　～ Fairy Dance"

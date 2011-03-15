@@ -1,4 +1,4 @@
-﻿# Touhou BGM Extractor Info File
+# Music Room Interface Info
 
 [game]
 name = "MegaMari - 魔理沙の野望"
@@ -9,7 +9,7 @@ artist = "あきやまうに, NKZ"
 artist_en = "U2, NKZ"
 year = 2006
 
-packmethod = 3
+packmethod = 4
 encryption = 1
 entrysize = 0x10C
 bgmfile = "megamaribgm.dat"

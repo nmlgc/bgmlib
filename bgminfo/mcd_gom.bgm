@@ -1,0 +1,20 @@
+# Music Room Interface Info
+
+[game]
+name = "The Grimoire of Marisa"
+circle = "上海アリス幻樂団"
+circle_en = "Team Shanghai Alice"
+artist = "ZUN"
+year = 2009
+
+packmethod = 0
+
+tracks = 2
+
+[01]
+name_jp = "魔法使いの憂鬱"
+name_en = "Magician's Melancholy"
+
+[02]
+name_jp = "スプートニク幻夜"
+name_en = "Illusionary Sputnik Night"

@@ -1,4 +1,4 @@
-﻿# Touhou BGM Extractor Info File
+# Music Room Interface Info
 
 [game]
 name = "東方非想天則　～ 超弩級ギニョルの謎を追え"
@@ -8,14 +8,14 @@ circle_en = "Twilight Frontier"
 year = 2009
 gamenum = "12.3"
 
-packmethod = 3
+packmethod = 4
 encryption = 2
 bgmfile = "th123b.dat"
 tracks = 24
 
 [update]
-wikipage = "Touhou_Hisoutensoku:_Music"
-wikirev = 135171
+wikipage = "Touhou_Hisoutensoku/Music"
+wikirev = 159916
 
 [composer]
 cmp1 = "あきやまうに"

@@ -1,4 +1,4 @@
-﻿# Touhou BGM Extractor Info File
+# Music Room Interface Info
 
 [game]
 name = "東方緋想天　～ Scarlet Weather Rhapsody"
@@ -8,15 +8,15 @@ circle_en = "Twilight Frontier"
 year = 2008
 gamenum = "10.5"
 
-packmethod = 3
+packmethod = 4
 encryption = 2
 bgmfile = "th105b.dat"
 
 tracks = 31
 
 [update]
-wikipage = "Scarlet_Weather_Rhapsody:_Music"
-wikirev = 920
+wikipage = "Scarlet_Weather_Rhapsody/Music"
+wikirev = 158985
 
 [composer]
 cmp1 = "あきやまうに"
@@ -168,7 +168,7 @@ composer = 1
 filename = "data/bgm/st13"
 
 [23]
-name_jp = "広有射怪鳥事　～ Till When?"
+name_jp = "広有射怪鳥事 ～ Till When？"
 name_en = "Hiroari Shoots a Strange Bird ~ Till When?"
 composer = 1
 filename = "data/bgm/st14"

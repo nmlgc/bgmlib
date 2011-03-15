@@ -1,4 +1,4 @@
-﻿# Touhou BGM Extractor Info File
+# Music Room Interface Info
 
 [game]
 name = "東方文花帖　～ Shoot the Bullet"
@@ -10,7 +10,7 @@ year = 2005
 gamenum = "09.5"
 lossless = true
 
-packmethod = 1
+packmethod = 2
 bgmfile = "thbgm.dat"
 zwavid_08 = 0x50
 zwavid_09 = 0x09
@@ -18,13 +18,14 @@ zwavid_09 = 0x09
 tracks = 6
 
 [update]
-wikipage = "Shoot_the_Bullet:_Music"
-wikirev = 135167
+wikipage = "Shoot_the_Bullet/Music"
+wikirev = 155342
 
 [01]
 name_jp = "天狗の手帖　～ Mysterious Note"
 name_en = "Tengu's Notebook ~ Mysterious Note"
-position = "0x00000010, 0x001324E0, 0x010220A8" # fixed
+# fixed
+position = "0x00000010, 0x001324E0, 0x010220A8" 
 comment_jp = "タイトル、メニュー画面のテーマです。\nいつもの曲です。\n今回は少し暗くレトロな感じが出るようにして、妖怪らしさが出るようにしました。\nザーというノイズは妖怪のミステリアスな部分です。決してモニタとスピーカーが逝かれたわけでは無いのでご安心を。"
 comment_en = "The title and menu theme.\n\nThe same old piece.\nHowever, this time I tried to give it a bit more of a dark and retro feel, as well as a bit of youkai.\nThat raining noise is a youkai mystery. No, there's nothing wrong with your monitor or speakers, so relax."
 
@@ -62,3 +63,5 @@ name_en = "Wind God Girl"
 position = "0x05965930, 0x002AFD00, 0x01E11A00"
 comment_jp = "撮影曲５のテーマです。\nこの曲は文化帖のテーマ曲なので入れないわけにはいかないと思い入っております。\n本編では殆ど使われておりませんが:-)"
 comment_en = "Photo theme 5.\n\nThis is Bohemian Archive in Japanese Red's main theme, so I couldn't leave it out.\nThough this edit is hardly used :-)"
+comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\n非常にノリの良い曲です。新しい曲という理由もありますが、自分の東方像にかなり近い曲です。自然、少女らしい可愛らしさ、酒脱した感じ、日本を思い浮かべる東洋風、ノリを損なわずシューティング向きな所、たまにこういう曲があると良いですね（他人事みたいですが）\nそう、私は昔はトランペットを吹いていたこともあったのでマイトランペットも持っている。こういう曲をトランペットで吹いたら格好良いだろうなぁとしきりに思う。\nちなみにこの曲がトランペットメインなのは、風を吹き込むから。"
+comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nThis is an extremely catchy song. While that may be because it is a new song, it is also very close to my own envisioning of Touhou. A naturally girly cuteness, a feeling of giddiness, an Japanese oriental style, and for a shooting game that also never lets up, I think a song like this every now and then is a good idea (Kind of like other people's problems.).\nYes, I used to play trumpet and I still own one now. I think trumpet-playing for this kind of song is pretty cool.\nBy the way, the trumpet has the main part because it's a wind instrument."

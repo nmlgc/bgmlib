@@ -1,0 +1,156 @@
+# Music Room Interface Info
+# Tags for the Akyu's Untouched Score vol.2 release
+
+[game]
+name = "東方怪綺談　～ Mystic Square"
+name_en = "Touhou Kaikidan ~ Mystic Square"
+circle = "Amusement Makers"
+artist = "ZUN"
+year = 1998
+gamenum = "05"
+
+packmethod = 0
+
+tracks = 23
+
+[update]
+wikipage = "Mystic_Square/Music"
+wikirev = 159922
+
+[01]
+name_jp = "怪綺談　～ Mystic Square"
+comment_en = "As usual, the title theme.\nThis is the song that really determined the direction of the rest of the game's music.\nNot bad, huh? (^^"
+name_en = "Wondrous Romance ~ Mystic Square"
+comment_jp = "あいかわらずのタイトルテーマです。\nこの曲は、今回のゲームの曲の方向性を決めた曲なのです。\n悪くはないんじゃないかな（^^"
+
+[02]
+name_jp = "Dream Express"
+comment_en = "This is a fairly rhythmical song.\nHow unusual (^^; I thought of it while imagining what makes Touhou what it is.\nI hope you'll enjoy the rushing feeling of the Dream Express during the main part."
+name_en = "Dream Express"
+comment_jp = "今回は、若干軽快な曲です。\n珍しく（^^;; 東方ということを意識して作りました。\nDream Express 夢特急ということでサビの疾走感を堪能ください。"
+
+[03]
+name_jp = "魔法陣　～ Magic Square"
+comment_en = "This song really cements the image of the songs this time.\nIt's kind of cool (^^; and has a kind cute atmosphere about it. (I hope)\nIt kind of feels like the color of Gensokyo comes through in the melody..."
+name_en = "Magic Formation ~ Magic Square"
+comment_jp = "この曲で、今回の曲全体のイメージが決定したようなもんです。\n若干の渋さ(^^;とかわいらしさを持つという雰囲気です。（だといいな）\nメロディに幻想郷の色がでている様な気もするけど・・・"
+
+[04]
+name_jp = "夢想時空"
+comment_en = "I wanted it to have a good rhythm...\nListening to it, I wonder if the melody is cool.\nWell, the stage 1 song had a good rhythm, right?\nSo I wanted the stage 2 song to match the stage and have a sense of speed, but this is how it turned out."
+name_en = "Dimension of Reverie"
+comment_jp = "ノリ重視のつもりでしたが・・・\nよく効くとメロディはかっこいいかも。 まぁ、１面にまけじと軽快かな？\n面的に、今回の２面はスピード感が欲しかったので、まぁこんな感じ。"
+
+[05]
+name_jp = "霊天　～ Spiritual Heaven"
+comment_en = "This is the theme song for the boss who has no reason to be around (^^;\nThis is too cool *g*\nMore like this would be nice ..."
+name_en = "Spiritual Heaven"
+comment_jp = "何のためにいるんだか分からんボスのテーマ曲ですね （^^;;\nこれは渋過ぎ（笑）\nもっと、色々出来たかも・・・"
+
+[06]
+name_jp = "Romantic Children"
+comment_en = "It has a pretty good \"demon's world\" feel about it, doesn't it?\nThe stage 1, 2, and 3 songs all have a nice feeling of speed to them, don't they?\nSince it's the spirit world, I think it feels more Western... yeah."
+name_en = "Romantic Children"
+comment_jp = "なかなか、魔界な感じに仕上がったかな？\n１，２，３面と結構スピード感がある曲になっているね。\n魔界な感じってことで、西洋風になってるかな。う～ん"
+
+[07]
+name_jp = "プラスチックマインド"
+comment_en = "If you listen earnestly(?) it's pretty dark ^^;\nI think the third stage boss of a shooting game is a significant turning point, so I put some extra spirit into the making of this song.\n(Well, it's not like I was taking the other songs easy or anything ... (^^;;;)"
+name_en = "Plastic Mind"
+comment_jp = "まとも（？）に聞くと暗い曲かも（^^;\nシューティングゲームの３面ボスってのは、一つのターニングポイントだと思ってますので、ちょっと気合を入れて作ってみました。\n（いや、決していままでのは手を抜い　てたわけじゃなく・・・（^^;;;）"
+
+[08]
+name_jp = "メイプルワイズ"
+comment_en = "This song really settles down suddenly compared to the others. (You think?)\nThis was a pretty hard song to finish.\nStill, it came out pretty cool, I think."
+name_en = "Maple Wise"
+comment_jp = "いきなり落ち着いた曲になりましたね。（そうかな？）\nこの曲はかなり苦労しましたね。\nそのかいあってかっこよくなりました（よね）"
+
+[09]
+name_jp = "禁断の魔法　～ Forbidden Magic"
+comment_en = "I was aiming for something straightforward, yet cool in this song.\nThis is closest to the songs from last time.\nIt was really easy to finish compared to \"Maple Wise\" (^^;;"
+name_en = "Forbidden Magic"
+comment_jp = "かなり分かりやすいかっこよさを目指しました。\n一番前回までの作品に近い曲かな。\n「メイプルワイズ」に比べ圧倒的に楽でした（^^;;"
+
+[10]
+name_jp = "真紅の少女　～ Crimson Dead!!"
+comment_en = "The melody is somehow similar to something from Story of Eastern Wonderland.\nAll I can really remember is before I knew it, the song was done.\nIt's kind of like something from my older games."
+name_en = "Crimson Maiden ~ Crimson Dead!!"
+comment_jp = "何と無くメロディが封魔録みたい。\n取りあえずあっというまに出来上がった、ということだけ覚えています。\n昔のゲームの曲みたいかもね。"
+
+[11]
+name_jp = "裏切りの少女　～ Judas Kiss"
+comment_en = "The particularly musical piece for the partner of the \"Crimson Maiden\".\nI figured she should be strong, since it's the 4th stage, so the song feels that way too. (What way's that?)"
+name_en = "Treacherous Maiden ~ Judas Kiss"
+comment_jp = "「真紅の少女」と対になっています若干、こっちの方が曲っぽい。\n４面ですから強敵にしようと思い、曲もそんな感じで（どんな？）"
+
+[12]
+name_jp = "the Last Judgement"
+comment_en = "I think I managed to make it feel very end-of-game this time.\nYeah, it's pretty cool, isn't it?\nI really like it (^^)"
+name_en = "the Last Judgement"
+comment_jp = "かなり終盤っぽい曲に仕上がったかと思います。\nう～ん、なかなかかっこいいですね\n結構気に入ってます（^^）"
+
+[13]
+name_jp = "悲しき人形　～ Doll of Misery"
+comment_en = "This was a tough one. This has the most complex chord progressions I've ever done.\nThis song is like a new start for me. I wanted to make this song pretty dark, so this is how it came out.\nI like this song a lot, so I hope you'll all listen to it."
+name_en = "Doll Story ~ Doll of Misery"
+comment_jp = "めっちゃ苦労しました。いままで曲よりコード進行を複雑にしてみました。\n初めて日をまたいで作った曲かもこの曲は暗めにしようと思って作ったので、こんな感じ。\nかなり気に入ってますんで、聞いてあげてくださいね。"
+
+[14]
+name_jp = "世界の果て　～ World's End"
+comment_en = "This song is just for a stage to let you get some more items before the boss, so it's short.\nActually, I wanted to try to do this with just a heartbeat sound, but this isn't that kind of game *g*"
+name_en = "End of the World ~ World's End"
+comment_jp = "最終ボス前のアイテム回収の為だけのステージだから、かなり短いわな。\nほんとは、心臓音だけとか無音とかやってみたいけど、そういうゲームでもないし（笑）"
+
+[15]
+name_jp = "神話幻想　～ Infinite Being"
+comment_en = "This is the last boss theme. Of course, I really put a lot of spirit into it.\nI was aiming for a song that had the right blend of coolness and cuteness.\nThe main melody is pretty easy to remember, so the song has a nice feel to it.\nIt's a pretty good song."
+name_en = "Legendary Illusion ~ Infinite Being"
+comment_jp = "最終ボスのテーマです。当然かなり気合いを入れて作りました。\nかっこよさとかわいさを合わせた曲を目指しましたね。\nメインのメロディはかなり覚えやすくて、いい感じなのかな。だいたい気に入ってます。"
+
+[16]
+name_jp = "不思議の国のアリス"
+comment_en = "Fairy-tale-esque and generally cool is what I was going for this time.\nWell, it's probably not fairy-tale-esque, but it's pretty cool~\nYou have to dodge lots of bullets in the game, so you probably can't listen to it too closely, though *g*"
+name_en = "Alice in Wonderland"
+comment_jp = "メルヘンっぽくて、さらにかっこいい曲を目指してつくりました。\n出来上がってみるとあんまメルヘンっぽくないけど、かっこいい～。\nゲーム中は弾避けに忙しくて、あんま曲聞いてる余裕無いかも（笑）"
+
+[17]
+name_jp = "the Grimoire of Alice"
+comment_en = "Compared to my other extra stage boss themes, I paid close attention to the rhythm this time.\nNo matter how cheap the attacks coming are, we can always emerge victorious with a superior groove (^^;"
+name_en = "the Grimoire of Alice"
+comment_jp = "今までのエキストラボステーマ曲に比べ、結構ノリ重視にしてみました。\nどうみてもインチキみたいな攻撃してくるけど、ノリ良く倒していきましょう（^^;;"
+
+[18]
+name_jp = "神社"
+comment_en = "It sounds like all my other good endings, but it's the bad ending *g*\nWell, I guess that's just because all my good endings were kind of dark."
+name_en = "Shinto Shrine"
+comment_jp = "いままでのグッドエンドの曲みたいだけど、バッドエンド（笑）\nまぁ、いままでのグッドの曲が暗かっただけなんだけど。"
+
+[19]
+name_jp = "Endless"
+comment_en = "We've got unusually strong ending themes this time *g*\nBut it's very shrine-like (^^;"
+name_en = "Endless"
+comment_jp = "妙に迫力のあるエンディングテーマだったりする（笑）\nでも神社っぽいよね（^^;;"
+
+[20]
+name_jp = "久遠の楽園"
+comment_en = "I wanted to make something like a piano solo, but... yeah *g*\nWell, it totally ends right in the middle..."
+name_en = "Eternal Paradise"
+comment_jp = "ピアノソロっぽくしてみたんだけどう～ん（笑）\n途中で完全に曲が終わってるんですけど・・・"
+
+[21]
+name_jp = "Mystic Dream"
+comment_en = "It's a very short song.\nStill, it's because I wanted to match what was happening on the screen with the music.\nIn other words, it means there isn't much staff (and the staff roll is short)*g*"
+name_en = "Mystic Dream"
+comment_jp = "結構短い曲ですね。\nそれも、画面と曲のタイミングを合わせたかったからです。\nつまり、スタッフが少ない（スタッフロールが短い）ってことですね（笑）"
+
+[22]
+name_jp = "魂の休らむ所"
+comment_en = "This is very Japanese.\nI think it would be nice if there were more Japanese style songs like this in this game... *g*"
+name_en = "Soul's Resting Place"
+comment_jp = "かなり、和風にしてみました。\nこのゲーム、本来なら、もっと和風な曲がもっとあってもいいような気もするが・・・（笑）"
+
+[23]
+name_jp = "Peaceful Romancer"
+comment_en = "I figured I'd do a nice, rhythmical Japanese piece while trying to get better.\nWell, the rehabilitation was a failure *g* But the song turned out really nice (^^)\nI guess I just really like this kind of song (since I can only make this kind)"
+name_en = "Peaceful Romancer"
+comment_jp = "軽快で和風な曲をリハビリがてら作ろう、と思って作ったんだけど。\nリハビリ失敗（笑） でも曲はとってもお気に入り（^^）\nやっぱ、私はこういう曲が好きみたいです（こういう曲しか作れない）"

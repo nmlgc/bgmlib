@@ -1,4 +1,4 @@
-﻿# Touhou BGM Extractor Info File
+# Music Room Interface Info
 
 [game]
 name = "東方永夜抄　～ Imperishable Night"
@@ -9,7 +9,7 @@ circle_en = "Team Shanghai Alice"
 year = 2004
 gamenum = "08"
 
-packmethod = 1
+packmethod = 2
 bgmfile = "thbgm.dat"
 zwavid_08 = 0x00
 zwavid_09 = 0x08
@@ -17,8 +17,8 @@ zwavid_09 = 0x08
 tracks = 21
 
 [update]
-wikipage = "Imperishable_Night:_Music"
-wikirev = 135165
+wikipage = "Imperishable_Night/Music"
+wikirev = 150832
 
 # comment2 is taken from Bohemian Archive in Japanese Red Music Columns, where available
 
@@ -70,8 +70,8 @@ name_en = "Plain Asia"
 position = "0x06835110, 0x0048A600, 0x01342A00"
 comment_jp = "上白沢慧音のテーマです。\n\nミステリアスさと真剣さを強調しました。\nイントロのピアノがかなり印象的でメロディアスな感じがして、結構気に入ってます。\n私にとってイーストエイジア、神国の文化は当然進行中です。決して和製の音楽を癒しの材料なんかに貶めるものか。"
 comment_en = "This is Keine Kamishirasawa's theme.\n\nIt's both serious and mysterious.\nI really like the striking melodious feeling conveyed by the piano in the intro.\nTo me, Japanese culture is sort of a natural progression in East Asia. So Japanese-English music certainly shouldn't be reduced to fluff."
-comment2_jp = "これこそが日本人が見た日本だ、という意気込みで曲を書きました。純邦楽と言われる曲がありますが、アレは完全に作られた日本なのではないのかと思う。日本人は歴史の物の成長を再開させた様に見えて、その実は歴史と現代を分け始めた。本当は、現代風の手段をもってして、自然とどこかに日本が入ってくる事を目指すべきだと思っています。\nこの曲は今の私が考える日本の曲。別に三味線や尺八に拘るわけでもなく、日本ならではの音階を使うのでもなく、ある物で表現する。こういう曲を聴くと、日本に生まれて良かったという幻覚を見る。えっ幻覚？いやいや、幻覚は思い込みなどではないのです。"
-comment2_en = "I tried hard to write this song to express the idea of "This is certainly the Japan that Japanese people saw". For some songs that are said to be pure, traditional Japanese music, I don't really think they were completely made in a Japanese manner. The way Japanese people see history starting to rebuild itself, they see that the present and the past are beginning to seperate. Actually, I think that they should be looking more at what happens naturally wherever Japanese people are using modern methods.\nRight now, I think of this song as a Japanese song. It doesn't necessarily need to have a shamisen or a bamboo flute, and it doesn't use a Japanese musical scale, that's just what it is. Whenever I hear songs like this, I feel the illusion that I'm grateful to have been born in Japan. Uh, illusion? No, no, don't get the wrong impression now."
+comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\nこれこそが日本人が見た日本だ、という意気込みで曲を書きました。純邦楽と言われる曲がありますが、アレは完全に作られた日本なのではないのかと思う。日本人は歴史の物の成長を再開させた様に見えて、その実は歴史と現代を分け始めた。本当は、現代風の手段をもってして、自然とどこかに日本が入ってくる事を目指すべきだと思っています。\nこの曲は今の私が考える日本の曲。別に三味線や尺八に拘るわけでもなく、日本ならではの音階を使うのでもなく、ある物で表現する。こういう曲を聴くと、日本に生まれて良かったという幻覚を見る。えっ幻覚？いやいや、幻覚は思い込みなどではないのです。"
+comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nI tried hard to write this song to express the idea of \"This is certainly the Japan that Japanese people saw\". For some songs that are said to be pure, traditional Japanese music, I don't really think they were completely made in a Japanese manner. The way Japanese people see history starting to rebuild itself, they see that the present and the past are beginning to seperate. Actually, I think that they should be looking more at what happens naturally wherever Japanese people are using modern methods.\nRight now, I think of this song as a Japanese song. It doesn't necessarily need to have a shamisen or a bamboo flute, and it doesn't use a Japanese musical scale, that's just what it is. Whenever I hear songs like this, I feel the illusion that I'm grateful to have been born in Japan. Uh, illusion? No, no, don't get the wrong impression now."
 
 [08]
 name_jp = "永夜の報い　～ Imperishable Night"
@@ -100,8 +100,8 @@ name_en = "Cinderella Cage ~ Kagome-Kagome"
 position = "0x0BC69B10, 0x0011FB00, 0x01D5A900"
 comment_jp = "５面のテーマです。\n\n東洋風なのか西洋風なのか、古いのか新しいのかはっきりしない曲です。\nボスもそんな感じ。でもステージ背景は和風ホラー風。\nいつも曲にはテーマがありますが、この曲のテーマはかごめかごめ、つまり曲です。アレンジではなく曲のテーマを曲にする。\n表現のテーマは檻に囚われてはいけないと思う。"
 comment_en = "This is the Stage 5 theme.\n\nAsian, Western, old, new-- This song isn't one or the other.\nThe boss seems that way, too, but the stage itself is based in Japanese horror.\nEach song has a theme, but the theme of this one is simply Kagome Kagome. This song was created with no particular arrangement of theme.\nI didn't want to get caged in on a theme for this one."
-comment2_jp = "プレインエイジアに近い考えの曲ですが、こっちの方がもっと露骨に日本のメロディや音を使っています。この曲は日本人なら誰でも知っている『カゴメカゴメ』を独自の解釈で東方風にアレンジした物です。\n既に原曲の時点で心を揺さぶる物となっていて、私の中では『とうりゃんせ』と並んでパワーのある日本の二大幻覚童謡だと思っています。ここまで別の曲に変わったところで、そのパワーは衰えを見せない。それは私程度が幾ら弄ったところで原曲のパワーを消せる筈などない。ならばそのパワーを利用した方が良いと考えました。\nちなみに、シンデレラは海外の童話です。え？　判ってるって？　ごめんなさい。"
-comment2_en = "A song with a similar mindset to Plain Asia, but this song's melody and the sounds I used are more conspicuously Japanese. This is an original, Touhou-style reinterpretation of the traditional Kagome-Kagome that every Japanese person knows.\nWhile it wasn't composed in the same time period, I think that it's just as powerful as Touryanse, making them the two major fantasy children's songs. While the similarities end there, they both seem to have unfading power. I wanted to see how much I could fool around with the song without reducing that power. I think that's a good way to demonstrate how powerful they are.\nBy the way, Cinderella is a foreign fairy tale. Huh? You knew that already? Sorry."
+comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\nプレインエイジアに近い考えの曲ですが、こっちの方がもっと露骨に日本のメロディや音を使っています。この曲は日本人なら誰でも知っている『カゴメカゴメ』を独自の解釈で東方風にアレンジした物です。\n既に原曲の時点で心を揺さぶる物となっていて、私の中では『とうりゃんせ』と並んでパワーのある日本の二大幻覚童謡だと思っています。ここまで別の曲に変わったところで、そのパワーは衰えを見せない。それは私程度が幾ら弄ったところで原曲のパワーを消せる筈などない。ならばそのパワーを利用した方が良いと考えました。\nちなみに、シンデレラは海外の童話です。え？　判ってるって？　ごめんなさい。"
+comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nA song with a similar mindset to Plain Asia, but this song's melody and the sounds I used are more conspicuously Japanese. This is an original, Touhou-style reinterpretation of the traditional Kagome-Kagome that every Japanese person knows.\nWhile it wasn't composed in the same time period, I think that it's just as powerful as Touryanse, making them the two major fantasy children's songs. While the similarities end there, they both seem to have unfading power. I wanted to see how much I could fool around with the song without reducing that power. I think that's a good way to demonstrate how powerful they are.\nBy the way, Cinderella is a foreign fairy tale. Huh? You knew that already? Sorry."
 
 [12]
 name_jp = "狂気の瞳　～ Invisible Full Moon"
@@ -130,8 +130,8 @@ name_en = "Flight of the Bamboo Cutter ~ Lunatic Princess"
 position = "0x128476B0, 0x0065E700, 0x01E47000"
 comment_jp = "蓬莱山 輝夜のテーマです。\n\nキテるなぁ（笑）　冷静さを欠いた感情剥き出しの曲です。\n曲で感情を表現するのではなく、感情で曲を創る、むしろゲームが曲を創る。\nなんてクールじゃない、今風じゃない曲なんだろう（笑）\n私はプロじゃないですからねぇ。"
 comment_en = "This is Kaguya Houraisan's theme.\n\nSmooth, huh? (Haha) This song brings out a feeling of aloofness.\nI don't express emotions through songs, I make songs with emotions. And really, the game makes the songs.\nThey're not very cool and modern, are they? (Haha)\nI'll admit I'm no pro."
-comment2_jp = "未だ、実際にこの眼でかぐや姫を見たことがない私は、竹取物語を読んで想像するしかなく、私なりな解釈で竹取物語終了後を曲にしてみました。\n満月の夜に現れる月の使者、それに抵抗する地上の人間。だが月の死者の前では為す術もなくやられてしまう。もう抵抗する気も失ったその時、地上の竹が光り始めて……現われたのは月の姫、かぐや姫だった。かぐやはこれ以上人間には迷惑をかけまいと、一人戦う決心をしたのである。\nという妄想は無く、大昔の日本の空にあったと言われる月と、空を翔る姫達をイメージして作曲しました。勿論遊び心も忘れずに、判る人だけに判るレトロさを入れて、何十年後になったときに最後まで心に残る曲になるよう頑張りました。"
-comment2_en = "While I am someone who has yet to actually see Kaguya-hime, this song was not meant to represent The Tale of the Bamboo Cutter, but rather what happens after the story ends.\nThe messengers from the moon who reveal themselves only on nights of the full moon, and the ones they oppose, the humans on Earth. But those from the moon reach their wits' end and lose the will to fight. That's when the bamboo on Earth begins to glow... and the moon princess appears, that is, Kaguya-hime. Kaguya troubles the humans, and one man decides to fight her.\nMy image for this song is nothing that off-the-wall. It's more of the moon that was said to exist in Japan's sky a long time ago, and the princesses that fly through that sky. Of course, they still haven't lost their playful spirit, just like how some people still enjoy retro games. As I also want my songs to remain in people's minds decades from now, I will continue to do my best."
+comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\n未だ、実際にこの眼でかぐや姫を見たことがない私は、竹取物語を読んで想像するしかなく、私なりな解釈で竹取物語終了後を曲にしてみました。\n満月の夜に現れる月の使者、それに抵抗する地上の人間。だが月の死者の前では為す術もなくやられてしまう。もう抵抗する気も失ったその時、地上の竹が光り始めて……現われたのは月の姫、かぐや姫だった。かぐやはこれ以上人間には迷惑をかけまいと、一人戦う決心をしたのである。\nという妄想は無く、大昔の日本の空にあったと言われる月と、空を翔る姫達をイメージして作曲しました。勿論遊び心も忘れずに、判る人だけに判るレトロさを入れて、何十年後になったときに最後まで心に残る曲になるよう頑張りました。"
+comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nWhile I am someone who has yet to actually see Kaguya-hime, this song was not meant to represent The Tale of the Bamboo Cutter, but rather what happens after the story ends.\nThe messengers from the moon who reveal themselves only on nights of the full moon, and the ones they oppose, the humans on Earth. But those from the moon reach their wits' end and lose the will to fight. That's when the bamboo on Earth begins to glow... and the moon princess appears, that is, Kaguya-hime. Kaguya troubles the humans, and one man decides to fight her.\nMy image for this song is nothing that off-the-wall. It's more of the moon that was said to exist in Japan's sky a long time ago, and the princesses that fly through that sky. Of course, they still haven't lost their playful spirit, just like how some people still enjoy retro games. As I also want my songs to remain in people's minds decades from now, I will continue to do my best."
 
 [16]
 name_jp = "ヴォヤージュ1970"

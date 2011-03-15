@@ -1,0 +1,12 @@
+[submodule "libs/fox"]
+	path = libs/fox
+	url = https://github.com/nmlgc/fox-toolkit
+	shallow = true
+[submodule "libs/vorbis"]
+	path = libs/vorbis
+	url = https://github.com/xiph/vorbis
+	shallow = true
+[submodule "libs/ogg"]
+	path = libs/ogg
+	url = https://github.com/xiph/ogg
+	shallow = true

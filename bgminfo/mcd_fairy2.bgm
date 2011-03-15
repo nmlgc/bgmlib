@@ -1,0 +1,35 @@
+# Music Room Interface Info
+
+[game]
+name = "東方三月精 ～ Strange and Bright Nature Deity 1"
+name_en = "Touhou Sangetsusei ~ Strange and Bright Nature Deity 1"
+circle = "上海アリス幻樂団"
+circle_en = "Team Shanghai Alice"
+artist = "ZUN"
+year = 2008
+
+packmethod = 0
+
+tracks = 3
+
+[update]
+wikipage = "Strange_and_Bright_Nature_Deity_1_(CD)"
+wikirev = 158448
+
+[01]
+name_jp = "サニーミルクの紅霧異変"
+comment_en = "Contrary to the arrangement of Sunny Rutile Flection where I had the style of Embodiment of Scarlet Devil in mind, this turned out to be completely taken over by another theme.\nEven as a violent battle rages within the Scarlet Devil Mansion, this fairy can be seen catching insects beside the mansion.\nIf such an old theme were to fall into a fairy's hands..."
+name_en = "Sunny Milk's Scarlet Mist Incident"
+comment_jp = "サニールチルフレクションの紅魔郷風アレンジと思いきや、完全に別の曲に乗っ取られてしまう曲です。\n熾烈な戦いが行われている紅魔館の脇で虫取りでもしている妖精の姿が見えます。\nいにしえのあの曲も妖精の手にかかれば……。"
+
+[02]
+name_jp = "雪月桜花の国"
+comment_en = "This second theme was made with the impression of Perfect Cherry Blossom in mind. Perfect Cherry Blossom had a relaxed flow of time in general.\nThis sounds like Japanese, snowy, and quite bitter... This probably adds the finishing touches to the good feel.\nI also added a drunken feel to the rhythm, with the fairy-ness mixed inside."
+name_en = "A Land Resplendent with Nature's Beauty"
+comment_jp = "二曲目は妖々夢のイメージで曲を創りました。妖々夢は全体的に時間の流れがゆっくりしてた気がします。\n和風で雪っぽくてどこか切なくて……良い感じに仕上がったと思います。\nリズムに若干、酩酊感を入れて妖精らしさも混ぜました。"
+
+[03]
+name_jp = "スターヴォヤージュ2008"
+comment_en = "The third theme was made with the impression of Imperishable Night in mind. Imperishable Night gives off an alien feel.\nI made this dark and upbeat theme with the view of the universe I like, to my heart's content.\nThis theme is probably too good for Strange and Bright Nature Deity. Truly."
+name_en = "Star Voyage 2008"
+comment_jp = "三曲目は永夜抄のイメージで曲を創りました。永夜抄と言えば宇宙人。\n自分の好きな宇宙観で目一杯、暗く激しい曲を創りました。\nもはや三月精の曲にしては格好良すぎるかもしれないけどね。確実に。"

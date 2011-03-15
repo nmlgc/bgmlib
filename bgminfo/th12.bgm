@@ -1,4 +1,4 @@
-﻿# Touhou BGM Extractor Info File
+# Music Room Interface Info
 
 [game]
 name = "東方星蓮船　～ Undefined Fantastic Object"
@@ -10,16 +10,17 @@ year = 2009
 gamenum = "12"
 lossless = true
 
-packmethod = 1
+packmethod = 2
 bgmfile = "thbgm.dat"
 zwavid_08 = 0x00
 zwavid_09 = 0x12
 
 tracks = 18
 
+
 [update]
-wikipage = "Undefined_Fantastic_Object:_Music"
-wikirev = 135170
+wikipage = "Undefined_Fantastic_Object/Music"
+wikirev = 162309
 
 [01]
 name_jp = "青空の影"
@@ -119,7 +120,7 @@ name_jp = "夜空のユーフォーロマンス"
 name_en = "UFO Romance in the Night Sky"
 position = "0x124B3F08, 0x0013B000, 0x01F23800"
 comment_jp = "エキストラステージのテーマです。\n\nＵＦＯ可愛いよね。\nここからは本編とは打って変わって可愛いノリでお送りします。\nポップな感じを目指して作りました。\nやっぱＵＦＯはポップですよ。"
-comment_en = "This is the extra stage theme.\n\nIsn't the UFO cute?\nThe extra is much different than the main stages, and this song is a cute send-off.\nI went for a pop feel for this song.\nUFOs are kind of pop-ish, after all."
+comment_en = "This is the extra stage theme.\nAren't UFOs cute? The extra is much different than the main stages, and this song is a cute send-off.\nI went for a pop feel for this song. UFOs are kind of pop-ish, after all."
 
 [15]
 name_jp = "平安のエイリアン"

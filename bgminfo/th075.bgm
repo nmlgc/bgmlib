@@ -1,4 +1,4 @@
-﻿# Touhou BGM Extractor Info File
+# Music Room Interface Info
 
 [game]
 name = "東方萃夢想　～ Immaterial and Missing Power"
@@ -8,7 +8,7 @@ circle_en = "Twilight Frontier"
 year = 2004
 gamenum = "07.5"
 
-packmethod = 2
+packmethod = 3
 encryption = 1
 entrysize = 0x6C
 bgmfile = "th075bgm.dat"
@@ -17,8 +17,8 @@ headersize = 0x2C
 tracks = 34
 
 [update]
-wikipage = "Immaterial and Missing Power: Music"
-wikirev = 135164
+wikipage = "Immaterial_and_Missing_Power/Music"
+wikirev = 159920
 
 [composer]
 cmp1 = "あきやまうに"
@@ -122,7 +122,7 @@ name_en = "Hiroari Shoots a Strange Bird ~ Till When?"
 composer = 2
 filename = "wave\bgm\05a"
 comment_jp = "東方妖々夢の妖夢のテーマより。\n背景が墓地なのでつかみ所のない感じに。\nちなみに冥土よりメイドのほうが好きだったりします。（ぉ"
-comment_en = "Theme of Youmu from Perfect Cherry Blossom.\nThe setting is a graveyard, so this song feels like there's nothing left to hold onto.\nBy the way, I prefer \"meido\" (maids) to ''meidou'' (the Netherworld). (Hee)"
+comment_en = "Theme of Youmu from Perfect Cherry Blossom.\nThe setting is a graveyard, so this song feels like there's nothing left to hold onto.\nBy the way, I prefer \"meido\" (maids) to \"meidou\" (the Netherworld). (Hee)"
 
 [13]
 name_jp = "東方妖々夢 ～ Ancient Temple"
@@ -138,7 +138,7 @@ name_en = "Septette for the Dead Princess"
 composer = 2
 filename = "wave\bgm\06a"
 comment_jp = "東方紅魔郷のレミリアのテーマより。\n元の後半部分抜萃してみました。\nギターのところ、人が弾くには無理がありそうですが、やっぱり妖怪なら大丈夫なんですかね？（某3姉妹とか"
-comment_en = "Based on Remilia's theme from Embodiment of Scarlet Devil.\nI tried to use the second half of the original theme.\nIt may be too hard for humans to play the guitar part, but it's probably okay for youkai, right? (Like maybe ''those'' three sisters.)"
+comment_en = "Based on Remilia's theme from Embodiment of Scarlet Devil.\nI tried to use the second half of the original theme.\nIt may be too hard for humans to play the guitar part, but it's probably okay for youkai, right? (Like maybe those three sisters.)"
 
 [15]
 name_jp = "幽雅に咲かせ、墨染の桜 ～ Border of Life"
@@ -163,14 +163,18 @@ composer = 3
 filename = "wave\bgm\08a"
 comment_jp = "八雲紫のテーマです。\nこの曲は、不気味さと気持ちよさを兼ね備えた紫らしい曲になっていると思っています。\nそれに西洋と東洋を混ぜずに、分離したまま一つの曲に纏める事が出来た、かなぁ。\n紫の場合、和洋折衷じゃ駄目なんですよね。分離したまま一つにしないと、肝心の境界がなくなってしまいますから。"
 comment_en = "This is the theme of Yukari.\nI think the combination of ominous and nice parts suits Yukari's personality well.\nAnd I wonder if I've finally written a song that doesn't mix Eastern and Western styles together, but expresses them separately.\nI shouldn't combine East and West for Yukari. After all, if I don't keep them separate, then there's no boundary."
+comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\nシューティング以外の曲と言うことで若干悩みつつも、いざ創ってみるといつも通り過ぎて何とも。この曲はあの困った妖怪の八雲紫のテーマ曲です。だから、曲にも境界を入れたくて、明らかに異なる二つのイメージで構成してみました。その境界は前半は不気味に、後半を気持ちの良い感じにしたので、急に視界が開ける感じで気持ちが良く気に入ってます。\nこの曲を聴くと、急速に広がる視野と夕方の神社を幻視します。聴けば東方の曲だとすぐに判る感じもするけど、どこかが他の曲と違う感じがする。理論的な所ではなく、これは曲の幻覚成分に差があるのだと思う。つまり、シューティングではないと意識した私の心が反映されているに違いない。"
+comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nMaking songs for non-shooting games gives me a number of problems, but making this one for whatever reason was a little too normal. This is the theme for that troublesome youkai, Yukari Yakumo. That's why I arranged this song as if it had a boundary so there are so images. On the first half of the boundary, there's an ominous feeling, and on the second, a more pleasant feeling. I particularly like the feel of how fast the POV changes when it enters the pleasant side.\nWhen I listen to this song, I rapidly envision a field of sight over a shrine in the evening. If you listen to it, you'll immediately know it's a Touhou song, but somehow it feels different from the others. This isn't a theory; there is a difference in the \"illusionary component\" of this song. It's the effect of my change in mindset making a song for a non-shooting game."
 
 [18]
 name_jp = "御伽の国の鬼が島 ～ Missing Power"
-name_en = "Onigashima in the Fairyland ~ Missing Power"
+name_en = "Oni's Island in the Fairyland ~ Missing Power"
 composer = 3
 filename = "wave\bgm\09a"
 comment_jp = "伊吹萃香のテーマです。\n子供に聞かせる御伽噺、桃太郎、一寸法師、そして金太郎などなど。\nこの曲はそんな御伽噺に出てくる、どこか楽しげで幸せそうだった鬼達をイメージしました。\nこの恐ろしくなさげがたまらないですよね。\nさて、上の御伽噺の中に仲間外れが居るとしたら、一体どれだろう？\nそんな事でも考えながら、今日も鬼とお酒でも飲みましょうか。"
 comment_en = "This is the theme of Suika.\nThere're plenty of fairy tales for children like Momotarou, Issunboushi, Kintarou, etc.\nI wanted to make a song that would fit well with that sort of fun-loving, happy oni.\nThat sort of fearlessness is irresistable.\nAnyway, there's a story that got left out of the ones I mentioned above; I wonder which it is?\nWhile we consider this, why don't we go drinking with an oni tonight, too?"
+comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\nもの凄いスピード感を感じる曲です。これまでの作品のラスボス曲の中では、最も可愛い曲になったので満足しています。スピード感はあるけど、メインのメロディはもの凄く単純なところも気持ちが良いのです。\nこの曲には世界の広がりを感じないですが、どこか寂しくもなってきます。こんなに楽しげなのにどこか壊れそうなくらい細く感じる何かが、この曲のMissing Power（失われた力）な所だと思っています。\nでも、イントロだけ取ってみると、これで音を変えれば重厚で重い曲になったような気がする。ここの私の迷いも有るのかも知れない。ラスボスなのにこんな巫山戯たガキ（失礼）で大丈夫なのかな～という……。"
+comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nThis song feels like it has an amazing sense of speed. Among all the final boss themes for the games I've made until now, I am satisfied in saying that this is the cutest one. While it feels fast, the fact that the main melody is also very simple makes it feel nice.\nIn this song, it feels like the world is no longer becoming any wider, and no matter where you go, it feels very lonely. A feeling that everything pleasant in the world is falling apart into thin pieces. I think that's where the song's \"Missing Power\" comes from.\nBut if you just take the intro, and change the weight of the sound, it's concerning how it becomes a much heavier piece. Even now, I might not even be too sure about what to make of it. But I guess it's suitable for that rambunctious brat (rude) of a last boss."
 
 [19]
 name_jp = "夏明き"
@@ -178,7 +182,7 @@ name_en = "End of Summer"
 composer = 2
 filename = "wave\bgm\53"
 comment_jp = "エンディングで流れる曲。\n賑やかな祭りが終わった後は物悲しくなります。\n夏冬の祭りはぐったりして気がつくと3日後ですが――。（後の祭り"
-comment_en = "The music played at the ending scene.\nI can't help being a little sad after all the festivals end.\nDuring the summer and winter festivals [Comiket] I'm totally exhausted, and before I know it all three days have passed... (Time for the festival afterwards.)"
+comment_en = "The music played at the ending scene.\nI can't help being a little sad after all the festivals end.\nDuring the summer and winter Comiket festivals I'm totally exhausted, and before I know it all three days have passed... (Time for the festival afterwards.)"
 
 [20]
 name_jp = "東方萃夢想"
@@ -241,61 +245,61 @@ name_jp = "森閑"
 name_en = "Silence"
 composer = 1
 filename = "wave\bgm\67"
-comment_jp = "シナリオ曲。\nこの曲は元々オープニングの派生曲だったのですが、面白くなかったので色々手を加えたら、何だか分からない曲になってしまいました。\nちゅぱちゅぱいってる変な音が好きです。"
-comment_en = "Music for a scenario.\nThis was originally based on the opening theme, but it wasn't very interesting, so I changed a lot of things until it became something totally unrecognizable.\nI love the funny sound \"Chupa-chupa\"."
+comment_jp = "この曲は元々オープニングの派生曲だったのですが、面白くなかったので色々手を加えたら、何だか分からない曲になってしまいました。\nちゅぱちゅぱいってる変な音が好きです。"
+comment_en = "This was originally based on the opening theme, but it wasn't very interesting, so I changed a lot of things until it became something totally unrecognizable.\nI love the funny \"chupa-chupa\" sound."
 
 [28]
 name_jp = "仰空"
 name_en = "Skygazer"
 composer = 1
 filename = "wave\bgm\62"
-comment_jp = "シナリオ曲。\n使われないと思っていたら知らぬ間に使われていてビックリ、という会話曲。\n会話曲は充分シナリオを咀嚼しないうちに作ったので、シーンに合ってない曲が結構あるかもしれません......とちょっと言い訳。"
-comment_en = "Music for a scenario.\nI thought it wouldn't be used, but it got slipped in some time, so I was surprised.\nAll the music for conversation was composed before I really understood the details of scenario, so several pieces may not fit the scenes well... That's my excuse."
+comment_jp = "使われないと思っていたら知らぬ間に使われていてビックリ、という会話曲。\n会話曲は充分シナリオを咀嚼しないうちに作ったので、シーンに合ってない曲が結構あるかもしれません......とちょっと言い訳。"
+comment_en = "I thought it wouldn't be used, but it got slipped in some time, so I was surprised.\nAll the music for conversation was composed before I really understood the details of scenario, so several pieces may not fit the scenes well ... that's my excuse."
 
 [29]
 name_jp = "幽境"
 name_en = "Solitary Place"
 composer = 1
 filename = "wave\bgm\59"
-comment_jp = "シナリオ曲。\n神秘的な曲、ということで作ることになった曲です。\n少しはそんな感じがするでしょうか。\n単体で聞くと実に面白くない曲ですが、会話曲としてはこれくらいが丁度良いかなと。\nそういう意味では結構気に入ってます。"
-comment_en = "Music for a scenario.\nI wanted to make something mysterious.\nI wonder if it feels that way to you.\nIt's pretty boring if you listen to this by itself, but I guess that's good for dialogue music.\nI think it suits that purpose well."
+comment_jp = "神秘的な曲、ということで作ることになった曲です。\n少しはそんな感じがするでしょうか。\n単体で聞くと実に面白くない曲ですが、会話曲としてはこれくらいが丁度良いかなと。\nそういう意味では結構気に入ってます。"
+comment_en = "I wanted to make something mysterious.\nI wonder if it feels that way to you.\nIt's pretty boring if you listen to this by itself, but I guess that's good for dialogue music.\nI think it suits that purpose well."
 
 [30]
 name_jp = "珍客"
 name_en = "Unexpected Visitor"
 composer = 1
 filename = "wave\bgm\68"
-comment_jp = "シナリオ曲。\nこれもうっかり使われてしまったので、メロディーを変えたり後で色々と手を加えました。\n後半は趣味全開で真面目っぽい雰囲気になっています。\nでもこの曲の長さだと後半部分はあまり聞かれなさそうですねー。"
-comment_en = "Music for a scenario.\nThis was also put in unexpectedly, so I changed some melodies and arrangements.\nI wanted to make the second half really serious-sounding.\nBut it's long enough that a lot of people don't hear the second half."
+comment_jp = "これもうっかり使われてしまったので、メロディーを変えたり後で色々と手を加えました。\n後半は趣味全開で真面目っぽい雰囲気になっています。\nでもこの曲の長さだと後半部分はあまり聞かれなさそうですねー。"
+comment_en = "This was also put in unexpectedly, so I changed some melodies and arrangements.\nI wanted to make the second half really serious-sounding.\nBut it's long enough that a lot of people don't hear the second half."
 
 [31]
 name_jp = "紅夜"
 name_en = "Scarlet Night"
 composer = 1
 filename = "wave\bgm\60"
-comment_jp = "シナリオ曲。\n割とまともにBGMな作りになってると思います。\n東方的なピアノとはこんな感じの速い動きだろう、と意識して作ってみました。\nピアノ以外の部分で別物となっておりますが。\n頭の部分とかもうちょっと丁寧に作りたかった一曲です。"
-comment_en = "Music for a scenario.\nI think it ended up relatively BGM-like.\nI composed it with a feeling that the Touhou-like piano was faster like this.\nI cannot say \"Touhou-like\" except the part of the piano.\nThis is the music that I wanted to compose the first part more carefully."
+comment_jp = ":割とまともにBGMな作りになってると思います。\n:東方的なピアノとはこんな感じの速い動きだろう、と意識して作ってみました。\n:ピアノ以外の部分で別物となっておりますが。\n:頭の部分とかもうちょっと丁寧に作りたかった一曲です。"
+comment_en = "I think it ended up relatively BGM-like.\nI composed it with a feeling that the Touhou-like piano was faster like this.\nI cannot say \"Touhou-like\" except the part of the piano.\nThis is the music that I wanted to compose the first part more carefully."
 
 [32]
 name_jp = "戦迅"
 name_en = "Swift Battle"
 composer = 1
 filename = "wave\bgm\61"
-comment_jp = "シナリオ曲。\n盛り上がる曲にする必要があるのに、後に控えている格闘部分よりは抑えなくてはならない、という微妙な位置なのが格闘ゲームの会話曲――とか最初は考えていたはずなのですが、激しく自己主張しています。\n展開も何も無く割と一直線に分かりやすく。\nちなみに開発コード名は「岩男」でした。"
-comment_en = "Music for a scenario.\nThe conversation theme of fighting game should be excited but calmer than that of the coming battle part... I thought like that at first, though I thoroughly ignored.\nIt has no processes and is very simple.\nBy the way, the code name was \"Iwao\" (Creator of \"Megaman\")."
+comment_jp = "盛り上がる曲にする必要があるのに、後に控えている格闘部分よりは抑えなくてはならない、という微妙な位置なのが格闘ゲームの会話曲――とか最初は考えていたはずなのですが、激しく自己主張しています。\n展開も何も無く割と一直線に分かりやすく。\nちなみに開発コード名は「岩男」でした。"
+comment_en = "The conversation theme of fighting game should be excited but calmer than that of the coming battle part... I thought like that at first, though I thoroughly ignored.\nIt has no processes and is very simple.\nBy the way, the code name was \"Iwao\" (He is referencing Tohru Iwao, the creator of Megaman)."
 
 [33]
 name_jp = "禍機"
 name_en = "Bad Omen"
 composer = 1
 filename = "wave\bgm\65"
-comment_jp = "シナリオ曲。\n会話曲で何かいることになるだろう、と思って初期に作った曲です。\n奇怪なメロディー部分は後から足したのですが、ちょっと蛇足だったかもしれません。\nでもこの手のが大好きなのですよ。"
-comment_en = "Music for a scenario.\nI needed something for the conversation, so I composed earlier.\nThe strange melody is what I added later, but it may be a somewhat waste material.\nEven so, I prefer the melody like that."
+comment_jp = "会話曲で何かいることになるだろう、と思って初期に作った曲です。\n奇怪なメロディー部分は後から足したのですが、ちょっと蛇足だったかもしれません。\nでもこの手のが大好きなのですよ。"
+comment_en = "I needed something for the conversation, so I composed earlier.\nThe strange melody is what I added later, but it may be a somewhat waste material.\nEven so, I prefer the melody like that."
 
 [34]
 name_jp = "砕月"
 name_en = "Broken Moon"
 composer = 1
 filename = "wave\bgm\63"
-comment_jp = "シナリオ曲。\n盛り上がって欲しいエセ和風な会話曲です。\n分かりやすくサビっぽいメロディーだけで構成されてます。\nどうも最終ステージの会話に使われてるようなんですが、その後に控えている曲に繋がらないような気がしてなりません。"
-comment_en = "Music for a scenario.\nTheme for conversation that has a fake Japanese taste. I hope it excites you.\nIt has only main-like part so as to understand easily.\nIt seems to be used for the conversation of the final stage, but it's too bad it doesn't really connect well to the last boss music."
+comment_jp = "盛り上がって欲しいエセ和風な会話曲です。\n分かりやすくサビっぽいメロディーだけで構成されてます。\nどうも最終ステージの会話に使われてるようなんですが、その後に控えている曲に繋がらないような気がしてなりません。"
+comment_en = "Theme for conversation that has a fake Japanese taste. I hope it excites you.\nIt has only main-like part so as to understand easily.\nIt seems to be used for the conversation of the final stage, but it's too bad it doesn't really connect well to the last boss music."

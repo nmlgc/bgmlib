@@ -1,4 +1,4 @@
-﻿# Touhou BGM Extractor Info File
+# Music Room Interface Info
 
 [game]
 name = "東方紅魔郷　～ the Embodiment of Scarlet Devil"
@@ -9,7 +9,7 @@ artist = "ZUN"
 year = 2002
 gamenum = "06"
 
-packmethod = 0
+packmethod = 1
 bgmdir = "bgm"
 
 headersize = 0x2C
@@ -17,8 +17,8 @@ headersize = 0x2C
 tracks = 17
 
 [update]
-wikipage = "Embodiment_of_Scarlet_Devil:_Music"
-wikirev = 135162
+wikipage = "Embodiment_of_Scarlet_Devil/Translation/Music"
+wikirev = 156909
 
 # comment2 = Bohemian Archive in Japanese Red Music Columns (if available)
 # comment3 = EoSD afterword
@@ -36,7 +36,7 @@ comment2_en = "Normally, I would title it \"Touhou Koumakyou\" like the game, bu
 
 [02]
 name_jp = "ほおずきみたいに紅い魂"
-name_en = "A Soul as Red as a Ground Cherry"
+name_en = "A Soul as Red as an Oni's Lantern"
 filename = "th06_02.wav"
 rel_loop = 0x0037E600
 rel_end = 0x00EA1628
@@ -86,8 +86,8 @@ rel_loop = 0x007919F4
 rel_end = 0x01786408
 comment_jp = "３面テーマです。\n\n中華風に仕上げる予定でしたが、結果そんなでも無いようです(^^;\nでも曲は東洋風です。４面以降に東洋風の曲を作ることが出来なさそうだったので、ここでつくっときました(^^;\nFusionというより New Age風かな？"
 comment_en = "Stage 3 theme.\nI intended to make it more Chinese, but it didn't quite work out. (^^; \nHowever it's still Oriental, because I knew it would be hard to put Oriental songs past stage 4 (^^;\nIt's more New Age rather than Fusion, I guess?"
-comment2_jp = "この曲は、重く暗くなりがちなシューティングの曲を、どうにかして元気が出て爽やかな感じを出せないかと四苦八苦した曲です。シューティングでも格好いい曲もポップな曲もダンスミュージックも数あれど、元気の出る曲となると案外少ないと思います。\nこの曲を聴くと、陰のない東方の幻想の空を彷彿させ、あたかも目の前に桃源郷が現れたかの幻覚を見せる。ちなみに何で上海紅茶館という曲名かというと、紅魔郷は開発当初は東方紅茶館というタイトルだったから。この曲は印象的な曲になると思っていたので、ゲームのタイトルを曲名に使いました。ストーリーが固まったらゲームのタイトルが変わっちゃったけど。"
-comment2_en = "This song was meant to be dark and serious. No cheery sense of refreshment, but more exuding a feeling of heavy distress. Shooting games have a number of cool, pop, and dance music-styled songs in them, but there are is a surprising lack of cheery songs.\nThis song resembles a fantastic eastern sky with no shadows, just like a hallucination of seeing paradise right before you. By the way, this song is titled Shanghai Teahouse because when I first starting making Touhou Koumakyo (EoSD), it was titled Touhou Kochakan (Teahouse). This song made such an impression on me, that I used the game's title as the song's name too. However, the game's title ended up not matching the story, so I changed it."
+comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\nこの曲は、重く暗くなりがちなシューティングの曲を、どうにかして元気が出て爽やかな感じを出せないかと四苦八苦した曲です。シューティングでも格好いい曲もポップな曲もダンスミュージックも数あれど、元気の出る曲となると案外少ないと思います。\nこの曲を聴くと、陰のない東方の幻想の空を彷彿させ、あたかも目の前に桃源郷が現れたかの幻覚を見せる。ちなみに何で上海紅茶館という曲名かというと、紅魔郷は開発当初は東方紅茶館というタイトルだったから。この曲は印象的な曲になると思っていたので、ゲームのタイトルを曲名に使いました。ストーリーが固まったらゲームのタイトルが変わっちゃったけど。"
+comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nThis song was meant to be dark and serious. No cheery sense of refreshment, but more exuding a feeling of heavy distress. Shooting games have a number of cool, pop, and dance music-styled songs in them, but there are is a surprising lack of cheery songs.\nThis song resembles a fantastic eastern sky with no shadows, just like a hallucination of seeing paradise right before you. By the way, this song is titled Shanghai Teahouse because when I first starting making Touhou Koumakyo (EoSD), it was titled Touhou Kochakan (Teahouse). This song made such an impression on me, that I used the game's title as the song's name too. However, the game's title ended up not matching the story, so I changed it."
 comment3_jp = "中国っぽくしたかったのですが、結局あまり中国ではないですね（汗）\n最近、紅茶飲んでないなぁ。血の紅茶って業が深い。\nというか、レミリア達の飲んでいる紅茶はただの人間の血なんですが、お茶と言って良いの？"
 comment3_en = "I wanted Chinese sounding but it didn’t end up too Chinese. (Sweats)\nI haven’t drank black tea in a while. But black tea made of blood is very sinful.\nWell, the tea that Remilia and such are drinking is really just human blood. Can I really call that tea?"
 
@@ -99,7 +99,7 @@ rel_loop = 0x003F5B5C
 rel_end = 0x011B3E48
 comment_jp = "紅　美鈴（ホン・メイリン）のテーマです。\n\n欧羅巴の香りとゲーム音楽の香りを混ぜてあります。（2：8位で）\n中華でも何でも無いあたりがアレです。上海のフランス租界をイメージしているからです。\nもっとも、美鈴も人間では無いみたいだけど、何者なんだろう（ぉ）"
 comment2_jp = "この頃の上海はいかほどだったのでしょう？明治十七年は、清仏戦争の年です。\n外国租界を含め、これほど「魔都」の名前が似合う都市は無いですね。\nちなみに「魔都」とは「魔界都市 - 新宿 -」の略ではありません。"
-comment_en = "Hong Meirin's theme.\nA hint of Europe, mixed with game music. (a 2:8 ratio)\nIt's strange that it's not more Chinese, but that's because it's composed with the image of the French settlement in Shanghai in mind. \nBut, Meirin looks like she's not human. Then what is she... (eh)"
+comment_en = "Hong Meiling's theme.\nA hint of Europe, mixed with game music. (a 2:8 ratio)\nIt's strange that it's not more Chinese, but that's because it's composed with the image of the French settlement in Shanghai in mind.\nBut, Meiling looks like she's not human. Then what is she... (eh)"
 comment2_en = "I wonder how Shanghai was back then? The 17th Meiji year is the year of the Sino-French war.\nEven with other places in other countries, there’s no city that suits the name of such a \"Mato\".\nAnd \"Mato\" is not a short form of \"Makai city - Shinjyuku\"."
 
 [08]
@@ -164,10 +164,10 @@ filename = "th06_13.wav"
 rel_loop = 0x00595DA0
 rel_end = 0x017B0BAC
 comment_jp = "レミリア・スカーレットのテーマです。\n\nこれがラストだ！といわんばかりの曲を目指しました。\nあんまり重厚さを出したり不気味さを出したり、そういうありがちラストは嫌なので、ジャズフュージョンチックにロリっぽさを混ぜて．．．、ってそれじゃいつものあんまり変わらんな。\nこのメロディは自分でも理解しやすく、気に入っています。"
-comment2_jp = "盛り上げよう盛り上げようと頑張った曲です。この曲はテーマであるレミリア・スカーレットだけをイメージした物です。不思議なことに、ゲームが終盤に向かえば向かうほど、曲が持つ対象物は狭く小さな物になっていく。しかしながら、どんどんと深くもなっていく。\nこの曲は、私にゲームの幻覚を見せる。幻覚のゲームを遊んでいる感じを曲が与えてくれる。ジャンルなど無い、何だか判らないけど何かのゲームを遊んでいる幻覚。\nサビ後半のピアノは特にお気に入り。作曲中どんどんとテンションが上がってラストは勢いに任せてといった感じ。そんなんで良いのか？"
+comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\n盛り上げよう盛り上げようと頑張った曲です。この曲はテーマであるレミリア・スカーレットだけをイメージした物です。不思議なことに、ゲームが終盤に向かえば向かうほど、曲が持つ対象物は狭く小さな物になっていく。しかしながら、どんどんと深くもなっていく。\nこの曲は、私にゲームの幻覚を見せる。幻覚のゲームを遊んでいる感じを曲が与えてくれる。ジャンルなど無い、何だか判らないけど何かのゲームを遊んでいる幻覚。\nサビ後半のピアノは特にお気に入り。作曲中どんどんとテンションが上がってラストは勢いに任せてといった感じ。そんなんで良いのか？"
 comment3_jp = "とあるクラシックの有名曲をもじってタイトルにしています。その曲とは一切の関係もありません。\nしかも曲はセプテットでもないです。雰囲気だけ（汗）\nそもそも、誰も亡くなっていないし、王女ってだれ？"
 comment_en = "Remilia Scarlet's theme. \nWith this, I tried for a \"This is the end!\" feeling.\nI didn't want it to be regal or ominous, which is normal for a final stage, so I made it Jazz-Fusion based with a hint of loli... wait, that's not any different than normal.\nIts melody is easy for even me to get, so I like this song."
-comment2_en = "A song that tries really hard to get the climax to the climax. This song's theme is simply my image for Remilia Scarlet. Mysteriously, as the game heads towards the final stage, the songs start having smaller and narrower themes. But with this song, it just keeps developing as it progresses.\nWhen I listen to this song, I see the illusion of a game. It makes me feel like I'm playing an illusionary game. No genre in particular, and I don't understand why it does, but it just makes me feel like I'm playing some kind of game.\nI especially like the piano in the second half of the hook. When I was writing the song, its tension just kept rising and let that energy carry me to the end. Nothing wrong with that, right?"
+comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nA song that tries really hard to get the climax to the climax. This song's theme is simply my image for Remilia Scarlet. Mysteriously, as the game heads towards the final stage, the songs start having smaller and narrower themes. But with this song, it just keeps developing as it progresses.\nWhen I listen to this song, I see the illusion of a game. It makes me feel like I'm playing an illusionary game. No genre in particular, and I don't understand why it does, but it just makes me feel like I'm playing some kind of game.\nI especially like the piano in the second half of the hook. When I was writing the song, its tension just kept rising and let that energy carry me to the end. Nothing wrong with that, right?"
 comment3_en = "I tweaked a certain famous classic song’s title and made it the title. It has nothing to do with that song though.\nTo top it off, the music isn’t even a septette, only the feeling. (Sweats)\nIn the first place, nobody’s dead and who’s the princess?"
 
 [14]
@@ -188,11 +188,11 @@ filename = "th06_15.wav"
 rel_loop = 0x000C081C
 rel_end = 0x015457C0
 comment_jp = "フランドール・スカーレットのテーマです。\n\n今回のもっともお気に入りです。いかにして悪魔っ娘を東洋風にかつ、ミステリアスに表現できるかに挑戦した結果です。\nロリっぽいこのメロディは、今作品でもっとも私らしいメロディで、鍵盤弾くのが楽しかったです。"
-comment2_jp = "東方紅魔郷は東方作品で６作品目です。でも、殆どの方には紅魔郷がデビュー作となっています。そこでデビュー作でいきなり意表を突く事が出来ないか、考えた結果、「東方というタイトルで東洋風な物を想像するだろうから、一作目は東洋風にならないようにしよう」と言う思考に思い至りました。この曲はその結果でもあります。\nこの曲を聴くと結構不安になります。個人的な感情というか幻覚ですが、どこか不安定な音と繰り返される軽快なメロディ。意図しない不気味さがこの曲にある。\nたまにはこういう曲を作っても良いかもしれない。なかなか今の能天気な幻想郷の連中には似合わないのが問題です。"
 comment3_jp = "U.N.オーエン（ユナ・ナンシィ・オーエン）です。\n分かる人だけ分かってください。元ネタはかなり古いです（７０年前くらい？）\nなんで、この名前かっていうと、オーエンをアルファベット表記した方で考えて、フランドールは「何者とも判らぬ者」とかけています。\nフランドールの９枚目のスペルカードが、そのパロディになっています。"
 comment_en = "Flandre Scarlet's theme.\nI liked this one the best out of the whole game. It depicts a devilish girl in an Oriental and mysterious way.\nLoli-tastic melodies like this are what I'm best at, so I had a lot of fun composing this."
-comment2_en = "EoSD is the 6th game in the Touhou series, but in many ways it was a new start. However, I wasn't sure if I could make too many unexpected changes, but then I thought \"With a title like \"Touhou\", people will imagine there are a lot of oriental things in this game, so I'll make the first one not very oriental\". This song is a result of that.\nListening to this song creates a rather suspenseful feeling. While each person will have their own feelings on it, it still sounds very unstable with its rhythmic repeating melody. I intentionally placed that eeriness in this song.\nIt might be a good idea for me to make this kind of song occasionally. The only problem is that it really doesn't fit the optimistic attitude of the lot in Gensokyo right now."
 comment3_en = "This is U.N. Owen (Una Nancy Owen).\nOnly people who understand it understand please.\nThe original is quite old. (About 70 years ago?)\nThe reason why the name is this, thinking in terms of why the name is written in roman letters, is because Flandre is an unknown being.\nThe ninth spell card is a parody of that."
+comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\n東方紅魔郷は東方作品で６作品目です。でも、殆どの方には紅魔郷がデビュー作となっています。そこでデビュー作でいきなり意表を突く事が出来ないか、考えた結果、「東方というタイトルで東洋風な物を想像するだろうから、一作目は東洋風にならないようにしよう」と言う思考に思い至りました。この曲はその結果でもあります。\nこの曲を聴くと結構不安になります。個人的な感情というか幻覚ですが、どこか不安定な音と繰り返される軽快なメロディ。意図しない不気味さがこの曲にある。\nたまにはこういう曲を作っても良いかもしれない。なかなか今の能天気な幻想郷の連中には似合わないのが問題です。"
+comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nEoSD is the 6th game in the Touhou series, but in many ways it was a new start. However, I wasn't sure if I could make too many unexpected changes, but then I thought \"With a title like \"Touhou\", people will imagine there are a lot of oriental things in this game, so I'll make the first one not very oriental\". This song is a result of that.\nListening to this song creates a rather suspenseful feeling. While each person will have their own feelings on it, it still sounds very unstable with its rhythmic repeating melody. I intentionally placed that eeriness in this song.\nIt might be a good idea for me to make this kind of song occasionally. The only problem is that it really doesn't fit the optimistic attitude of the lot in Gensokyo right now."
 
 [16]
 name_jp = "紅より儚い永遠"
@@ -213,5 +213,5 @@ rel_loop = 0x000E9E4C
 rel_end = 0x011D0284
 comment_jp = "スタッフロールのテーマです。\n\nいつもは絶望的に暗い曲ばっかのスタッフロールでしたが、今回は希望的に明るくしました。多分。\n相変わらずスタッフが少ないので、あまり長い曲には出来ません。\nもっと壮大な曲でも良かったんですが、割とインルームな印象の曲になりました。これは意図していません（笑）"
 comment2_jp = "そういえば、昔の私は、日本語　～ 英語　ってフォーマットで曲名付けてたような...\nそれはともかく、スタッフロールは\"なにがしDream\"と付ける風習が自分にはあるので、今回も(^^;"
-comment_en = "Staff-roll theme.\nThe staff roll has always been dark and desperate, so I made it a bit more happy and hopeful this time. I think.\nAs the staff list is always short, I couldn't write a long piece. \nI could have made it more magnificent, but it ended up a little dry. That was not my intention (heh)"
+comment_en = "Staff Roll theme.\nThe staff roll has always been dark and desperate, so I made it a bit more happy and hopeful this time. I think.\nAs the staff list is always short, I couldn't write a long piece.\nI could have made it more magnificent, but it ended up a little dry. That was not my intention (heh)"
 comment2_en = "Now that I think of it, I used to title songs in a Japanese ~ English format...\nAnyways, I tend to put \"whatever Dream\" to staff roll themes, so once again.(^^;"

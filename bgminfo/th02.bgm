@@ -1,0 +1,156 @@
+# Music Room Interface Info
+# Tags for the Akyu's Untouched Score vol.3 release
+
+[game]
+name = "東方封魔録　～ the Story of Eastern Wonderland"
+name_en = "Touhou Fuumaroku ~ The Story of Eastern Wonderland"
+circle = "Amusement Makers"
+artist = "ZUN"
+year = 1997
+gamenum = "02"
+
+packmethod = 0
+
+tracks = 18
+
+[update]
+wikipage = "Story_of_Eastern_Wonderland/Music"
+wikirev = 156762
+
+[01]
+name_jp = "東方封魔録　～浄土曼荼羅"
+name_en = "Record of the Sealing of an Oriental Demon ~ Pure Land Mandala"
+comment2_en = "(FM Version)\nThe title theme.\nIt's a pretty long song for a title theme, so the play demo will start if you try to listen to the whole thing.\nHm, I wonder where the East is."
+comment2_jp = "(FM Version)\nタイトルの曲です。\nタイトルの割に長めな曲です、全部聞こうとするとデモプレイが始まってしまいます。\nところで、どこが東方なんでしょう。"
+comment3_en = "(MIDI Version)\nThe MIDI version doesn't sound very eastern (*g*).\nAnd when you listen to the second half, you can't help but feel it sounds medieval..."
+comment3_jp = "(MIDI Version)\nＭＩＤＩ版はますます東方な感じがしません（笑）。\n大体、曲の後半部なんてどう聞いても中世風なきがするしなぁ。"
+
+[02]
+name_jp = "博麗　～Eastern Wind"
+name_en = "Hakurei ~ Eastern Wind"
+comment2_en = "(FM Version)\nThe first stage theme. (The atmosphere is) heavy.\nA lot of shooting games have really energetic first stage themes, and this song is, too, but it's so dark.\nThis game ... even though the story is a joke, the music is so serious, and the enemies are so hard.\nI like that kind of mismatch."
+comment2_jp = "(FM Version)\n１面の曲です。（雰囲気が）重いです。\nＳＴＧの１面の曲はノリがいい曲が多いですが、この曲は、ノリはいいんですが重いんですよね。\nこのゲーム、ストーリーはおちゃらけてるのに、音楽は雰囲気が重いし、敵の攻撃はかなり硬派だし・\nそのミスマッチ、いい感じです。"
+comment3_en = "(MIDI Version)\nThe main part comes in pretty flashy. Actually, the stage 1, 2, and 3 themes all have pretty much the same flow. (From quiet songs to flashy ones.)\nThat's because the author can only make that kind of song... (sniff sniff) Er, I mean, because he likes that sort of song.\nThe second half redoes the melody. What do you think of it?"
+comment3_jp = "(MIDI Version)\nメインの先律は、かなり派手な入り方をします。実は、１、２、３面とも同じような流れを持っています。（静かな曲から、派手な曲へ）\nこれは、製作者がこういう曲しかつくれな・・・ﾓｺﾞﾓｺﾞ・もとい、こういう曲が好きだからです。\n後半部分はメロディを作り直してあります。どんな感じでしょう。"
+
+[03]
+name_jp = "She's in a temper!!"
+name_en = "She's in a temper!!"
+comment2_en = "(FM Version)\nThe stage 1 boss theme.\nI tried to make it feel as weak as possible.\nI think this song sounds a little oriental."
+comment2_jp = "(FM Version)\n１面のボスの曲。\n出来るだけ弱そうな雰囲気を出してみました。\nこの曲は少しは東方風に仕上がったと思っています。"
+comment3_en = "(MIDI Version)\nThe intro ended up pretty short.\nThat's because the part after the main bit is written using the sort of patterns I do best, and you won't hear past that in the game.\nIn other words, the stage 1 boss dies too quickly."
+comment3_jp = "(MIDI Version)\nイントロ部分が短くなってます。\n何でかというと、サビのあとの部分を新しく自分の得意なパターンでかいたのがいい感じなので、ゲーム中にそこまでまわる様にです。\nつまり、１面のボスがすぐに死んでしまうのがいけないんですね。"
+
+[04]
+name_jp = "End of Daylight"
+name_en = "End of Daylight"
+comment2_en = "(FM Version)\nThe second stage theme, I actually wrote this quite some time ago, so I think it feels different than the other songs.\nActually, I wrote this song envisioning the dawn, but there weren't any scenes like that in the game, so I'm using it for a night scene.\nI wanted it to contrast the first stage theme - day and night, light and darkness - but the first stage theme was too heavy. Mmmm~"
+comment2_jp = "(FM Version)\n２面の曲、この曲をつくったのは結構昔になるので、曲調が他の曲と違うような気がします。\nほんとは、この曲は明け方の場面のイメージでつくったんだけどそんな場面をつくんなかったので、夜の場面で使ってます。\n１面の曲とは、昼と夜、光と闇、で対照にしたつもりですが１面の曲がおもすぎ。む～"
+comment3_en = "(MIDI Version)\nIt's night, but birds are singing... this really is a dawn song.\nIt really is a string song. I don't use guitars much, even for energetic songs.\nI'd really like to make them go gyeeeeen sometime, but I don't use them, so."
+comment3_jp = "(MIDI Version)\n夜なのに、鳥の鳴き声・・・　やはりこの曲は明け方のイメージですね。\nやっぱりストリングメインです。私は激しい曲を作ってもあんまりギターを使わないんですよね。\nほんとならギュィィィィンって使いたいですが使えないので。"
+
+[05]
+name_jp = "やみのちから"
+name_en = "Power of Darkness"
+comment2_en = "(FM Version)\nThe stage 2 boss theme.\nI tried making something cool, but it's really short, isn't it?"
+comment2_jp = "(FM Version)\n２面のボスの曲。\nかっこいい系をめざしたけど、短いですね。"
+comment3_en = "(MIDI Version)\nI think up lots of really short phrases like this.\nWell, it's a boss theme, so it's probably okay even if it's short. Yes.\n(The comments are short, too.)"
+comment3_jp = "(MIDI Version)\nこういう短いフレーズはいくらでも思い付くんですよね。\nまあ、ボスの曲だし短くても結構かなぁ。と。\n（コメントも短い）"
+
+[06]
+name_jp = "幻夢界"
+name_en = "World of Empty Dreams"
+comment2_en = "(FM Version)\nI wonder just where the world of empty dreams is?\nI don't think it's anywhere in outer space, but..."
+comment2_jp = "(FM Version)\n幻夢界って、いったいどこなんでしょう。\n決して宇宙空間ではないみたいですが・・・"
+comment3_en = "(MIDI Version)\nCompared to the FM version, it's pretty flashy.\nStill, it suits the game better when it's more phantasmal, but ...\nI like having the hand claps in the drum pattern. Yes."
+comment3_jp = "(MIDI Version)\nＦＭ版に比べ、かなり派手になってます。\nでも、この曲は幻想的な方が、ゲームの流れとしてはいいんですが・・・\nドラムパターンにＨａｎｄＣｒａｐを入れるのは好きです。はい。"
+
+[07]
+name_jp = "死を賭して"
+name_en = "Bet on Death"
+comment2_en = "(FM Version)\nThe third stage boss theme.\nThe boss suddenly gets strong in this stage.\nHowever, the song has a long loop, so about the time the main melody ends, the boss should be dead."
+comment2_jp = "(FM Version)\n３面のボスの曲。\n急にボスが強くなります。\nしかしこの曲はループが長いんだよね、大抵はメインのメロディが流れる終わるころには、ボスが死んでいるんだよね。"
+comment3_en = "(MIDI Version)\nThe main instrumentation is guitars, which is unusual for me.\nTo be sure, I'm only using them for the guitar timbre; the melody isn't very guitar-ish.\nThe melody is different from the FM version, too. It was easier to make this way (^^;"
+comment3_jp = "(MIDI Version)\n珍しくメインの先律がギターです。\n正確にはギターの音色で音を出しているだけで、メロディがギターっぽくないです\nこのメロディも、ＦＭ版と違います。作るの楽だった(^^;。"
+
+[08]
+name_jp = "ひもろぎ、むらさきにもえ"
+name_en = "Himorogi, Burn in Violet"
+comment2_en = "(FM Version)\nThe \"~ni moe\" in the title means burning, I think it's definitely different from 'moe~'\nThe rhythm is unusual. In a word, strange.\nAh, what's Oriental about this song, anyway~"
+comment2_jp = "(FM Version)\n曲名の‘～にもえ’とは、burningのことであって、決して、もへぇとは違うと思います。\nノリが妙です。一言でいえば、‘変’。\nあああ、どこが東方なんだ～。"
+comment3_en = "(MIDI Version)\nI did a few things I couldn't do in the FM version. Yes.\nI redid the melody in the second half. I really like the part before the main bit in the MIDI version.\nDoesn't it feel like it's looking forward to the main part?"
+comment3_jp = "(MIDI Version)\nＦＭ版で出来なかったことをいろいろやってます。ええ。\n前半部分のメロディを新しく作り直しました。ＭＩＤＩ版のサビに入る前の部分が好きです。\nなんかサビに向けていい感じじゃないですか。"
+
+[09]
+name_jp = "恋色マジック"
+name_en = "Love-coloured Magic"
+comment2_en = "(FM Version)\nMarisa's theme. She's the strongest magical girl.\nI tried to make the song feel like something from an anime, but try as I might, I just couldn't make something that had that heroine feel to it (I'm still practicing), so I tried to make something strong and witchy.\nI think it feels a little oriental."
+comment2_jp = "(FM Version)\n魔理沙のテーマ。なんでもあり、最強魔法むすめ。\n曲はアニメを意識したものにする予定でしたが、いくら頑張ってもヒロインものの様な曲は、私には作れなかったので（ただいま練習中）つよそうな、魔女っ娘ぽい曲を作ってみました。\n少し東方な感じがすると思います。"
+comment3_en = "(MIDI Version)\nI tried my hardest to pack this song full of girl-ness.\nThe intro feels fleeting and ephemeral, but the the song feels very upbeat, the main melody feels strong, but somehow it feels Oriental, doesn't it?\nIt doesn't match a shrine maiden that much, though. (None of the songs do, actually (^^; )"
+comment3_jp = "(MIDI Version)\nこの曲は、全体的に少女のイメージをもたしてあります。\nイントロ部分ははかない感じですが、先律のなんか元気な感じ、さびの強そうな感じ、でもなんか東方な感じがするんですよね。\nといっても巫女さんには合いそうもないですが。（それいったら全部の曲がそう(^^;）"
+
+[10]
+name_jp = "東方封魔録　～幽幻乱舞"
+name_en = "Record of the Sealing of an Oriental Demon ~ A Phantom's Boisterous Dance"
+comment2_en = "(FM Version)\nThis was going to be the title song. Now, it's an uninteresting stage 5 theme.\nTo tell you the truth, this is the first song I made in PMD, so it didn't go that well, but it's the only song that changes rhythm. (The only one?)\nStill, it's the song I'm most familiar with."
+comment2_jp = "(FM Version)\n元タイトル曲です。いまは、すこぶる短い５面の曲です。\n実は、ＰＭＤで初じめて作った曲です、だからあまりうまくはないですが、唯一の変拍子をもつ曲。 （唯一だったっけ？）\nでも、一番耳になじんでいます。"
+comment3_en = "(MIDI Version)\nA difficult birth. Yes.\nIn any case, I made the FM version eight months before. Since I'd decided on the song's image then, it was hard to rewrite the bass and other parts. As a result, I had to redo it three times.\nThe melody in the second half is new, but isn't it nice? Isn't it? *sweatdrop*\nCome to think of it, this doesn't have many \"real\" instruments in it, so it's very good for game music."
+comment3_jp = "(MIDI Version)\n難産です。はい。\nなにせ、ＦＭ版を作ったのが八ヶ月前。そのくらい前の曲はイメージが固定されてるから、ベースを新しくかいたりするのが難しいのです。おかげで、３回ほど作り直しました。\n後半メロディを新しくしてますが、結構いい感じですよねぇ？　ねぇ？（汗）\nそういえばこの曲は、生楽器っぽい音が少ないのでゲームっぽくていいかも。"
+
+[11]
+name_jp = "Complete Darkness"
+name_en = "Complete Darkness"
+comment2_en = "(FM Version)\nMima's theme. There are a few points that I think are promised to last boss themes.\nNeedless to say, it can't be too light, it can't be too simple, and it has to be mysterious, among other things.\nOf course, that's my opinion, so others may not agree."
+comment2_jp = "(FM Version)\n魅魔のテーマ。私は、ラスボスの曲をつくるにいつも約束ごととして考えていることがあります。\nそれは、当たり前ですが、軽い曲にしないこと、先律があって単調でないこと、不思議な曲であること、などです。\n当然私の考えなので人によって違うと思いますが。"
+comment3_en = "(MIDI Version)\nThe tempo seems out of hand. It speeds up and slows down.\nBut, doesn't it feel very, well, last? This feeling of chaos, the murderous bass, the string, piano, and drums only main melody...\nStill, it feels like the tempo is off..."
+comment3_jp = "(MIDI Version)\nなんか、テンポがめちゃくちゃです。速くなったり遅くなったり。\nでも、いかにもラストって感じがしませんか？ 混沌とした感じ、殺人的に速いベース、ストリングとピアノとドラムオンリーのさび・・・\nでも、なんか、テンポがずれてくような・・・"
+
+[12]
+name_jp = "エキストララブ"
+name_en = "Extra Love"
+comment2_en = "(FM Version)\nThis is the Extra Stage song.\nThis song and the next are all, are you sure you want to keep going? Let's do our best to beat the next person with a no continue clear. (Easy is fine, too.)\nSo, that's what the song is like. Yep. Uja uja ..."
+comment2_jp = "(FM Version)\nＥＸＴＲＡ　ＳＴＡＧＥの曲です。\nこの曲と、次の曲はもうきいたかな？まだの人は、がんばって全タイプノーコンティニュークリアをしようね。（イージーでも可）\nで、曲はというと、う～ん。うじゃうじゃ・・・"
+comment3_en = "(MIDI Version)\nCompared to the FM version, it feels like it's leveled up.\nThe electric piano gives it a sort of radio feel that's nice.\nThe main melody in the MIDI version is pretty nice. This stage has so many bullets that maybe it's not the right place for it, though..."
+comment3_jp = "(MIDI Version)\nＦＭ版に比べ、かなりグレードアップしてます。\nエレキピアノが、なんかラジオのような雰囲気をかもしだしていい感じです。\nＭＩＤＩ版のこのサビが、ちょっとお気に入り。このステージは、弾が激しくてそれどころじゃないかもしれないけど・・・"
+
+[13]
+name_jp = "戦車むすめのみるゆめ"
+name_en = "The Tank Girl's Dream"
+comment2_en = "(FM Version)\nThe theme for a certain girl genius.\nAt the early part, it's deliberately meant to feel particularly cute. In later part, I intended to finish the song in a cool style.\nThe song uses the same progression as Extra Love. Still, conversely, this song is... ... too strong (^^;"
+comment2_jp = "(FM Version)\nある天才少女のテーマ。\nわざと初めはかわいげのある感じに仕上げてます。曲の後半部分は、かっこいい風に仕上だつもりです。\nエキストララブの先律を使っています。でも、曲とは裏腹にこいつは・・・　つよすぎ～(^^;"
+comment3_en = "(MIDI Version)\nSomehow, compared to the FM version, it sounds more tragic; I wonder why?\nIt repeats the same phrases over and over, but it takes a long time to loop.\nYou may think it's too long to listen to all, but this boss costs you quite a long time (that is, she's strong), so you can always listen to it till the last part."
+comment3_jp = "(MIDI Version)\nなんかＦＭ版に比べ、悲しげにきこえるのは何故でしょう。\n同じフレーズを繰り返してますが、ループまでかなり長いです。\n長いからゲーム中は最後まできけないかっていうと、このボス、かなり長い（つまり強い）ので必ず最後まできけます。"
+
+[14]
+name_jp = "遠野の森"
+name_en = "Forest of Tohno"
+comment2_en = "(FM Version)\nThe ending song.\nIt's a little dark, but the ending isn't really dark at all."
+comment2_jp = "(FM Version)\nエンディングの曲。\nちょっと暗め、エンディングは暗くないんだけど。"
+comment3_en = "(MIDI Version)\nThis might be the one song in the game that is the most out of place for its stage.\nIt's not really that sad, but the ending isn't dark at all, so."
+comment3_jp = "(MIDI Version)\nもしかして、ゲーム中一番場面に合わない曲かもしれない。\nそんなに悲しい曲じゃないんだけど、エンディングは全然暗くないので。"
+
+[15]
+name_jp = "昔話わんだーらんど"
+name_en = "Legendary Wonderland"
+comment2_en = "(FM Version)\nThe staff roll song.\nI thought the staff roll song should be an upbeat song with strong rhythm, but ...\nIt's energetic, but isn't it a little too dark?"
+comment2_jp = "(FM Version)\nスタッフロールの曲。\nやっぱ、スタッフロールはリズムのある元気な曲にしよう、と思ったのに・・・。\n元気はあるけど、ちょっと暗めかな？"
+comment3_en = "(MIDI Version)\nThis is the only song that uses twice as many parts as usual. So, the sounds are very thick.\nThis is the sort of pattern I'm absolutely best at.\nUnlike the FM version, it doesn't repeat the main part, but goes right back to the beginning."
+comment3_jp = "(MIDI Version)\nこの曲だけ倍近くのパートを使ってます。だから音が深い。\n完全に自分の得意なパターンです。\nＦＭ版と違って、さびだけを繰り返さないでまた頭に戻ります。"
+
+[16]
+name_jp = "博麗神社境内"
+comment_en = "I made this, intending for it to be the first stage theme, but...\nSince the early songs in HRtP were so dark, so I thought I'd make this one brighter, and it ended up like this.\nBut, I threw it out (^^;;;;"
+comment_jp = "１面に使用するつもりで作ったのですが・・・、\n最初は霊異伝の曲が暗かったんで今度は明るくしようということでこんな感じになりました。\nでも、結局ボツ(^^;;;;"
+name_en = "Hakurei Shrine Grounds"
+
+[17]
+name_jp = "陽落ちて"
+comment_en = "I was going to use this for stage 2.\nIt's not bad, but ...\nIt felt half-hearted, so I threw it out."
+comment_jp = "２面に使用するつもりでした。\n悪くは無いんですが・・・\n中途半端なかんじでボツ。"
+name_en = "Sunfall"
+
+[18]
+name_jp = "封魔終演"
+comment_en = "I had planned on using this for the staff roll, but...\nThe rhythm is so light it's almost unthinkable now (^^;;;\nIt has a rather fine pedigree, but it didn't balance well with the other songs in the game, so I threw it out."
+comment_jp = "スタッフロールに使用する予定でしたが・・・\nいまじゃ考えられないほど軽快なノリだな～(^^;;;\nわりと好きな系統だけど、ゲーム全体のバランスからみてボツ。"
+name_en = "Sealed Demon's Finale"

@@ -1,0 +1,107 @@
+# Music Room Interface Info
+# Tags for the Akyu's Untouched Score vol.5 release
+
+[game]
+name = "東方靈異伝　～ Highly Responsive to Prayers"
+name_en = "Touhou Rei'iden ~ Highly Responsive to Prayers"
+circle = "Amusement Makers"
+artist = "ZUN"
+year = 1996
+gamenum = "01"
+
+packmethod = 0
+
+tracks = 15
+
+[update]
+wikipage = "Highly_Responsive_to_Prayers/Music"
+wikirev = 159919
+
+[01]
+name_jp = "A Sacred Lot"
+comment_en = "This is pretty awesomely reborn, I think.\nAnd yet, it really takes me back..."
+comment_jp = "結構かっこよく生まれ変わったんじゃないかな。\nそれにしても懐かしい・・・"
+name_en = "A Sacred Lot"
+
+[02]
+name_jp = "永遠の巫女"
+comment_en = "This melody had quite an impact on me. Even now, I'll find myself playing it when I compose music."
+comment_jp = "このメロディは、自分の中では衝撃的で、いまでも曲を作るとき、思わず弾いてしまいます。"
+name_en = "Eternal Shrine Maiden"
+
+[03]
+name_jp = "The Positive and Negative"
+comment_en = "I get the feeling there are a few melodic differences from my current music. What could they be...?\n(The chord progression hasn't changed much. (^^; )"
+comment_jp = "今の曲と、若干なにかメロディに差がある気がするんですけど、何だろう・・・\n（コード進行はあんまり変わらん(^^; ）"
+name_en = "The Positive and Negative"
+
+[04]
+name_jp = "Highly Responsive to Prayers"
+comment_en = "I arranged an old musical piece, and now this one feels really gloomy.\nIt's a calm piece, which really is a rarity for this game, isn't it."
+comment_jp = "昔の曲をアレンジしてると、かなり暗い曲だな～と感じます。\nこのゲームでは、非常に珍しく落ち着いた曲なんじゃないかな。"
+name_en = "Highly Responsive to Prayers"
+
+[05]
+name_jp = "東方怪奇談"
+comment_en = "I composed this song for the first game I ever made, so I put quite a bit of thought into it.\nAll the \"Touhou OOO\"-style game titles also stem from this piece."
+comment_jp = "この曲、私が生まれて初めて作ったゲーム用の曲です。だから、かなり思い入れがあります。\n東方○○○っていうゲームタイトルもこの曲から取りました。"
+name_en = "Strange Oriental Discourse"
+
+[06]
+name_jp = "天使伝説"
+comment_en = "This piece is the model for my current boss themes.\nIt doesn't seem a lot different now, but somehow the older song has WEIGHT to it (^^;;\nOr maybe it's that the current pieces are light? (I don't think that's it either...)"
+comment_jp = "今のボスの曲の原型となった曲です。\n今も大差無い様だけど、なぜか昔の曲の方が重い～(^^;;\nというか今の曲の方が軽いのか？（そんなことも無いような・・・）"
+name_en = "Angel's Legend"
+
+[07]
+name_jp = "Oriental Magician"
+comment_en = "This might be a catchy arrangement, since it was originally sooo dark.\nLooks like I inadvertently made all the songs Japanese style...totally different from how I do it now. (;_;)"
+comment_jp = "ちょっと、ノリよくアレンジしてるかも。元は暗かったからな～\nなにげに、どの曲も和風だな～今と大違いだな～(;_;)"
+name_en = "Oriental Magician"
+
+[08]
+name_jp = "破邪の小太刀"
+comment_en = "This is the most bright-eyed song in the game, I think.\nSo I tried arranging it to emphasize that feel."
+comment_jp = "このゲームで一番明る目な曲じゃないかな。\nだから、そういった感じを強調したアレンジにしてみました。"
+name_en = "Blade of Banishment"
+
+[09]
+name_jp = "魔鏡"
+comment_en = "This piece has a pretty good feel to it.\nThis kind of tune (with a touch of mystery) is indispensable for mid-game.\nWell, not that my current stuff's all that different."
+comment_jp = "この曲はなかなかいい感じかも。\n中盤戦には欠かせないよね、こういう曲（ちょっぴり謎）。\nでま～、いまの曲も大差ないんだが。"
+name_en = "Magic Mirror"
+
+[10]
+name_jp = "the Legend of KAGE"
+comment_en = "This is the second song in my heart, composed right after \"Strange Oriental Discourse\".\nOriginally, the tempo was pretty messed up, so I slowed it a bit."
+comment_jp = "この曲は「東方怪奇談」の次に作った、自分の中では２曲目に当たるものです。\n元が余りにも目茶苦茶なテンポだったんで少し遅くしてます。"
+name_en = "the Legend of KAGE"
+
+[11]
+name_jp = "いざ、倒れ逝くその時まで"
+comment_en = "Nice piece for endgame, huh? Once you finally get here, it doesn't feel all that Japanese, does it.\nThis may be a lot easier on the ears than the original piece."
+comment_jp = "この曲はラストっぽくていいですねここに来て初めて、和風っぽくないですね～。\n元曲より大分聞き安くなったかな。"
+name_en = "Now, Until the Moment You Die"
+
+[12]
+name_jp = "Civilization of Magic"
+comment_en = "I've almost never used this piece. It's only used for a brief moment in the game.\nI actually composed this for its title, so I couldn't use it afterward...\nFor the arrangement, I tried touching it up to give the feel of its title. (This piece is my favorite.)"
+comment_jp = "ほとんど未使用曲です。ゲームではちょっとしか使ってません。\n本当はタイトル用に作った曲なんですが、ちょっと使えなくて・・・\nアレンジではタイトルっぽく仕上げてみました。（この曲はお気に入り）"
+name_en = "Civilization of Magic"
+
+[13]
+name_jp = "星幽天使"
+comment_en = "This song unfolds so fast, it's like, \"Are you kidding me?\".\nIt puts together short phrases.\nAnd yet, did arranging it make it much better?"
+comment_jp = "まじかよっ、てくらい展開の速い曲ですね。\n短いフレーズを寄せ集めてます。\nそれでもアレンジで大分ましになったのかな？"
+name_en = "Angel of a Distant Star"
+
+[14]
+name_jp = "アイリス"
+comment_en = "Short and sweet. Please envision irises.\nYou might even see Shangri-La.\n(It's pretty mysterious.)"
+comment_jp = "短くていい感じ。アイリスの花でも想像して下さい。\n桃源郷が見えてきそうだし。\n（だいたい謎）"
+name_en = "Iris"
+
+[15]
+name_jp = "テーマ・オブ・イースタンストーリー"
+name_en = "Theme of Eastern Story"
+

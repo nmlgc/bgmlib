@@ -1,4 +1,4 @@
-﻿# Touhou BGM Extractor Info File
+﻿# Music Room Interface Info
 
 [game]
 name = "東方花映塚　～ Phantasmagoria of Flower View"
@@ -10,7 +10,7 @@ year = 2005
 gamenum = "09"
 lossless = true
 
-packmethod = 1
+packmethod = 2
 bgmfile = "thbgm.dat"
 zwavid_08 = 0x00
 zwavid_09 = 0x09
@@ -18,8 +18,8 @@ zwavid_09 = 0x09
 tracks = 19
 
 [update]
-wikipage = "Phantasmagoria_of_Flower_View:_Music"
-wikirev = 135166
+wikipage = "Phantasmagoria_of_Flower_View/Music"
+wikirev = 162211
 
 [01]
 name_jp = "花映塚 ～ Higan Retour"
@@ -57,20 +57,22 @@ name_en = "Mystic Oriental Dream ~ Ancient Temple"
 position = "0x0ABF69D0, 0x00290800, 0x01AC2C00"
 comment_jp = "魂魄妖夢のテーマです。\n妖々夢のバージョンではなく、連台野夜行に収録したアレンジバージョンです。より冷たい冥界の空気が伝わります。\n他のキャラはボスの曲を使っていますが、妖夢はこの曲の方が合うと思ってこれにしました。というかこの曲はお気に入り。"
 comment_en = "Youmu Konpaku's theme.\n\nIt's not the Perfect Cherry Blossom version, but the arranged version recorded in Ghostly Field Club. It draws out the coldness of the land of the dead.\nI used the boss themes for other characters, but here, I thought this one fit Youmu well, so I used it. Rather, I liked this one."
+comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\n４面までの世界、この世と、５面以降のあの世という空気感の違いを何とかして曲で表したかった。この曲はその一つの結果ですが、結構満足しています。　この曲はストーリーと言うよりは場所をイメージした曲ですが、こういう曲を聴くと大抵はその場所に居たいと感じさせる。でも、この曲は「非常に美しい場所だが、ここには居たくない」と感じる。\nこの曲を聴くと、古い古い時代の日本を幻視する。あの世というのは既に亡くなったこの世でもあるので、この幻覚は偶然ではなく、これこそ幻覚だと考える。\n印象的な曲にはゲームタイトルを使うことが多いので、この曲もその一つ。"
+comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nI wanted a song in PCB to show that there was a different atmosphere between the worlds up to stage 4 and from stage 5 on. This is the result of that, and I'm rather satisfied with it. Rather than tell a story, this song helps establish the setting. When you listen to a song like this, you more or less feel like you're there. Although for this song, I was trying to create the image of \"An extremely beautiful place that does not exist here\".\nWhen I listen to this song, I see visions of ancient Japan as if it never changed and still existed today. I don't think this was by chance, but it is certainly an illusion.\nThere are many impressive songs that I name after the game it appears in. This is another of those songs."
 
 [06]
 name_jp = "狂気の瞳　～ Invisible Full Moon"
 name_en = "Lunatic Eyes ~ Invisible Full Moon"
 position = "0x101722D0, 0x000A4000, 0x01459800"
-comment_jp = "鈴仙・優曇華院・イナバのテーマです。\n原曲より若干懐かしさが感じられるように調整し直しました。原曲の所為もあるんですが、今回のゲームにはちょっと激しすぎるかも。何をそんあ真剣になっているんだ？的な激しさが。\nと言うか永夜抄の曲が全体的にちょっと激しすぎるんですとね。夜と時間がテーマだったので、まあそれは理解できますが。今回は花とお馬鹿がテーマだからなぁ（違）"
+comment_jp = "鈴仙・優曇華院・イナバのテーマです。\n原曲より若干懐かしさが感じられるように調整し直しました。原曲の所為もあるんですが、今回のゲームにはちょっと激しすぎるかも。何をそんな真剣になっているんだ？的な激しさが。\nと言うか永夜抄の曲が全体的にちょっと激しすぎるんですとね。夜と時間がテーマだったので、まあそれは理解できますが。今回は花とお馬鹿がテーマだからなぁ（違）"
 comment_en = "Reisen Udongein Inaba's theme.\n\nI made a few tweaks to the original to make it a little more nostalgic. I had my reasons for the original, but for this game, it may have been a little too much. Almost like \"why's it so serious?\" \nWell, Imperishable Night's pieces were all just a little too much. Because it was about night and time... well, maybe that doesn't make any sense. Could you say this one's about flowers and idiots... (oops)"
 
 [07]
 name_jp = "おてんば恋娘の冒険"
 name_en = "Adventure of the Lovestruck Tomboy"
-position = "0x05F3DFD0, 0x001D3400, 0x01901C00"
+position = "0x05F3DED0, 0x001D3400, 0x01901C00"
 comment_jp = "チルノのテーマです。\n古のバカ^H^H可愛い曲がかっこよくなりました。妙にかっこよくなってしまってどうかなぁ。\nと言うつつも、メロディ自体は頭悪そうですよね。この曲は、東洋風で軽く激しく、少女風で悩みのない感じが詰まっています。こうなると東洋風というよりは東方風といった感じで、いつの間にか私のお得意中のお得意パターンになってしまっています。"
-comment_en = "Cirno's theme.\n\nThe old stupid, er, \"cute\" song has become cool. It's weird how that worked, and it makes you wonder.\nStill, the melody itself seems pretty dumb. I wrote this in an Asian style, light and intense, not worrying about whether it fits the image of a little girl. Instead of Asian, it feels more Touhou, and I seem to have developed a specialty pattern without realizing it."
+comment_en = "Cirno's theme.\nThe old stupid^H^H^H^H^H^H cute song has become cool. It's weird how that worked, and it makes you wonder. \nStill, the melody itself seems pretty dumb. I wrote this in an Asian style, light and intense, not worrying about whether it fits the image of a little girl. Instead of Asian, it feels more Touhou, and I seem to have developed a specialty pattern without realizing it."
 
 [08]
 name_jp = "幽霊楽団　～ Phantom Ensemble"
@@ -99,8 +101,8 @@ name_en = "Wind God Girl"
 position = "0x0C6B95D0, 0x002AFD00, 0x01E11A00"
 comment_jp = "射命丸文のテーマです。\nこれは、「東方文花帖」の曲のショットバージョンです。原曲は６分程の長い曲ですが、このゲームそんなに長く対戦できないので、メインの部分だけのループになっています。\n天狗少女がトランペットを吹いている姿が格好よく吹いているのを想像して作曲しました。\n気持ちよく飛ぶ風の世界。花映塚のイメージそのものです。"
 comment_en = "Aya Shameimaru's theme.\n\nThis is the short version of the theme to Bohemian Archive in Japanese Red. The original piece was a long six minutes, but such long battles in this game cannot happen, so I took the main section and looped it.\nI imagined a wind god girl looking good playing the trumpet when I made this.\nA world where feelings fly on the winds. This is the image I had in mind for Phantasmagoria of Flower View."
-comment2_jp = "非常にノリの良い曲です。新しい曲という理由もありますが、自分の東方像にかなり近い曲です。自然、少女らしい可愛らしさ、酒脱した感じ、日本を思い浮かべる東洋風、ノリを損なわずシューティング向きな所、たまにこういう曲があると良いですね（他人事みたいですが）\nそう、私は昔はトランペットを吹いていたこともあったのでマイトランペットも持っている。こういう曲をトランペットで吹いたら格好良いだろうなぁとしきりに思う。\nちなみにこの曲がトランペットメインなのは、風を吹き込むから。"
-comment2_en = "This is an extremely catchy song. While that may be because it is a new song, it is also very close to my own envisioning of Touhou. A naturally girly cuteness, a feeling of giddiness, an Japanese oriental style, and for a shooting game that also never lets up, I think a song like this every now and then is a good idea (Kind of like other people's problems.).\nYes, I used to play trumpet and I still own one now. I think trumpet-playing for this kind of song is pretty cool.\nBy the way, the trumpet has the main part because it's a wind instrument."
+comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\n非常にノリの良い曲です。新しい曲という理由もありますが、自分の東方像にかなり近い曲です。自然、少女らしい可愛らしさ、酒脱した感じ、日本を思い浮かべる東洋風、ノリを損なわずシューティング向きな所、たまにこういう曲があると良いですね（他人事みたいですが）\nそう、私は昔はトランペットを吹いていたこともあったのでマイトランペットも持っている。こういう曲をトランペットで吹いたら格好良いだろうなぁとしきりに思う。\nちなみにこの曲がトランペットメインなのは、風を吹き込むから。"
+comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nThis is an extremely catchy song. While that may be because it is a new song, it is also very close to my own envisioning of Touhou. A naturally girly cuteness, a feeling of giddiness, an Japanese oriental style, and for a shooting game that also never lets up, I think a song like this every now and then is a good idea (Kind of like other people's problems.).\nYes, I used to play trumpet and I still own one now. I think trumpet-playing for this kind of song is pretty cool.\nBy the way, the trumpet has the main part because it's a wind instrument."
 
 [12]
 name_jp = "ポイズンボディ　～ Forsaken Doll"

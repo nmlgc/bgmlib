@@ -1,4 +1,4 @@
-﻿# Touhou BGM Extractor Info File
+# Music Room Interface Info
 
 [game]
 name = "黄昏酒場～Uwabami Breakers～"
@@ -8,7 +8,7 @@ circle_en = "The Drinking Party"
 year = 2007
 lossless = true
 
-packmethod = 1
+packmethod = 2
 bgmfile = "albgm.dat"
 zwavid_08 = 0x00
 zwavid_09 = 0x10

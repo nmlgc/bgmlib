@@ -1,0 +1,35 @@
+# Music Room Interface Info
+
+[game]
+name = "東方三月精 ～ Strange and Bright Nature Deity 2"
+name_en = "Touhou Sangetsusei ~ Strange and Bright Nature Deity 2"
+circle = "上海アリス幻樂団"
+circle_en = "Team Shanghai Alice"
+artist = "ZUN"
+year = 2009
+
+packmethod = 0
+
+tracks = 4
+
+[update]
+wikipage = "Strange_and_Bright_Nature_Deity_2_(CD)"
+wikirev = 159210
+
+[01]
+name_jp = "可愛い大戦争のリフレーン"
+comment2_jp = "以下三曲は「東方三月精　Eastern and Little Nature Deity」からの再録です。ちょっとバランスを調整してありますが内容は同じです。漫画のサブタイトルが異なっているの、気づいた人っているのかなぁ。それぞれ、サニーとルナとスターのテーマになっています。"
+name_en = "The Refrain of the Lovely Great War"
+comment_jp = "描きおろしの漫画、妖精大戦争の続きをイメージした曲です。妖精大戦争は普通にシューティングのオープニングストーリーのイメージです。この曲はそのシューティングの道中曲といった感じ。漫画の後、妖精達が本当に大戦争するのか、はたまた桜の花に気をとられて大宴会になるのか、それは誰にも判りません。この曲の雰囲気ではどちらにも取れるかと思います。曲の入りは旅立ちっぽい雰囲気ですが、いざ旅立つとあちこちで寄り道して目的を忘れてしまう妖精のイメージを出してみましたが如何でしょうか？"
+
+[02]
+name_jp = "サニールチルフレクション"
+name_en = "Sunny Rutile Flection"
+
+[03]
+name_jp = "夜だから眠れない"
+name_en = "Sleepless Due to the Night"
+
+[04]
+name_jp = "妖精燦々として"
+name_en = "In Regards to Fairy Brilliance"

@@ -1,4 +1,4 @@
-﻿# Touhou BGM Extractor Info File
+# Music Room Interface Info
 
 [game]
 name = "東方地霊殿　～ Subterranean Animism"
@@ -8,18 +8,17 @@ circle = "上海アリス幻樂団"
 circle_en = "Team Shanghai Alice"
 year = 2008
 gamenum = "11"
-lossless = true
 
-packmethod = 1
-bgmfile = "thbgm.dat"
+packmethod = 2
+bgmfile = "thbgm"
 zwavid_08 = 0x00
 zwavid_09 = 0x11
 
 tracks = 18
 
 [update]
-wikipage = "Subterranean_Animism:_Music"
-wikirev = 135169
+wikipage = "Subterranean_Animism/Music"
+wikirev = 160642
 
 [01]
 name_jp = "地霊達の起床"
@@ -96,7 +95,7 @@ name_jp = "死体旅行　～ Be of good cheer!"
 name_en = "Corpse Voyage ~ Be of good cheer!"
 position = "0x0BD43608, 0x00084600, 0x01111500"
 comment_jp = "お燐のテーマです。\n\n元気さが不気味な猫のテーマです。\n４、５面と重い感じにしてきたので、一気に明るくしてみました。\nお燐が押している車は猫車です。何を運んでいるかって？\n聞かない方が良かったと思う筈ですよ。"
-comment_en = "This is Orin's theme.\n\nThis is the theme for a cheery, yet bizarre cat.\nSince stages 4 and 5 were pretty heavy, I tried to clear it up in a flash.\nThe cart Orin is pushing is a wheelbarrow [TL Note: \"Cat cart\" in Japanese]. What's it carrying, you say?\nBest not to ask such questions, I think."
+comment_en = "This is Orin's theme.\n\nThis is the theme for a cheery, yet bizarre cat. Since stages 4 and 5 were pretty heavy, I tried to clear it up in a flash.\n\nThe cart Orin is pushing is a wheelbarrow.What's it carrying, you say? Best not to ask such questions, I think."
 
 [12]
 name_jp = "業火マントル"
@@ -144,5 +143,3 @@ comment_en = "This is the staff roll theme.\n\nI made it the same as always. Wel
 name_jp = "プレイヤーズスコア"
 name_en = "Player's Score"
 position = "0x15308348, 0x001CACC8, 0x0066DCC0"
-comment_jp = ""
-comment_en = ""

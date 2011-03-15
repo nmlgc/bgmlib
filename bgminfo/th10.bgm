@@ -1,4 +1,4 @@
-﻿# Touhou BGM Extractor Info File
+# Music Room Interface Info
 
 [game]
 name = "東方風神録　～ Mountain of Faith"
@@ -10,8 +10,7 @@ year = 2007
 gamenum = "10"
 lossless = true
 
-# BGM Packing Method
-packmethod = 1
+packmethod = 2
 bgmfile = "thbgm.dat"
 zwavid_08 = 0x00
 zwavid_09 = 0x10
@@ -19,8 +18,8 @@ zwavid_09 = 0x10
 tracks = 18
 
 [update]
-wikipage = "Mountain_of_Faith:_Music"
-wikirev = 135168
+wikipage = "Mountain_of_Faith/Music"
+wikirev = 150477
 
 [01]
 name_jp = "封印されし神々"
