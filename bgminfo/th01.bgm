@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 # Tags for the Akyu's Untouched Score vol.5 release
 
 [game]
@@ -6,7 +6,7 @@ name = "東方靈異伝　～ Highly Responsive to Prayers"
 name_en = "Touhou Rei'iden ~ Highly Responsive to Prayers"
 circle = "Amusement Makers"
 artist = "ZUN"
-year = 1996
+year = 1997
 gamenum = "01"
 
 packmethod = 0

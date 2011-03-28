@@ -44,7 +44,7 @@ bool PM_BGMDat::ParseTrackInfo(ConfigFile &NewGame, GameInfo *GI, ConfigParser* 
 // --------
 bool PM_BGMDat::CheckZWAV_dat(GameInfo* Target, FXFile& File)
 {
-	uchar FileID[2];
+	char FileID[2];
 
 	File.position(8);
 	File.readBlock(FileID, 2);

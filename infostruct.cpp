@@ -244,8 +244,13 @@ FXString GameInfo::NamePlusInfoFN(const ushort& Lang)
 
 FXString GameInfo::TrackFN(TrackInfo* TI)
 {
-	if(PM)	return Path + PATHSEP + PM->TrackFN(this, TI);
-	else			return "";
+	if(PM)
+	{
+		FXString Ret(Path);
+		if(!Ret.empty())	Ret += PATHSEP;
+		return Ret + PM->TrackFN(this, TI);
+	}
+	else	return "";
 }
 
 bool GameInfo::OpenBGMFile(FXFile& File, TrackInfo* TI)

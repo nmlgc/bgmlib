@@ -126,27 +126,30 @@ ogg_int64_t ov_read_bgm(OggVorbis_File* vf, char* buffer, const ulong& Size, Tra
 // Ogg packet copy functions
 // ===============
 int ov_bitstream_seek(OggVorbis_File* vf, ogg_int64_t pos, bool seek_to_header);
-void write_ov_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, vorbis_comment* vc);
-void write_ov_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, ogg_packet* header, vorbis_comment* vc, ogg_packet* header_code);
+void vorbis_write_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, vorbis_comment* vc);
+void vorbis_write_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, ogg_packet* header, vorbis_comment* vc, ogg_packet* header_code);
 
 // Adapted from vcut.c
 // -------
 
 // Reads an arbitrary amount of bytes from [file_in] into [sync_in].
 // Return value: number of read bytes
-int update_sync(FXFile& file_in, ogg_sync_state* sync_in);
+int ogg_update_sync(FXFile& file_in, ogg_sync_state* sync_in);
 
 // Writes pages to the given file, or discards them if file is NULL.
-bool write_pages_to_file(ogg_stream_state *stream, FXFile& file, bool flush);
+bool ogg_write_pages_to_file(ogg_stream_state *stream, FXFile& file, bool flush);
 
 // Submits [packet] to [stream_out], and writes filled pages to [out]. 
-bool write_packet(FXFile& out, ogg_stream_state* stream_out, ogg_packet *packet);
+bool ogg_write_packet(FXFile& out, ogg_stream_state* stream_out, ogg_packet *packet);
 
 // Copies audio packets from [file_in] to [file_out].
 // Stops once a given number of samples, or the end of the input stream is reached
 // Returns number of written samples
 ogg_int64_t ogg_packetcopy(FXFile& file_out, ogg_stream_state* stream_out, FXFile& file_in, ogg_stream_state* stream_in, ogg_sync_state* sync_in, vorbis_info* info_in = NULL, ogg_int64_t samples = -1, ogg_int64_t sample_start = 0);
 ogg_int64_t ogg_packetcopy(FXFile& file_out, ogg_stream_state* stream_out, OggVorbis_File* ov_in, ogg_int64_t sample_end = -1, ogg_int64_t sample_start = 0);
+
+// Maps a Vorbis quality level to an average bitrate
+float vorbis_quality_to_bitrate(const float& q);
 // -------
 
 // ===============

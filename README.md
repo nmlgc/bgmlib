@@ -55,3 +55,19 @@
   $(ProjectDir)libs\ogg\include\
   $(ProjectDir)libs\vorbis\include\
   ```
+
+* Fix the type error in `libvorbis.cpp`:
+
+```diff
+--- a/libvorbis.cpp
++++ b/libvorbis.cpp
+@@ -547,7 +547,7 @@ const double rate_mapping_44_stereo[12]=
+
+ float vorbis_quality_to_bitrate(const float& q)
+ {
+-       float ds = 0.0, _is;
++       double ds = 0.0, _is;
+        int is = 0.0;
+
+        ds =modf(q, &_is);
+```

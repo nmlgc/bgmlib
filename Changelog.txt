@@ -8,6 +8,13 @@ NOTE: This file only lists changes to supported games and the back-end engine.
       Refer to the musicroom changelog for changes to the user interface program.
 
 
+- 2011/03/28 (Version 2.0.1)
+* Added tagging support for 「Shuusou Gyoku」 and 「ZUN's Strange Works」
+* Fixed slightly wrong starting position for Phantasmagoria of Flower View's おてんば恋娘の冒険
+* Fixed wrong looping values for the entirety of 「Mountain of Faith」 and 「Undefined Fantastic Object」's 幽霊客船の時空を越えた旅
+
+----
+
 - 2011/03/08 (Version 2.0)
 * Splitted bgmlib off musicroom to make it a standalone library
 * Added support for games to be tag-only, without any extraction...

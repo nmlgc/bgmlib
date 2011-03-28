@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方紅魔郷　～ the Embodiment of Scarlet Devil"
@@ -18,7 +18,7 @@ tracks = 17
 
 [update]
 wikipage = "Embodiment_of_Scarlet_Devil/Translation/Music"
-wikirev = 156909
+wikirev = 161168
 
 # comment2 = Bohemian Archive in Japanese Red Music Columns (if available)
 # comment3 = EoSD afterword

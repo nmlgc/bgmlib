@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方風神録　～ Mountain of Faith"
@@ -8,7 +8,6 @@ circle = "上海アリス幻樂団"
 circle_en = "Team Shanghai Alice"
 year = 2007
 gamenum = "10"
-lossless = true
 
 packmethod = 2
 bgmfile = "thbgm.dat"
@@ -31,49 +30,49 @@ comment_en = "This is the title theme.\n\nThe same song as ever...\nI tried to m
 [02]
 name_jp = "人恋し神様　～ Romantic Fall"
 name_en = "A God That Misses People ~ Romantic Fall"
-position = "0x00E2FA10, 0x002975F0, 0x016E4800"
+position = "0x00E2FA10, 0x00297C00, 0x016E4800"
 comment_jp = "１面のテーマです。\nこのノリも久々ですね。\n\nゲームのテンポを突然落とすメロディアスな部分といい、緊張感の感じられない曲調と言い......今までの東方の中で１，２を争う１面っぽい曲だと思うのですが如何でしょう？"
 comment_en = "This is the first stage theme.\n\nIt's been many a day since I last used this kind of mood.\nConsidering the melodious part where the tempo suddenly drops, and tune which doesn't really cause any tension... I think this is the song most befitting of a stage 1 of all the stages 1 and 2 songs in Touhou games up until now. What do you think?"
 
 [03]
 name_jp = "稲田姫様に叱られるから"
 name_en = "Because Princess Inada Is Scolding Me"
-position = "0x02514210, 0x0003ADF0, 0x00781000"
+position = "0x02514210, 0x0003B600, 0x00781000"
 comment_jp = "秋　穣子のテーマです。\n道中に比べるとテンポの良い曲です。収穫祭というイメージと、未熟で脳天気な神様のイメージを入れてみました。\nこんな緊張感のない曲でゲームが出来るのは東方だからこそ、普通はこんな軽い曲でボス戦ってのは難しいもんです。\n短いループですが、ボス戦自体も短いしね。"
 comment_en = "This is Minoriko Aki's theme.\n\nIt has a pretty good tempo compared to the rest. I tried making it with the image of a harvest festival and an inexperienced and thoughtless god.\nThe only game that can do this kind of nervousless piece is Touhou. Normally, fighting a boss with this kind of music would be difficult.\nIt is a short loop, but the boss fight itself is short anyway."
 
 [04]
 name_jp = "厄神様の通り道　～ Dark Road"
 name_en = "The Road of the Apotropaic God ~ Dark Road"
-position = "0x02C95210, 0x0009EDF0, 0x0146BC00"
+position = "0x02C95210, 0x0009F200, 0x0146BC00"
 comment_jp = "２面のテーマです。\n一面とは対照的に暗めな曲です。\n良い感じに西洋風とも東洋風とも取れる曲だと思います。\nボスがゴスロリ風なので、こんな感じの曲になりました。\n少しミステリアスなイントロから、視界が開けるサビへと移行する部分は、かなり気持ちが良い物です。"
 comment_en = "This is the second stage theme.\n\nIn contrast with the first stage, this is a gloomy piece.\nIt combines both western and oriental styles; I think it has a nice feeling to it.\nThe boss is a gothic lolita, so the music turned out this way.\nThe transition from the mysterious intro to the chorus where your field of vision expands has a pretty good feeling to it."
 
 [05]
 name_jp = "運命のダークサイド"
 name_en = "Dark Side of Fate"
-position = "0x04100E10, 0x0007C1F0, 0x011CA600"
+position = "0x04100E10, 0x0007CA00, 0x011CA600"
 comment_jp = "鍵山　雛のテーマです。\n\nゴスロリ風と言う事で、もっと痛い感じにしようかと思ったのですが、自分の好みとゲーム全体の事を考えていたらこんな感じに落ち着いてしまいました。\nま、２面のボスだしね。少しくらい頭が弱そうな方が......"
 comment_en = "This is Hina Kagiyama's theme.\n\nSince she's a gothic lolita, I thought I should make it a more painful kind of feeling, but when I thought of my own preferences, and the matter of the entire game, this kind of feeling just settled in.\nWell, she's just a stage 2 boss. It's better to make her look a bit stupid."
 
 [06]
 name_jp = "神々が恋した幻想郷"
 name_en = "The Gensokyo The Gods Loved"
-position = "0x052CB410, 0x002FFBF0, 0x01EAB600"
+position = "0x052CB410, 0x00300000, 0x01EAB600"
 comment_jp = "３面のテーマです。\n妖怪の山に潜入して一曲目です。コテコテの幻想郷節が炸裂しています。妖怪の棲む美しい渓谷に、最上級のメロディアスな曲を用意しました。\n２面の気持ちの悪さとは対照的な３面に、開放感を感じて頂ければ 幸いです。"
 comment_en = "This is the third stage theme.\n\nIt's the first tune you hear after infiltrating Youkai Mountain. It's bursting with the heavy verses of Gensokyo. I prepared the best melodious tune I could for the beautiful valley the youkai reside in.\nI hope I have managed to convey a rather liberal feeling, in contrast to the darker stage two theme."
 
 [07]
 name_jp = "芥川龍之介の河童　～ Candid Friend"
 name_en = "Akutagawa Ryuunosuke's \"Kappa\" ~ Candid Friend"
-position = "0x07176A10, 0x001AA5F0, 0x01898500"
+position = "0x07176A10, 0x001AA800, 0x01898500"
 comment_jp = "河城　にとりのテーマです。\nこの曲はよく聞くことになるので、飽きさせない事に力を入れてみ\nました。その為に、奇妙なフレーズとリズムを使ってみましたが如\n何でしょう。この曲長時間聞く事を想定しています。初めて聞い\nた時の印象から、聞いていくうちに徐々に変化していきます。\n最後的にはかなり切ない曲に聞こえてくる筈、かな？"
 comment_en = "This is Nitori Kawashiro's theme.\n\nYou will hear this song quite a bit, so I've put forth my best effort so that you won't get tired of it. For that purpose, I've used some strange phrases and rhythms, but I wonder if it was any good.\nMy hypothesis is that you'll be listening to this one a lot. Since my first impressions of the song, as I continued to listen to it, it seems to have gradually changed on me.\nAs the concluding piece, it should end up having a rather sorrowful sound to it, I guess?"
 
 [08]
 name_jp = "フォールオブフォール　～ 秋めく滝"
 name_en = "Fall of Fall ~ Autumnal Waterfall"
-position = "0x08A0EF10, 0x001A00F0, 0x02252800"
+position = "0x08A0EF10, 0x001A1000, 0x02252800"
 comment_jp = "４面のテーマです。\n滝というと豪快な大きな滝と神妙な細い滝の二つのイメージがありますが、今回は前者の滝をイメージしました。\nいつもいつも東方は暗い感じなので、何とかさわやかな感じを出してみましたが何故でしょう？\n秋の滝。滝が一番映えるのは秋だと思います。"
 comment_en = "This is the fourth stage theme.\n\nWhen you think of waterfalls, there are two images: the powerful, vast waterfall and the meek, trickling one. But this time, I opted for the image of the former.\nTouhou has always, always had a dark feel to it, so I tried to express a somewhat refreshing feel. Why is that?\nAn autumn waterfall. I think the thing waterfalls convey the most is autumn."
 
@@ -87,14 +86,15 @@ comment_en = "This is Aya Shameimaru's theme.\n\nI made the same Aya's theme, Wi
 [10]
 name_jp = "少女が見た日本の原風景"
 name_en = "The Primal Scene of Japan the Girl Saw"
-position = "0x0BA74510, 0x00081AF0, 0x01EC9A00"
+position = "0x0BA74510, 0x00082000, 0x01EC9A00"
 comment_jp = "５面のテーマです。\n今回全体的に和風成分が濃いです。特に後半に行くほど和風です。\nこの曲は他に比べると和風成分が小さなめですが、懐かしく暗い感じのメロティとサビの疾走感は後半っぽい匂いがします。\nゲームプレイと併せる聴くとより一層後半ぽいです　（後半です）。\nそれにしても守矢の神社、博麗神社より豪華そうだなぁ……。"
 comment_en = "This is the fifth stage theme.\n\nThis time, the Japanese element is deep throughout. Especially as it gets more Japanese the more you progress through the latter half.\nComparing this tune to the others, the Japanese element is relatively small, but the very dark, nostalgic melody and rapid chorus feel very latter half.\nIf you listen to it combined with the gameplay, it feels even more latter half (well, it is the latter half).\nEven so, the Moriya Shrine seems even more extravagant than the Hakurei Shrine..."
 
 [11]
 name_jp = "信仰は儚き人間の為に"
 name_en = "Faith is for the Transient People"
-position = "0x0D93DF10, 0x00272400, 0x01DF9D00"
+# fixed looping click
+position = "0x0D93DF10, 0x0026A6E8, 0x01DF1948"
 comment_jp = "東風谷　早苗のテーマです。\n一気に金属分が増した感じですが、これは重くしようとするとついうっかりやり過ぎてしまう私の癖です。てへ。\nメロティにしても何にしても今回のゲームではこれが一番重めです。\nここから先は一気に明るくなって、最後は気が抜けるぐらい……。\n強い奴ほど緊張感が無いのか、幻想郷ではお約束。"
 comment_en = "This is Sanae Kochiya's theme.\n\nIt feels like the metal section suddenly got bigger here; I thought I'd give this a heavy feeling, but I got careless and overdid it, which is a bad habit of mine. Tee hee.\nWhether it's the melody or something else, it's the heaviest in this game.\nFrom this point on, it suddenly becomes bright, and at the end it kind of lost its touch...\nThe stronger they are, the less the feeling of tension: I promise this is true in Gensokyo."
 
@@ -108,35 +108,35 @@ comment_en = "This is the sixth stage theme.\n\nSince the stage is short, the tu
 [13]
 name_jp = "神さびた古戦場　～ Suwa Foughten Field"
 name_en = "The Venerable Ancient Battlefield ~ Suwa Foughten Field"
-position = "0x10298D10, 0x004D92F0, 0x01B65000"
+position = "0x10298D10, 0x004D9B00, 0x01B65000"
 comment_jp = "八坂　神奈子のテーマです。\n圧倒的な力で人間、妖怪を全て味方にする不思議な神様です。\n神への畏怖を感じさせるパートと、歴史の重みを感じさせるパートで構成されています。\nいずれにしても、遊び心たっぷりの余裕有りまくりの曲です。\n早苗とは大違いの曲調ですが、これが人間と神の差なのかも知れません。"
 comment_en = "This is Kanako Yasaka's theme.\n\nThis is a strange god who befriends human and youkai alike with an overwhelming power.\nI composed a part which makes you feel awe towards a god, and a part which makes you feel the gravity of history.\nAnyhow, it's a playful tune which possesses ample reckless abandon.\nThere's a huge difference compared to Sanae in the melody, but maybe this is the difference between gods and humans."
 
 [14]
 name_jp = "明日ハレの日、ケの昨日"
 name_en = "Tomorrow will be Special, Yesterday was Not"
-position = "0x11DFDD10, 0x000642F0, 0x021BCB80"
+position = "0x11DFDD10, 0x00065100, 0x021BCB80"
 comment_jp = "エキストラステージのテーマです。\nこのゲームで最も楽しげな曲を作ろうと思って書きました。\n大して美味しくもない焼そばにお好み焼き、タコ焼、味付けの濃いゲソ焼。しかも妙に値段が高い。\nそんな屋台のジャンクフードを肴に、境内を眺めながら缶ビール。\nそんな神社の縁日、大好きです。それもビールの楽しみ方の一つ。"
 comment_en = "This is the extra stage theme.\n\nI thought of writing the most cheerful piece for this game.\nNot especially tasty yakisoba, okonomiyaki, takoyaki, and heavily seasoned gesoyaki. And unusually expensive.\nServed as a junk food snack platter, with cans of beer, all the while gazing at the grounds.\nI love that kind of festival day at the shrine. That's one of the way to enjoy beer."
 
 [15]
 name_jp = "ネイティブフェイス"
 name_en = "Native Faith"
-position = "0x13FBA890, 0x000D6770, 0x01D07640"
+position = "0x13FBA890, 0x000D7220, 0x01D07640"
 comment_jp = "洩矢　諏訪子のテーマです。\n楽しげでスピード感のある曲です。しかもメインのメロディは和風で子供っぽい感じを入れてみました。諏訪子にぴったりです。\nそんな明るい曲調とは裏腹に、実は地獄のピアノ曲です。\nこの曲もまた、神奈子以上に余裕のありまくり曲ですね。\nむしろ巫山戯ているとしか思えない。特に超高速ピアノが。"
 comment_en = "This is Suwako Moriya's theme.\n\nIt's a cheerful piece with a rapid feeling. Moreover, I tried to add a Japanese and childish feeling to the melody. It fits Suwako perfectly.\nSuch a lively tune is on the contrary, actually a piano piece from hell.\nAgain, this song has an abundance of chaos, even moreso than Kanako.\nYou'd definitely think she was playing around with the shrine maiden, what with the particularly high speed piano."
 
 [16]
 name_jp = "麓の神社"
 name_en = "Shrine at the Foot of the Mountain"
-position = "0x15CC1ED0, 0x007A2130, 0x00EB5200"
+position = "0x15CC1ED0, 0x007A2C00, 0x00EB5200"
 comment_jp = "エンディングのテーマです。\n\n今回は全体を通して三拍子が多いですな。なんか三拍子って和風なゲームとしっくり合う気がします。\n暗すぎ明るすぎず、自己主張を控えめに。\nそう作れば空気のような曲になるので、どんな場面にも使えます。"
 comment_en = "This is the ending theme.\n\nThis time, there are many triple beats that permeate your whole body. I feel that things like triple beat match the Japanese-style game nicely.\nIt asserts itself modestly without being too dark or too light.\nMade this way, it becomes an atmospheric piece, thus it's suitable for any scene."
 
 [17]
 name_jp = "神は恵みの雨を降らす　～ Sylphid Dream"
 name_en = "The Gods Give Us Blessed Rain ~ Sylphid Dream"
-position = "0x16B770D0, 0x00A9DA04, 0x00F309A4"
+position = "0x16B770D0, 0x00A70194, 0x00F04FF4"
 comment_jp = "スタッフロールテーマです。\n神様に雨乞いをして雨を降ろします。本編のストーリーとは一切関係がありませんが、神様の恵みとして一番判りやすいのが雨でしたので……。\n風と神とは、別に天狗みたいに風を吹かすだけでなく、農業の神といった意味合いもあるんですよね。\n農業といえば雨。だから、雨。"
 comment_en = "This is the Staff Credits theme.\n\nPray to the gods for rain, and rain will fall. It doesn't have any relevance to the actual story, but the simplest thing to understand as a god's blessing is rain, so...\nThe wind god doesn't just make the wind blow like a tengu can; there's also a connection to the meaning of harvest gods.\nIf you think of farming, you think rain. That's why it's rain."
 

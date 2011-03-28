@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方文花帖　～ Shoot the Bullet"
@@ -8,7 +8,6 @@ circle = "上海アリス幻樂団"
 circle_en = "Team Shanghai Alice"
 year = 2005
 gamenum = "09.5"
-lossless = true
 
 packmethod = 2
 bgmfile = "thbgm.dat"

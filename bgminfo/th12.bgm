@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方星蓮船　～ Undefined Fantastic Object"
@@ -8,7 +8,6 @@ circle = "上海アリス幻樂団"
 circle_en = "Team Shanghai Alice"
 year = 2009
 gamenum = "12"
-lossless = true
 
 packmethod = 2
 bgmfile = "thbgm.dat"
@@ -76,7 +75,7 @@ comment_en = "This is Ichirin Kumoi and Unzan's theme.\n\nSince they're pretty f
 [08]
 name_jp = "幽霊客船の時空を越えた旅"
 name_en = "Interdimensional Voyage of a Ghostly Passenger Ship"
-position = "0x07E11A90, 0x0009AFF0, 0x0182B600"
+position = "0x07E11A90, 0x0009B000, 0x0182B600"
 comment_jp = "４面のテーマです。\n\n旅って良いですよね。乗り物に乗っている時が一番ワクワクする。\n例えそれが、よく沈没する事で有名な幽霊船長の船だとしても。\nこの曲は出来るだけ期待と不安が入り交じった、ワクワク感を出して見ました。"
 comment_en = "This is the stage 4 theme.\n\nAren't journeys great? I feel the most excited when I'm riding on a vessel.\nEven if it's the ship of the infamous ghost captain who sinks lots of other ships.\nI mixed anticipation and anxiety together as much as I could when making this song, trying to give it a sense of excitement."
 

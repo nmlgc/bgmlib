@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "幡紫竜"
@@ -6,6 +6,7 @@ name_en = "Banshiryuu"
 circle = "瞬殺サレ道? / Amusement Makers"
 circle_en = "Syunsatsu Sare Do / Amusement Makers"
 year = 2008
+gamenum = "03"
 
 packmethod = 5
 bgmfile = "music.ac6"

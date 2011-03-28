@@ -1,10 +1,13 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "稀翁玉"
 name_en = "Kioh Gyoku"
+circle = "Amusement Makers"
+circle_en = "Amusement Makers"
 artist = "ZUN"
 year = 2001
+gamenum = "02"
 
 packmethod = 1
 bgmdir = "WAVE"

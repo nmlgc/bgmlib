@@ -56,7 +56,7 @@ public:
 	bool	PosFmt;	// Format of the position data (bytes or samples)
 
 	ushort		Number; // Track Number (starting with 1!)
-	FXString	FN;	// Individual Track Filename (only used with BGMDIR)
+	FXString	FN;	// Individual Track Filename (not used with BGMDAT)
 	IntString	Name; // Track name
 	IntString	Comment; // Music room comment
 	List<IntString>	Afterword;	// Supplementary comment

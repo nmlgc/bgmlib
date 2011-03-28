@@ -202,7 +202,7 @@ bool OggVorbis_EncState::encode_pcm(char* buf, const int& size)
 
 		while(vorbis_bitrate_flushpacket(&vd,&op))
 		{
-			write_packet(*out, &stream_out, &op);
+			ogg_write_packet(*out, &stream_out, &op);
 		}
 	}
 	return true;
@@ -289,7 +289,7 @@ int ov_bitstream_seek(OggVorbis_File* vf, ogg_int64_t pos, bool seek_to_header)
 	return link;
 }
 
-void write_ov_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, vorbis_comment* vc)
+void vorbis_write_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, vorbis_comment* vc)
 {
 	ogg_page og;
 	ogg_packet header;
@@ -313,7 +313,7 @@ void write_ov_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, vorbis
 	vorbis_dsp_clear(&vd);
 }
 
-void write_ov_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, ogg_packet* header, vorbis_comment* vc, ogg_packet* header_code)
+void vorbis_write_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, ogg_packet* header, vorbis_comment* vc, ogg_packet* header_code)
 {
 	ogg_page og;
 	ogg_packet dump[2];
@@ -370,7 +370,7 @@ static long get_blocksize(vorbis_info* vi, ogg_packet *op, int& prevW)
 
 // Reads an arbitrary amount of bytes from [file_in] into [sync_in].
 // Return value: number of read bytes
-int update_sync(FXFile& file_in, ogg_sync_state* sync_in)
+int ogg_update_sync(FXFile& file_in, ogg_sync_state* sync_in)
 {
 	static const ulong Read = 4096;
 
@@ -412,7 +412,7 @@ bool write_pages_to_file(ogg_stream_state *stream, FXFile& file, int flush)
 }
 
 // Submits [packet] to [stream_out], and writes filled pages to [out].
-bool write_packet(FXFile& out, ogg_stream_state* stream_out, ogg_packet *packet)
+bool ogg_write_packet(FXFile& out, ogg_stream_state* stream_out, ogg_packet *packet)
 {
 	int flush;
 
@@ -497,7 +497,7 @@ ogg_int64_t ogg_packetcopy(FXFile& file_out, ogg_stream_state* stream_out, FXFil
 							lp.bytes = last_packet.length;
 							lp.packet = last_packet.packet;
 
-							write_packet(file_out, stream_out, &lp);
+							ogg_write_packet(file_out, stream_out, &lp);
 							write = true;
 						}
 						else
@@ -520,10 +520,10 @@ ogg_int64_t ogg_packetcopy(FXFile& file_out, ogg_stream_state* stream_out, FXFil
 				}
 
 				if(op.e_o_s)	eos = write = true;
-				if(write)	write_packet(file_out, stream_out, &op);
+				if(write)	ogg_write_packet(file_out, stream_out, &op);
 			}
 		}
-		else if(!eos)	eos = update_sync(file_in, sync_in) == 0;
+		else if(!eos)	eos = ogg_update_sync(file_in, sync_in) == 0;
 	}
 	SAFE_FREE(last_packet.packet);
 
@@ -533,6 +533,29 @@ ogg_int64_t ogg_packetcopy(FXFile& file_out, ogg_stream_state* stream_out, FXFil
 ogg_int64_t ogg_packetcopy(FXFile& file_out, ogg_stream_state* stream_out, OggVorbis_File* ov_in, ogg_int64_t sample_end, ogg_int64_t sample_start)
 {
 	return ogg_packetcopy(file_out, stream_out, *((FXFile*)ov_in->datasource), &ov_in->os, &ov_in->oy, ov_in->vi, sample_end, sample_start);
+}
+// -------
+
+// Quality to bitrate mapping. Adapted from vorbisenc.c.
+// C++ lesson #?: Too much static enforcement can piss off coders, because it forces them to copy stuff!
+// -------
+const double rate_mapping_44_stereo[12]=
+{
+  22500.,32000.,40000.,48000.,56000.,64000.,
+  80000.,96000.,112000.,128000.,160000.,250001.
+};
+
+float vorbis_quality_to_bitrate(const float& q)
+{
+	float ds = 0.0, _is;
+	int is = 0.0;
+
+	ds =modf(q, &_is);
+
+	if(ds < 0)	{is = _is;	ds = 1.0+ds;}
+	else		{is = _is+1;}
+
+	return((rate_mapping_44_stereo[is]*(1.-ds)+rate_mapping_44_stereo[is+1]*ds)*2.);
 }
 // -------
 
