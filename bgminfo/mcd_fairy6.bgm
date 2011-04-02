@@ -1,0 +1,32 @@
+﻿# Music Room Interface Info
+
+[game]
+name = "東方三月精 ～ Oriental Sacred Place 2"
+name_en = "Touhou Sangetsusei ~ Oriental Sacred Place 2"
+circle = "上海アリス幻樂団"
+circle_en = "Team Shanghai Alice"
+artist = "ZUN"
+year = 2011
+
+packmethod = 0
+
+tracks = 3
+
+[update]
+wikipage = "Oriental_Sacred_Place_2_(CD)"
+wikirev = 172224
+
+[01]
+name_jp = "年中夢中の好奇心"
+name_en = "Year-Round Absorbed Curiosity"
+comment_jp = "ゲーム「妖精大戦争」より妖しさと明るさと懐かしさの入り混じった曲です。\n妖精はイノセントな好奇心の塊ですので、必然的に曲も遊び心満載になります。\n原曲よりかなり軽快なリズムで遊び心満載になっています。\n妖精らしさ満載ですね。"
+
+[02]
+name_jp = "真夜中のフェアリーダンス"
+name_en = "A Midnight Fairy Dance"
+comment_jp = "少しだけ背伸びして大人っぽい感じになりました。\nフェアリーダンスってイメージじゃないですけどね。\nフェアリーダンスって言うと、環状にキノコが生えてくる不思議な踊りですが。"
+
+[03]
+name_jp = "妖精大戦争　～ Fairy Wars"
+name_en = "Great Fairy Wars ~ Fairy Wars"
+comment_jp = "この漫画では戦闘シーンは殆どありませんが、妖精達は日々闘いに明け暮れています。\n無駄に戦わないのは高等な生き物の証ですが、妖精は高等な生き物ではないですので……。\nまあ何にしても大戦争ってイメージの曲じゃないですね。"
