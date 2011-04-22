@@ -18,7 +18,7 @@ tracks = 7
 
 [update]
 wikipage = "Double_Spoiler/Music"
-wikirev = 161165
+wikirev = 175513
 
 [01]
 name_jp = "ニュースハウンド"
@@ -66,4 +66,3 @@ comment_en = "The fifth event coverage theme.\n\nThis is the theme of a scandalo
 name_jp = "はたてアンロック"
 name_en = "Hatate Unlock"
 position = "0x06EEEE30, 0x004F0300, 0x008A2E80"
-comment_jp = ""

@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方地霊殿　～ Subterranean Animism"
@@ -18,7 +18,7 @@ tracks = 18
 
 [update]
 wikipage = "Subterranean_Animism/Music"
-wikirev = 160642
+wikirev = 175549
 
 [01]
 name_jp = "地霊達の起床"

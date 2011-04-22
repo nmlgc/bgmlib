@@ -18,7 +18,7 @@ tracks = 18
 
 [update]
 wikipage = "Mountain_of_Faith/Music"
-wikirev = 150477
+wikirev = 175622
 
 [01]
 name_jp = "封印されし神々"
@@ -43,7 +43,7 @@ comment_en = "This is Minoriko Aki's theme.\n\nIt has a pretty good tempo compar
 
 [04]
 name_jp = "厄神様の通り道　～ Dark Road"
-name_en = "The Road of the Apotropaic God ~ Dark Road"
+name_en = "The Road of the Misfortune God ~ Dark Road"
 position = "0x02C95210, 0x0009F200, 0x0146BC00"
 comment_jp = "２面のテーマです。\n一面とは対照的に暗めな曲です。\n良い感じに西洋風とも東洋風とも取れる曲だと思います。\nボスがゴスロリ風なので、こんな感じの曲になりました。\n少しミステリアスなイントロから、視界が開けるサビへと移行する部分は、かなり気持ちが良い物です。"
 comment_en = "This is the second stage theme.\n\nIn contrast with the first stage, this is a gloomy piece.\nIt combines both western and oriental styles; I think it has a nice feeling to it.\nThe boss is a gothic lolita, so the music turned out this way.\nThe transition from the mysterious intro to the chorus where your field of vision expands has a pretty good feeling to it."

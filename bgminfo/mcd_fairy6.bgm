@@ -14,19 +14,22 @@ tracks = 3
 
 [update]
 wikipage = "Oriental_Sacred_Place_2_(CD)"
-wikirev = 172224
+wikirev = 174066
 
 [01]
 name_jp = "年中夢中の好奇心"
 name_en = "Year-Round Absorbed Curiosity"
 comment_jp = "ゲーム「妖精大戦争」より妖しさと明るさと懐かしさの入り混じった曲です。\n妖精はイノセントな好奇心の塊ですので、必然的に曲も遊び心満載になります。\n原曲よりかなり軽快なリズムで遊び心満載になっています。\n妖精らしさ満載ですね。"
+comment_en = "A song full of suspicion, brightness, and nostalgia, from the game \"Fairy Wars\".\nFairies are clusters of inquisitiveness, so this song is naturally also fully loaded with the desire to have a good time.\nThis one is fully loaded with the desire to have a good time, and has a more casual rhythm than the original song.\nFully loaded with it, just like fairies."
 
 [02]
 name_jp = "真夜中のフェアリーダンス"
 name_en = "A Midnight Fairy Dance"
 comment_jp = "少しだけ背伸びして大人っぽい感じになりました。\nフェアリーダンスってイメージじゃないですけどね。\nフェアリーダンスって言うと、環状にキノコが生えてくる不思議な踊りですが。"
+comment_en = "This song feels a bit more like an adult reaching on their tiptoes.\nThough, that isn't really the image given by the name \"Fairy Dance\".\nWhen you say \"fairy dance\", you kind of think of a mysterious dance done by sprouting mushrooms, all in a circle..."
 
 [03]
 name_jp = "妖精大戦争　～ Fairy Wars"
 name_en = "Great Fairy Wars ~ Fairy Wars"
 comment_jp = "この漫画では戦闘シーンは殆どありませんが、妖精達は日々闘いに明け暮れています。\n無駄に戦わないのは高等な生き物の証ですが、妖精は高等な生き物ではないですので……。\nまあ何にしても大戦争ってイメージの曲じゃないですね。"
+comment_en = "There are not really many fight scenes in this manga, but the fairies do nothing but battle against daily life every day.\nNot getting into a pointless battle is the mark of a high-grade living being, but fairies aren't high-grade beings, so...\nWell, whatever the case is, it's not really a very \"great war\"-like song, is it?"

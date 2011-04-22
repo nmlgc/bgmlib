@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方永夜抄　～ Imperishable Night"
@@ -18,7 +18,7 @@ tracks = 21
 
 [update]
 wikipage = "Imperishable_Night/Music"
-wikirev = 150832
+wikirev = 175001
 
 # comment2 is taken from Bohemian Archive in Japanese Red Music Columns, where available
 
@@ -136,7 +136,7 @@ comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nWhile I am some
 [16]
 name_jp = "ヴォヤージュ1970"
 name_en = "Voyage 1970"
-position = "0x11A7FAB0, 0x00BCA380, 0x00DC7C00"
+position = "0x11A7FAB0, 0x00BB67C8, 0x00DB4E88"
 comment_jp = "ファイナルスペルのテーマです。\n\n焦燥感だけをあおる曲。この曲は本格的に焦る。\n物凄く短いフレーズの繰り返しが本能的の焦らせる。\nそんなに朝になるのが嫌かねぇ（笑）\nでもまぁ、焦るはずなのに何処かしら懐かしさのあるのは不思議。"
 comment_en = "This is the Last Spell theme.\n\nAll it inspires is a frantic feeling. It's seriously fast.\nIt's the constant repetition of a short phrase that makes it so fast.\nMan, I'd hate to wake up that way. (Haha)\nOf course, it is fast, but it also has a mysterious kind of nostalgia."
 

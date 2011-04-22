@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方非想天則　～ 超弩級ギニョルの謎を追え"
@@ -15,7 +15,7 @@ tracks = 24
 
 [update]
 wikipage = "Touhou_Hisoutensoku/Music"
-wikirev = 159916
+wikirev = 174340
 
 [composer]
 cmp1 = "あきやまうに"
@@ -108,7 +108,7 @@ filename = "data/bgm/st41"
 
 [14]
 name_jp = "the Grimoire of Alice"
-name_en = "The Grimoire of Alice"
+name_en = "the Grimoire of Alice"
 composer = 1
 filename = "data/bgm/st42"
 

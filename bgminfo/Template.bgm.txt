@@ -115,6 +115,10 @@ bgmfile = ""
 # Track count. <number>
 tracks = 
 
+# Silence scan flag <true or false>
+# Add this line to disable silence scanning for this game. Otherwise, delete it.
+silencescan = false
+
 # Composer section <string>
 # If more than one person composed this soundtrack, and you know who composed what,
 # you'll need this section. Otherwise, delete it, and use the artist tag above!
@@ -148,5 +152,8 @@ position = ""
 
 # Required with pack methods 1 (filename in the BGM directory) and 3/4/5 (filename inside the archive)
 filename = ""
+
+# Track frequency. Defaults to 44100, only add if the frequency of this track differs. <float>
+frequency = 44100.0
 
 # Do this for every song in the soundtrack. That's it.

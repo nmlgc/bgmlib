@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 # Tags for the Akyu's Untouched Score vol.4 release
 
 [game]
@@ -15,7 +15,7 @@ tracks = 24
 
 [update]
 wikipage = "Phantasmagoria_of_Dim.Dream/Music"
-wikirev = 159923
+wikirev = 170708
 
 [01]
 name_jp = "夢は時空を越えて"

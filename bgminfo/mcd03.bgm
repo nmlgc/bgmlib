@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "夢違科学世紀 ～ Changeability of Strange Dream"
@@ -15,7 +15,7 @@ tracks = 11
 
 [update]
 wikipage = "Changeability_of_Strange_Dream/Story"
-wikirev = 164813
+wikirev = 174373
 
 [01]
 name_jp = "童祭　～ Innocent Treasures"
@@ -87,7 +87,7 @@ comment4_en = "\"It's about my dream. I've said it many times.\"\n\"...In spite 
 comment4_jp = "「夢の話よ。さっきからそういってるじゃないの」\n「――夢の話なのに、何でその夢の中の物が現実に出てくるの？」\n「だから、貴方に相談してるのよ」"
 comment3_en = "And, Renko calls me Mary. It's too hard for people in this country to pronounce my name. I'm afraid she's already forgotten my real name..."
 comment3_jp = "ちなみに蓮子は私の事をメリーと呼ぶの。この国の人には私の名前は発音しにくいらしいわ。もう私の本名も忘れてるんじゃないかしら？"
-comment2_en = ""Here are some cookies I got at a scarlet mansion, and natural bamboo shoots in a bamboo forest.\"\n\"Eh? You're talking about your dreams, aren't you, Mary?\"\nThe girl is Renko Usami, who is listening to the story the dream I had. She's another member of our club, whose members are only us two. She's so active that she proposes most of what we do. According to Renko, she can tell where she is and when it is by looking up the sky. How scary..."
+comment2_en = "\"Here are some cookies I got at a scarlet mansion, and natural bamboo shoots in a bamboo forest.\"\n\"Eh? You're talking about your dreams, aren't you, Mary?\"\nThe girl is Renko Usami, who is listening to the story the dream I had. She's another member of our club, whose members are only us two. She's so active that she proposes most of what we do. According to Renko, she can tell where she is and when it is by looking up the sky. How scary..."
 comment2_jp = "「これが、紅いお屋敷で頂いたクッキーと、竹林で拾ってきた天然の筍よ」\n「うん？　夢の話じゃなかったの？　メリー」\nさっきから私の夢の話を聴いて貰っているのは、宇佐見蓮子。二人しかいないサークルメンバーのもう一人よ。サークル活動の殆どは彼女の行動力から生み出されるわ。蓮子は、空を見るといま立っている場所と時間が判るんだってさ。気持ち悪い。"
 name_en = "Boys and Girls of Science Era"
 comment7_jp = "(『東方文花帖』の『幻想の音覚』より)\n科学世紀って言ってもまるで未来を感じない曲。それは当然で、科学世紀という言葉自体が古いイメージしか無いからですね。実際この曲は「科学世紀を懐かしむ曲」という複雑なテーマに挑戦した物です。私は、この曲はかなり気に入っています。\nレトロな服装を着た少年少女が、オカルト紛いの科学に没頭する世界。そういう幻覚を見ます。決して明るい物では無いけど、常に前向きな世界。セピア色の科学。\nどうせならそういう懐古主義もありだろうといった感じ。ただ、私が懐かしさを出そうとするときに多用する音やメロディが出まくりなのは、これからの自分の曲の課題になるのかも知れない。"

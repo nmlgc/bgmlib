@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方妖々夢　～ Perfect Cherry Blossom"
@@ -18,7 +18,7 @@ tracks = 20
 
 [update]
 wikipage = "Perfect_Cherry_Blossom/Music"
-wikirev = 149631
+wikirev = 175581
 
 # comment2 = Bohemian Archive in Japanese Red Music Columns (if available)
 # comment3 = PCB afterword
@@ -39,7 +39,7 @@ position = "0x00FC7730, 0x002B9F80, 0x00EC8000"
 comment_jp = "曲名（何か有るという事が無い）通り、手付かずの自然をイメージしてあります。\nでもそこはそれ、個人的に異様に癒し系だったりするのも嫌ですので、小気味良い程度の軽快さに仕上げました。\nでも、爽やかさは皆無です(^^;"
 comment2_jp = "無何有の郷（むかうのきょう）。一言で言えば人里はなれた山奥です（笑）"
 comment_en = "This theme was composed with an image of a natural paradise that has yet to be discovered by humans.\nHowever, I personally didn't want it to be healing music, so I made it somewhat rhythmical.\nTherefore it doesn't have even the slightest hint of relaxed feelings (^^;"
-comment2_en = ""Mukau no kyou". In a word, deep in the mountains, away from the village *g*"
+comment2_en = "\"Mukau no kyou\". In a word, deep in the mountains, away from the village *g*"
 
 [03]
 name_jp = "クリスタライズシルバー"
@@ -207,4 +207,4 @@ position = "0x1276E2B0, 0x00500B00, 0x01060000"
 comment_jp = "童謡「さくらさくら」をイメージした曲です。\n割とすっきりする曲だったりします。"
 comment2_jp = "さくらさくらは、良く唄われる童謡の中でも、群を抜いて日本風だと私は思っている。\nただ、ひとつ気になることは、あの曲の曲名は「さくらさくら」だったのか、それとも「さくら」だったのか、はたまたもっと別名だったのか、思い出せない・・・"
 comment_en = "The imagery is based on the familiar old rhyme \"Sakura, Sakura\".\nI think this song is kinda refreshing."
-comment2_en = "Among all of our well-known songs, I think Sakura Sakura is the most Japanese-style. Something's been bothering me, though: is the song called "Sakura Sakura", or just "Sakura"? Or is it something else entirely? I just can't remember..."
+comment2_en = "Among all of our well-known songs, I think Sakura Sakura is the most Japanese-style. Something's been bothering me, though: is the song called \"Sakura Sakura\", or just \"Sakura\"? Or is it something else entirely? I just can't remember..."

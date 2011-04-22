@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "妖精大戦争　～ 東方三月精"
@@ -18,7 +18,7 @@ tracks = 10
 
 [update]
 wikipage = "Fairy_Wars/Music"
-wikirev = 151942
+wikirev = 175471
 
 [01]
 name_jp = "春の氷精"

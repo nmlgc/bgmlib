@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 # Tags for the Akyu's Untouched Score vol.3 release
 
 [game]
@@ -15,7 +15,7 @@ tracks = 18
 
 [update]
 wikipage = "Story_of_Eastern_Wonderland/Music"
-wikirev = 156762
+wikirev = 169478
 
 [01]
 name_jp = "東方封魔録　～浄土曼荼羅"

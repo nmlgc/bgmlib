@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 # Tags for the Akyu's Untouched Score vol.2 release
 
 [game]
@@ -15,7 +15,7 @@ tracks = 23
 
 [update]
 wikipage = "Mystic_Square/Music"
-wikirev = 159922
+wikirev = 175651
 
 [01]
 name_jp = "怪綺談　～ Mystic Square"

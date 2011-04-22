@@ -238,6 +238,7 @@ OggVorbis_EncState::~OggVorbis_EncState()
 }
 // --------------
 
+#ifdef SUPPORT_VORBIS_PM
 // Decodes [Size] bytes from [vf] into [buffer]. Loops according to the info in [TI].
 ogg_int64_t ov_read_bgm(OggVorbis_File* vf, char* buffer, const ulong& size, TrackInfo* TI)
 {
@@ -264,13 +265,11 @@ ogg_int64_t ov_read_bgm(OggVorbis_File* vf, char* buffer, const ulong& size, Tra
 	return Cur;
 }
 
-// Ogg packet copy functions
-// ===============
-
 int ov_bitstream_seek(OggVorbis_File* vf, ogg_int64_t pos, bool seek_to_header)
 {
 	ogg_int64_t seek;
 	int link;
+	char Temp[4];
 
 	ogg_int64_t total=ov_pcm_total(vf,-1);
 
@@ -283,22 +282,26 @@ int ov_bitstream_seek(OggVorbis_File* vf, ogg_int64_t pos, bool seek_to_header)
 
 	if(seek_to_header)	seek = vf->offsets[link];
 	else				seek = vf->dataoffsets[link];
-
+	
+	ov_raw_seek(vf, seek);
+	ov_read(vf, Temp, 4, 0, 2, 1, &link);	// Initialize bitstream to avoid crashes
 	ov_raw_seek(vf, seek);
 	
 	return link;
 }
+#endif
 
-void vorbis_write_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, vorbis_comment* vc)
+// Ogg packet copy functions
+// ===============
+
+void vorbis_write_headers(FXFile& out, ogg_stream_state* os, vorbis_dsp_state* vd, vorbis_comment* vc)
 {
 	ogg_page og;
 	ogg_packet header;
     ogg_packet header_comm;
     ogg_packet header_code;
-	vorbis_dsp_state vd;
 
-	vorbis_analysis_init(&vd, vi);
-    vorbis_analysis_headerout(&vd, vc, &header,&header_comm,&header_code);
+	vorbis_analysis_headerout(vd, vc, &header,&header_comm,&header_code);
     ogg_stream_packetin(os,&header); // automatically placed in its own page
 	ogg_stream_packetin(os,&header_comm);
 	ogg_stream_packetin(os,&header_code);
@@ -309,7 +312,13 @@ void vorbis_write_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, vo
 		out.writeBlock(og.header,og.header_len);
 		out.writeBlock(og.body,og.body_len);
 	}
-	
+}
+
+void vorbis_write_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, vorbis_comment* vc)
+{
+	vorbis_dsp_state vd;
+	vorbis_analysis_init(&vd, vi);
+	vorbis_write_headers(out, os, &vd, vc);
 	vorbis_dsp_clear(&vd);
 }
 

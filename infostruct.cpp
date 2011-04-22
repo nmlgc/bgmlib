@@ -161,8 +161,11 @@ FXString TrackInfo::GetComment(const ushort& Lang)
 	ListEntry<IntString>*	CurCmt = Afterword.First();
 	while(CurCmt)
 	{
-		if(!Ret.empty())	Ret.append("\n\n");
-		Ret.append(CurCmt->Data[Lang]);
+		if(!CurCmt->Data[Lang].empty())
+		{
+			if(!Ret.empty())	Ret.append("\n\n");
+			Ret.append(CurCmt->Data[Lang]);
+		}
 		CurCmt = CurCmt->Next();
 	}
 	return Ret;
@@ -208,8 +211,10 @@ GameInfo::GameInfo()
 	HaveTrackData = false;
 	Scanned = false;
 	Vorbis = false;
+	SilenceScan = true;
 	HeaderSize = 0;
 	CryptKind = 0;
+	ZWAVID[0] = ZWAVID[1] = 0;
 	PM = NULL;
 	Icon = NULL;
 }
@@ -242,13 +247,13 @@ FXString GameInfo::NamePlusInfoFN(const ushort& Lang)
 	return Ret;
 }
 
-FXString GameInfo::TrackFN(TrackInfo* TI)
+FXString GameInfo::DiskFN(TrackInfo* TI)
 {
 	if(PM)
 	{
 		FXString Ret(Path);
 		if(!Ret.empty())	Ret += PATHSEP;
-		return Ret + PM->TrackFN(this, TI);
+		return Ret + PM->DiskFN(this, TI);
 	}
 	else	return "";
 }
@@ -257,8 +262,9 @@ bool GameInfo::OpenBGMFile(FXFile& File, TrackInfo* TI)
 {
 	if(!TI)	return false;
 
-	FXString& FN(TrackFN(TI));
+	FXString& FN(DiskFN(TI));
 
+	File.close();
 	FXbool Ret = File.open(FN);
 	if(!Ret)	BGMLib::UI_Error("Couldn't open " + FN + "!\n");
 	return Ret;
@@ -291,6 +297,13 @@ bool GameInfo::ParseGameData(const FXString& Info)
 
 	Game->GetValue("tracks", TYPE_USHORT, &TrackCount);
 
+	if(TrackCount == 0)
+	{
+		Str.format("No tracks specified in %s!\n", InfoFile);
+		BGMLib::UI_Error_Safe(Str);
+		return false;
+	}
+
 	if(Name[LANG_EN].empty())	Name[LANG_EN] = Name[LANG_JP];
 
 	PM = BGMLib::FindPM(PackMethod);
@@ -317,8 +330,6 @@ bool GameInfo::ParseGameData(const FXString& Info)
 	BGMLib::UI_Stat(Str);*/
 	return true;
 }
-
-
 
 bool GameInfo::ParseTrackData()
 {
@@ -376,7 +387,7 @@ bool GameInfo::ParseTrackData()
 	// ---------
 
 	// Track Info
-	// ---------
+	// ----------
 
 	NewGame.GetValue("game", "tracks", TYPE_USHORT, &Tracks);
 
@@ -416,10 +427,12 @@ bool GameInfo::ParseTrackData()
 
 		if(!PM->ParseTrackInfo(NewGame, this, TS, NewTrack))	continue;
 
+		TS->GetValue("frequency", TYPE_FLOAT, &NewTrack->Freq);
+
 		// Read position data
 		// ------------------
 
-		TS->GetValue("start", TYPE_ULONG, &NewTrack->Start[0]);
+		if(TS->GetValue("start", TYPE_ULONG, &NewTrack->Start[0]))	NewTrack->Start[1] = NewTrack->Start[0];
 
 		// Absolute values
 		TS->GetValue("abs_loop", TYPE_ULONG, &NewTrack->Loop);
@@ -452,7 +465,7 @@ bool GameInfo::ParseTrackData()
 			}
 		}
 	}
-	// ---------
+	// ----------
 
 	ParseTrackDataEx(NewGame);
 
@@ -487,16 +500,6 @@ bool GameInfo::Init(const FXString &P)
 		CurTrack = CurTrack->Next();
 	}
 
-	if(PM)
-	{
-		bool Ret = PM->SeekTest(this);
-
-		if(Ret)
-		{
-			if(!Scanned)	PM->SilenceScan(this);
-			return Ret;
-		}
-	}
 	FXSystem::setCurrentDirectory(PrevPath);
 	return true;
 }

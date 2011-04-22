@@ -128,7 +128,7 @@ FXString NamedValue(const FXString& Str, const FXString& ValName, const FXString
 		// Start
 		if(v != 0)
 		{
-			if(!Ascii::isSpace(Str[v-1]) && Str[v-1] != End.tail())
+			if(Ascii::isAlphaNumeric(Str[v-1]) && Str[v-1] != End.tail())
 			{
 				v++;
 				continue;

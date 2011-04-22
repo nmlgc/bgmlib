@@ -55,8 +55,11 @@ public:
 	ulong	End;
 	bool	PosFmt;	// Format of the position data (bytes or samples)
 
+	// Individual track filename, as used by the pack method.
+	// Use GameInfo::DiskFN or PackMethod::DiskFN for the real one!
+	FXString	NativeFN;
+
 	ushort		Number; // Track Number (starting with 1!)
-	FXString	FN;	// Individual Track Filename (not used with BGMDAT)
 	IntString	Name; // Track name
 	IntString	Comment; // Music room comment
 	List<IntString>	Afterword;	// Supplementary comment
@@ -73,7 +76,7 @@ public:
 	ulong GetStart();	// Returns digital start point
 	bool& GetPosFmt()	{return PosFmt;}
 
-	// Returns length of this track [LoopCnt] loops, [FadeDur] second fades and enabled/disabled silence removal
+	// Returns length of this track with [LoopCnt] loops, [FadeDur] second fades and enabled/disabled silence removal
 	ulong GetByteLength(const bool& SilRem, const ushort& LoopCnt, const float& FadeDur);
 
 	FXString LengthString(const ulong& ByteLen);	// Converts [ByteLen] into a nice minute:second format
@@ -96,6 +99,8 @@ struct GameInfo
 {
 	bool	HaveTrackData;
 	bool	Scanned;
+
+	bool	SilenceScan;	// Silence scanning override flag
 
 	FXIcon*	Icon;	// Optional game icon
 	
@@ -135,7 +140,7 @@ struct GameInfo
 	FXString	NumName(const ushort& Lang);	// returns "<GameNum> <Name[Lang]>"
 	FXString	NamePlusInfoFN(const ushort& Lang);	// returns "<Name[Lang]> (<InfoFile>)"
 
-	FXString TrackFN(TrackInfo* TI);	// Returns the file name where the track of [TI] is stored
+	FXString DiskFN(TrackInfo* TI);	// Returns the file name where the track of [TI] is stored
 	
 	bool	OpenBGMFile(FXFile& File, TrackInfo* TI);	// Opens [TI]
 

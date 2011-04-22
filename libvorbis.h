@@ -4,8 +4,8 @@
 // ----------------------
 // "©" Nmlgc, 2011
 
-#ifndef MUSICROOM_LIBVORBIS_H
-#define MUSICROOM_LIBVORBIS_H
+#ifndef BGMLIB_LIBVORBIS_H
+#define BGMLIB_LIBVORBIS_H
 
 #include <vorbis/codec.h>
 #include <vorbis/vorbisfile.h>
@@ -126,6 +126,7 @@ ogg_int64_t ov_read_bgm(OggVorbis_File* vf, char* buffer, const ulong& Size, Tra
 // Ogg packet copy functions
 // ===============
 int ov_bitstream_seek(OggVorbis_File* vf, ogg_int64_t pos, bool seek_to_header);
+void vorbis_write_headers(FXFile& out, ogg_stream_state* os, vorbis_dsp_state* vd, vorbis_comment* vc);
 void vorbis_write_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, vorbis_comment* vc);
 void vorbis_write_headers(FXFile& out, ogg_stream_state* os, vorbis_info* vi, ogg_packet* header, vorbis_comment* vc, ogg_packet* header_code);
 
@@ -154,4 +155,4 @@ float vorbis_quality_to_bitrate(const float& q);
 
 // ===============
 
-#endif /* MUSICROOM_LIBVORBIS_H */
+#endif /* BGMLIB_LIBVORBIS_H */

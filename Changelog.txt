@@ -8,6 +8,14 @@ NOTE: This file only lists changes to supported games and the back-end engine.
       Refer to the musicroom changelog for changes to the user interface program.
 
 
+- 2011/04/15 (Version 2.1)
+* Now supporting the Touhou 13 (「東方神霊廟　～ Ten Desires」) trial version
+* Added tagging support for 「Oriental Sacred Place vol.2」
+* Silence scanning can now be disabled per game by adding <silencescan = false> to the [game] section of a BGM info file
+* Added custom per-track frequency (required for TH13)
+
+----
+
 - 2011/03/28 (Version 2.0.1)
 * Added tagging support for 「Shuusou Gyoku」 and 「ZUN's Strange Works」
 * Fixed slightly wrong starting position for Phantasmagoria of Flower View's おてんば恋娘の冒険
