@@ -15,6 +15,9 @@ zwavid_09 = 0x10
 
 tracks = 7
 
+[thvorbis]
+patchclass = "generic"
+
 [composer]
 cmp1 = "骨折飲料"
 cmp1_en = "Kossetsu Inryou"

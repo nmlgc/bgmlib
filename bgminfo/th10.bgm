@@ -16,6 +16,9 @@ zwavid_09 = 0x10
 
 tracks = 18
 
+[thvorbis]
+patchclass = "generic"
+
 [update]
 wikipage = "Mountain_of_Faith/Music"
 wikirev = 175622

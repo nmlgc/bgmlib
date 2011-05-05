@@ -16,6 +16,10 @@ headersize = 0x2C
 
 tracks = 34
 
+[thvorbis]
+patchclass = "th075"
+notice = "Warning!\n\nThe Vorbis patch for this game is fairly unstable,\nand may crash randomly, without it being reproducible.\nUse at your own risk!\n\nBlame libvorbis, not me. It's a bug in their code."
+
 [update]
 wikipage = "Immaterial_and_Missing_Power/Music"
 wikirev = 159920

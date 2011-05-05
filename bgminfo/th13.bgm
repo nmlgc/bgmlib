@@ -16,6 +16,8 @@ zwavid_09 = 0x13
 
 tracks = 14
 
+[thvorbis]
+patchclass = "slow"
 
 [update]
 wikipage = "Ten_Desires/Music"

@@ -16,6 +16,9 @@ headersize = 0x2C
 
 tracks = 17
 
+[thvorbis]
+patchclass = "th06"
+
 [update]
 wikipage = "Embodiment_of_Scarlet_Devil/Music"
 wikirev = 175488

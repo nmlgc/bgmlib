@@ -16,6 +16,9 @@ zwavid_09 = 0x07
 
 tracks = 20
 
+[thvorbis]
+patchclass = "generic"
+
 [update]
 wikipage = "Perfect_Cherry_Blossom/Music"
 wikirev = 175581

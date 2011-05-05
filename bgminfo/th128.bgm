@@ -16,6 +16,9 @@ zwavid_09 = 0x12
 
 tracks = 10
 
+[thvorbis]
+patchclass = "generic"
+
 [update]
 wikipage = "Fairy_Wars/Music"
 wikirev = 175471

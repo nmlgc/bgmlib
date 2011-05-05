@@ -16,6 +16,9 @@ zwavid_09 = 0x08
 
 tracks = 21
 
+[thvorbis]
+patchclass = "generic"
+
 [update]
 wikipage = "Imperishable_Night/Music"
 wikirev = 175001

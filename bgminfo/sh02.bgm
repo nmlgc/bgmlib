@@ -17,6 +17,9 @@ tracks = 10
 
 silencescan = false
 
+[thvorbis]
+patchclass = "kog"
+
 [update]
 wikipage = "Kioh_Gyoku/Music"
 wikirev = 175659

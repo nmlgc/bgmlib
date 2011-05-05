@@ -16,6 +16,9 @@ zwavid_09 = 0x09
 
 tracks = 6
 
+[thvorbis]
+patchclass = "generic"
+
 [update]
 wikipage = "Shoot_the_Bullet/Music"
 wikirev = 175637

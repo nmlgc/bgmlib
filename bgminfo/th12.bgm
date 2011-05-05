@@ -16,6 +16,8 @@ zwavid_09 = 0x12
 
 tracks = 18
 
+[thvorbis]
+patchclass = "generic"
 
 [update]
 wikipage = "Undefined_Fantastic_Object/Music"

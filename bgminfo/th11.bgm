@@ -16,6 +16,9 @@ zwavid_09 = 0x11
 
 tracks = 18
 
+[thvorbis]
+patchclass = "generic"
+
 [update]
 wikipage = "Subterranean_Animism/Music"
 wikirev = 175549

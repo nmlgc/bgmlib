@@ -16,6 +16,9 @@ zwavid_09 = 0x12
 
 tracks = 7
 
+[thvorbis]
+patchclass = "generic"
+
 [update]
 wikipage = "Double_Spoiler/Music"
 wikirev = 175513
