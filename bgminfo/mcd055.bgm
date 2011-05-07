@@ -1,0 +1,30 @@
+# Music Room Interface Info
+
+[game]
+name = "未知の花 魅知の旅"
+name_en = "Unknown Flower, Mesmerizing Journey"
+circle = "上海アリス幻樂団"
+circle_en = "Team Shanghai Alice"
+artist = "ZUN"
+year = 2011
+gamenum = "05.5"
+
+packmethod = 0
+
+tracks = 3
+
+[update]
+wikipage = ""
+wikirev = 0
+
+[01]
+name_jp = "未知の花　魅知の旅"
+name_en = "Unknown Flower, Mesmerizing Journey"
+
+[02]
+name_jp = "無間の鐘　～ Infinite Nightmare"
+name_en = "Bell of Avici ~ Infinite Nightmare"
+
+[03]
+name_jp = "明日ハレの日、ケの昨日"
+name_en = "Tomorrow will be Special; Yesterday was Not"
