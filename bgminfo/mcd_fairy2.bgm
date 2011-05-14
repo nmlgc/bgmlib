@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方三月精 ～ Strange and Bright Nature Deity 1"
@@ -14,7 +14,7 @@ tracks = 3
 
 [update]
 wikipage = "Strange_and_Bright_Nature_Deity_1_(CD)"
-wikirev = 158448
+wikirev = 175947
 
 [01]
 name_jp = "サニーミルクの紅霧異変"

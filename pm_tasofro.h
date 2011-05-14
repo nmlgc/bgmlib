@@ -4,6 +4,9 @@
 // ----------------------
 // "©" Nmlgc, 2010
 
+#ifndef BGMLIB_PM_TASOFRO_H
+#define BGMLIB_PM_TASOFRO_H
+
 // Pack Methods
 #define BMWAV   0x3	// wave files in a single archive with header (only th075)
 #define BMOGG   0x4	// Vorbis files and SFL loop info in a single archive with header (other Tasofro games)
@@ -34,10 +37,9 @@ protected:
 	bool DecryptHeader(GameInfo* GI, char* hdr, const FXuint& hdrSize, const FXushort& Files);
 
 	bool CheckCryptKind(ConfigFile& NewGame, const uchar& CRKind);	// Checks if given encryption kind is valid
-	FXString DiskFN(GameInfo* GI, TrackInfo* TI);	// Returns GI->BGMFile. Tasofro always stores BGM in one file
 
 public:
-	bool TrackData(GameInfo* GI);
+	virtual bool TrackData(GameInfo* GI);
 };
 
 // PM_BMWav
@@ -50,11 +52,20 @@ protected:
 	void GetPosData(GameInfo* GI, FX::FXFile& In, FXushort& Files, char* hdr, FXuint& hdrSize);
 
 public:
-	bool CheckBMTracks(GameInfo* Target);
+	// Checks the track count from the first two bytes of [Target]'s BGM file
+	bool BGMFile_Check(GameInfo* Target);
+#ifdef SUPPORT_VORBIS_PM
+	bool BGMFile_Check_Vorbis(GameInfo* GI, FXString& FN, FXString& Ext, FXString& LastVorbisFN, bool* TrgVorbis, OggVorbis_File* VF);
+	
+	// Custom implementation for the Vorbis case
+	// Normal case defaults back to PM_Tasofro::TrackData
+	bool TrackData(GameInfo* GI);
+#endif
 
 	bool ParseGameInfo(ConfigFile& NewGame, GameInfo* GI);
 	bool ParseTrackInfo(ConfigFile& NewGame, GameInfo* GI, ConfigParser* TS, TrackInfo* NewTrack);		// return true if position data should be read from config file
 	GameInfo* Scan(const FXString& Path);	// Scans [Path] for a game packed with this method
+	FXString DiskFN(GameInfo* GI, TrackInfo* TI);
 
 	SINGLETON(PM_BMWav);
 };
@@ -80,7 +91,10 @@ public:
 	ulong DecryptFile(GameInfo* GI, FXFile& In, char* Out, const ulong& Pos, const ulong& Size, volatile FXulong* p = NULL);
 
 	GameInfo* Scan(const FXString& Path);	// Scans [Path] for a game packed with this method
+	FXString DiskFN(GameInfo* GI, TrackInfo* TI);
 
 	SINGLETON(PM_BMOgg);
 };
 // --------
+
+#endif /* BGMLIB_PM_TASOFRO_H */

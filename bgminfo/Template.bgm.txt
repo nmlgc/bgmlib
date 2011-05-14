@@ -147,7 +147,7 @@ name_en = ""
 # Composer ID (starting with 1). Only required if you specified a [composer] section.
 composer = 1
 
-# Required with pack methods 1 and 2. See position info above. The valuespit programs in the source archive may help providing this values.
+# Required with pack methods 1 and 2. See position info above. The valuespit programs in the bgmlib source archive may help providing this values.
 position = "" 
 
 # Required with pack methods 1 (filename in the BGM directory) and 3/4/5 (filename inside the archive)

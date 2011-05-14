@@ -66,7 +66,7 @@ public:
 	ushort	CmpID;	// Composer ID of this track  - if the whole soundtrack was composed by one artist, the element of GameInfo is used instead
 
 	ulong	FS;		// File size for archived tracks
-	float	Freq;	// Fuck you, Banshiryuu. And your OST isn't even good.
+	float	Freq;	// Individual track sampling rate
 
 	void Clear();
 
@@ -112,7 +112,7 @@ struct GameInfo
 	ushort	Year;
 	PackMethod*	PM;
 	FXString	GameNum;	// Game Number (e.g. "12.5")
-	FXString	BGMFile;	// (not used with BGMDIR)
+	FXString	BGMFile;	// Main (not used with BGMDIR) Never refer this value, use DiskFN instead!
 	FXString	BGMDir;	// BGM Subdirectory (only used with BGMDIR)
 	IntString	Artist;	// Composer of the whole soundtrack - if there are multiple composers, the element of TrackInfo is used instead
 	IntString	Circle;
@@ -126,6 +126,7 @@ struct GameInfo
 	ushort	EntrySize;	// Size of a junk-filled entry (only used with encryption version 1)
 
 	bool	Vorbis;	// Is the BGM Vorbis-compressed? 
+	FXuint	PatchClass;	// (only used by the Touhou Vorbis Compressor) Patch Class Hash
 
 	FXString	Path;	// Contains the valid local path to this game. Saved in LGDFile.
 	
@@ -136,7 +137,7 @@ struct GameInfo
 
 	// Name display
 	FXString	DelimName(const ushort& Lang);	// returns <GNDelim[0]><Name[Lang]><GNDelim[1]> <PackMethod->DisplayName()> 
-	FXString	FullName(const ushort& Lang);	// returns "<Name[Lang]>", followed by a trial version identifier
+	FXString	FullName(const ushort& Lang);	// returns "<Name[Lang]>", followed by a trial version identifier, if applicable
 	FXString	NumName(const ushort& Lang);	// returns "<GameNum> <Name[Lang]>"
 	FXString	NamePlusInfoFN(const ushort& Lang);	// returns "<Name[Lang]> (<InfoFile>)"
 

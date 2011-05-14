@@ -8,6 +8,14 @@ NOTE: This file only lists changes to supported games and the back-end engine.
       Refer to the musicroom changelog for changes to the user interface program.
 
 
+- 2011/05/14 (Version 2.2)
+* Speed increase with opening Vorbis-encoded games by using ov_test instead of ov_open
+* Added support of Vorbis-compressed IaMP
+* Added tagging support for 「未知の花 魅知の旅」
+* 黄昏酒場～Uwabami Breakers～ now pulls translations from the wiki
+
+----
+
 - 2011/04/15 (Version 2.1)
 * Now supporting the Touhou 13 (「東方神霊廟　～ Ten Desires」) trial version
 * Added tagging support for 「Oriental Sacred Place vol.2」

@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方萃夢想　～ Immaterial and Missing Power"
@@ -16,13 +16,15 @@ headersize = 0x2C
 
 tracks = 34
 
+silencescan = false
+
 [thvorbis]
 patchclass = "th075"
 notice = "Warning!\n\nThe Vorbis patch for this game is fairly unstable,\nand may crash randomly, without it being reproducible.\nUse at your own risk!\n\nBlame libvorbis, not me. It's a bug in their code."
 
 [update]
 wikipage = "Immaterial_and_Missing_Power/Music"
-wikirev = 159920
+wikirev = 182483
 
 [composer]
 cmp1 = "あきやまうに"
@@ -281,7 +283,7 @@ name_jp = "紅夜"
 name_en = "Scarlet Night"
 composer = 1
 filename = "wave\bgm\60"
-comment_jp = ":割とまともにBGMな作りになってると思います。\n:東方的なピアノとはこんな感じの速い動きだろう、と意識して作ってみました。\n:ピアノ以外の部分で別物となっておりますが。\n:頭の部分とかもうちょっと丁寧に作りたかった一曲です。"
+comment_jp = "割とまともにBGMな作りになってると思います。\n東方的なピアノとはこんな感じの速い動きだろう、と意識して作ってみました。\nピアノ以外の部分で別物となっておりますが。\n頭の部分とかもうちょっと丁寧に作りたかった一曲です。"
 comment_en = "I think it ended up relatively BGM-like.\nI composed it with a feeling that the Touhou-like piano was faster like this.\nI cannot say \"Touhou-like\" except the part of the piano.\nThis is the music that I wanted to compose the first part more carefully."
 
 [32]

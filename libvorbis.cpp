@@ -136,10 +136,10 @@ bool OggVorbis_EncState::setup(FXFile* _out, const float& freq, const float& qua
 	return true;
 }
 
-bool OggVorbis_EncState::write_headers()
+uint OggVorbis_EncState::write_headers()
 {
 	vorbis_comment vc;
-	bool ret;
+	uint ret = 0;
 
 	vorbis_comment_init(&vc);
 	ret = write_headers(&vc);
@@ -147,14 +147,15 @@ bool OggVorbis_EncState::write_headers()
 	return ret;
 }
 
-bool OggVorbis_EncState::write_headers(vorbis_comment* vc)
+uint OggVorbis_EncState::write_headers(vorbis_comment* vc)
 {
+	uint ret = 0;
 	ogg_page og;
 	ogg_packet header;
     ogg_packet header_comm;
     ogg_packet header_code;
 
-	if(!vc && !stream_out.body_data)	return false;
+	if(!vc && !stream_out.body_data)	return 0;
 	
 	vorbis_analysis_headerout(&vd, vc, &header,&header_comm,&header_code);
     ogg_stream_packetin(&stream_out,&header); // automatically placed in its own page
@@ -166,15 +167,26 @@ bool OggVorbis_EncState::write_headers(vorbis_comment* vc)
 	{
 		out->writeBlock(og.header,og.header_len);
 		out->writeBlock(og.body,og.body_len);
+		ret += og.header_len, og.body_len;
 	}
-	return true;
+	return ret;
 }
 
-bool OggVorbis_EncState::encode_pcm(char* buf, const int& size)
+uint OggVorbis_EncState::new_stream(FXFile* out, const float& freq, const float& quality, long serialno, vorbis_comment* vc)
+ {
+	ogg_stream_clear(&stream_out);
+	clear();
+	setup(out, freq, quality);
+	ogg_stream_init(&stream_out, serialno);
+	return write_headers(vc);
+ }
+
+uint OggVorbis_EncState::encode_pcm(char* buf, const int& size)
 {
 	ogg_packet op;
 	float **buffer;
 	long i;
+	uint ret = 0;
 
 	// expose the buffer to submit data
 	buffer=vorbis_analysis_buffer(&vd,size/4);
@@ -189,7 +201,7 @@ bool OggVorbis_EncState::encode_pcm(char* buf, const int& size)
 	// tell the library how much we actually submitted
 	vorbis_analysis_wrote(&vd,i);
 
-	if(!stream_out.body_data)	return false;
+	if(!stream_out.body_data)	return 0;
 
 	/* vorbis does some data preanalysis, then divvies up blocks for
 	   more involved (potentially parallel) processing.  Get a single
@@ -202,10 +214,11 @@ bool OggVorbis_EncState::encode_pcm(char* buf, const int& size)
 
 		while(vorbis_bitrate_flushpacket(&vd,&op))
 		{
+			ret += op.bytes;
 			ogg_write_packet(*out, &stream_out, &op);
 		}
 	}
-	return true;
+	return ret;
 }
 
 bool OggVorbis_EncState::encode_file(FXFile& in, const ulong& bytes, char* buf, const ulong& bufsize, volatile FXulong& d, volatile bool* StopReq)

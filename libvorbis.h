@@ -90,8 +90,13 @@ static ov_callbacks OV_CALLBACKS_VFILE =
 };
 // ----------------
 
+#ifdef BGMLIB_INFOSTRUCT_H
 bool DumpDecrypt(GameInfo* GI, TrackInfo* TI, const FXString& FN);
 bool OpenVorbisBGM(FXFile& File, OggVorbis_File& VF, GameInfo* GI, TrackInfo* TI);	// Opens [GI->BGMFile], writes handles to [File] and [VF], and seeks to [TI]
+
+// Decodes [Size] bytes from [vf] into [buffer]. Loops according to the info in [TI].
+ogg_int64_t ov_read_bgm(OggVorbis_File* vf, char* buffer, const ulong& Size, TrackInfo* TI);
+#endif
 
 // Encoding state
 // --------------
@@ -103,12 +108,17 @@ struct OggVorbis_EncState
 	vorbis_dsp_state vd; // central working state for the packet->PCM decoder
 	vorbis_block     vb; // local working space for packet->PCM decode
 
-	bool setup(FXFile* out, const float& freq, const float& quality);	// initializes the Ogg Vorbis structures
+	// initializes the Ogg Vorbis structures
+	bool setup(FXFile* out, const float& freq, const float& quality);
 
-	bool write_headers();
-	bool write_headers(vorbis_comment* vc);
+	uint write_headers();
+	uint write_headers(vorbis_comment* vc);
 
-	bool encode_pcm(char* buf, const int& size);
+	// Enter a new bitstream. Returns the size of the stream header
+	uint new_stream(FXFile* out, const float& freq, const float& quality, long serialno, vorbis_comment* vc);
+
+	uint encode_pcm(char* buf, const int& size);	// Returns the number of encoded bytes
+
 	// Encodes [bytes] bytes from [in]
 	bool encode_file(FXFile& in, const ulong& bytes, char* buf, const ulong& bufsize);
 	bool encode_file(FXFile& in, const ulong& bytes, char* buf, const ulong& bufsize, volatile FXulong& d, volatile bool* StopReq);
@@ -119,9 +129,6 @@ struct OggVorbis_EncState
 	~OggVorbis_EncState();
 };
 // --------------
-
-// Decodes [Size] bytes from [vf] into [buffer]. Loops according to the info in [TI].
-ogg_int64_t ov_read_bgm(OggVorbis_File* vf, char* buffer, const ulong& Size, TrackInfo* TI);
 
 // Ogg packet copy functions
 // ===============

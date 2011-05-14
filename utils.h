@@ -1,8 +1,11 @@
-// Music Room Interface
-// --------------------
+// Music Room BGM Library
+// ----------------------
 // utils.h - Random utility functions
-// --------------------
+// ----------------------
 // "©" Nmlgc, 2011
+
+#ifndef BGMLIB_UTILS_H
+#define BGMLIB_UTILS_H
 
 void* memcpy_advance(void* dest, char** src, size_t size);	// Performs memcpy and increases [src] by [size]
 void* memcpy_advance(char** dest, const void* src, size_t size);	// Performs memcpy and increases [dest] by [size]
@@ -14,12 +17,23 @@ void* memcpy_advance(char** dest, const void* src, size_t size);	// Performs mem
 bool WriteByteBlock(FXFile& File, const long& Count, const FXchar Byte = 0);
 
 // Removes all occurrences of a given substring
-FXString& remove_sub(FXString& str, const FXchar* org, FXint olen);	
-FXString& remove_sub(FXString& str, const FXchar& org);
-FXString& remove_sub(FXString& str, const FXString& org);
+FXString& removeSub(FXString& str, const FXchar* org, FXint olen);	
+FXString& removeSub(FXString& str, const FXchar& org);
+FXString& removeSub(FXString& str, const FXString& org);
 
 // Return the string value of "[ValName][Assign]" in [Source], terminated by [End]
 FXString NamedValue(const FXString& Source, const FXString& ValName, const FXString& Assign, const FXString& End);
+
+// Insert a [chr] every [spacing] characters. Used e.g. to group numbers.
+void GroupStr(FXString& str, const FXchar& chr, const FXint& spacing);
+
+// Paths
+// -----
+// Returns the absolute path of [Path] relative to [Base], or [Path] if it's already absolute
+FXString absolutePath(FXString& Base, FXString& Path);
+
+FXString replaceExtension(const FXString& file, FXString ext);
+// -----
 
 // Random endianess value classes
 // ------------------------------
@@ -80,3 +94,5 @@ struct u32 : public EndVal<ulong>
 public:
 	ulong& swap();
 };
+
+#endif /* BGMLIB_UTILS_H */

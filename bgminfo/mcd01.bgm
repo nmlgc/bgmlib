@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "蓬莱人形 ～ Dolls in Pseudo Paradise"
@@ -15,7 +15,7 @@ tracks = 13
 
 [update]
 wikipage = "Dolls_in_Pseudo_Paradise/Story"
-wikirev = 159927
+wikirev = 182475
 
 [01]
 name_jp = "蓬莱伝説"
@@ -25,7 +25,7 @@ comment_en = "They say that even the attendants to the Emperor Qin Shi Huang cou
 comment_jp = "不死の薬は、あの始皇帝の使いですら見つけることが出来なかったというのに...\nかぐやは何を考えているのか？\n...蓬莱の玉の枝などみつかるものか。"
 name_en = "Legend of Hourai"
 comment3_jp = "(『東方文花帖』の『幻想の音覚』より)\n蓬莱というのは、おそらくこれからも東方の作品に出てくるキーワードだと思っていたので、初音楽ＣＤの一曲目はこのタイトルにしようと考えて出来た曲です。そう、先に曲名から決まって、そこからイメージして曲を書く場合もあるんですよね。\n恐ろしいほどにゆったりとした静かな曲です。最近こういう曲を書いていないな……。頭が完全にシューティング脳になってしまったか。これでは視野が狭くなるだけなので、たまには東方脳を取り戻さないとね。\nこういった音楽ＣＤオリジナルの曲のコメントは、ここで初めて書くので割と貴重です。曲のコメントを書くことで色々と思い返し、それが成長にも繋がるのでこういう場は有難い限りです。"
-comment3_en = "(Bohemian Archive in Japanese Red Music Columns)\nI think that "Hourai" is a keyword that will show up even in later Touhou works, but this is when I first came up with and used it in the title of the first song on my first music CD. Yes, I decided on the name first, and then wrote the song based on that image.\nThis is a quiet song that is scary, yet calm. I don't think I've written anything like this one lately... Probably because I've got nothing but shmups on the brain now. Well, I guess it's just my narrowing outlook, but sometimes I feel like I can't go back to the more general Touhou mindset.\nThis was the first original song on the CD that I wrote comments for, so I feel it is especially precious. I would re-write the comments in a number of ways, I think it helped me improve a lot so I am very grateful for that."
+comment3_en = "(Bohemian Archive in Japanese Red Music Columns)\nI think that \"Hourai\" is a keyword that will show up even in later Touhou works, but this is when I first came up with and used it in the title of the first song on my first music CD. Yes, I decided on the name first, and then wrote the song based on that image.\nThis is a quiet song that is scary, yet calm. I don't think I've written anything like this one lately... Probably because I've got nothing but shmups on the brain now. Well, I guess it's just my narrowing outlook, but sometimes I feel like I can't go back to the more general Touhou mindset.\nThis was the first original song on the CD that I wrote comments for, so I feel it is especially precious. I would re-write the comments in a number of ways, I think it helped me improve a lot so I am very grateful for that."
 
 [02]
 name_jp = "二色蓮花蝶 ～ Red And White"
@@ -85,7 +85,7 @@ comment_en = "It won't stop raining.\nI haven't seen the sun once since I wander
 comment_jp = "雨が止まない。\n私がこの家に迷い込んでから、一度も太陽を見ていない。\nもう何日経つんだろう。\n人形はしきりに話し掛けてくれる。\n僕は、人形の首をはねた。　雨が止んだかの様にみえた。"
 name_en = "Forest of Dolls"
 comment3_jp = "(『東方文花帖』の『幻想の音覚』より)\n新しい自分発見という感じで、ちょっと違う自分を見せようとしている感じの曲。イントロだけ聴くと煙草が似合うダンディさすら感じられるけど、サビでいつも通りになるという何とも自分らしい曲。\n確かにこの時は渋い曲を作ろうと思って書いた記憶がある。この曲はもう一度書き直せば、かなり格好いい曲になる予感がする。でも面倒なのでいいや。\nこの曲が見せる幻想は、雨が静かに降る街。そう、珍しく人間の存在を幻視出来る曲だと思う。人形の森と言うタイトルも、おそらく荒廃した人間の街をイメージした物だろう。昔の自分の事なので確実では無いですが……。"
-comment3_en ="(Bohemian Archive in Japanese Red Music Columns)\nSince I felt like I'd discovered a new self, I thought it would be nice to write a song that's a little different than usual. If you just listen to the intro, it gives off a dandy feeling that's suited to cigarettes, but when you get to the main part it's pretty much the same as usual, very like me.\nI can remember writing that I wanted to make a really cool song this time. I think if I tried redoing this song, it would come out really great. But, that would be too much of a pain.\nThis image gives me a vision of a town where rain is quietly falling. In fact, this is a song that lets me imagine the existence of humans, which is rare. Even the Forest of Dolls from the title kind of feels like an old, ruined human village. Well, since it's my old self, I guess I can't be too certain..."
+comment3_en = "(Bohemian Archive in Japanese Red Music Columns)\nSince I felt like I'd discovered a new self, I thought it would be nice to write a song that's a little different than usual. If you just listen to the intro, it gives off a dandy feeling that's suited to cigarettes, but when you get to the main part it's pretty much the same as usual, very like me.\nI can remember writing that I wanted to make a really cool song this time. I think if I tried redoing this song, it would come out really great. But, that would be too much of a pain.\nThis image gives me a vision of a town where rain is quietly falling. In fact, this is a song that lets me imagine the existence of humans, which is rare. Even the Forest of Dolls from the title kind of feels like an old, ruined human village. Well, since it's my old self, I guess I can't be too certain..."
 
 [09]
 name_jp = "Witch of Love Potion"

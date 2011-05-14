@@ -13,6 +13,7 @@
 #include <FXIO.h>
 #include <FXFile.h>
 #include <FXIcon.h>
+#include <FXPath.h>
 #include <FXSystem.h>
 #include "infostruct.h"
 #include "bgmlib.h"
@@ -287,6 +288,7 @@ bool GameInfo::ParseGameData(const FXString& Info)
 	// Game Info
 	// ---------
 	ConfigParser* Game = NewGame.FindSection("game");
+	if(!Game)	return false;
 	Game->GetValue("name", TYPE_STRING, &Name[LANG_JP]);
 	Game->GetValue("name_en", TYPE_STRING, &Name[LANG_EN]);
 	Game->GetValue("packmethod", TYPE_SHORT, &PackMethod);
@@ -477,7 +479,7 @@ bool GameInfo::Init(const FXString &P)
 {
 	FXString PrevPath;
 
-	Path.assign(P);
+	Path = FXPath::simplify(P + PATHSEP);
 	PrevPath = FXSystem::getCurrentDirectory();
 	FXSystem::setCurrentDirectory(Path);
 

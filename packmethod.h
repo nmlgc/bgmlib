@@ -4,8 +4,6 @@
 // ----------------------
 // "©" Nmlgc, 2010-2011
 
-#pragma once
-
 #ifndef BGMLIB_PACKMETHOD_H
 #define BGMLIB_PACKMETHOD_H
 
@@ -16,6 +14,7 @@ class ConfigParser;
 class ConfigFile;
 struct TrackInfo;
 struct GameInfo;
+struct OggVorbis_File;
 
 // Pack Method Base Class
 // ----------------------
@@ -35,7 +34,17 @@ protected:
 
 	// ParseGameInfo
 	bool PF_PGI_BGMFile(ConfigFile& NewGame, GameInfo* GI);
-	GameInfo* PF_Scan_BGMFile(const FXString& Path, bool (*SecondCheckFunction)(GameInfo*) = NULL);
+
+	// Scans [Path] for GameInfo::BGMFile
+	// Calls <BGMFile_Check>
+	GameInfo* PF_Scan_BGMFile(const FXString& Path);
+#ifdef SUPPORT_VORBIS_PM
+	// Scans [Path] for a original or Vorbis version of GameInfo::BGMFile
+	// Calls <BGMFile_Check_Vorbis>
+	GameInfo* PF_Scan_BGMFile_Vorbis(const FXString& Path);
+	// Helper function test-opening a new Vorbis file
+	bool PF_Scan_TestVorbis(OggVorbis_File* VF, const FXString& FN);
+#endif
 
 	// TrackData
 
@@ -44,7 +53,12 @@ protected:
 	TrackInfo* PF_TD_ParseArchiveFile(GameInfo *GI, FXFile& In, const FXString &_FN, const FXString &AudioExt, const FXString &MetaExt, const ulong &CFPos, const ulong &CFSize);
 	// -------------
 
-	// (Required for PF_TD_ParseArchiveFile function!)
+	// (Required for PF_Scan_BGMFile function)
+	virtual bool BGMFile_Check(GameInfo* GI)	{return true;}
+	// (Required for PF_Scan_BGMFile_Vorbis function)
+	virtual bool BGMFile_Check_Vorbis(GameInfo* GI, FXString& FN, FXString& Ext, FXString& LastVorbisFN, bool* TrgVorbis, OggVorbis_File* VF)	{return true;}
+
+	// (Required for PF_TD_ParseArchiveFile function)
 	virtual void MetaData(GameInfo* GI, FXFile& In, const ulong& Pos, const ulong& Size, TrackInfo* TI) {}	// Reads track meta data in the method's meta format
 	virtual void AudioData(GameInfo* GI, FXFile& In, const ulong& Pos, const ulong& Size, TrackInfo* TI); 	// (Default implementation:) Sets track start/end values
 

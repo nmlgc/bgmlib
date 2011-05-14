@@ -21,7 +21,7 @@ patchclass = "slow"
 
 [update]
 wikipage = "Ten_Desires/Music"
-wikirev = 179422
+wikirev = 182817
 
 [01]
 name_jp = "欲深き霊魂"
@@ -77,7 +77,7 @@ name_en = "Welcome to Youkai Temple (Spirit world version)"
 name_jp = "門前の妖怪小娘"
 position = "0x0560F618, 0x00053D00, 0x00C202C0"
 frequency = 44100
-comment_en = "Kyouko Kasodani's theme.\n\nDo people still shout “Yahoo” when they do to the mountains?\n\nOr do you feel nervous all of a sudden and can’t find the courage to shout?\n\nWell of course the Echoes (Yamabiko) get bored, it's understandable for them to go in to Buddhism from the boredom.\n\nBy the way, if you shout “Bakayaro”(Idiot) when you go to the sea, the fishermen would be surprised."
+comment_en = "Kyouko Kasodani's theme.\n\nDo people still shout “Yahoo” when they go to the mountains?\n\nOr do you feel nervous all of a sudden and can’t find the courage to shout?\n\nWell of course the Yamabiko get bored, it's understandable for them to go in to Buddhism from the boredom.\n\nBy the way, if you shout \"Idiot\" when you go to the sea, the fishermen would be surprised."
 name_en = "Youkai Girl at the Gate"
 comment_jp = "幽谷 響子のテーマです。\n\n　今の人でも山に行ってヤッホーって言いますかね？\n　意外と恥ずかしくて大声出せなかったりしませんか？\n　山彦も暇でしょうねぇ。そりゃ仏門にも入りますよ。\n　ちなみに海に行ってバカヤローとか叫ぶと漁師さんが驚きます。"
 

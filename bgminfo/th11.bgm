@@ -10,7 +10,7 @@ year = 2008
 gamenum = "11"
 
 packmethod = 2
-bgmfile = "thbgm"
+bgmfile = "thbgm.dat"
 zwavid_08 = 0x00
 zwavid_09 = 0x11
 
@@ -21,7 +21,7 @@ patchclass = "generic"
 
 [update]
 wikipage = "Subterranean_Animism/Music"
-wikirev = 175549
+wikirev = 182495
 
 [01]
 name_jp = "地霊達の起床"

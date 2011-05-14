@@ -46,6 +46,10 @@
 * Make sure to consistently set the same *C/C++ → Code Generation → Runtime
   Library* option you also used for the dependent libraries.
 
+* Add `SUPPORT_VORBIS_PM` to the list of `#define`'d preprocessor macros at
+  *C/C++ → Preprocessor → Preprocessor Definitions*. (The other code paths are
+  broken.)
+
 * Point the compiler to the subdirectories of all dependencies by adding the
   following to the list at *C/C++ → General → Additional Include Directories*,
   **in this order**:

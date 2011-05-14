@@ -50,7 +50,7 @@ namespace BGMLib
 	void SetupLang();
 
 	// Loads BGMLib config data from [Cfg] ([bgmlib] and [update] sections)
-	// [DefaultPM] specifies if a fallback pack method should be registered, if something is not supported
+	// [DefaultPM] specifies whether a fallback pack method should be registered if something is not supported
 	bool Init(ConfigFile* Cfg, FXString CfgPath = "", bool DefaultPM = true);
 	
 	// Fills <Game> with the *.bgm files in [InfoPath]

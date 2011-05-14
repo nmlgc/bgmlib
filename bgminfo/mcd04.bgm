@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "卯酉東海道 ～ Retrospective 53 minutes"
@@ -15,7 +15,7 @@ tracks = 11
 
 [update]
 wikipage = "Retrospective_53_minutes/Story"
-wikirev = 164735
+wikirev = 180896
 
 [01]
 name_jp = "ヒロシゲ36号 ～ Neo Super-Express"

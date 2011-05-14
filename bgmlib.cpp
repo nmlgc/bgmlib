@@ -11,6 +11,7 @@
 #include "bgmlib.h"
 #include "ui.h"
 #include "packmethod.h"
+#include "utils.h"
 
 #include <FXPath.h>
 #include <FXIO.h>
@@ -25,7 +26,7 @@ namespace BGMLib
 	// ----------------
 	const FXString Trial[LANG_COUNT] = {L" 体験版", " (Trial)"};
 	const FXString GNDelim[2] = {L"「",  L"」"};
-	const FXString WriteError = "ERROR: Couldn't get write access to file";
+	const FXString WriteError = "Couldn't get write access to ";
 	// ----------------
 
 	// Values read from a config file
@@ -57,8 +58,8 @@ bool BGMLib::Init(ConfigFile *Cfg, FXString CfgPath, bool DefaultPM)
 		Lib->LinkValue("lang", TYPE_USHORT, &Lang);
 		Lib->GetValue("infopath", TYPE_STRING, &InfoPath);
 	}
-	InfoPath = FXPath::simplify(CfgPath + InfoPath + SlashString);
-
+	InfoPath = absolutePath(CfgPath, InfoPath);
+	
 	return true;
 }
 

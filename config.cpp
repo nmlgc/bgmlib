@@ -99,13 +99,14 @@ bool ConfigKey::GetData(const ushort& pd, void* p, FXString* NewLine)
 		else                    *(bool*)p = atoi(L->text()) != 0;
 		break;
 
-	case TYPE_SHORT:	*(short*)p = (short)L->toInt(BaseCheck(L));		break;
-	case TYPE_USHORT:	*(ushort*)p = (ushort)L->toUInt(BaseCheck(L));	break;
-	case TYPE_INT:		*(int*)p = L->toInt(BaseCheck(L));				break;
+	case TYPE_SHORT:	*(short*)p = (short)L->toInt(BaseCheck(L));     break;
+	case TYPE_USHORT:	*(ushort*)p = (ushort)L->toUInt(BaseCheck(L));  break;
+	case TYPE_INT:		*(int*)p = L->toInt(BaseCheck(L));              break;
 	case TYPE_UINT:		*(uint*)p = L->toUInt(BaseCheck(L));            break;
 	case TYPE_LONG:		*(long*)p = L->toLong(BaseCheck(L));            break;
-	case TYPE_ULONG:	*(ulong*)p = L->toULong(BaseCheck(L));			break;
+	case TYPE_ULONG:	*(ulong*)p = L->toULong(BaseCheck(L));          break;
 	case TYPE_FLOAT:	*(float*)p = (float)L->toFloat();				break;
+	case TYPE_DOUBLE:	*(double*)p = (double)L->toDouble();            break;
 	case TYPE_UCHAR:	*(uchar*)p = (uchar)L->toUInt(BaseCheck(L));    break;
 	case TYPE_STRING:
 		FXString* s = (FXString*)p;
@@ -142,6 +143,8 @@ bool ConfigKey::SaveData(FXString* FileLine)
 	case TYPE_LONG:		FileLine->format("%s = %ld",Key, *(long*)Data);    break;
 	case TYPE_ULONG:	FileLine->format("%s = %lu",Key, *(ulong*)Data);   break;
 	case TYPE_FLOAT:	FileLine->format("%s = %f", Key, *(float*)Data);   break;
+	case TYPE_DOUBLE:	FileLine->format("%s = %f", Key, *(double*)Data);  break;
+	case TYPE_UCHAR:	FileLine->format("%s = %d", Key, *(uchar*)Data);   break;
 	case TYPE_STRING:
 		*FileLine = *(FXString*)Data;
 		if(FileLine->empty())	break;
@@ -175,6 +178,7 @@ ADD_KEY_IMP(uint, TYPE_UINT)
 ADD_KEY_IMP(long, TYPE_LONG)
 ADD_KEY_IMP(ulong, TYPE_ULONG)
 ADD_KEY_IMP(float, TYPE_FLOAT)
+ADD_KEY_IMP(double, TYPE_DOUBLE)
 ADD_KEY_IMP(FXString, TYPE_STRING)
 
 ConfigKey* ConfigParser::CreateKey(const FXString& Name)

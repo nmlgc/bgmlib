@@ -9,6 +9,7 @@
 #include <FXString.h>
 #include <FXFile.h>
 #include <fxascii.h>
+#include <FXPath.h>
 #include "utils.h"
 
 // Performs memcpy and increases [src] by [size]
@@ -86,7 +87,7 @@ bool WriteByteBlock(FXFile& File, const long& Count, const FXchar Byte)
 // Removes all occurrences of a given substring
 // No idea why there isn't a function like this already.
 // --------------------------------------------
-FXString& remove_sub(FXString& str, const FXchar* org, FXint olen)
+FXString& removeSub(FXString& str, const FXchar* org, FXint olen)
 {
   if(0<olen){
 	  register FXint pos = 0;
@@ -102,14 +103,14 @@ FXString& remove_sub(FXString& str, const FXchar* org, FXint olen)
   return str;
   }
 
-FXString& remove_sub(FXString& str, const FXchar& org)
+FXString& removeSub(FXString& str, const FXchar& org)
 {
-  return remove_sub(str, &org, 1);
+  return removeSub(str, &org, 1);
 }
 
-FXString& remove_sub(FXString& str, const FXString& org)
+FXString& removeSub(FXString& str, const FXString& org)
 {
-	return remove_sub(str, org.text(), org.length());
+	return removeSub(str, org.text(), org.length());
 }
 // --------------------------------------------
 
@@ -149,6 +150,30 @@ FXString NamedValue(const FXString& Str, const FXString& ValName, const FXString
 	Ret.trimEnd();
 	return Ret;
 }
+
+// Insert a [chr] every [spacing] characters. Used e.g. to group numbers.
+void GroupStr(FXString& str, const FXchar& chr, const FXint& spacing)
+{
+	FXint c;
+	for(c = str.length() - spacing; c > 0; c -= spacing)	str.insert(c, chr);
+}
+
+// Paths
+// -----
+
+// Returns the absolute path of [Path] relative to [Base], or [Path] if it's already absolute
+FXString absolutePath(FXString& Base, FXString& Path)
+{
+	if(FXPath::isAbsolute(Path))	return FXPath::simplify(Path + PATHSEP);
+	else							return FXPath::simplify(Base + Path + PATHSEP);
+}
+
+FXString replaceExtension(const FXString& file, FXString ext)
+{
+	if(ext[0] != '.')	ext.prepend('.');
+	return FXPath::stripExtension(file) + ext;
+}
+// -----
 
 // Random endianess value classes
 // ------------------------------

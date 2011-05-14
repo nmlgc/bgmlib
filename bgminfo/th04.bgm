@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 # Tags for the Akyu's Untouched Score vol.1 release
 
 [game]
@@ -15,7 +15,7 @@ tracks = 30
 
 [update]
 wikipage = "Lotus_Land_Story/Music"
-wikirev = 159921
+wikirev = 182485
 
 [01]
 name_jp = "幻想郷　～ Lotus Land Story"

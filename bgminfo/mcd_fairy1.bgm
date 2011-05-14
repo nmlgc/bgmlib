@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方三月精 ～ Eastern and Little Nature Deity"
@@ -14,7 +14,7 @@ tracks = 3
 
 [update]
 wikipage = "Eastern_and_Little_Nature_Deity_(CD)"
-wikirev = 159119
+wikirev = 175946
 
 [01]
 name_jp = "サニールチルフレクション"

@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方三月精 ～ Oriental Sacred Place 1"
@@ -14,7 +14,7 @@ tracks = 2
 
 [update]
 wikipage = "Oriental_Sacred_Place_1_(CD)"
-wikirev = 158465
+wikirev = 175954
 
 [01]
 name_jp = "神域のかくれんぼ暮らし"

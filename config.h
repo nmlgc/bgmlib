@@ -14,11 +14,12 @@
 #define TYPE_USHORT	0x3
 #define TYPE_INT	0x4
 #define TYPE_UINT	0x5
-#define TYPE_LONG	0x6
-#define TYPE_ULONG	0x7
-#define TYPE_FLOAT	0x8
-#define TYPE_UCHAR	0x9
-#define TYPE_STRING	0xA
+#define TYPE_UCHAR	0x6
+#define TYPE_LONG	0x7
+#define TYPE_ULONG	0x8
+#define TYPE_FLOAT	0x9
+#define TYPE_DOUBLE	0xA
+#define TYPE_STRING	0xB
 
 struct ConfigKey
 {
@@ -70,9 +71,11 @@ public:
 	ADD_KEY(ushort);
 	ADD_KEY(int);
 	ADD_KEY(uint);
+	ADD_KEY(uchar);
 	ADD_KEY(long);
 	ADD_KEY(ulong);
 	ADD_KEY(float);
+	ADD_KEY(double);
 	ADD_KEY(FXString);
 
 	ConfigKey*	CreateKey(const FXString& Name);

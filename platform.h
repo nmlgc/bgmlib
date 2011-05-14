@@ -1,7 +1,7 @@
-// Music Room Interface
-// --------------------
+// Music Room BGM Library
+// ----------------------
 // platform.h - The most basic includes
-// --------------------
+// ----------------------
 // "©" Nmlgc, 2011
 
 #ifndef BGMLIB_PLATFORM_H

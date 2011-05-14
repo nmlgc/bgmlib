@@ -21,7 +21,7 @@ patchclass = "generic"
 
 [update]
 wikipage = "Mountain_of_Faith/Music"
-wikirev = 175622
+wikirev = 183440
 
 [01]
 name_jp = "封印されし神々"
@@ -42,7 +42,7 @@ name_jp = "稲田姫様に叱られるから"
 name_en = "Because Princess Inada Is Scolding Me"
 position = "0x02514210, 0x0003B600, 0x00781000"
 comment_jp = "秋　穣子のテーマです。\n道中に比べるとテンポの良い曲です。収穫祭というイメージと、未熟で脳天気な神様のイメージを入れてみました。\nこんな緊張感のない曲でゲームが出来るのは東方だからこそ、普通はこんな軽い曲でボス戦ってのは難しいもんです。\n短いループですが、ボス戦自体も短いしね。"
-comment_en = "This is Minoriko Aki's theme.\n\nIt has a pretty good tempo compared to the rest. I tried making it with the image of a harvest festival and an inexperienced and thoughtless god.\nThe only game that can do this kind of nervousless piece is Touhou. Normally, fighting a boss with this kind of music would be difficult.\nIt is a short loop, but the boss fight itself is short anyway."
+comment_en = "This is Minoriko Aki's theme.\nIt has a pretty good tempo compared to the rest. I tried making it with the image of a harvest festival and an inexperienced and thoughtless god.\nThe only game that can do with this kind of tension-less piece is Touhou. Normally, fighting a boss with this kind of music would be difficult. \nIt is a short loop, but the boss fight itself is short anyway."
 
 [04]
 name_jp = "厄神様の通り道　～ Dark Road"
@@ -106,7 +106,7 @@ name_jp = "御柱の墓場　～ Grave of Being"
 name_en = "Cemetery of Onbashira ~ Grave of Being"
 position = "0x0F737C10, 0x00218800, 0x00B61100"
 comment_jp = "６面のテーマです。\nステージが短いので曲も短いです。最後面はラスボス戦が長くなるから道中を短くしないとだれてしまうので短めです。手抜きじゃないよ？\n曲はこれから何かが始まるぞ、って感じを出してみました。\n何か始まるも何も、もう最終面なのにね。"
-comment_en = "This is the sixth stage theme.\n\nSince the stage is short, the tune is also short. The final stage has a drawn out Last Boss battle,\nso if I didn't make the path leading to it shorter, it would lose its potence, which is why it's short.\nI'm not omitting the vital steps.\nI tried expressing the feeling \"hey, something's about to start\" in this tune.\nOf course something's going to start, since it is the final stage after all."
+comment_en = "This is the sixth stage theme.\nSince the stage is short, the tune is also short. The final stage has a drawn out Last Boss battle, so if I didn't make the path leading to it shorter, it would lose its potency, which is why it's short.\nI'm not omitting the vital steps.\nI tried expressing the feeling \"hey, something's about to start\" in this tune.\nOf course something's going to start, since it is the final stage after all."
 
 [13]
 name_jp = "神さびた古戦場　～ Suwa Foughten Field"

@@ -14,6 +14,11 @@
 #include "bgmlib.h"
 #include "ui.h"
 #include "packmethod.h"
+#ifdef SUPPORT_VORBIS_PM
+#include <FXPath.h>
+#include "utils.h"
+#include "libvorbis.h"
+#endif
 
 // Pack Methods
 // ------------
@@ -31,7 +36,8 @@ bool PackMethod::PF_PGI_BGMFile(ConfigFile& NewGame, GameInfo* GI)
 	return true;
 }
 
-GameInfo* PackMethod::PF_Scan_BGMFile(const FXString& Path, bool (*SecondCheckFunction)(GameInfo*))
+// Scans for GameInfo::BGMFile in [Path]
+GameInfo* PackMethod::PF_Scan_BGMFile(const FXString& Path)
 {
 	GameInfo* NewGame = NULL;
 	FXString* Files = NULL;
@@ -45,19 +51,89 @@ GameInfo* PackMethod::PF_Scan_BGMFile(const FXString& Path, bool (*SecondCheckFu
 		FileCount = FXDir::listFiles(Files, Path, NewGame->BGMFile, FXDir::NoDirs | FXDir::CaseFold | FXDir::HiddenFiles);
 		SAFE_DELETE_ARRAY(Files);
 
-		if((FileCount > 0))
+		if((FileCount > 0) && BGMFile_Check(NewGame))
 		{
-			if(SecondCheckFunction)
-			{
-				if(SecondCheckFunction(NewGame))	return NewGame;
-			}
-			else	return NewGame;
+			return NewGame;
 		}
 		CurGame = CurGame->Next();
 	}
-
 	return NULL;
 }
+
+#ifdef SUPPORT_VORBIS_PM
+
+// Scans for original and Vorbis versions of GameInfo::BGMFile in [Path]
+GameInfo* PackMethod::PF_Scan_BGMFile_Vorbis(const FXString& Path)
+{
+	GameInfo* NewGame = NULL;
+	FXString* Files = NULL;
+	FXint FileCount = 0;
+	FXString Search, Ext;
+	bool TrgVorbis, Found;
+
+	// ov_open can be a quite expensive operation when dealing with mulitple bitstreams,
+	// so we're always keeping the last loaded file open, until the scan file name changes
+	FXString LastSearchFN, LastVorbisFN;
+	OggVorbis_File VF;
+
+	memset(&VF, 0, sizeof(OggVorbis_File));
+	
+	ListEntry<GameInfo*>* CurGame = PMGame.First();
+	while(CurGame)
+	{
+		NewGame = CurGame->Data;
+		TrgVorbis = Found = false;
+
+		if(NewGame->BGMFile != LastSearchFN)
+		{
+			SAFE_DELETE_ARRAY(Files);
+			Search = replaceExtension(NewGame->BGMFile, "*");
+			FileCount = FXDir::listFiles(Files, Path, Search, FXDir::NoDirs | FXDir::CaseFold | FXDir::HiddenFiles);
+			LastSearchFN = NewGame->BGMFile;
+		}
+
+		for(ushort c = 0; c < FileCount; c++)
+		{
+			Ext = FXPath::extension(Files[c]);
+			Found = BGMFile_Check_Vorbis(NewGame, Files[c], Ext, LastVorbisFN, &TrgVorbis, &VF);
+			
+			if(Found)
+			{
+				// NewGame->BGMFile = Files[c];	// Moved to DiskFN, we should not change that value
+				NewGame->Vorbis = TrgVorbis;	// Let's cache the target Vorbis flag there...
+
+				// Immediately return when we found a matching .dat file (because it will be lossless!)
+				if(!TrgVorbis)	break;
+			}
+		}
+		if(Found)	break;
+		
+		CurGame = CurGame->Next();
+		NewGame = NULL;
+	}
+	SAFE_DELETE_ARRAY(Files);
+	ov_clear(&VF);
+	return NewGame;
+}
+
+// Helper function test-opening a new Vorbis file
+bool PackMethod::PF_Scan_TestVorbis(OggVorbis_File* VF, const FXString& FN)
+{
+	// File handle has to be static because vorbisfile will crash on ov_clear if it's already freed
+	// And since we always close it here, nothing will leak
+	static FXFile F;
+	int Ret;
+
+	ov_clear(VF);
+	F.open(FN);
+	Ret = ov_test_callbacks(&F, VF, NULL, 0, OV_CALLBACKS_FXFILE);
+	// VF now has everything we want, so we can close already
+	F.close();
+	return Ret == 0;
+}
+
+
+#endif
 
 // Reads necessary track data from an archive file based on it's extension.
 // Sets track start/end values and returns true if [AudioExt], or calls MetaData function below and returns false on [MetaExt].
@@ -74,7 +150,7 @@ TrackInfo* PackMethod::PF_TD_ParseArchiveFile(GameInfo *GI, FXFile& In, const FX
 	{
 		Track = &CurTrack->Data;
 
-		if((Track->FN) == FN)
+		if((Track->NativeFN) == FN)
 		{
 			if(FNExt == AudioExt)		AudioData(GI, In, CFPos, CFSize, Track);
 			else if(FNExt == MetaExt)	MetaData(GI, In, CFPos, CFSize, Track);
@@ -111,168 +187,10 @@ bool PackMethod::Dump(GameInfo* GI, FXFile& In, const ulong& Pos, const ulong& S
 	return true;
 }
 
-FXString PackMethod::TrackFN(GameInfo* GI, TrackInfo* TI)
+FXString PackMethod::DiskFN(GameInfo* GI, TrackInfo* TI)
 {
 	return GI->BGMFile;
 }
-
-// SeekTest
-// --------
-bool PackMethod::SeekTest_Open(FXFile& In, GameInfo* GI)
-{
-	return In.open(GI->BGMFile);
-}
-
-bool PackMethod::SeekTest_Track(FXFile& In, GameInfo* GI, TrackInfo* TI)
-{
-	char Read;
-
-	In.position(TI->GetStart());
-	return In.readBlock(&Read, 1) == 1;
-}
-
-bool PackMethod::SeekTest_Close(FXFile& In, GameInfo* GI)
-{
-	return In.close();
-}
-
-bool PackMethod::SeekTest(GameInfo* GI)
-{
-	ushort Seek = 0, Found = 0;
-	TrackInfo* TI;
-	FXFile In;
-	FXString Str;
-	bool Ret;
-
-	Ret = SeekTest_Open(In, GI);
-	if(!Ret)	return false;
-	else if(!In.isOpen())	return true;
-
-	BGMLib::UI_Stat("Verifying track count...");
-
-	ListEntry<TrackInfo>* CurTI = GI->Track.First();
-	while(CurTI)
-	{
-		TI = &CurTI->Data;
-
-		if(TI->GetStart() != 0)
-		{
-			if(SeekTest_Track(In, GI, TI))
-			{
-				Seek = TI->Number;
-				Found++;
-			}
-			else	break;
-		}
-
-		CurTI = CurTI->Next();
-	}
-	SeekTest_Close(In, GI);
-
-	Str.format("%d/%d\n", Found, GI->Track.Size());
-
-	if(Seek == 0)
-	{
-		Str.append("BGM file (" + GI->BGMFile + ") is corrupted!\n");
-		Ret = false;
-	}
-	else if(Seek != GI->Track.Size())
-	{
-		Str.append("This is most likely a trial version. Extraction is limited to the available tracks.\n");
-	}
-	BGMLib::UI_Stat(Str);
-
-	GI->TrackCount = Seek;
-	return Ret;
-}
-// --------
-
-// SilenceScan
-// -----------
-bool PackMethod::SilenceScan_Open(FXFile& In, GameInfo* GI)
-{
-	if(GI->BGMFile.empty())	return false;
-	else	return In.open(GI->BGMFile);
-}
-
-ulong PackMethod::SilenceScan_Track(FXFile &In, GameInfo *GI, TrackInfo *TI, ulong* Buf, ulong BufSize)
-{
-	const ulong Comp = 0;
-	ulong c;
-
-	In.position(TI->GetStart());
-	In.readBlock(Buf, BufSize);
-
-	BufSize >>= 2;
-	for(c = 0; c < BufSize; c++)
-	{
-		if(Buf[c] != Comp)	break;
-	}
-	// Fix IaMP
-	if(c == BufSize)	c = 0;
-	return c << 2;
-}
-
-bool PackMethod::SilenceScan_Close(FXFile& In, GameInfo* GI)
-{
-	// Same code ;-)
-	return SeekTest_Close(In, GI);
-}
-
-void PackMethod::SilenceScan(GameInfo* GI)
-{
-	if(GI->Scanned)	return;
-	if(GI->Vorbis && GI->CryptKind)
-	{
-		GI->Scanned = true;
-		return;
-	}
-
-	BGMLib::UI_Stat("Scanning track start values...");
-
-	TrackInfo* TI;
-	FXFile In;
-	ulong* Buf = NULL;	// 32-bit elements
-	ulong BufSize;
-
-	ulong tl;
-
-	// LARGE_INTEGER Time[2], Total;
-	// QueryPerformanceCounter(&Time[0]);
-
-	bool MultiFile = !SilenceScan_Open(In, GI);
-
-	ListEntry<TrackInfo>* CurTI = GI->Track.First();
-
-	for(ushort Track = 0; Track < GI->TrackCount; Track++)
-	{
-		TI = &CurTI->Data;
-		TI->GetPos(FMT_BYTE, false, NULL, &tl);
-
-		// Check for a maximum of 5 seconds
-		BufSize = tl - TI->Start[0];
-		BufSize = MIN(BufSize, TI->Freq * 4.0f * 5.0f);
-		Buf = (ulong*)realloc(Buf, BufSize);
-
-		if(MultiFile)	In.open(GI->TrackFN(TI), FXIO::Reading);
-
-		TI->Start[1] = TI->Start[0] + SilenceScan_Track(In, GI, TI, Buf, BufSize);
-		
-		if(MultiFile)	In.close();
-		CurTI = CurTI->Next();
-	}
-	free(Buf);	Buf = NULL;
-
-	if(!MultiFile)	SilenceScan_Close(In, GI);
-
-	GI->Scanned = true;
-
-	// QueryPerformanceCounter(&Time[1]);
-	// Total = Time[1] - Time[0];
-
-	BGMLib::UI_Stat("done.\n");
-}
-// -----------
 
 FXString PackMethod::PMInfo(GameInfo* GI)
 {
@@ -286,7 +204,7 @@ FXString PackMethod::PMInfo(GameInfo* GI)
 bool PM_None::ParseGameInfo(ConfigFile&, GameInfo*)		{return true;}
 bool PM_None::ParseTrackInfo(ConfigFile&, GameInfo*, ConfigParser*, TrackInfo*)	{return false;}
 GameInfo* PM_None::Scan(const FXString&)	{return NULL;}
-FXString PM_None::TrackFN(GameInfo*, TrackInfo*)	{return "";}
+FXString PM_None::DiskFN(GameInfo*, TrackInfo*)	{return "";}
 void PM_None::DisplayName(FXString& Name, GameInfo*)		{Name.append(" (tagging only)");}
 // -------
 

@@ -13,4 +13,5 @@
 #include "utils.h"
 #include "ui.h"
 #include "pm_zun.h"
+#include "pm_tasofro.h"
 #include "libvorbis.h"

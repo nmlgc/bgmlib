@@ -33,12 +33,6 @@ bool PM_Tasofro::CheckCryptKind(ConfigFile& NewGame, const uchar& CRKind)
 	return true;
 }
 
-// Returns GI->BGMFile. Tasofro always stores BGM in one file
-FXString PM_Tasofro::DiskFN(GameInfo* GI, TrackInfo* TI)
-{
-	return GI->BGMFile;
-}
-
 bool PM_BMWav::ParseGameInfo(ConfigFile &NewGame, GameInfo *GI)
 {
 	PF_PGI_BGMFile(NewGame, GI);
@@ -54,6 +48,12 @@ bool PM_BMWav::ParseTrackInfo(ConfigFile &NewGame, GameInfo *GI, ConfigParser* T
 	return false;	// Read position info from archive
 }
 
+FXString PM_BMWav::DiskFN(GameInfo* GI, TrackInfo* TI)
+{
+	if(GI->Vorbis)	return replaceExtension(GI->BGMFile, "ogg");
+	else			return GI->BGMFile;
+}
+
 bool PM_BMOgg::ParseGameInfo(ConfigFile &NewGame, GameInfo *GI)
 {
 	PF_PGI_BGMFile(NewGame, GI);
@@ -67,6 +67,11 @@ bool PM_BMOgg::ParseTrackInfo(ConfigFile &NewGame, GameInfo *GI, ConfigParser* T
 	GI->Vorbis = true;
 
 	return false;	// Read position info from archive
+}
+
+FXString PM_BMOgg::DiskFN(GameInfo* GI, TrackInfo* TI)
+{
+	return GI->BGMFile;
 }
 
 // Decryption
@@ -351,7 +356,7 @@ bool PM_Tasofro::TrackData(GameInfo* GI)
 	FXuint hdrSize;
 	char* hdr;
 
-	In.open(GI->BGMFile, FXIO::Reading);
+	if(!In.open(GI->BGMFile, FXIO::Reading))	return false;
 
 	In.readBlock(&Files, 2);
 	hdrSize = HeaderSize(GI, In, Files);
@@ -376,22 +381,120 @@ bool PM_Tasofro::TrackData(GameInfo* GI)
 // Scanning
 // --------
 
-bool PM_BMWav::CheckBMTracks(GameInfo* Target)
+bool PM_BMWav::BGMFile_Check(GameInfo* GI)
 {
 	FXushort Tracks;
-	FX::FXFile In(Target->BGMFile, FXIO::Reading);
+	FX::FXFile In(GI->BGMFile, FXIO::Reading);
 
 	In.readBlock(&Tracks, 2);
 	In.close();
 
-	return Tracks == Target->TrackCount;
+	return Tracks == GI->TrackCount;
 }
-static bool Wrap_CheckBMTracks(GameInfo* GI)	{return PM_BMWav::Inst().CheckBMTracks(GI);}
+
+#ifdef SUPPORT_VORBIS_PM
+
+bool PM_BMWav::BGMFile_Check_Vorbis(GameInfo* GI, FXString& FN, FXString& Ext, FXString& LastVorbisFN, bool* TrgVorbis, OggVorbis_File* VF)
+{
+	if(Ext == "dat")
+	{
+		*TrgVorbis = false;
+		return BGMFile_Check(GI);
+	}
+	else if(Ext == "ogg")
+	{
+		static long Tracks = 0;
+
+		*TrgVorbis = true;
+		if(FN != LastVorbisFN)
+		{
+			vorbis_comment* vc;
+			char* p;
+			
+			LastVorbisFN = FN;
+
+			if(!PF_Scan_TestVorbis(VF, FN))	return false;
+			vc = ov_comment(VF, -1);
+
+			Tracks = strtol(vorbis_comment_query(vc, "TOTALTRACKS", 0), &p, 10);
+		}
+		return Tracks == GI->TrackCount;
+	}
+	return false;
+}
+
+// Custom implementation for the Vorbis case
+bool PM_BMWav::TrackData(GameInfo* GI)
+{
+	FXFile In;
+	OggVorbis_File vf;
+	int Link;
+
+	char* LastFN = NULL;
+	ListEntry<TrackInfo>* CurTrack;
+	TrackInfo* Track;	// Always points to the last identified track
+	unsigned int Offset = 0;
+
+	if(!GI->Vorbis)	return PM_Tasofro::TrackData(GI);
+
+	if(!In.open(DiskFN(GI, NULL)))	return false;
+	if(ov_open_callbacks(&In, &vf, NULL, 0, OV_CALLBACKS_FXFILE))	return false;
+
+	for(Link = 0; Link < vf.links; Link++)
+	{
+		vorbis_comment* vc = ov_comment(&vf, Link);
+		char* FN = vorbis_comment_query(vc, "SOURCE", 0);
+		unsigned int Size = ov_pcm_total(&vf, Link) << 2;
+
+		if(!LastFN || strcmp(FN, LastFN))
+		{
+			CurTrack = GI->Track.First();
+			while(CurTrack)
+			{
+				Track = &CurTrack->Data;
+				if(!comparecase(Track->NativeFN, FN))
+				{
+					Track->Start[0] = Offset;
+					Track->Loop = Offset;
+					Track->End = Offset + Size;
+					CurTrack = NULL;
+				}
+				else CurTrack = CurTrack->Next();
+			}
+			LastFN = FN;
+		}
+		else if(Track)
+		{
+			Track->Loop = Offset;
+			Track->End += Size;
+		}
+		Offset += Size;
+	}
+
+	// ... done!
+	ov_clear(&vf);
+
+	// GI->Scanned gets set by SilenceScan
+	return true;
+}
+
+// Scans [Path] for both original and Vorbis-compressed BGM files
+GameInfo* PM_BMWav::Scan(const FXString& Path)
+{
+	GameInfo* Ret = PF_Scan_BGMFile_Vorbis(Path);
+	// Reset encryption kind if we're Vorbis
+	if(Ret && Ret->Vorbis)	Ret->CryptKind = 0;
+	return Ret;
+}
+
+#else
 
 GameInfo* PM_BMWav::Scan(const FXString& Path)
 {
-	return PF_Scan_BGMFile(Path, Wrap_CheckBMTracks);
+	return PF_Scan_BGMFile(Path);
 }
+
+#endif
 
 GameInfo* PM_BMOgg::Scan(const FXString& Path)
 {

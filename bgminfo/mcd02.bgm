@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "蓮台野夜行 ～ Ghostly Field Club"
@@ -15,7 +15,7 @@ tracks = 11
 
 [update]
 wikipage = "Ghostly_Field_Club/Story"
-wikirev = 157959
+wikirev = 179524
 
 [01]
 name_jp = "夜のデンデラ野を逝く"
@@ -27,72 +27,72 @@ comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nWhen I wrote th
 
 [02]
 name_jp = "少女秘封倶楽部"
+name_en = "Girls' Sealing Club"
 comment_en = "\"Mary, shall we go and see the entrance at the ghostly field?\"\nIt was two days ago that she proposed so.\nThe Sealing Club, whose members are only the two of us, is an ordinary club for necromancers.\nYes, it's a club for necromancers, but we are not into ghost summoning or exorcising as the others do.\nThey just believe we are an incompetent group that doesn't do any proper activities of necromancy, but the truth is..."
 comment_jp = "「メリー、蓮台野にある入り口を見に行かない？」\n蓮子がその話を持ちかけてきたのは二日前の事だった。\n私達秘封倶楽部は、メンバーは二人だけど、良くあるただの霊能者サークル。\n霊能者サークルだけど、普通みたいに除霊や降霊とかは好きじゃないの。\n周りからはまともな霊能活動した事ない不良サークル、と思われてるけど……実はね。"
-name_en = "Girls' Sealing Club"
 comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\n秘封倶楽部はゲームとは別角度から世界を切り出していこうと考えたサークルです。テーマ曲を与えないと、折角のキャラが生きてこないのでこの曲を書きました。テーマ曲とは格好良い曲である必要がある、と言うのが（偏った）私の考えです。だから、出来る限り格好良くノリ良くお洒落に攻めてみました。\nこの曲を聴くと、ピアノを格好良く弾いている幻覚を見ます。こういう曲を弾いているとお酒が飲みたくなりますよね。ピアノが格好良く聞こえる曲って、リズムはサラッと一定の方が良いのかなとも思う。ただ、そんな理屈を考えていると曲は駄目になる気がするので忘れよう。"
 comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nA Sealing Club is a group of people who feel that there is another world broken off from this one. Since I never gave them a theme song, I decided it was about time they had one, so I wrote this song. A theme song needs to be cool. That's what I say. (biased) That's why I made it as cool as I possibly could and made it catchy and fashionable.\nWhen I listen to this song, I see visions of cool piano playing. It's the kind of song you play while drinking alcohol. I think it's a good idea for songs with cool piano parts have a smooth rhythm and a single, defined direction. You just have to forget the notion that following this theory will produce a bad song."
 
 [03]
 name_jp = "東方妖々夢 ～ Ancient Temple"
+name_en = "Mystic Oriental Dream ~ Ancient Temple"
 comment_en = "\"What is this entrance at the ghostly field, Renko?\"\nIt was the only thing I could say. I had never heard there was an entrance at the ghostly field, and she told it to me all of a sudden.\n\"Well, just look.\"\nRenko handed me a photo. It showed an ancient temple like I've never seen before.\n\"This is the Netherworld.\""
 comment_jp = "「蓮台野の入り口って、何？　蓮子。」\n私は蓮台野に入り口があるなんて聞いたこと無かったし、余りにも唐突だったのでそれしか言えなかったわ。\n「まあ、見てよ。」\n蓮子は古い寺院が写っている写真を差し出した。見た事も無い寺院だった。\n「これが冥界よ。」"
-name_en = "Mystic Oriental Dream ~ Ancient Temple"
 comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\n４面までの世界、この世と、５面以降のあの世という空気感の違いを何とかして曲で表したかった。この曲はその一つの結果ですが、結構満足しています。　この曲はストーリーと言うよりは場所をイメージした曲ですが、こういう曲を聴くと大抵はその場所に居たいと感じさせる。でも、この曲は「非常に美しい場所だが、ここには居たくない」と感じる。\nこの曲を聴くと、古い古い時代の日本を幻視する。あの世というのは既に亡くなったこの世でもあるので、この幻覚は偶然ではなく、これこそ幻覚だと考える。\n印象的な曲にはゲームタイトルを使うことが多いので、この曲もその一つ。"
 comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nI wanted a song in PCB to show that there was a different atmosphere between the worlds up to stage 4 and from stage 5 on. This is the result of that, and I'm rather satisfied with it. Rather than tell a story, this song helps establish the setting. When you listen to a song like this, you more or less feel like you're there. Although for this song, I was trying to create the image of \"An extremely beautiful place that does not exist here\".\nWhen I listen to this song, I see visions of ancient Japan as if it never changed and still existed today. I don't think this was by chance, but it is certainly an illusion.\nThere are many impressive songs that I name after the game it appears in. This is another of those songs."
 
 [04]
 name_jp = "古の冥界寺"
+name_en = "Ancient Temple in the Netherworld"
 comment_en = "\"How come you've got a photo of the Netherworld?\"\n\"I have a connection you don't know, Mary.\"\nI have no idea what the connection is. I guess it's something like spirit photographies of dead people.\n\"And this picture... Look beyond the Buddhist gate...\""
 comment_jp = "「なんで冥界の写真なんかあるのよ。」\n「私には裏表ルートがあるのよ。メリー。」\nどういうルートかさっぱり分からなかったけど、どうせ死体相手の念写かなんかだろう。\n「で、こっちの写真。山門の奥を見て……」"
-name_en = "Ancient Temple in the Netherworld"
-comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\nこの曲は……良く判りません。作曲したときの事も良く覚えていません。ただ、この曲のメインはラストの余韻（３分あたりから）であることは間違いない。ラストの余韻を楽しむためだけにイントロもメロディもあるとしか思えない。\nこの曲の幻覚は、最後の余韻まで見えてこない。ただ、最後に寂寥感と何かを聴いてきた様な記憶だけが残る。\nこのコメントも、曲を書いた後すぐに書いた物ではないため、作曲当時の心境が思い出せません。それでもただ曲と曲名だけで判断すると、逆に客観的な見方が出来てこれはこれで面白い物です。
+comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\nこの曲は……良く判りません。作曲したときの事も良く覚えていません。ただ、この曲のメインはラストの余韻（３分あたりから）であることは間違いない。ラストの余韻を楽しむためだけにイントロもメロディもあるとしか思えない。\nこの曲の幻覚は、最後の余韻まで見えてこない。ただ、最後に寂寥感と何かを聴いてきた様な記憶だけが残る。\nこのコメントも、曲を書いた後すぐに書いた物ではないため、作曲当時の心境が思い出せません。それでもただ曲と曲名だけで判断すると、逆に客観的な見方が出来てこれはこれで面白い物です。"
 comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nI really don't... understand this song very well. I don't remember much from when I was composing it. But I am certain that main part of the song is the reverberation in the ending (for about 3 minutes). I enjoyed the ending reverberation so much that I don't think much about the intro or the melody.\nThis song really doesn't make me see anything until the ending reverberations. At that part, it's a very desolate feeling, as if there were only memories of something remaining.\nEven for these comments, because I didn't write about this song immediately after I composed it, I can't recall anything about my mental state at that time. However, judging by just the song's title and the song itself, being able to listen to it from an objective viewpoint is rather interesting."
 
 [05]
 name_jp = "幻視の夜 ～ Ghostly Eyes"
+name_en = "Illusionary Night ~ Ghostly Eyes"
 comment_en = "\"Look at this point of the gate. The other side of it. Is it truly the human world?\"\nShe pointed at the night field, and there it was one gravestone pictured.\nIt looks like another atmosphere, definitely not our world's...\nBy the way, I hesitated to tell her that it's a Shinto gate, not a Buddhist one."
 comment_jp = "「ほら、門のここ。向こう側。明らかに現世でしょ？」\n指差された場所には、夜の平野、そして、一つの墓石が写っていた。\n空気の色が違う。確かにそれは私たちの世界の色……。\n私は山門は三門って漢字が正しいのよ、と言おうか迷っていた。"
-name_en = "Illusionary Night ~ Ghostly Eyes"
 
 [06]
 name_jp = "魔術師メリー"
+name_en = "Mary, the Magician"
 comment_en = "The truth of the Sealing Club is... yes, a group for finding out the boundaries that surround this world.\nBreaking their balance is forbidden though, because that would be dreadful.\nEven so, I can see the borders of these boundaries. Even if I don't do anything I can see them.\nIt's inevitable, I just see them."
 comment_jp = "そう、秘封倶楽部の裏の顔は張り巡らされた結界を暴くサークルなの。\n均衡を崩す恐れがあるから禁止されてるんだけどね。\nでも、私は結界の境目が見えるの。何もしてなくても見えてしまうのよ。\n見えてしまうんだから不可抗力よね。"
-name_en = "Mary, the Magician"
 comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\n秘封倶楽部の一人、メリーの曲を用意しようと考えて作曲した物。別にメリーは魔術師では無いのですが、そういう曲を用意しようと考えていた事が良く判ります。\nこの曲はジュブナイル的な学校でのオカルト集団といった幻覚が見えます。どこかママゴトっぽい感じがたまらないですね。曲自体はゲームにも使えそうな感じでもあり、このＣＤの中でも東方らしい曲だと思います。\n変な音が裏で鳴っていますが、私の中で学校のオカルトといえば理科室なので、理科室っぽい音が入っているのでしょう。って理科室っぽい音？"
 comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nI thought about making this song the theme for one of the members of the Sealing Club, Mary. Not because Mary's a magician or anything like that, but I thought it would make a lot of sense.\nThis song makes me imagine an occult investigation club at a juvenile school. The feeling like they're playing house somewhere is irresistable. The song itself also feels like I could use it in a game, and despite the fact that it's on this CD, I think it is a very Touhou-like song.\nThere's a strange sound that can be heard behind the song. I put it in there because I think that an occult investigation club would meet in the science room, and that seemed like a science room-ish sound. But what's a science room-ish sound anyway?"
 
 [07]
 name_jp = "月の妖鳥、化猫の幻"
+name_en = "Strange Bird of the Moon, Illusion of Mysterious Cat"
 comment_en = "Now I remember, Renko said \"an entrance at the ghostly field\".\nDid she find out where the entrance is from this picture?\n\"It's easy. We can see where the moon and the stars are pictured, can't we?\"\nAccording to Renko, she can tell what time it is by the stars and where she is by the moon.\nRenko is always complaining I have unsettling eyes, I think her eyes are more unsettling than mine."
 comment_jp = "そう言えば、蓮子は『蓮台野の入り口』って言ってたわ。\nこの写真から入り口の場所が分かったのかしら？\n「簡単よ。ここに月と星が写っているのが見えるじゃない。」\n蓮子は星の光で今の時間が分かり、月を見ただけで今居る場所が分かるらしい。\n蓮子はいつも私の眼の事を気持ち悪いって言うけど、蓮子の眼の方が気持ち悪いと思うわ。"
-name_en = "Strange Bird of the Moon, Illusion of Mysterious Cat"
 comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\nこれは言うまでもなく、蓮子とメリーの二人の曲です。妖鳥は蓮子で、曲の前半部分のスピード感のある部分。化猫はメリーで、後半部分の奇妙なリズムの部分。まるで鳥に乗って空から夜の街を見ている様な部分と、まるで酔いどれの猫になったかのように街をふらふらと見て居るような部分。まさにそういう意図で作曲しました。\nテーマを理解しないで聴くと訳の分からない曲ですよねぇ。はっきり言って私の自己満足でしかない曲なんで、こういう曲を普通にＣＤに混ぜてしまうのは如何な物かと考えてしまう。でも、私はお気に入りです。"
 comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nI haven't mentioned it yet, but this song is about Renko and Mary. The Strange Bird is Renko, who is represented by the fast first half of the song. The Mysterious Cat is Mary, who is represented by the strange rhythms in the second half. It's almost like riding a bird flying through a city at night, or almost like a drunken cat staggering through the city. That was the intent I had in mind when I wrote this song.\nI don't understand why I can't figure out the theme when I listen to this song. To be honest, I'm not entirely satisfied with it, but somehow I decided a normal song like this belonged on a CD mixed in with the others. I still like it, though."
 
 [08]
 name_jp = "過去の花 ～ Fairy of Flower"
+name_en = "Flower of Past Days ~ Fairy of Flower"
 comment_en = "Lycoris is so horrible! I hate it since my childhood. (note)\n\"The entrance is a gravestone with the most lycorises at the ghostly field.\" Somehow I said so suddenly.\nRenko just trusts that if I said it, it must be right.\nSeems she decided our destination by herself."
 comment_jp = "彼岸花って気持ち悪いよね。私、あの花嫌いなの。子供の時からそうだったわ。\n蓮台野で一番彼岸花が多く生えているお墓が入り口よ。何故か突然そう言ってしまった。\n蓮子は、メリーが言うなら間違いない、と信じて疑わなかった。\n勝手に目的地にめぼしが付けられた。"
-name_en = "Flower of Past Days ~ Fairy of Flower"
 
 [09]
+name_en = "Magical Girl Crusade"
 name_jp = "魔法少女十字軍"
 comment_en = "Finally, the day of seeking for a hole of ghostly field boundary has come!\nThe deserted field at night is better to go, so we decided to go in the night.\nFirst, we set off bravely, but when we arrived at this place, I somehow became calm all of a sudden.\nBy the way, this ghostly field is a graveyard..."
 comment_jp = "ついに、蓮台野結界穴捜索決行の日が来た！\n人気の無い夜が最適、という事で夜に出発する事になった。\n勇ましく出発したまでは良かったんだけど、蓮台野に着いた時、急に冷静になってしまったわ。\nそう言えば、蓮台野って墓地だったわね……。"
-name_en = "Magical Girl Crusade"
 
 [10]
 name_jp = "少女幻葬 ～ Necro-Fantasy"
+name_en = "A Maiden's Illusionary Funeral ~ Necro-Fantasy"
 comment_en = "As Renko says, I figure this gravestone is what we are seeking, but I can see nothing.\nRenko was urging me. I tried touching the grave, pulling up the inscription plaques other things.\nShe looked up the sky and murmured 02:27:41. How unsettling...\nAfter all, it seems I'm the only one acting like a grave-robber.\nThe gravestone is so heavy It's tough to turn it around.\n\"It's half past 2 sharp!\" she said just as I turned the stone one fourth around.\nEven it's autumn now, a panorama of cherry blossoms showed up around us."
 comment_jp = "蓮子言う通り目的の墓石はこれだろうけど、何も見えない。\n蓮子は私をせかす。私は墓を弄ってみたり、卒塔婆を抜いてみたり色々やってみた。\n蓮子は空を見ながら、2時27分41秒、と呟いている。気持ち悪い。\n結局、墓荒らしの真似をしているのは私だけか。\n墓石は重たくて回すのがやっとなんだけど……。\n「2時30分ジャスト！」\n墓石を4分の1回転させたその時、秋だと言うのに目の前に一面桜の世界が広がった。"
-name_en = "A Maiden's Illusionary Funeral ~ Necro-Fantasy"
 
 [11]
 name_jp = "幻想の永遠祭"
+name_en = "Illusionary Eternal Festival"
 comment_en = "Even the autumn leaves were disappearing. Our incompetent club keeps going on.\nMy partner, whose habit is looking up the night sky and murmuring the time, is late to meet me.\n\"Sorry to keep you waiting!\"\n\"You're 2 minutes and 19 seconds late.\"\nMy partner took out a picture and started talking as usual.\n\"Rather than that, Mary, why don't we go see the entrance at the Hakurei Shrine?\""
 comment_jp = "紅葉ももう終わろうとしていた。\n我が不良サークルはまだ細々と続いている。\n夜になると空を見て時間を呟く癖のある相棒は、私との待ち合わせに遅れていた。\n「遅くなってごめん！」\n「2分19秒遅刻。」\n相棒は写真を取り出し、いつもの様に語り始めた。\n「そんな事よりメリー、博麗神社にある入り口を見に行かない？」"
-name_en = "Illusionary Eternal Festival"
 comment2_jp = "(『東方文花帖』の『幻想の音覚』より)\n幻想と言いつつも、この曲は明らかに現実的な曲になっている。このＣＤの締めの為にこういう曲を持ってきたって事でしょう。こんな感じの曲を最後に持ってこなかったら、全体的に不安なままでＣＤが終わってしまうことを危惧したのだと思います。やっぱりそういう事ってあって、初めから終わりまで幻想的過ぎると、どこか戻ってこれなくなる感じがしてしまう。\nでも、この曲は戻ってきた、という印象を与えるためだけにあるので、曲自体のパワーは弱いと思う。自分では大した幻覚を見ることも無く、普通の曲というイメージが強い。でもＣＤには必要な曲でしょう。"
 comment2_en = "(Bohemian Archive in Japanese Red Music Columns)\nWhile I always speak of illusions, I want to make it clear that this is a realistic song. I made this song to tie up the CD. If you don't have a song like that at the end, then I fear that the CD will end on an uneasy note. Having illusions from the beginning to the end is overdoing it, so it needs to feel like it returns to reality at some point.\nHowever, because this song was meant to return the listener to reality, I think the song itself has little power. As I don't see any major illusions either, the image of it being a just a normal song is strong. Still, a CD needs a long like this."

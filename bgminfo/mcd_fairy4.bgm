@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方三月精 ～ Strange and Bright Nature Deity 3"
@@ -14,7 +14,7 @@ tracks = 2
 
 [update]
 wikipage = "Strange_and_Bright_Nature_Deity_3_(CD)"
-wikirev = 158457
+wikirev = 175967
 
 [01]
 name_jp = "フェアリー冒険譚"

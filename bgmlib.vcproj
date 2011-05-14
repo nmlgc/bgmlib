@@ -4,6 +4,7 @@
 	Version="9,00"
 	Name="bgmlib"
 	ProjectGUID="{6BDD7362-A003-4E3F-954B-7FF2ABFA27C2}"
+	RootNamespace="bgmlib"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="0"
 	>
@@ -18,7 +19,7 @@
 		<Configuration
 			Name="Debug|Win32"
 			OutputDirectory="..\"
-			IntermediateDirectory="Debug"
+			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="4"
 			>
 			<Tool
@@ -83,7 +84,7 @@
 		<Configuration
 			Name="Release|Win32"
 			OutputDirectory="..\"
-			IntermediateDirectory="Release"
+			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="4"
 			WholeProgramOptimization="1"
 			>
@@ -149,6 +150,140 @@
 				CommandLine=""
 			/>
 		</Configuration>
+		<Configuration
+			Name="Release THVC|Win32"
+			OutputDirectory="..\"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="4"
+			WholeProgramOptimization="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="3"
+				InlineFunctionExpansion="2"
+				EnableIntrinsicFunctions="true"
+				FavorSizeOrSpeed="2"
+				OmitFramePointers="true"
+				WholeProgramOptimization="true"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;UNICODE;_CRT_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;SUPPORT_VORBIS_PM"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="false"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="false"
+				DebugInformationFormat="0"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)\$(ProjectName)_thvorbis.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Debug THVC|Win32"
+			OutputDirectory="..\"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="4"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;UNICODE;_CRT_SECURE_NO_WARNINGS;SUPPORT_VORBIS_PM"
+				StringPooling="true"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="false"
+				DebugInformationFormat="4"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)\$(ProjectName)_thvorbis_d.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine=""
+			/>
+		</Configuration>
 	</Configurations>
 	<References>
 	</References>
@@ -191,6 +326,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\pm_tasofro.h"
+				>
+			</File>
+			<File
 				RelativePath=".\pm_zun.h"
 				>
 			</File>
@@ -229,6 +368,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\mt.hpp"
+				>
+			</File>
+			<File
 				RelativePath=".\packmethod.cpp"
 				>
 			</File>
@@ -238,6 +381,10 @@
 			</File>
 			<File
 				RelativePath=".\pm_bgmdir.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\pm_tasofro.cpp"
 				>
 			</File>
 			<File

@@ -1,4 +1,4 @@
-# Music Room Interface Info
+﻿# Music Room Interface Info
 
 [game]
 name = "東方三月精 ～ Strange and Bright Nature Deity 2"
@@ -14,7 +14,7 @@ tracks = 4
 
 [update]
 wikipage = "Strange_and_Bright_Nature_Deity_2_(CD)"
-wikirev = 159210
+wikirev = 175948
 
 [01]
 name_jp = "可愛い大戦争のリフレーン"
