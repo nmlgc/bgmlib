@@ -10,18 +10,18 @@ year = 2011
 gamenum = "13"
 
 packmethod = 2
-bgmfile = "thbgm_tr.dat"
+bgmfile = "thbgm.dat"
 zwavid_08 = 0x00
 zwavid_09 = 0x13
 
-tracks = 14
+tracks = 31
 
 [thvorbis]
 patchclass = "slow"
 
 [update]
 wikipage = "Ten_Desires/Music"
-wikirev = 182817
+wikirev = 210442
 
 [01]
 name_jp = "欲深き霊魂"
@@ -116,7 +116,129 @@ frequency = 22050
 name_en = "Rigid Paradise (Spirit world version)"
 
 [14]
-name_jp = "プレイヤーズスコア"
-name_en = "Player's Score"
-position = "0x09EF16F8, 0x001CACC8, 0x0066DCC0"
+name_jp = "デザイアドライブ"
+position = "0x09EF16F8, 0x00188200, 0x01A46500"
 frequency = 44100
+name_en = "Desire Drive"
+comment_en = "The fourth stage theme.\n\nI made it a flowing song to match the rapidly changing first half of the stage.\nIt feels nice to rush through a small space at high speed.\nThis is okay in caves, but don't run in halls at school or work.\nCaves are nice. (You shouldn't run in a limestone cavern, either.)"
+comment_jp = "４面のテーマです。\n\n前半面とうって変わって流れる様な曲にしました。\n狭い空間を猛スピードでかけるのは気持ちいいですよね。\nでも洞窟では良いけど、学校や会社では走らないように。\n洞窟って良いね。（鍾乳洞でも走ってはいけません）"
+
+[15]
+name_jp = "デザイアドライブ(霊界バージョン)"
+position = "0x0B937BF8, 0x000C4100, 0x00D23280"
+frequency = 22050
+name_en = "Desire Drive (Spirit world version)"
+
+[16]
+name_jp = "古きユアンシェン"
+position = "0x0C65AE78, 0x00173180, 0x01175780"
+frequency = 44100
+name_en = "Old Distant Hermit (Gu Yuan Xian)"
+comment_en = "Seiga Kaku's theme. She's a jasen. Kind of like a magician that does a large assortment of tricks. So, I aimed for a mysterious song where you never know what's going to fly out at you next. Being able to pass through walls would be useful for running away, but it's not too useful for fighting, is it? It would be a critical for nurikabe, though."
+comment_jp = "霍 青娥のテーマです。\n\n邪仙です。色んな術を使う手品師みたいなもんです。\nそんな処から怪しくて何が飛び出すのか判らない様な曲にしました。\n壁抜けの能力は逃げるのには便利そうですけど、余り直接戦闘向きじゃないですね。ぬりかべにはクリティカルですけどね。"
+
+[17]
+name_jp = "古きユアンシェン(霊界バージョン)"
+position = "0x0D7D05F8, 0x000B98C0, 0x008BABC0"
+frequency = 22050
+name_en = "Old Distant Hermit (Gu Yuan Xian)"
+
+[18]
+name_jp = "夢殿大祀廟"
+position = "0x0E08B1B8, 0x00043430, 0x013A97A0"
+frequency = 44100
+name_en = "The Dream Palace Great Mausoleum"
+comment_en = "The stage 5 theme.  Since we just came barreling through a narrow cave, I decided to write a nice, expansive song to contrast it. It's so stimulating to find such enormous spaces underground, isn't it? I wanted to compose something that would make you feel that kind of excitement."
+comment_jp = "５面のテーマです。\n\n狭い洞窟を駆け抜けてきたので、今度は対照的に空間的に広がりを感じる曲にしました。\n地底に大空間があったりすると興奮しますよね。\nそんな人間の高揚感を感じられるといいなあと思って作りました。"
+
+[19]
+name_jp = "夢殿大祀廟(霊界バージョン)"
+position = "0x0F434958, 0x00021A18, 0x009D4BD0"
+frequency = 22050
+name_en = "The Dream Palace Great Mausoleum (Spirit world version)"
+
+[20]
+name_jp = "大神話神伝"
+position = "0x0FE09528, 0x000A1800, 0x0198C000"
+frequency = 44100
+name_en = "Legend of the Great Gods"
+comment_en = " Mononobe no Futo's theme.  Since it's Mononobe-san, the Japanese title is pronounced \"Oomiwa Shinden\". I get the feeling there aren't even many period games that focus on the time between the Tumulus periods and Asuka periods. Maybe people just don't have any good ideas for them? This song was written with only the sound of Asuka in mind. Asukaaaaa!"
+comment_jp = "物部 布都のテーマです。\n\n物部さんですから曲の読み方は「おおみわしんわでん」です。\n時代物でも、古墳時代から飛鳥時代をテーマにしたゲームって少ない気がします。イメージが湧かないからかな？\nこの曲は、飛鳥っていう響きだけでイメージしました。あすかー！"
+
+[21]
+name_jp = "大神話神伝(霊界バージョン)"
+position = "0x11795528, 0x00050C00, 0x00CC6000"
+frequency = 22050
+name_en = "Legend of the Great Gods (Spirit world version)"
+
+[22]
+name_jp = "小さな欲望の星空"
+position = "0x1245B528, 0x002B3E40, 0x012ECDA0"
+frequency = 44100
+name_en = "A Small Desire's Starry Sky"
+comment_en = " The sixth stage theme.  You're usually pretty exhausted when you get to stage 6, so this song is just a connector.  It's not really clear where this is, but it's probably inside the Dream Palace's Great Mausoleum. That mysterious space."
+comment_jp = "６面のテーマです。\n\n大体６面まで来るとヘトヘトなのでここは繋ぎの曲で。\n\n位置的に何処にいるのかさっぱり不明ですが、きっと夢殿大祀廟の中なんでしょう。あの不思議空間。"
+
+[23]
+name_jp = "小さな欲望の星空(霊界バージョン)"
+position = "0x137482C8, 0x00159F20, 0x009766D0"
+frequency = 22050
+name_en = "A Small Desire's Starry Sky (Spirit world version)"
+
+[24]
+name_jp = "聖徳伝説　～　True Administrator"
+position = "0x140BE998, 0x0027B4D8, 0x01F0E1E0"
+frequency = 44100
+name_en = "Shoutoku Legend ~ True Administrator"
+comment_en = "Toyosatomimi no Miko's theme. The motif is based on a historical figure everyone knows. I figured it would be rude if it wasn't a powerful, cool song, so it turned out like this. He's suddenly been made into a fictional character recently, so I used the opportunity to move him to Gensokyo. Many thanks~"
+comment_jp = "豊聡耳の神子のテーマです。知らない人はいない歴史上の偉人がモチーフになっています。曲は力強く、そして格好良くなければ失礼だと思ったのでこんな感じに。最近になって急に架空の人物にされかかっていますが、そんな事もあって幻想郷にお引っ越しして頂きました。ありがたやー"
+
+[25]
+name_jp = "神社の新しい風"
+position = "0x15FCCB78, 0x0003F600, 0x00ECF200"
+frequency = 44100
+name_en = "A New Wind At The Shrine"
+comment_en = "The ending theme. It's a liiiiiiight ending. You know, Reimu and company haven't been doing much incident solving lately."
+comment_jp = "エンディングのテーマです。かるーくエンディングです。それにしても最近異変解決していないね、霊夢達。"
+
+[26]
+name_jp = "デザイアドリーム"
+position = "0x16E9BD78, 0x0170D100, 0x0194B400"
+frequency = 44100
+name_en = "Desire Dream"
+comment_en = "The staff roll theme. This is a different version of Desire Drive.It's mostly lost the sense of speed, but maybe it has a floating feeling now instead. Lately I've been wondering if there's a real point to the staff roll."
+comment_jp = "スタッフロールのテーマです。 デザイアドライブの別バージョンです。スビード感は少なくなったけど、浮遊感が生まれているかな。 最近、スタッフロールの存在意義が危ぶまれています。"
+
+[27]
+name_jp = "妖怪裏参道"
+position = "0x187E7178, 0x00163C80, 0x016E8320"
+frequency = 44100
+name_en = "Youkai Back Shrine Road"
+comment_en = "The extra stage theme. You never know what kind of retro youkai might pop onto the road with this song. Youkai always seem to have such fun. That's probably because they know exactly what their purpose in life is. In that case, there's one way to be sure to enjoy life. Accept whatever you've got now."
+comment_jp = "エキストラステージのテーマです。\n\n如何にもレトロな妖怪が出そうな参道というイメージで。\n妖怪達はどんな時も楽しそうですよね。\nそれは妖怪の存在意義がハッキリしていて迷いが無いからでしょう。\nならば、楽しく生きる方法は一つ。今のままを受け入れるのじゃ。"
+
+[28]
+name_jp = "妖怪裏参道(霊界バージョン)"
+position = "0x19ECF498, 0x000B1E40, 0x00B74190"
+frequency = 22050
+name_en = "Youkai Back Shrine Road (Spirit world version)"
+
+[29]
+name_jp = "佐渡のニッ岩"
+position = "0x1AA43628, 0x00249AA0, 0x0185B320"
+frequency = 44100
+name_en = "Futatsuiwa From Sado"
+comment_en = " Mamizou Futatsuiwa's theme.  It's full of that old tanuki feeling. Both foxes and tanuki are seen as tricksters, but of the two, tanuki seem more laid-back, right? So, they're probably not well suitedtowards danmaku battles, but as I thought, the danmaku morphed into something else..."
+comment_jp = " 二ッ岩 マミゾウのテーマです。\n\n狸感たっぷりに仕上げました。\n狸も狐も人を化かすイメージで被りますが、狸の方がのんびりしているイメージなんですよね。だから弾幕戦闘には向かないかと思いましたが、案の定、弾幕は何か別の物に変化して……。"
+
+[30]
+name_jp = "佐渡のニッ岩(霊界バージョン)"
+position = "0x1C29E948, 0x00124D50, 0x00C2D990"
+frequency = 22050
+name_en = "Futatsuiwa From Sado (Spirit world version)"
+
+[31]
+name_jp = "プレイヤーズスコア"
+position = "0x1CECC2D8, 0x001CACC8, 0x0066DCC0"
+frequency = 44100
+name_en = "Player's Score"
